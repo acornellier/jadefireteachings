@@ -27,7 +27,7 @@ export function Profiles() {
         </div>
         <p>Does not import Cell Unit Frames settings</p>
         <p>
-          My profile includes this, but if you want just the Chi Harmony indicator:{' '}
+          Chi Harmony indicator: included in my profile, but if you want just the indicator{' '}
           <Link href="https://docs.google.com/document/d/1Q3NAt-VDijbiHOGb68BIWQxonsnaESbuF_Q-JrRUWXM/edit">
             Guide
           </Link>

@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client'
-import './styles/styles.css'
+import './styles/roboto-slab.css'
+import './styles/styles.scss'
 import { App } from './App'
 // import { StrictMode } from 'react'
 
