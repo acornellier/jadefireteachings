@@ -39,7 +39,7 @@ import {
   VivaciousVivification,
   Vivify,
   ZenPulse,
-} from './Common/Ability/Abilities.tsx'
+} from './Common/WowheadLink/Abilities.tsx'
 
 export const gameplayLabel = 'Gameplay'
 

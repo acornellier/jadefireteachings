@@ -7,7 +7,7 @@ interface Props {
   children: ReactNode
 }
 
-export function Ability({ id, icon, children }: Props) {
+export function WowheadLink({ id, icon, children }: Props) {
   return (
     <a
       className="inline-flex text-[#ffd100] whitespace-nowrap"
