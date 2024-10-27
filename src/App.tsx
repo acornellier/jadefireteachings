@@ -1,8 +1,8 @@
-import { Profiles } from './components/Profiles.tsx'
 import { Link } from './components/Common/Link.tsx'
 import { ToastProvider } from './components/Common/Toasts/ToastProvider.tsx'
 import { Toasts } from './components/Common/Toasts/Toasts.tsx'
 import { TailwindBreakpoint } from './components/Common/TailwindBreakpoint.tsx'
+import { UserInterface } from './components/UserInterface.tsx'
 
 const googleDoc =
   'https://docs.google.com/document/d/1fFC95V4bhrsPjyD3D-jxu-Map0R4jfAaQBQmEsedpFA/edit?usp=sharing'
@@ -25,7 +25,7 @@ export function App() {
             have compiled my guide into a <Link href={googleDoc}>Google Doc</Link>. Eventually,
             everything will be available right here, organized into pages with links, icons, etc.
           </p>
-          <Profiles />
+          <UserInterface />
           {/*<TwitchStream/>*/}
           <div className="mb-24" />
         </main>

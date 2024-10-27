@@ -1,9 +1,9 @@
 import { useCallback } from 'react'
 import { copyText } from '../util/dev.ts'
 import { cellProfile, detailsProfile, omnicdProfile, platerProfile } from '../util/profiles.ts'
-import { Button } from './Common/Button.tsx'
 import { Link } from './Common/Link.tsx'
 import { useToasts } from './Common/Toasts/useToasts.ts'
+import { Profile } from './Profile.tsx'
 
 export function Profiles() {
   const { addToast } = useToasts()
@@ -18,13 +18,10 @@ export function Profiles() {
 
   return (
     <>
-      <h2 className="text-2xl font-bold text-teal-500">Addon profiles</h2>
+      <h2 className="text-xl font-bold text-teal-500">Addon profiles</h2>
       <p>My old links broke so these are from my laptop and the scaling might be off.</p>
       <div className="flex flex-col gap-1">
-        <div className="flex items-center gap-2">
-          <div className="text-2xl min-w-[100px]">Cell</div>
-          <Button onClick={() => handleClick(cellProfile)}>Copy to clipboard</Button>
-        </div>
+        <Profile name="Cell" profile={cellProfile} onCopy={handleClick} />
         <p>Does not import Cell Unit Frames settings</p>
         <p>
           Chi Harmony indicator: included in my profile, but if you want just the indicator{' '}
@@ -33,18 +30,9 @@ export function Profiles() {
           </Link>
         </p>
       </div>
-      <div className="flex items-center gap-2">
-        <div className="text-2xl min-w-[100px]">OmniCD</div>
-        <Button onClick={() => handleClick(omnicdProfile)}>Copy to clipboard</Button>
-      </div>
-      <div className="flex items-center gap-2">
-        <div className="text-2xl min-w-[100px]">Plater</div>
-        <Button onClick={() => handleClick(platerProfile)}>Copy to clipboard</Button>
-      </div>
-      <div className="flex items-center gap-2">
-        <div className="text-2xl min-w-[100px]">Details</div>
-        <Button onClick={() => handleClick(detailsProfile)}>Copy to clipboard</Button>
-      </div>
+      <Profile name="OmniCD" profile={omnicdProfile} onCopy={handleClick} />
+      <Profile name="Plater" profile={platerProfile} onCopy={handleClick} />
+      <Profile name="Details" profile={detailsProfile} onCopy={handleClick} />
     </>
   )
 }
