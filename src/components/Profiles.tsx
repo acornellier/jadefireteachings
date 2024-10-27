@@ -4,6 +4,7 @@ import { cellProfile, detailsProfile, omnicdProfile, platerProfile } from '../ut
 import { Link } from './Common/Link.tsx'
 import { useToasts } from './Common/Toasts/useToasts.ts'
 import { Profile } from './Profile.tsx'
+import { Header } from './Common/Header.tsx'
 
 export function Profiles() {
   const { addToast } = useToasts()
@@ -18,7 +19,7 @@ export function Profiles() {
 
   return (
     <>
-      <h2 className="text-xl font-bold text-teal-500">Addon profiles</h2>
+      <Header size="h3">Addon profiles</Header>
       <p>My old links broke so these are from my laptop and the scaling might be off.</p>
       <div className="flex flex-col gap-1">
         <Profile name="Cell" profile={cellProfile} onCopy={handleClick} />

@@ -1,10 +1,11 @@
 import { Link } from './Common/Link.tsx'
 import { UnorderedList } from './Common/UnorderedList.tsx'
+import { Header } from './Common/Header.tsx'
 
 export function Addons() {
   return (
     <>
-      <h2 className="text-xl font-bold text-teal-500">Addons</h2>
+      <Header size="h3">Addons</Header>
       Less common addons I use
       <UnorderedList>
         <li>

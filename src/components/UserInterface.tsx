@@ -1,11 +1,12 @@
 import { Profiles } from './Profiles.tsx'
 import { WeakAuras } from './WeakAuras.tsx'
 import { Addons } from './Addons.tsx'
+import { Header } from './Common/Header.tsx'
 
 export function UserInterface() {
   return (
     <>
-      <h2 className="text-2xl font-bold text-teal-500">User Interface</h2>
+      <Header size="h2">User Interface</Header>
       <Profiles />
       <WeakAuras />
       <Addons />

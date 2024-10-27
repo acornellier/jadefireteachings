@@ -6,7 +6,7 @@ export function UnorderedList({ className, ...rest }: Props) {
   return (
     <ul
       {...rest}
-      className={`max-w-md space-y-1 list-disc list-inside dark:text-gray-400 ${className}`}
+      className={`max-w-md space-y-1 list-disc list-inside text-gray-100 ${className}`}
     />
   )
 }
