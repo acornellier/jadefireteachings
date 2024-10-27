@@ -51,7 +51,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
           }}
         />
       </div>
-      <div className={`w-full sm:min-w-40 relative ${hiddenMedium} lg:block`}>
+      <div className={`w-full sm:w-auto whitespace-nowrap pr-4 relative ${hiddenMedium} lg:block`}>
         <div className="flex flex-col items-center sm:items-start gap-2 sticky top-8 text-lg">
           {headers.map(({ label, ...props }) => (
             <SidebarLink key={label} label={label} {...props} />
