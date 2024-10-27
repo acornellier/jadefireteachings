@@ -3,10 +3,12 @@ import { WeakAuras } from './WeakAuras.tsx'
 import { Addons } from './Addons.tsx'
 import { Header } from './Common/Header.tsx'
 
+export const userInterfaceLabel = 'User Interface'
+
 export function UserInterface() {
   return (
     <>
-      <Header size="h2">User Interface</Header>
+      <Header Tag="h2">{userInterfaceLabel}</Header>
       <Profiles />
       <WeakAuras />
       <Addons />

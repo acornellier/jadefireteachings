@@ -6,6 +6,11 @@ export const AugustDynasty = makeAbility(
   442818,
   'ability_monk_legacyoftheemperor',
 )
+export const AwakenedJadefire = makeAbility(
+  'Awakened Jadefire',
+  388779,
+  'spell_animaardenweald_buff',
+)
 export const BlackoutKick = makeAbility('Blackout Kick', 100784, 'ability_monk_roundhousekick')
 export const CelestialConduit = makeAbility(
   'Celestial Conduit',
@@ -41,8 +46,9 @@ export const JadeEmpowerment = makeAbility(
   'ability_monk_cracklingjadelightning',
 )
 export const JadefireStomp = makeAbility('Jadefire Stomp', 388193, 'inv_ability_monk_jadefirestomp')
+export const JadefireTeachings = makeAbility('Jadefire Teachings', 467293, 'inv_misc_book_07')
 export const JadeSanctuary = makeAbility('Jade Sanctuary', 443059, 'ability_monk_jadeserpentbreath')
-export const RapidDiffusion = makeAbility('Rising Mist', 274909, 'ability_monk_effuse')
+export const RapidDiffusion = makeAbility('Rapid Diffusion', 388847, 'ability_monk_chiswirl')
 export const RenewingMist = makeAbility('Renewing Mist', 115151, 'ability_monk_renewingmists')
 export const Revival = makeAbility('Revival', 115310, 'spell_monk_revival')
 export const RisingMist = makeAbility('Rising Mist', 274909, 'ability_monk_effuse')

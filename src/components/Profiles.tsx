@@ -19,15 +19,16 @@ export function Profiles() {
 
   return (
     <>
-      <Header size="h3">Addon profiles</Header>
+      <Header Tag="h3">Addon profiles</Header>
       <p>My old links broke so these are from my laptop and the scaling might be off.</p>
       <div className="flex flex-col gap-1">
         <Profile name="Cell" profile={cellProfile} onCopy={handleClick} />
         <p>Does not import Cell Unit Frames settings</p>
         <p>
-          Chi Harmony indicator: included in my profile, but if you want just the indicator{' '}
+          Chi Harmony indicator: included in my profile, but if you want just the indicator, here is
+          a{' '}
           <Link href="https://docs.google.com/document/d/1Q3NAt-VDijbiHOGb68BIWQxonsnaESbuF_Q-JrRUWXM/edit">
-            Guide
+            guide
           </Link>
         </p>
       </div>

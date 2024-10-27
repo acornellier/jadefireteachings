@@ -5,7 +5,7 @@ import { Header } from './Common/Header.tsx'
 export function WeakAuras() {
   return (
     <>
-      <Header size="h3">Weakauras</Header>
+      <Header Tag="h3">Weakauras</Header>
       <UnorderedList>
         <li>
           <Link href="https://wago.io/LesINvLBL">Made by me (custom bars, icons, teachings)</Link>

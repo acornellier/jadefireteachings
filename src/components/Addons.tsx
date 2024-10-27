@@ -5,7 +5,7 @@ import { Header } from './Common/Header.tsx'
 export function Addons() {
   return (
     <>
-      <Header size="h3">Addons</Header>
+      <Header Tag="h3">Addons</Header>
       Less common addons I use
       <UnorderedList>
         <li>

@@ -4,6 +4,7 @@ import { UnorderedList } from './Common/UnorderedList.tsx'
 import {
   AncientTeachings,
   AugustDynasty,
+  AwakenedJadefire,
   BlackoutKick,
   CelestialConduit,
   ChiBurst,
@@ -19,6 +20,7 @@ import {
   HeartOfTheJadeSerpent,
   JadeEmpowerment,
   JadefireStomp,
+  JadefireTeachings,
   JadeSanctuary,
   RapidDiffusion,
   RenewingMist,
@@ -39,17 +41,19 @@ import {
   ZenPulse,
 } from './Common/Ability/Abilities.tsx'
 
+export const gameplayLabel = 'Gameplay'
+
 export function Gameplay() {
   return (
     <>
-      <Header size="h2">Gameplay</Header>
-      <Header size="h3">General gameplay</Header>
+      <Header Tag="h2">{gameplayLabel}</Header>
+      <Header Tag="h3">General gameplay</Header>
       <p>
         You are a melee spec and you should be in melee <b>most</b> of the time. It’s very important
-        that you maintain your <AncientTeachings /> and <JadefireStomp /> buffs, and perform your
-        single target rotation when there’s fewer than 8 mobs or so. This will perform maintenance
-        healing on your group, and your <RisingSunKick /> will create and extend <RenewingMist />{' '}
-        thanks to <RapidDiffusion /> + <RisingMist />.
+        that you maintain your <JadefireTeachings /> and <AwakenedJadefire /> buffs through{' '}
+        <JadefireStomp />, and perform your single target rotation. This will perform maintenance
+        healing on your group through <AncientTeachings />, and your <RisingSunKick /> will create
+        and extend <RenewingMist /> thanks to <RapidDiffusion /> + <RisingMist />.
       </p>
       <p>
         For the above reasons, I like to use <ThunderFocusTea /> on <RisingSunKick /> pretty much on
@@ -64,12 +68,12 @@ export function Gameplay() {
         Watch my <Link href="https://www.twitch.tv/ortemismw">stream</Link> to learn! All my VODs
         are public. There’s an action tracker at the bottom right.
       </p>
-      <Header size="h3">Spot healing</Header>
+      <Header Tag="h3">Spot healing</Header>
       <p>
         If an ally needs a single burst of healing, <Vivify /> is the spell for that. Generally you
         want to only use it if buffed by <VivaciousVivification />, and ideally also by <ZenPulse />{' '}
         and/or <AugustDynasty />. If you have time, and they need a large burst of healing, first
-        give them <ChiHarmony /> (by casting <RenewingMist />) on them, then cast the <Vivify />.
+        give them <ChiHarmony /> (by casting <RenewingMist /> on them), then cast the <Vivify />.
       </p>
       <p>
         If an ally is taking large ticking damage over an extended period of time, then use{' '}
@@ -77,13 +81,14 @@ export function Gameplay() {
         the tank. Another case is a debuff on a dps or yourself, such as a Corrupt in Grim Batol, or
         a Dawnbreaker debuff from the minibosses.
       </p>
-      <Header size="h3">Healing AoE</Header>
+      <Header Tag="h3">Healing AoE</Header>
       <p>
-        If performing your melee rotation, your group will automatically have ReMs already out. When
-        damage is coming soon, send your hardcasted ReMs out on your group for Chi Harmony, then use
-        one or more of your cooldowns: Sheilun’s, Chi-Ji, Conduit, or Revival. In general, use them
-        in the aforementioned order, from lowest CD to highest CD. However, each one heals quite
-        differently and have their own use cases.
+        If performing your melee rotation, your group will automatically have <RenewingMist />{' '}
+        already out. When damage is coming soon, send your hardcasted <RenewingMist /> out on your
+        group for <ChiHarmony />, then use one or more of your cooldowns: <SheilunsGift />,{' '}
+        <ChiJi />, <CelestialConduit />, or <Revival />. In general, use them in the aforementioned
+        order, from lowest CD to highest CD. However, each one heals quite differently and have
+        their own use cases.
       </p>
       <UnorderedList>
         <li>
@@ -118,11 +123,11 @@ export function Gameplay() {
           you need group-wide healing NOW.
         </li>
       </UnorderedList>
-      <Header size="h3">Damage rotation</Header>
+      <Header Tag="h3">Damage rotation</Header>
       This is for optimal damage and not for optimal healing!
       <UnorderedList>
         <li>
-          <ChiBurst /> at 2+ targets or if you’re running Master of Harmony
+          <ChiBurst /> at 2+ targets or if running Master of Harmony
         </li>
         <li>
           <ThunderFocusTea /> + <RisingSunKick /> if running <SecretInfusion />
@@ -155,16 +160,18 @@ export function Gameplay() {
         </li>
       </UnorderedList>
       <p>
-        <JadefireStomp /> is a damage increase over SCK at 4-10 targets, but its targeting is pretty
-        buggy.
+        <JadefireStomp /> is a damage increase over <SpinningCraneKick /> at 4-10 targets, but its
+        targeting is pretty buggy.
       </p>
       <p>
         <CelestialConduit /> is technically a slight damage increase of highest priority at all
         group sizes, but you should almost always save it for healing.
       </p>
-      <Header size="h3">Conduit gameplay</Header>
+      <Header Tag="h3">Conduit gameplay</Header>
       <p>
-        The main change is an extra active healing CD on 1.5 min CD. This is a powerful cooldown.
+        The main change is <CelestialConduit />, an extra active healing CD on 1.5 min CD. This is a
+        powerful cooldown. See <Link href="#Healing AoE">Healing AoE</Link> above for more details
+        on how to use it to heal.
       </p>
       <p>
         <CelestialConduit /> doubles up as a defensive when you run <JadeSanctuary />. Since{' '}
@@ -181,17 +188,17 @@ export function Gameplay() {
         <SheilunsGift /> stacks around it.
       </p>
       <p>
-        <AugustDynasty /> gives you a powerful ST vivify after a Jadefire Stomp. I love the healing
-        combo Sheilun’s {'>'} Jadefire Stomp {'>'} Vivify.
+        <AugustDynasty /> gives you a powerful single target <Vivify /> after a <JadefireStomp />. I
+        love the healing combo <SheilunsGift /> {'>'} <JadefireStomp /> {'>'} <Vivify />.
       </p>
-      <Header size="h3">Master of Harmony gameplay</Header>
-      <p>
-        Use <Link href="https://wago.io/H-BqbpSOt">this weakaura</Link>
-      </p>
+      <Header Tag="h3">Master of Harmony gameplay</Header>
       <p>
         Whenever there is healing to do, pop your <ThunderFocusTea />. Any allies healed by you will
         now receive a 20% healing buff from <Coalescence /> for 10-15 seconds. Overhealing will not
         give this buff! This is basically your only healing increase from the tree.
+      </p>
+      <p>
+        Use <Link href="https://wago.io/H-BqbpSOt">this weakaura</Link> to track vitality
       </p>
       <p>Buff ID to track: 450769</p>
     </>
