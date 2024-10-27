@@ -1,6 +1,6 @@
-import { Link } from './Common/Link.tsx'
-import { UnorderedList } from './Common/UnorderedList.tsx'
-import { Header } from './Common/Header.tsx'
+import { Link } from '../Common/Link.tsx'
+import { UnorderedList } from '../Common/UnorderedList.tsx'
+import { Header } from '../Common/Header.tsx'
 
 export function WeakAuras() {
   return (

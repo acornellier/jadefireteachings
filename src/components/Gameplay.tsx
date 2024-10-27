@@ -83,12 +83,16 @@ export function Gameplay() {
       </p>
       <Header Tag="h3">Healing AoE</Header>
       <p>
-        If performing your melee rotation, your group will automatically have <RenewingMist />{' '}
-        already out. When damage is coming soon, send your hardcasted <RenewingMist /> out on your
-        group for <ChiHarmony />, then use one or more of your cooldowns: <SheilunsGift />,{' '}
-        <ChiJi />, <CelestialConduit />, or <Revival />. In general, use them in the aforementioned
-        order, from lowest CD to highest CD. However, each one heals quite differently and have
-        their own use cases.
+        For very light damage, your melee rotation will be enough. If it does not keep up, then a{' '}
+        <Vivify /> should be your goto spell.
+      </p>
+      <p>
+        For heavier damage, you will need to rotate your bigger CDs. If performing your melee
+        rotation, your group will automatically have a few <RenewingMist /> already out. When damage
+        is coming soon, send your hardcasted <RenewingMist /> out on your group for <ChiHarmony />,
+        then use one or more of your cooldowns: <SheilunsGift />, <ChiJi />, <CelestialConduit />,
+        or <Revival />. In general, use them in the aforementioned order, from lowest CD to highest
+        CD. However, each one heals quite differently and have their own use cases.
       </p>
       <UnorderedList>
         <li>

@@ -1,17 +1,18 @@
 import type { ReactNode } from 'react'
 import { ZamIcon } from '../ZamIcon.tsx'
 
-interface Props {
+export interface WowheadLinkProps {
   id: number
   icon: string
   children: ReactNode
+  type: 'item' | 'spell'
 }
 
-export function WowheadLink({ id, icon, children }: Props) {
+export function WowheadLink({ id, icon, children, type }: WowheadLinkProps) {
   return (
     <a
       className="inline-flex text-[#ffd100] whitespace-nowrap"
-      href={`https://www.wowhead.com/spell=${id}/`}
+      href={`https://www.wowhead.com/${type}=${id}/`}
     >
       <ZamIcon
         size={16}

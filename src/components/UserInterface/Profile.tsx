@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { Button } from './Common/Button.tsx'
+import { Button } from '../Common/Button.tsx'
 
 interface ProfileProps {
   name: string

@@ -1,10 +1,10 @@
 import { useCallback } from 'react'
-import { copyText } from '../util/dev.ts'
-import { cellProfile, detailsProfile, omnicdProfile, platerProfile } from '../util/profiles.ts'
-import { Link } from './Common/Link.tsx'
-import { useToasts } from './Common/Toasts/useToasts.ts'
+import { copyText } from '../../util/dev.ts'
+import { cellProfile, detailsProfile, omnicdProfile, platerProfile } from '../../util/profiles.ts'
+import { Link } from '../Common/Link.tsx'
+import { useToasts } from '../Common/Toasts/useToasts.ts'
 import { Profile } from './Profile.tsx'
-import { Header } from './Common/Header.tsx'
+import { Header } from '../Common/Header.tsx'
 
 export function Profiles() {
   const { addToast } = useToasts()

@@ -1,5 +1,7 @@
-import { useEffect, useState } from 'react'
+import { type Dispatch, type SetStateAction, useEffect, useState } from 'react'
 import { Link } from './components/Common/Link.tsx'
+import { Bars3Icon } from '@heroicons/react/24/outline'
+import { Button } from './components/Common/Button.tsx'
 
 interface SidebarLinkProps {
   label: string
@@ -15,8 +17,15 @@ function SidebarLink({ label, headingType }: SidebarLinkProps) {
   )
 }
 
-export function Sidebar() {
+interface SidebarProps {
+  collapsed: boolean
+  setCollapsed: Dispatch<SetStateAction<boolean>>
+}
+
+export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
   const [headers, setHeaders] = useState<SidebarLinkProps[]>([])
+
+  const hiddenMedium = collapsed ? 'hidden' : ''
 
   useEffect(() => {
     const found: SidebarLinkProps[] = []
@@ -27,12 +36,28 @@ export function Sidebar() {
   }, [])
 
   return (
-    <div className="min-w-40 relative">
-      <div className="flex flex-col gap-2 sticky top-8 text-lg">
-        {headers.map(({ label, ...props }) => (
-          <SidebarLink key={label} label={label} {...props} />
-        ))}
+    <>
+      <div className="lg:hidden fixed left-0 top-16">
+        <Button
+          twoDimensional
+          Icon={Bars3Icon}
+          iconSize={18}
+          onClick={() => setCollapsed((prev) => !prev)}
+          style={{
+            height: 48,
+            padding: `12px 4px 12px 8px`,
+            borderTopLeftRadius: 0,
+            borderBottomLeftRadius: 0,
+          }}
+        />
       </div>
-    </div>
+      <div className={`w-full sm:min-w-40 relative ${hiddenMedium} lg:block`}>
+        <div className="flex flex-col items-center sm:items-start gap-2 sticky top-8 text-lg">
+          {headers.map(({ label, ...props }) => (
+            <SidebarLink key={label} label={label} {...props} />
+          ))}
+        </div>
+      </div>
+    </>
   )
 }
