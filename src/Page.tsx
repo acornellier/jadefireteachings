@@ -6,6 +6,8 @@ import { Gear } from './components/Gear.tsx'
 import { UserInterface } from './components/UserInterface/UserInterface.tsx'
 import { useState } from 'react'
 
+export const pageTitle = 'Jadefire Teachings'
+
 const googleDoc =
   'https://docs.google.com/document/d/1fFC95V4bhrsPjyD3D-jxu-Map0R4jfAaQBQmEsedpFA/edit?usp=sharing'
 
@@ -17,7 +19,9 @@ export function Page() {
   return (
     <>
       <div className="flex flex-col text-center">
-        <h1 className="text-6xl font-serif font-bold text-teal-500">Jadefire Teachings</h1>
+        <h1 id={pageTitle} className="text-6xl font-serif font-bold text-teal-500">
+          {pageTitle}
+        </h1>
         <div className="text-3xl font-serif font-bold text-teal-500">by Ortemis</div>
       </div>
       <div className="text-4xl text-center text-red-400 font-serif">

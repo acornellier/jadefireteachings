@@ -1,5 +1,4 @@
-import { type Dispatch, type SetStateAction, useEffect, useState } from 'react'
-import { Link } from './components/Common/Link.tsx'
+import { type Dispatch, type SetStateAction, useCallback, useEffect, useState } from 'react'
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import { Button } from './components/Common/Button.tsx'
 
@@ -9,11 +8,21 @@ interface SidebarLinkProps {
 }
 
 function SidebarLink({ label, headingType }: SidebarLinkProps) {
-  if (headingType === 'h3') return
+  const fontSize = headingType === 'h3' ? 'text-sm' : ''
+  const margin = headingType === 'h3' ? 'ml-4' : ''
+
+  const onClick = useCallback(() => {
+    const element = document.getElementById(label)
+    if (element) window.scrollTo({ top: element.offsetTop - 20, behavior: 'smooth' })
+  }, [label])
+
   return (
-    <Link href={`#${label}`} className="text-teal-300">
+    <div
+      className={`cursor-pointer hover:underline text-teal-300 ${fontSize} ${margin}`}
+      onClick={onClick}
+    >
       {label}
-    </Link>
+    </div>
   )
 }
 
@@ -53,6 +62,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
       </div>
       <div className={`w-full sm:w-auto whitespace-nowrap pr-4 relative ${hiddenMedium} lg:block`}>
         <div className="flex flex-col items-center sm:items-start gap-2 sticky top-8 text-lg">
+          <SidebarLink label="Jadefire Teachings" headingType="h2" />
           {headers.map(({ label, ...props }) => (
             <SidebarLink key={label} label={label} {...props} />
           ))}
