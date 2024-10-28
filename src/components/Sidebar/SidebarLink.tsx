@@ -11,7 +11,7 @@ export function SidebarLink({ label, headingType }: SidebarLinkProps) {
 
   const onClick = useCallback(() => {
     const element = document.getElementById(label)
-    if (element) window.scrollTo({ top: element.offsetTop - 20, behavior: 'smooth' })
+    if (element) window.scrollTo({ top: element.offsetTop - 15, behavior: 'smooth' })
   }, [label])
 
   return (
