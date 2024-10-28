@@ -1,6 +1,6 @@
-import { Header } from './Common/Header.tsx'
-import { Link } from './Common/Link.tsx'
-import { UnorderedList } from './Common/UnorderedList.tsx'
+import { Header } from '../Common/Header.tsx'
+import { Link } from '../Common/Link.tsx'
+import { UnorderedList } from '../Common/UnorderedList.tsx'
 import {
   AncientTeachings,
   AugustDynasty,
@@ -39,7 +39,7 @@ import {
   VivaciousVivification,
   Vivify,
   ZenPulse,
-} from './Common/WowheadLink/Abilities.tsx'
+} from '../Common/WowheadLink/Abilities.tsx'
 
 export const gameplayLabel = 'Gameplay'
 

@@ -1,11 +1,12 @@
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
-import { Link } from './components/Common/Link.tsx'
-import { Sidebar } from './components/Sidebar/Sidebar.tsx'
-import { Gameplay } from './components/Gameplay.tsx'
-import { Gear } from './components/Gear.tsx'
-import { UserInterface } from './components/UserInterface/UserInterface.tsx'
+import { Link } from './Common/Link.tsx'
+import { Sidebar } from './Sidebar/Sidebar.tsx'
+import { Gameplay } from './Guide/Gameplay.tsx'
+import { Gear } from './Guide/Gear.tsx'
+import { UserInterface } from './Guide/UserInterface/UserInterface.tsx'
 import { useState } from 'react'
-import { Macros } from './components/Macros.tsx'
+import { Macros } from './Guide/Macros.tsx'
+import { Talents } from './Guide/Talents.tsx'
 
 export const pageTitle = 'Jadefire Teachings'
 
@@ -26,7 +27,7 @@ export function Page() {
       <div className="text-4xl text-center text-red-400 font-serif">
         <ExclamationTriangleIcon height={48} className="inline-block" /> WEBSITE IS WIP
       </div>
-      <Link href={googleDoc} className="text-4xl text-center" target="_blank">
+      <Link href={googleDoc} className="text-4xl text-center" target="_blank" rel="noreferrer">
         Link to Google Doc
       </Link>
       <div className="flex sm:gap-4 flex-col sm:flex-row">
@@ -38,6 +39,7 @@ export function Page() {
             everything will be available right here, organized into pages with links, icons, etc.
           </p>
           <Gameplay />
+          <Talents />
           <Macros />
           <Gear />
           <UserInterface />

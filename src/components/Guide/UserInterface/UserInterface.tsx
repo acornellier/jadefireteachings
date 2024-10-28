@@ -1,7 +1,7 @@
 import { Profiles } from './Profiles.tsx'
 import { WeakAuras } from './WeakAuras.tsx'
 import { Addons } from './Addons.tsx'
-import { Header } from '../Common/Header.tsx'
+import { Header } from '../../Common/Header.tsx'
 
 export const userInterfaceLabel = 'User Interface'
 

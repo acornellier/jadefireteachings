@@ -1,7 +1,7 @@
 import { ToastProvider } from './components/Common/Toasts/ToastProvider.tsx'
 import { Toasts } from './components/Common/Toasts/Toasts.tsx'
 import { TailwindBreakpoint } from './components/Common/TailwindBreakpoint.tsx'
-import { Page } from './Page.tsx'
+import { Page } from './components/Page.tsx'
 
 export function App() {
   return (

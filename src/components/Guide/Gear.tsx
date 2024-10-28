@@ -1,6 +1,6 @@
-import { Header } from './Common/Header.tsx'
-import { UnorderedList } from './Common/UnorderedList.tsx'
-import { AncientTeachings, ChiJi, CraneStyle } from './Common/WowheadLink/Abilities.tsx'
+import { Header } from '../Common/Header.tsx'
+import { UnorderedList } from '../Common/UnorderedList.tsx'
+import { AncientTeachings, ChiJi, CraneStyle } from '../Common/WowheadLink/Abilities.tsx'
 import {
   AraKaraSacbrood,
   BindingOfBinding,
@@ -12,8 +12,8 @@ import {
   SpymastersWeb,
   UnboundChangeling,
   WrithingArmorBanding,
-} from './Common/WowheadLink/Items.tsx'
-import { Link } from './Common/Link.tsx'
+} from '../Common/WowheadLink/Items.tsx'
+import { Link } from '../Common/Link.tsx'
 
 export function Gear() {
   return (

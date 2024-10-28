@@ -1,21 +1,16 @@
-import { useCallback } from 'react'
-import { copyText } from '../../util/dev.ts'
-import { cellProfile, detailsProfile, omnicdProfile, platerProfile } from '../../util/profiles.ts'
-import { Link } from '../Common/Link.tsx'
-import { useToasts } from '../Common/Toasts/useToasts.ts'
+import {
+  cellProfile,
+  detailsProfile,
+  omnicdProfile,
+  platerProfile,
+} from '../../../util/profiles.ts'
+import { Link } from '../../Common/Link.tsx'
 import { Profile } from './Profile.tsx'
-import { Header } from '../Common/Header.tsx'
+import { Header } from '../../Common/Header.tsx'
+import { useCopy } from '../../../util/hooks/useCopy.ts'
 
 export function Profiles() {
-  const { addToast } = useToasts()
-
-  const handleClick = useCallback(
-    async (text: string) => {
-      await copyText(text)
-      addToast({ type: 'success', message: 'Copied profile to clipboard' })
-    },
-    [addToast],
-  )
+  const handleClick = useCopy('profile')
 
   return (
     <>
