@@ -9,6 +9,9 @@ export function UserInterface() {
   return (
     <>
       <Header Tag="h2">{userInterfaceLabel}</Header>
+      <p>
+        This section is mostly about <i>my personal</i> user interface.
+      </p>
       <Profiles />
       <WeakAuras />
       <Addons />
