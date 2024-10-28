@@ -25,6 +25,7 @@ export const DanceOfTheWind = makeSpell('Dance of the Wind', 432181, 'ability_mo
 export const DiffuseMagic = makeSpell('Diffuse Magic', 122783, 'spell_monk_diffusemagic')
 export const EnvelopingMist = makeSpell('Enveloping Mist', 124682, 'spell_monk_envelopingmist')
 export const FortifyingBrew = makeSpell('Fortifying Brew', 115203, 'ability_monk_fortifyingale_new')
+export const GraceOfTheCrane = makeSpell('Grace of the Crane', 388811, 'monk_ability_cherrymanatea')
 export const GustOfMists = makeSpell('Gust of Mists', 191894, 'ability_monk_souldance')
 export const HarmonicGambit = makeSpell(
   'Harmonic Gambit',
@@ -46,6 +47,7 @@ export const JadeEmpowerment = makeSpell(
 export const JadefireStomp = makeSpell('Jadefire Stomp', 388193, 'inv_ability_monk_jadefirestomp')
 export const JadefireTeachings = makeSpell('Jadefire Teachings', 467293, 'inv_misc_book_07')
 export const JadeSanctuary = makeSpell('Jade Sanctuary', 443059, 'ability_monk_jadeserpentbreath')
+export const LighterThanAir = makeSpell('Ligher Than Air', 449582, 'ability_monk_ridethewind')
 export const MistWrap = makeSpell('Mist Wrap', 197900, 'ability_monk_pathofmists')
 export const PeerIntoPeace = makeSpell('Peer Into Peace', 440008, 'inv_staff_2h_monk_c_01')
 export const PoolOfMists = makeSpell('Pool of Mists', 173841, 'achievement_zone_sholazar_10')

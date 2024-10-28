@@ -4,9 +4,11 @@ import { UnorderedList } from '../Common/UnorderedList.tsx'
 import {
   AncientArts,
   DanceOfTheWind,
+  GraceOfTheCrane,
   HarmonicGambit,
   HealingElixir,
   ImprovedDetox,
+  LighterThanAir,
   MistWrap,
   PeerIntoPeace,
   PoolOfMists,
@@ -54,7 +56,7 @@ export function Talents() {
       <TalentCodeBlock>
         C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALzsMmFz2MzM2w2sMbjHAz2y2MzyCDNzMDMDzAYbGzwsNmZYWmJAAAAAIALWmttZbmZGAAwG
       </TalentCodeBlock>
-      <img src="/images/conduit.png" alt="conduit_talents" width={200} />
+      <img src="/images/conduit.jpg" alt="conduit_talents" width={200} />
       <Header Tag="h3">Master of Harmony build</Header>
       <p>
         Master of Harmony is slightly behind on healing, but wayyyy ahead on damage if you run
@@ -66,28 +68,32 @@ export function Talents() {
         damage). If you really like MoH and don’t care for the damage, you can run{' '}
         <PurifiedSpirit />.
       </p>
-      <img src="/images/moh.png" alt="moh_talents" width={200} />
+      <img src="/images/moh.jpg" alt="moh_talents" width={200} />
       <TalentCodeBlock>
         C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALzsMmFz2MzM2w2sMbjHAz2y2MzyCDNzMDMDzAYbGzwsNmZYWmJAAAAAz202sNzysBACAAsB
       </TalentCodeBlock>
       <Header Tag="h3">Class tree</Header>
       <UnorderedList>
         <li>
-          Drop <ImprovedDetox /> in Dawnbreaker, Grim Batol, and Stonevault
+          Take <ImprovedDetox /> everywhere except for Dawnbreaker, Grim Batol, and Stonevault
         </li>
         <li>
           Take <PressurePoints /> in Grim Batol for the Enforcers
         </li>
         <li>
-          <AncientArts /> can be dropped for points in anything.
+          <GraceOfTheCrane />, and then <AncientArts /> are the main points to drop for others.
         </li>
         <li>
           Do NOT drop <DanceOfTheWind />! It’s pretty OP, you can dodge a lot of stuff you don’t
           expect with it. For example, it immunes the first boss in Necrotic Wake! I just take it in
           every dungeon.
         </li>
+        <li>
+          <LighterThanAir /> is a great talent that a lot of people run. If you like it, run it! I
+          personally do not like it, especially due to the Roll CD increase.
+        </li>
       </UnorderedList>
-      <img src="/images/class.png" alt="class_talents" width={400} />
+      <img src="/images/class.jpg" alt="class_talents" width={400} />
       <Header Tag="h3">Spec tree</Header>
       <UnorderedList>
         In the middle of the tree, there’s 3 talents you can flex 2 points between
@@ -115,7 +121,7 @@ export function Talents() {
           It’s not a big damage increase so don’t take it unless you know what you’re doing.
         </li>
       </UnorderedList>
-      <img src="/images/spec.png" alt="spec_talents" width={400} />
+      <img src="/images/spec.jpg" alt="spec_talents" width={400} />
     </>
   )
 }

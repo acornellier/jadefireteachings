@@ -16,11 +16,11 @@ export function Links() {
         <a href="https://discord.gg/NU6TvbPcMZ" target="_blank" rel="noreferrer">
           <Button Icon={DiscordIcon}>Discord</Button>
         </a>
-        <a href="https://github.com/acornellier/jadefireteachings" target="_blank" rel="noreferrer">
-          <Button Icon={GithubIcon}>Github</Button>
-        </a>
         <a href="https://raider.io/characters/us/zuljin/Ortemist" target="_blank" rel="noreferrer">
           <Button Icon={RaiderIoIcon}>Raider.io</Button>
+        </a>
+        <a href="https://github.com/acornellier/jadefireteachings" target="_blank" rel="noreferrer">
+          <Button Icon={GithubIcon}>Github</Button>
         </a>
       </div>
     </>

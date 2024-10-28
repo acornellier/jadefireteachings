@@ -15,7 +15,7 @@ export function UserInterface() {
       <Profiles />
       <WeakAuras />
       <Addons />
-      <img src="/images/ui_screenshot.png" alt="ui_screenshot" width={1200} />
+      <img src="/images/ui_screenshot.jpg" alt="ui_screenshot" width={1200} />
     </>
   )
 }
