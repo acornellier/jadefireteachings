@@ -95,4 +95,5 @@ export const VivaciousVivification = makeSpell(
   'ability_monk_vivify',
 )
 export const Vivify = makeSpell('Vivify', 116670, 'ability_monk_vivify')
+export const Windwalking = makeSpell('Windwalking', 157411, 'monk_stance_whitetiger')
 export const ZenPulse = makeSpell('Zen Pulse', 446326, 'ability_monk_forcesphere')

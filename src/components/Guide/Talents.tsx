@@ -22,6 +22,7 @@ import {
   SoothingMist,
   UpliftedSpirits,
   VeilOfPride,
+  Windwalking,
 } from '../Common/WowheadLink/Abilities.tsx'
 import { Button } from '../Common/Button.tsx'
 import { Section } from './Section.tsx'
@@ -65,10 +66,10 @@ export function Talents() {
           damage). If you really like MoH and don’t care for the damage, you can run{' '}
           <PurifiedSpirit />.
         </p>
-        <img src="/images/moh.jpg" alt="moh_talents" width={200} />
         <TalentCodeBlock>
           C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALzsMmFz2MzM2w2sMbjHAz2y2MzyCDNzMDMDzAYbGzwsNmZYWmJAAAAAz202sNzysBACAAsB
         </TalentCodeBlock>
+        <img src="/images/moh.jpg" alt="moh_talents" width={200} />
       </SubSection>
       <SubSection title="Class tree">
         <UnorderedList>
@@ -79,7 +80,8 @@ export function Talents() {
             Take <PressurePoints /> in Grim Batol for the Enforcers
           </li>
           <li>
-            <GraceOfTheCrane />, and then <AncientArts /> are the main points to drop for others.
+            <GraceOfTheCrane />, <AncientArts />, and <Windwalking /> are the main points to drop
+            for others.
           </li>
           <li>
             Do NOT drop <DanceOfTheWind />! It’s pretty OP, you can dodge a lot of stuff you don’t

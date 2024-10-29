@@ -8,12 +8,12 @@ interface Props {
 
 export function Section({ title, children }: Props) {
   return (
-    <>
-      <div className="border border-teal-700 mb-3" />
-      <Header Tag="h2" className="mb-2">
-        {title}
-      </Header>
-      <div className="section flex flex-col mb-3">{children}</div>
-    </>
+    <div className="section">
+      <div className="my-1">
+        <Header Tag="h2">{title}</Header>
+        <div className="border-2 border-teal-700 rounded mt-1" />
+      </div>
+      {children}
+    </div>
   )
 }
