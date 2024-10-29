@@ -34,12 +34,6 @@ export function AoeHealing() {
         lowest CD to highest CD. However, each one heals quite differently and have their own use
         cases.
       </p>
-      <p>
-        Another important note is that your smart healing spells <JadeEmpowerment />, <ChiJi /> and{' '}
-        <CelestialConduit /> are especially powerful when few allies are being damaged. This makes
-        them great for healing a single ally, such as the tank. Give the ally a <ChiHarmony />, use
-        one of the cooldowns, and watch their HP bar soar!
-      </p>
       <UnorderedList>
         <li>
           <JadeEmpowerment />: allows you to use <CracklingJadeLightning /> to heal up your group

@@ -1,8 +1,11 @@
 import { SubSection } from '../SubSection.tsx'
 import {
   AugustDynasty,
+  CelestialConduit,
   ChiHarmony,
+  ChiJi,
   EnvelopingMist,
+  JadeEmpowerment,
   RenewingMist,
   SoothingMist,
   VivaciousVivification,
@@ -24,6 +27,12 @@ export function SpotHealing() {
         <SoothingMist /> {'>'} <EnvelopingMist /> {'>'} <Vivify /> spam. The most common use case is
         the tank. Another case is a debuff on a dps or yourself, such as a Corrupt in Grim Batol, or
         a Dawnbreaker debuff from the minibosses.
+      </p>
+      <p>
+        Note that your smart healing spells <JadeEmpowerment />, <ChiJi /> and <CelestialConduit />{' '}
+        are especially powerful when few allies are being damaged. This makes them great for healing
+        a single ally, such as the tank. Give the ally a <ChiHarmony />, use one of the cooldowns,
+        and watch their HP bar soar!
       </p>
     </SubSection>
   )

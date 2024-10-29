@@ -3,7 +3,6 @@ import { Gameplay } from './Guide/Gameplay/Gameplay.tsx'
 import { Gear } from './Guide/Gear.tsx'
 import { UserInterface } from './Guide/UserInterface/UserInterface.tsx'
 import { useState } from 'react'
-import { Macros } from './Guide/Macros.tsx'
 import { Talents } from './Guide/Talents.tsx'
 import { Links } from './Links.tsx'
 import { Footer } from './Footer.tsx'
@@ -30,7 +29,6 @@ export function Page() {
           <Links />
           <Gameplay />
           <Talents />
-          <Macros />
           <Gear />
           <UserInterface />
           <OtherLinks />

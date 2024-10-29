@@ -1,10 +1,10 @@
-import { CodeBlock, type CodeBlockProps } from '../Common/CodeBlock.tsx'
-import { Section } from './Section.tsx'
+import { CodeBlock, type CodeBlockProps } from '../../Common/CodeBlock.tsx'
 import {
   RisingSunKick,
   SpinningCraneKick,
   ThunderFocusTea,
-} from '../Common/WowheadLink/Abilities.tsx'
+} from '../../Common/WowheadLink/Abilities.tsx'
+import { SubSection } from '../SubSection.tsx'
 
 const Macro = ({ children }: Omit<CodeBlockProps, 'type'>) => (
   <CodeBlock type="macro">{children}</CodeBlock>
@@ -12,7 +12,7 @@ const Macro = ({ children }: Omit<CodeBlockProps, 'type'>) => (
 
 export function Macros() {
   return (
-    <Section title="Macros">
+    <SubSection title="Macros">
       <div className="flex flex-col gap-1">
         <p>
           VERY important macro that allows you to recast <SpinningCraneKick /> before the previous
@@ -51,6 +51,6 @@ export function Macros() {
         </p>
         <Macro>{'/use Thunder Focus Tea\n/use Rising Sun kick'}</Macro>
       </div>
-    </Section>
+    </SubSection>
   )
 }
