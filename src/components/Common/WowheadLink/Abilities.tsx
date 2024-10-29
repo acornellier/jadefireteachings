@@ -49,6 +49,11 @@ export const JadefireTeachings = makeSpell('Jadefire Teachings', 467293, 'inv_mi
 export const JadeSanctuary = makeSpell('Jade Sanctuary', 443059, 'ability_monk_jadeserpentbreath')
 export const LighterThanAir = makeSpell('Ligher Than Air', 449582, 'ability_monk_ridethewind')
 export const MistWrap = makeSpell('Mist Wrap', 197900, 'ability_monk_pathofmists')
+export const OverwhelmingForce = makeSpell(
+  'Overwhelming Force',
+  451024,
+  'ability_titankeeper_piercingcorruption',
+)
 export const PeerIntoPeace = makeSpell('Peer Into Peace', 440008, 'inv_staff_2h_monk_c_01')
 export const PoolOfMists = makeSpell('Pool of Mists', 173841, 'achievement_zone_sholazar_10')
 export const PressurePoints = makeSpell('Pressure Points', 450432, 'ability_monk_deadlyreach')

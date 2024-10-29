@@ -34,7 +34,7 @@ export function ConduitGameplay() {
         need to do group healing.
       </p>
       <p>
-        <HeartOfTheJadeSerpent /> gives you a bunch of CDR. It’s not worth planning your{' '}
+        <HeartOfTheJadeSerpent /> gives you a bunch of CDR. It is not worth planning your{' '}
         <SheilunsGift /> stacks around it.
       </p>
       <p>

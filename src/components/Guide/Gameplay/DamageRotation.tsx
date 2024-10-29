@@ -20,7 +20,9 @@ import { SubSection } from '../SubSection.tsx'
 export function DamageRotation() {
   return (
     <SubSection title="Damage rotation">
-      This is for optimal damage and not for optimal healing!
+      <p>
+        This is purely for optimal <b>damage</b> and not for optimal healing!
+      </p>
       <OrderedList>
         <li>
           <ChiBurst /> at 2+ targets or if running Master of Harmony

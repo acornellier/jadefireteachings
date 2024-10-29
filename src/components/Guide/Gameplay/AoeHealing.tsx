@@ -34,6 +34,12 @@ export function AoeHealing() {
         lowest CD to highest CD. However, each one heals quite differently and have their own use
         cases.
       </p>
+      <p>
+        Another important note is that your smart healing spells <JadeEmpowerment />, <ChiJi /> and{' '}
+        <CelestialConduit /> are especially powerful when few allies are being damaged. This makes
+        them great for healing a single ally, such as the tank. Give the ally a <ChiHarmony />, use
+        one of the cooldowns, and watch their HP bar soar!
+      </p>
       <UnorderedList>
         <li>
           <JadeEmpowerment />: allows you to use <CracklingJadeLightning /> to heal up your group
@@ -55,19 +61,17 @@ export function AoeHealing() {
           hit, especially if you have decent mastery. This makes it very powerful in trash packs,
           such as the scarabs in early CoT. Some bosses also have cleave targets, such as
           Stichflesh.
-          <p className="ml-6">
-            TODO: This ability does a lot of things and isn’t straightforward to use. I will expand
-            on it further in the future. Meanwhile, Megasett has a wonderful{' '}
-            <Link href="https://youtu.be/RTBiq9w1bCg?si=f0IZ9QvwCk_Su7FH">video guide</Link> on
-            celestials.
-          </p>
+        </li>
+        <li className="ml-4">
+          TODO: This ability does a lot of things and isn’t straightforward to use. I will expand on
+          it further in the future. Meanwhile, Megasett has a wonderful{' '}
+          <Link href="https://youtu.be/RTBiq9w1bCg?si=f0IZ9QvwCk_Su7FH">video guide</Link> on
+          celestials.
         </li>
         <li>
           <CelestialConduit />: a powerful CD that can heal through almost all mechanics on its own.
           Use it immediately after 1 tick of damage goes out since it immediately does a burst of
-          healing. Especially powerful when few targets are being damaged, since the healing is
-          spread among all damaged targets. This makes it great for tank healing. Give the tank a{' '}
-          <ChiHarmony />, press this, and watch their HP bar soar!
+          healing.
         </li>
         <li>
           <Revival />: powerful button since its TWW buff. Use this generally as an emergency button

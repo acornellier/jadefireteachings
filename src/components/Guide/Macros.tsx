@@ -1,6 +1,10 @@
 import { CodeBlock, type CodeBlockProps } from '../Common/CodeBlock.tsx'
 import { Section } from './Section.tsx'
-import { RisingSunKick, ThunderFocusTea } from '../Common/WowheadLink/Abilities.tsx'
+import {
+  RisingSunKick,
+  SpinningCraneKick,
+  ThunderFocusTea,
+} from '../Common/WowheadLink/Abilities.tsx'
 
 const Macro = ({ children }: Omit<CodeBlockProps, 'type'>) => (
   <CodeBlock type="macro">{children}</CodeBlock>
@@ -11,8 +15,8 @@ export function Macros() {
     <Section title="Macros">
       <div className="flex flex-col gap-1">
         <p>
-          Important macro that allows you to recast SCK before the previous one finishes, so that
-          there is no downtime between casts.
+          VERY important macro that allows you to recast <SpinningCraneKick /> before the previous
+          one finishes, so that there is no downtime between casts.
         </p>
         <Macro>/use !Spinning Crane Kick</Macro>
       </div>
