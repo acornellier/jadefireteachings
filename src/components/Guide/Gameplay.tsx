@@ -40,6 +40,7 @@ import {
   Vivify,
   ZenPulse,
 } from '../Common/WowheadLink/Abilities.tsx'
+import { OrderedList } from '../Common/OrderedList.tsx'
 
 export const gameplayLabel = 'Gameplay'
 
@@ -51,9 +52,24 @@ export function Gameplay() {
       <p>
         You are a melee spec and you should be in melee <b>most</b> of the time. It’s very important
         that you maintain your <JadefireTeachings /> and <AwakenedJadefire /> buffs through{' '}
-        <JadefireStomp />, and perform your single target rotation. This will perform maintenance
-        healing on your group through <AncientTeachings />, and your <RisingSunKick /> will create
-        and extend <RenewingMist /> thanks to <RapidDiffusion /> + <RisingMist />.
+        <JadefireStomp />, and perform your single target rotation:
+      </p>
+      <OrderedList>
+        <li>
+          <RisingSunKick />
+        </li>
+        <li>
+          <BlackoutKick /> at 3-4 stacks of <TeachingsOfTheMonastery />
+        </li>
+        <li>
+          <TigerPalm />
+        </li>
+      </OrderedList>
+      <p>
+        All these spells will perform maintenance healing on your group through <AncientTeachings />
+        . <RisingSunKick /> will create and extend <RenewingMist /> thanks to <RapidDiffusion /> +{' '}
+        <RisingMist />. <BlackoutKick /> resets your <RisingSunKick /> thanks to{' '}
+        <TeachingsOfTheMonastery />.
       </p>
       <p>
         For the above reasons, I like to use <ThunderFocusTea /> on <RisingSunKick /> pretty much on
@@ -129,7 +145,7 @@ export function Gameplay() {
       </UnorderedList>
       <Header Tag="h3">Damage rotation</Header>
       This is for optimal damage and not for optimal healing!
-      <UnorderedList>
+      <OrderedList>
         <li>
           <ChiBurst /> at 2+ targets or if running Master of Harmony
         </li>
@@ -162,7 +178,7 @@ export function Gameplay() {
         <li>
           <TigerPalm />
         </li>
-      </UnorderedList>
+      </OrderedList>
       <p>
         <JadefireStomp /> is a damage increase over <SpinningCraneKick /> at 4-10 targets, but its
         targeting is pretty buggy.
