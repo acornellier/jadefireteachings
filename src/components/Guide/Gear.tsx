@@ -24,10 +24,10 @@ export function Gear() {
           STATS DISCLAIMER: It is very hard to know what the best stat distribution is for healers.
           I get asked a lot for exactly what percent they want for each stat. I do not know our
           ideal stat weights! Especially in dungeons, it’s very feelycrafty. The good news is that
-          all stats are good on mistweaver.
+          all stats are good on mistweaver, with Haste clearly ahead.
         </p>
         <p>
-          I am currently going for haste {'>'} vers {'>'} mastery {'>'} crit.
+          I am currently going for Haste {'>'} Versatility {'>'} Mastery {'>'} Critical Strike.
         </p>
         <UnorderedList>
           <li>

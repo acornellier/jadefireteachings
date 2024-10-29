@@ -23,6 +23,7 @@ import {
   UpliftedSpirits,
   VeilOfPride,
   Windwalking,
+  YulonsGrace,
 } from '../Common/WowheadLink/Abilities.tsx'
 import { Button } from '../Common/Button.tsx'
 import { Section } from './Section.tsx'
@@ -82,6 +83,10 @@ export function Talents() {
           <li>
             <GraceOfTheCrane />, <AncientArts />, and <Windwalking /> are the main points to drop
             for others.
+          </li>
+          <li>
+            Do NOT run <YulonsGrace />. This talent is not strong, and you will be left with only
+            one defensive.
           </li>
           <li>
             Do NOT drop <DanceOfTheWind />! It’s pretty OP, you can dodge a lot of stuff you don’t
