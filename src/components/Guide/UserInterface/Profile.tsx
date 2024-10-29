@@ -1,5 +1,6 @@
 import { useCallback } from 'react'
 import { Button } from '../../Common/Button.tsx'
+import { DocumentDuplicateIcon } from '@heroicons/react/24/outline'
 
 interface ProfileProps {
   name: string
@@ -13,7 +14,7 @@ export function Profile({ name, profile, onCopy }: ProfileProps) {
   return (
     <div className="flex items-center gap-2">
       <div className="text-xl min-w-[100px]">{name}</div>
-      <Button short onClick={handleCopy}>
+      <Button short onClick={handleCopy} Icon={DocumentDuplicateIcon}>
         Copy to clipboard
       </Button>
     </div>

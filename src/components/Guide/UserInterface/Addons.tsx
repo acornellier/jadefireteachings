@@ -1,12 +1,11 @@
 import { Link } from '../../Common/Link.tsx'
 import { UnorderedList } from '../../Common/UnorderedList.tsx'
-import { Header } from '../../Common/Header.tsx'
+import { SubSection } from '../SubSection.tsx'
 
 export function Addons() {
   return (
-    <>
-      <Header Tag="h3">Addons</Header>
-      Less common addons I use
+    <SubSection title="Addons">
+      <p>Less common addons I use</p>
       <UnorderedList>
         <li>
           <Link href="https://www.curseforge.com/wow/addons/not-even-close">Not Even Close</Link>
@@ -28,7 +27,7 @@ export function Addons() {
           </Link>
         </li>
       </UnorderedList>
-      Other more common addons
+      <p>Other more common addons</p>
       <UnorderedList>
         <li>Weakauras</li>
         <li>Plater</li>
@@ -41,6 +40,6 @@ export function Addons() {
         <li>WarpDeplete</li>
         <li>BetterBags</li>
       </UnorderedList>
-    </>
+    </SubSection>
   )
 }

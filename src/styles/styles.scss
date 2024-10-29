@@ -26,6 +26,16 @@ html {
   color-scheme: dark;
 }
 
+.section > * {
+  margin-bottom: 12px;
+}
+
+.sub-section > * {
+  &:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+
 .gritty {
   background-image: url(/images/button_noise.png);
   background-blend-mode: overlay;

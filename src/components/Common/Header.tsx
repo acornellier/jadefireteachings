@@ -12,9 +12,9 @@ const textSize = {
   h3: 'text-xl',
 }
 
-export function Header({ Tag, children, ...rest }: Props) {
+export function Header({ Tag, children, className, ...rest }: Props) {
   return (
-    <Tag id={children} className={`${textSize[Tag]} ${commonClasses}`} {...rest}>
+    <Tag id={children} className={`${textSize[Tag]} ${commonClasses} ${className}`} {...rest}>
       {children}
     </Tag>
   )

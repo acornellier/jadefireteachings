@@ -1,14 +1,13 @@
 import { Profiles } from './Profiles.tsx'
 import { WeakAuras } from './WeakAuras.tsx'
 import { Addons } from './Addons.tsx'
-import { Header } from '../../Common/Header.tsx'
+import { Section } from '../Section.tsx'
 
-export const userInterfaceLabel = 'User Interface'
+export const userInterfaceTitle = 'User Interface'
 
 export function UserInterface() {
   return (
-    <>
-      <Header Tag="h2">{userInterfaceLabel}</Header>
+    <Section title={userInterfaceTitle}>
       <p>
         This section is mostly about <i>my personal</i> user interface.
       </p>
@@ -16,6 +15,6 @@ export function UserInterface() {
       <WeakAuras />
       <Addons />
       <img src="/images/ui_screenshot.jpg" alt="ui_screenshot" width={1200} />
-    </>
+    </Section>
   )
 }

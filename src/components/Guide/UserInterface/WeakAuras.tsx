@@ -1,11 +1,10 @@
 import { Link } from '../../Common/Link.tsx'
 import { UnorderedList } from '../../Common/UnorderedList.tsx'
-import { Header } from '../../Common/Header.tsx'
+import { SubSection } from '../SubSection.tsx'
 
 export function WeakAuras() {
   return (
-    <>
-      <Header Tag="h3">Weakauras</Header>
+    <SubSection title="Weakauras">
       <UnorderedList>
         <li>
           <Link href="https://wago.io/LesINvLBL">Made by me (custom bars, icons, teachings)</Link>
@@ -24,6 +23,6 @@ export function WeakAuras() {
         </li>
         <li>Tons more, ask me in chat if you’re curious what one is</li>
       </UnorderedList>
-    </>
+    </SubSection>
   )
 }

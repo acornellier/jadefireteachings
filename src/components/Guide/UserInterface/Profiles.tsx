@@ -6,15 +6,14 @@ import {
 } from '../../../util/profiles.ts'
 import { Link } from '../../Common/Link.tsx'
 import { Profile } from './Profile.tsx'
-import { Header } from '../../Common/Header.tsx'
 import { useCopy } from '../../../util/hooks/useCopy.ts'
+import { SubSection } from '../SubSection.tsx'
 
 export function Profiles() {
   const handleClick = useCopy('profile')
 
   return (
-    <>
-      <Header Tag="h3">Addon profiles</Header>
+    <SubSection title="Addon profiles">
       <p>My old links broke so these are from my laptop and the scaling might be off.</p>
       <div className="flex flex-col gap-1">
         <Profile name="Cell" profile={cellProfile} onCopy={handleClick} />
@@ -30,6 +29,6 @@ export function Profiles() {
       <Profile name="OmniCD" profile={omnicdProfile} onCopy={handleClick} />
       <Profile name="Plater" profile={platerProfile} onCopy={handleClick} />
       <Profile name="Details" profile={detailsProfile} onCopy={handleClick} />
-    </>
+    </SubSection>
   )
 }
