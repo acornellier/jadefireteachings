@@ -16,7 +16,7 @@ interface Props {
 export const linkScrollOffset = 20
 
 export function SidebarLink({ element: { childLinks, label, active, headingType } }: Props) {
-  const activeFont = active ? 'font-bold' : ''
+  const activeFont = active ? 'font-bold text-teal-50' : 'text-teal-500'
   const fontSize = headingType === 'h3' ? 'text-sm' : ''
   const margin = headingType === 'h3' ? 'ml-8' : ''
   const collapsible = headingType !== 'h3'
@@ -46,7 +46,7 @@ export function SidebarLink({ element: { childLinks, label, active, headingType 
           />
         )}
         <div
-          className={`cursor-pointer hover:underline text-teal-300 ${activeFont} ${fontSize} ${margin}`}
+          className={`cursor-pointer hover:underline ${activeFont} ${fontSize} ${margin}`}
           onClick={onClick}
         >
           {label}

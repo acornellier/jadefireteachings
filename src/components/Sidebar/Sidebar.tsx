@@ -74,7 +74,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
   const hiddenMedium = collapsed ? 'hidden' : ''
 
   return (
-    <div className="w-full sm:w-auto whitespace-nowrap relative">
+    <div className="relative">
       <div className="sm:hidden fixed left-0 top-1/2">
         <SidebarButton onClick={onClickXs} />
       </div>
@@ -83,7 +83,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
       </div>
       <a id="toc" />
       <div
-        className={`flex flex-col items-start gap-2 sticky top-8 text-lg ${hiddenMedium} lg:flex`}
+        className={`w-full sm:w-52 sm:basis-32 flex flex-col items-start gap-2 sticky top-8 text-lg ${hiddenMedium} lg:flex`}
       >
         {links.map((element) => (
           <SidebarLink key={element.label} element={element} />
