@@ -20,8 +20,8 @@ export function ConduitGameplay() {
     <SubSection title="Conduit gameplay">
       <p>
         The main change is <CelestialConduit />, an extra active healing CD on 1.5 min CD. This is a
-        powerful cooldown. See <Link href={`#${healingAoeTitle}`}>Healing AoE</Link> above for more
-        details on how to use it to heal.
+        powerful cooldown. See <Link href={`#${healingAoeTitle}`}>{healingAoeTitle}</Link> above for
+        more details on how to use it to heal.
       </p>
       <p>
         <CelestialConduit /> doubles up as a defensive when you run <JadeSanctuary />. Since{' '}
