@@ -43,7 +43,7 @@ export function DamageRotation() {
           <li>At 4+ targets with Conduit</li>
           <li>
             At 6+ targets with Master of Harmony. Keep in mind it doesn’t generate or drain
-            vitality, and so is generally not advised unless there are many, many targets.
+            vitality, and so is generally not advised unless there are 10+ targets.
           </li>
         </UnorderedList>
         <li>
