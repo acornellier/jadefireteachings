@@ -3,11 +3,16 @@ import { CodeBlock } from '../Common/CodeBlock.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
 import {
   AncientArts,
+  CelestialConduit,
   DanceOfTheWind,
   GraceOfTheCrane,
   HarmonicGambit,
   HealingElixir,
+  HeartOfTheJadeSerpent,
   ImprovedDetox,
+  JadeEmpowerment,
+  JadeSanctuary,
+  LifeCocoon,
   LighterThanAir,
   MistWrap,
   PeerIntoPeace,
@@ -20,6 +25,8 @@ import {
   SecretInfusion,
   ShaohaosLessons,
   SoothingMist,
+  StrengthOfTheBlackOx,
+  ThunderFocusTea,
   UpliftedSpirits,
   VeilOfPride,
   Windwalking,
@@ -49,8 +56,24 @@ const TalentCodeBlock = ({ children }: { children: string }) => (
 export function Talents() {
   return (
     <Section title="Talents">
+      <SubSection title="Hero talent choice">
+        <p>
+          Both hero trees are viable, each with strengths and weakness. However, I recommend Conduit
+          of the Celestials for most content unless you are very comfortable with Master of Harmony.
+        </p>
+        <p>
+          Conduit is better overall for healing, with <CelestialConduit />, <StrengthOfTheBlackOx />
+          , and a few other nodes. The reduced <LifeCocoon /> CD thanks to <HeartOfTheJadeSerpent />{' '}
+          is great. It also has a better defensive node with <JadeSanctuary />.
+        </p>
+        <p>
+          Master of Harmony is slightly behind on healing, but wayyyy ahead on damage if you run
+          Harmonic Gambit. Like, easily the highest damage of any healer spec in the game currently.
+          The two charges of <ThunderFocusTea /> is also great for more flexibility with{' '}
+          <JadeEmpowerment />.
+        </p>
+      </SubSection>
       <SubSection title="Conduit build">
-        <p>Conduit is better overall for healing and has a better defensive node.</p>
         <p>All the choice nodes are good, depending on what you want.</p>
         <TalentCodeBlock>
           C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALzsMmFz2MzM2w2sMbjHAz2y2MzyCDNzMDMDzAYbGzwsNmZYWmJAAAAAIALWmttZbmZGAAwG
@@ -58,14 +81,9 @@ export function Talents() {
         <img src="/images/conduit.jpg" alt="conduit_talents" width={200} />
         <Header Tag="h3">Master of Harmony build</Header>
         <p>
-          Master of Harmony is slightly behind on healing, but wayyyy ahead on damage if you run
-          Harmonic Gambit. Like, easily the highest damage of any healer spec in the game currently.
-        </p>
-        <p>
           <HarmonicGambit /> is bugged and drains way too quickly, which can make it hard to spread
-          the buff to your allies. But <HarmonicGambit /> is a massive damage increase (~35% overall
-          damage). If you really like MoH and don’t care for the damage, you can run{' '}
-          <PurifiedSpirit />.
+          the buff to your allies. But it is also a massive damage increase (~35% overall damage).
+          If you really like MoH and don’t care for the damage, you can run <PurifiedSpirit />.
         </p>
         <TalentCodeBlock>
           C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALzsMmFz2MzM2w2sMbjHAz2y2MzyCDNzMDMDzAYbGzwsNmZYWmJAAAAAz202sNzysBACAAsB

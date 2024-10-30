@@ -47,6 +47,7 @@ export const JadeEmpowerment = makeSpell(
 export const JadefireStomp = makeSpell('Jadefire Stomp', 388193, 'inv_ability_monk_jadefirestomp')
 export const JadefireTeachings = makeSpell('Jadefire Teachings', 467293, 'inv_misc_book_07')
 export const JadeSanctuary = makeSpell('Jade Sanctuary', 443059, 'ability_monk_jadeserpentbreath')
+export const LifeCocoon = makeSpell('Life Cocoon', 116849, 'ability_monk_chicocoon')
 export const LighterThanAir = makeSpell('Ligher Than Air', 449582, 'ability_monk_ridethewind')
 export const MistWrap = makeSpell('Mist Wrap', 197900, 'ability_monk_pathofmists')
 export const OverwhelmingForce = makeSpell(
