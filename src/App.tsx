@@ -23,12 +23,14 @@ const router = createBrowserRouter([
 export function App() {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(true)
 
+  const sidebarSpacing = sidebarCollapsed ? '' : 'gap-4'
+
   return (
     <ToastProvider>
-      <div className="flex justify-center px-4 lg:px-0">
+      <div className="flex justify-center px-4">
         <main className="min-h-screen py-4 flex flex-col gap-4 md:w-[765px] lg:w-[1075px]">
           <AppHeader />
-          <div className="flex sm:gap-4 flex-col sm:flex-row">
+          <div className={`flex flex-col sm:flex-row ${sidebarSpacing}`}>
             <Sidebar collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} />
             <RouterProvider router={router} />
           </div>

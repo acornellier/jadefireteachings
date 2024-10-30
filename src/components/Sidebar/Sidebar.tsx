@@ -15,8 +15,6 @@ function isHTMLElement(node: Node): node is HTMLElement {
 export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
   const [links, setLinks] = useState<SidebarLinkElement[]>([])
 
-  const hiddenMedium = collapsed ? 'hidden' : ''
-
   useEffect(() => {
     const elements = Array.from(document.querySelectorAll('h1,h2,h3'))
       .filter(isHTMLElement)
@@ -73,8 +71,10 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
     setCollapsed((prev) => !prev)
   }
 
+  const hiddenMedium = collapsed ? 'hidden' : ''
+
   return (
-    <>
+    <div className="w-full sm:w-auto whitespace-nowrap relative">
       <div className="sm:hidden fixed left-0 top-1/2">
         <SidebarButton onClick={onClickXs} />
       </div>
@@ -82,13 +82,13 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
         <SidebarButton onClick={onClickMd} />
       </div>
       <a id="toc" />
-      <div className={`w-full sm:w-auto whitespace-nowrap pr-4 relative ${hiddenMedium} lg:block`}>
-        <div className="flex flex-col items-center sm:items-start gap-2 sticky top-8 text-lg">
-          {links.map((element) => (
-            <SidebarLink key={element.label} element={element} />
-          ))}
-        </div>
+      <div
+        className={`flex flex-col items-start gap-2 sticky top-8 text-lg ${hiddenMedium} lg:flex`}
+      >
+        {links.map((element) => (
+          <SidebarLink key={element.label} element={element} />
+        ))}
       </div>
-    </>
+    </div>
   )
 }
