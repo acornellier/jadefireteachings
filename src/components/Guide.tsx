@@ -8,7 +8,7 @@ import { Introduction } from './Introduction.tsx'
 
 export const pageTitle = 'Jadefire Teachings'
 
-export function Page() {
+export function Guide() {
   return (
     <div className="flex flex-col">
       <Introduction />

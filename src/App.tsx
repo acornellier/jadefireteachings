@@ -1,7 +1,7 @@
 import { ToastProvider } from './components/Common/Toasts/ToastProvider.tsx'
 import { Toasts } from './components/Common/Toasts/Toasts.tsx'
 import { TailwindBreakpoint } from './components/Common/TailwindBreakpoint.tsx'
-import { Page } from './components/Page.tsx'
+import { Guide } from './components/Guide.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { AppHeader } from './components/AppHeader.tsx'
 import { Footer } from './components/Footer.tsx'
@@ -12,7 +12,7 @@ import { useState } from 'react'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Page />,
+    element: <Guide />,
   },
   {
     path: '/foo',
