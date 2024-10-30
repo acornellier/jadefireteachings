@@ -11,7 +11,7 @@ import {
   SheilunsGift,
   StrengthOfTheBlackOx,
   Vivify,
-} from '../../Common/WowheadLink/Abilities.tsx'
+} from '../../Common/WowheadLink/Spells.tsx'
 import { Link } from '../../Common/Link.tsx'
 import { healingAoeTitle } from './AoeHealing.tsx'
 

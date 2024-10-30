@@ -11,7 +11,7 @@ import {
   VivaciousVivification,
   Vivify,
   ZenPulse,
-} from '../../Common/WowheadLink/Abilities.tsx'
+} from '../../Common/WowheadLink/Spells.tsx'
 
 export function SpotHealing() {
   return (

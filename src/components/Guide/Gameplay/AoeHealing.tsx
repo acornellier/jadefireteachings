@@ -12,7 +12,7 @@ import {
   SheilunsGift,
   VeilOfPride,
   Vivify,
-} from '../../Common/WowheadLink/Abilities.tsx'
+} from '../../Common/WowheadLink/Spells.tsx'
 import { UnorderedList } from '../../Common/UnorderedList.tsx'
 import { Link } from '../../Common/Link.tsx'
 import { SubSection } from '../SubSection.tsx'

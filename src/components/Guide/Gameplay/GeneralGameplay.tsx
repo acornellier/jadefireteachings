@@ -15,7 +15,7 @@ import {
   TeachingsOfTheMonastery,
   ThunderFocusTea,
   TigerPalm,
-} from '../../Common/WowheadLink/Abilities.tsx'
+} from '../../Common/WowheadLink/Spells.tsx'
 import { OrderedList } from '../../Common/OrderedList.tsx'
 import { Link } from '../../Common/Link.tsx'
 

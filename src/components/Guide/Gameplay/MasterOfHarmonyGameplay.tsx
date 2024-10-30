@@ -5,7 +5,7 @@ import {
   OverwhelmingForce,
   SpinningCraneKick,
   ThunderFocusTea,
-} from '../../Common/WowheadLink/Abilities.tsx'
+} from '../../Common/WowheadLink/Spells.tsx'
 import { Link } from '../../Common/Link.tsx'
 
 export function MasterOfHarmonyGameplay() {

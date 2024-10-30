@@ -1,5 +1,5 @@
 import { UnorderedList } from '../Common/UnorderedList.tsx'
-import { AncientTeachings, ChiJi, CraneStyle } from '../Common/WowheadLink/Abilities.tsx'
+import { AncientTeachings, ChiJi, CraneStyle } from '../Common/WowheadLink/Spells.tsx'
 import {
   AraKaraSacbrood,
   BindingOfBinding,

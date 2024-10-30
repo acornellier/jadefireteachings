@@ -3,7 +3,7 @@ import {
   RisingSunKick,
   SpinningCraneKick,
   ThunderFocusTea,
-} from '../../Common/WowheadLink/Abilities.tsx'
+} from '../../Common/WowheadLink/Spells.tsx'
 import { SubSection } from '../SubSection.tsx'
 
 const Macro = ({ children }: Omit<CodeBlockProps, 'type'>) => (

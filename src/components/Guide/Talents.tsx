@@ -31,7 +31,7 @@ import {
   VeilOfPride,
   Windwalking,
   YulonsGrace,
-} from '../Common/WowheadLink/Abilities.tsx'
+} from '../Common/WowheadLink/Spells.tsx'
 import { Button } from '../Common/Button.tsx'
 import { Section } from './Section.tsx'
 import { SubSection } from './SubSection.tsx'
