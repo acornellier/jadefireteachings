@@ -1,15 +1,25 @@
 import { Toasts } from './components/Common/Toasts/Toasts.tsx'
 import { TailwindBreakpoint } from './components/Common/TailwindBreakpoint.tsx'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import { AppHeader } from './components/AppHeader.tsx'
 import { Footer } from './components/Footer.tsx'
 import { Sidebar } from './components/Sidebar/Sidebar.tsx'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+
+function ScrollToTop() {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  return null
+}
 
 export function Layout() {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(true)
 
-  const sidebarSpacing = sidebarCollapsed ? '' : 'gap-4'
+  const sidebarSpacing = sidebarCollapsed ? 'lg:gap-4' : 'gap-4'
 
   return (
     <>
@@ -27,6 +37,7 @@ export function Layout() {
       </div>
       <TailwindBreakpoint />
       <Toasts />
+      <ScrollToTop />
     </>
   )
 }

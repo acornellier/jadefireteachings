@@ -17,9 +17,8 @@ export function SidebarLink({ childLinks, label, link, active, headingType }: Si
 
   const activeFont = active ? 'font-bold text-teal-50' : 'text-teal-500'
   const fontSize = headingType === 'h3' ? 'text-sm' : ''
-  const margin = headingType === 'h3' ? 'ml-8' : ''
-  const collapsible = headingType !== 'h3'
-  const noChildren = childLinks === undefined || childLinks.length === 0
+  const margin = headingType === 'h3' ? 'ml-2' : ''
+  const collapsible = childLinks !== undefined && childLinks.length > 0
 
   const [collapsed, setCollapsed] = useState(collapsible)
   const ChevronIcon = collapsed ? ChevronRightIcon : ChevronDownIcon
@@ -35,7 +34,7 @@ export function SidebarLink({ childLinks, label, link, active, headingType }: Si
       }
       setCollapsed(false)
     }
-  }, [headingType, label])
+  }, [headingType, label, link, navigate])
 
   const onCollapseClick = useCallback(() => {
     setCollapsed((val) => !val)
@@ -44,13 +43,11 @@ export function SidebarLink({ childLinks, label, link, active, headingType }: Si
   return (
     <div id={`${label}-sidebar-link`}>
       <div className="flex gap-2 items-center">
-        {collapsible && (
-          <ChevronIcon
-            height={16}
-            className={`${noChildren ? 'invisible' : ' cursor-pointer'}`}
-            onClick={onCollapseClick}
-          />
-        )}
+        <ChevronIcon
+          height={16}
+          className={`${collapsible ? 'cursor-pointer' : 'invisible'}`}
+          onClick={onCollapseClick}
+        />
         <div
           className={`cursor-pointer hover:underline ${activeFont} ${fontSize} ${margin}`}
           onClick={onClick}

@@ -11,7 +11,7 @@ interface SidebarProps {
   setCollapsed: Dispatch<SetStateAction<boolean>>
 }
 
-interface SidebarLinkElement extends Omit<SidebarLinkConfig, 'childLinks'> {
+interface SidebarLinkElement extends Omit<SidebarLinkConfig, 'active' | 'childLinks'> {
   childLinks: SidebarLinkElement[]
   element: HTMLElement
 }
@@ -22,15 +22,37 @@ function isHTMLElement(node: Node): node is HTMLElement {
 
 export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
   const [links, setLinks] = useState<SidebarLinkElement[]>([])
+  const [activeLink, setActiveLink] = useState<SidebarLinkElement | null>(null)
 
   const location = useLocation()
+
+  const findActiveLink = useCallback((links: SidebarLinkElement[]) => {
+    const flatLinks = links.flatMap((link) => [link, ...link.childLinks])
+    let activeLink: SidebarLinkElement | null = null
+    let bestTop = -Infinity
+    for (const link of flatLinks.toReversed()) {
+      if (!document.getElementById(`${link.label}-sidebar-link`)) continue
+      const top = link.element.getBoundingClientRect().top - linkScrollOffset - 1
+      if (top < 0 && top > bestTop) {
+        activeLink = link
+        bestTop = top
+      }
+    }
+
+    setActiveLink(activeLink)
+  }, [])
+
+  const handleScroll = useCallback(() => {
+    findActiveLink(links)
+  }, [links, findActiveLink])
+
+  useWindowEvent('scroll', handleScroll)
 
   useEffect(() => {
     const elements = Array.from(document.querySelectorAll('h1,h2,h3'))
       .filter(isHTMLElement)
       .map<SidebarLinkElement>((element) => ({
         element: element,
-        active: false,
         label: element.innerHTML,
         headingType: element.tagName.toLowerCase() as 'h1' | 'h2' | 'h3',
         childLinks: [],
@@ -44,31 +66,10 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
         groupedElements.push(element)
       }
     }
+
     setLinks(groupedElements)
-  }, [location])
-
-  const handleScroll = useCallback(() => {
-    const flatLinks = links.flatMap((link) => [link, ...link.childLinks])
-    let activeLink: SidebarLinkElement | null = null
-    let bestTop = -Infinity
-    for (const link of flatLinks.toReversed()) {
-      if (!document.getElementById(`${link.label}-sidebar-link`)) continue
-      const top = link.element.getBoundingClientRect().top - linkScrollOffset - 1
-      if (top < 0 && top > bestTop) {
-        activeLink = link
-        bestTop = top
-      }
-    }
-
-    const mapLink = (link: SidebarLinkElement): SidebarLinkElement => ({
-      ...link,
-      active: link === activeLink,
-      childLinks: link.childLinks.map(mapLink),
-    })
-    setLinks(links.map(mapLink))
-  }, [links])
-
-  useWindowEvent('scroll', handleScroll)
+    findActiveLink(groupedElements)
+  }, [findActiveLink, location])
 
   const onCollapseXs = async () => {
     setCollapsed(false)
@@ -81,6 +82,14 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
   }
 
   const hiddenMedium = collapsed ? 'hidden' : ''
+
+  const mapLink = (link: SidebarLinkElement): SidebarLinkConfig => ({
+    ...link,
+    active: link === activeLink,
+    childLinks: link.childLinks?.map(mapLink),
+  })
+
+  const linkConfigs: SidebarLinkConfig[] = links.map(mapLink)
 
   return (
     <div className="relative">
@@ -97,7 +106,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
         <PageLink label="Guide" route={guideRoute} />
         <PageLink label="Dungeon Guides" route={dungeonsRoute} />
         <div className="w-full border-2 border-teal-700 rounded my-2" />
-        {links.map(({ label, headingType, active, childLinks }) => (
+        {linkConfigs.map(({ label, headingType, active, childLinks }) => (
           <SidebarLink
             key={label}
             label={label}
