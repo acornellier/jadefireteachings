@@ -1,46 +1,20 @@
 import { ToastProvider } from './components/Common/Toasts/ToastProvider.tsx'
-import { Toasts } from './components/Common/Toasts/Toasts.tsx'
-import { TailwindBreakpoint } from './components/Common/TailwindBreakpoint.tsx'
-import { Guide } from './components/Guide.tsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { AppHeader } from './components/AppHeader.tsx'
-import { Footer } from './components/Footer.tsx'
-import { Sidebar } from './components/Sidebar/Sidebar.tsx'
-import { useState } from 'react'
-
-// Be sure to update vercel.json when changing routes
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Guide />,
-  },
-  {
-    path: '/foo',
-    element: <div>hello :)</div>,
-  },
-])
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Layout } from './Layout.tsx'
+import { routes } from './routes.tsx'
 
 export function App() {
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(true)
-
-  const sidebarSpacing = sidebarCollapsed ? '' : 'gap-4'
-
   return (
-    <ToastProvider>
-      <div className="flex justify-center px-4">
-        <main className="min-h-screen py-4 flex flex-col gap-4 md:w-[765px] lg:w-[1075px]">
-          <AppHeader />
-          <div className={`flex flex-col sm:flex-row ${sidebarSpacing}`}>
-            <Sidebar collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} />
-            <RouterProvider router={router} />
-          </div>
-          <Footer />
-          {/*<TwitchStream/>*/}
-          <div className="mb-24" />
-        </main>
-      </div>
-      <TailwindBreakpoint />
-      <Toasts />
-    </ToastProvider>
+    <BrowserRouter>
+      <ToastProvider>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            {routes.map((routeProps, idx) => (
+              <Route key={idx} {...routeProps} />
+            ))}
+          </Route>
+        </Routes>
+      </ToastProvider>
+    </BrowserRouter>
   )
 }

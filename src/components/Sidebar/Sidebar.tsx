@@ -1,11 +1,19 @@
 import { type Dispatch, type SetStateAction, useCallback, useEffect, useState } from 'react'
-import { linkScrollOffset, SidebarLink, type SidebarLinkElement } from './SidebarLink.tsx'
+import { linkScrollOffset, SidebarLink, type SidebarLinkConfig } from './SidebarLink.tsx'
 import { SidebarButton } from './SidebarButton.tsx'
 import { useWindowEvent } from '../../util/hooks/useWindowEvent.ts'
+import { useLocation } from 'react-router-dom'
+import { dungeonsRoute, guideRoute } from '../../routes.tsx'
+import { PageLink } from './PageLink.tsx'
 
 interface SidebarProps {
   collapsed: boolean
   setCollapsed: Dispatch<SetStateAction<boolean>>
+}
+
+interface SidebarLinkElement extends Omit<SidebarLinkConfig, 'childLinks'> {
+  childLinks: SidebarLinkElement[]
+  element: HTMLElement
 }
 
 function isHTMLElement(node: Node): node is HTMLElement {
@@ -14,6 +22,8 @@ function isHTMLElement(node: Node): node is HTMLElement {
 
 export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
   const [links, setLinks] = useState<SidebarLinkElement[]>([])
+
+  const location = useLocation()
 
   useEffect(() => {
     const elements = Array.from(document.querySelectorAll('h1,h2,h3'))
@@ -35,7 +45,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
       }
     }
     setLinks(groupedElements)
-  }, [])
+  }, [location])
 
   const handleScroll = useCallback(() => {
     const flatLinks = links.flatMap((link) => [link, ...link.childLinks])
@@ -49,8 +59,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
         bestTop = top
       }
     }
-    console.log(activeLink)
-    console.log(bestTop)
+
     const mapLink = (link: SidebarLinkElement): SidebarLinkElement => ({
       ...link,
       active: link === activeLink,
@@ -75,7 +84,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
 
   return (
     <div className="relative">
-      <div className="sm:hidden fixed left-0 top-1/2">
+      <div className="sm:hidden fixed left-0 top-1/2 z-10">
         <SidebarButton onClick={onCollapseXs} />
       </div>
       <div className="hidden sm:block lg:hidden fixed left-0 top-16">
@@ -85,8 +94,17 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
       <div
         className={`w-full sm:w-52 sm:basis-32 flex flex-col items-start gap-2 sticky top-8 text-lg ${hiddenMedium} lg:flex`}
       >
-        {links.map((element) => (
-          <SidebarLink key={element.label} element={element} />
+        <PageLink label="Guide" route={guideRoute} />
+        <PageLink label="Dungeon Guides" route={dungeonsRoute} />
+        <div className="w-full border-2 border-teal-700 rounded my-2" />
+        {links.map(({ label, headingType, active, childLinks }) => (
+          <SidebarLink
+            key={label}
+            label={label}
+            headingType={headingType}
+            active={active}
+            childLinks={childLinks}
+          />
         ))}
       </div>
     </div>

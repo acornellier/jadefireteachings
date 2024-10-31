@@ -1,38 +1,41 @@
 import { useCallback, useState } from 'react'
 import { ChevronDownIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
+import { useNavigate } from 'react-router-dom'
 
-export interface SidebarLinkElement {
-  element: HTMLElement
-  childLinks: SidebarLinkElement[]
+export interface SidebarLinkConfig {
+  childLinks?: SidebarLinkConfig[]
   label: string
+  link?: string
   active: boolean
-  headingType: 'h1' | 'h2' | 'h3'
-}
-
-interface Props {
-  element: SidebarLinkElement
+  headingType: 'page' | 'h1' | 'h2' | 'h3'
 }
 
 export const linkScrollOffset = 20
 
-export function SidebarLink({ element: { childLinks, label, active, headingType } }: Props) {
+export function SidebarLink({ childLinks, label, link, active, headingType }: SidebarLinkConfig) {
+  const navigate = useNavigate()
+
   const activeFont = active ? 'font-bold text-teal-50' : 'text-teal-500'
   const fontSize = headingType === 'h3' ? 'text-sm' : ''
   const margin = headingType === 'h3' ? 'ml-8' : ''
   const collapsible = headingType !== 'h3'
-  const noChildren = childLinks.length === 0
+  const noChildren = childLinks === undefined || childLinks.length === 0
 
   const [collapsed, setCollapsed] = useState(collapsible)
   const ChevronIcon = collapsed ? ChevronRightIcon : ChevronDownIcon
 
   const onClick = useCallback(() => {
-    const element = document.getElementById(label)
-    if (element) {
-      window.scrollTo({ top: element.offsetTop - linkScrollOffset, behavior: 'smooth' })
-      history.pushState(null, '', `#${label}`)
+    if (headingType === 'page') {
+      navigate(`/${link}`)
+    } else {
+      const element = document.getElementById(label)
+      if (element) {
+        window.scrollTo({ top: element.offsetTop - linkScrollOffset, behavior: 'smooth' })
+        history.pushState(null, '', `#${label}`)
+      }
+      setCollapsed(false)
     }
-    setCollapsed(false)
-  }, [label])
+  }, [headingType, label])
 
   const onCollapseClick = useCallback(() => {
     setCollapsed((val) => !val)
@@ -59,9 +62,7 @@ export function SidebarLink({ element: { childLinks, label, active, headingType 
         {!collapsed && collapsible && (
           <>
             <div className="mt-0.5" />
-            {childLinks.map((childLink) => (
-              <SidebarLink key={childLink.label} element={childLink} />
-            ))}
+            {childLinks?.map((childLink) => <SidebarLink key={childLink.label} {...childLink} />)}
           </>
         )}
       </div>

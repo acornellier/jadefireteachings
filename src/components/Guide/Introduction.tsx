@@ -1,4 +1,4 @@
-import { Link } from './Common/Link.tsx'
+import { Link } from '../Common/Link.tsx'
 
 export function Introduction() {
   return (

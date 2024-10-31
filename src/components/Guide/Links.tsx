@@ -1,9 +1,9 @@
-import { GithubIcon } from './Common/Icons/GithubIcon.tsx'
-import { Button } from './Common/Button.tsx'
-import { TwitchIcon } from './Common/Icons/TwitchIcon.tsx'
-import { DiscordIcon } from './Common/Icons/DiscordIcon.tsx'
-import { RaiderIoIcon } from './Common/Icons/RaiderIoIcon.tsx'
-import { Section } from './Guide/Section.tsx'
+import { GithubIcon } from '../Common/Icons/GithubIcon.tsx'
+import { Button } from '../Common/Button.tsx'
+import { TwitchIcon } from '../Common/Icons/TwitchIcon.tsx'
+import { DiscordIcon } from '../Common/Icons/DiscordIcon.tsx'
+import { RaiderIoIcon } from '../Common/Icons/RaiderIoIcon.tsx'
+import { Section } from './Section.tsx'
 
 export function Links() {
   return (

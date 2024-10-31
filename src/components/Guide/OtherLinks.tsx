@@ -1,6 +1,6 @@
-import { UnorderedList } from './Common/UnorderedList.tsx'
-import { Link } from './Common/Link.tsx'
-import { Section } from './Guide/Section.tsx'
+import { UnorderedList } from '../Common/UnorderedList.tsx'
+import { Link } from '../Common/Link.tsx'
+import { Section } from './Section.tsx'
 
 export function OtherLinks() {
   return (
