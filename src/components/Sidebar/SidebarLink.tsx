@@ -27,7 +27,10 @@ export function SidebarLink({ element: { childLinks, label, active, headingType 
 
   const onClick = useCallback(() => {
     const element = document.getElementById(label)
-    if (element) window.scrollTo({ top: element.offsetTop - linkScrollOffset, behavior: 'smooth' })
+    if (element) {
+      window.scrollTo({ top: element.offsetTop - linkScrollOffset, behavior: 'smooth' })
+      history.pushState(null, '', `#${label}`)
+    }
     setCollapsed(false)
   }, [label])
 

@@ -61,13 +61,13 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
 
   useWindowEvent('scroll', handleScroll)
 
-  const onClickXs = async () => {
+  const onCollapseXs = async () => {
     setCollapsed(false)
     const element = document.getElementById('toc')
     window.scrollTo({ top: element?.offsetTop ?? 0, behavior: 'smooth' })
   }
 
-  const onClickMd = () => {
+  const onCollapseMd = () => {
     setCollapsed((prev) => !prev)
   }
 
@@ -76,10 +76,10 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
   return (
     <div className="relative">
       <div className="sm:hidden fixed left-0 top-1/2">
-        <SidebarButton onClick={onClickXs} />
+        <SidebarButton onClick={onCollapseXs} />
       </div>
       <div className="hidden sm:block lg:hidden fixed left-0 top-16">
-        <SidebarButton onClick={onClickMd} />
+        <SidebarButton onClick={onCollapseMd} />
       </div>
       <a id="toc" />
       <div
