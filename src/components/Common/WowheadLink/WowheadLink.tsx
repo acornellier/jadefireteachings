@@ -11,7 +11,7 @@ export interface WowheadLinkProps {
 export function WowheadLink({ id, icon, children, type }: WowheadLinkProps) {
   return (
     <a
-      className="inline-flex text-[#ffd100] whitespace-nowrap"
+      className="inline-flex text-[#ffdb32] whitespace-nowrap"
       href={`https://www.wowhead.com/${type}=${id}/`}
     >
       <ZamIcon
