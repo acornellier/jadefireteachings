@@ -43,8 +43,8 @@ export function Dungeons() {
             shortly after the <GossamerOnslaught /> ends.
           </p>
           <p>
-            <AlertingShrill /> is easily the scarier of the two abilities. It is a very fast cast at
-            only 2 seconds, so you will only get 2 GCDs of healing in. Getting a well-timed{' '}
+            <AlertingShrill /> is easily the scarier of the two abilities. It channels very quickly
+            over only 3 seconds, so you will only get 2 GCDs of healing in. Getting a well-timed{' '}
             <SheilunsGift /> is vital here, since it will be fully stacked on every cast. Use{' '}
             <ChiJi /> purely for the shield before the Shrill. <Revival /> is very powerful here
             when your team is dry.
