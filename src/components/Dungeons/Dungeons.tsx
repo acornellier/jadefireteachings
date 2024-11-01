@@ -1,5 +1,4 @@
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
-import { Section } from '../Guide/Section.tsx'
 import {
   AlertingShrill,
   ChiJi,
@@ -11,6 +10,9 @@ import {
   ImprovedDetox,
   JadeSanctuary,
   LifeCocoon,
+  PeaceAndProsperity,
+  PressurePoints,
+  Restoral,
   Revival,
   SheilunsGift,
   SoothingMist,
@@ -27,15 +29,7 @@ export function Dungeons() {
         <ExclamationTriangleIcon height={32} /> UNDER CONSTRUCTION{' '}
         <ExclamationTriangleIcon height={32} />
       </div>
-      <DungeonSection
-        title="Ara-Kara"
-        tree="conduit"
-        talents={
-          <>
-            <ImprovedDetox /> <DanceOfTheWind />
-          </>
-        }
-      >
+      <DungeonSection title="Ara-Kara" tree="conduit" Talents={[ImprovedDetox, DanceOfTheWind]}>
         <BossSubSection title="Avanoxx" difficulty="hard">
           <p>
             Avanoxx is a 40 second loop with <AlertingShrill /> at 0:08, ads summoned, then{' '}
@@ -89,13 +83,25 @@ export function Dungeons() {
           </p>
         </BossSubSection>
       </DungeonSection>
-      <Section title="City of Threads"></Section>
-      <Section title="Dawnbreaker"></Section>
-      <Section title="Grim Batol"></Section>
-      <Section title="Mists of Tirna-Scithe"></Section>
-      <Section title="Necrotic Wake"></Section>
-      <Section title="Siege of Boralus"></Section>
-      <Section title="Stonevault"></Section>
+      <DungeonSection
+        title="City of Threads"
+        tree="conduit"
+        Talents={[ImprovedDetox]}
+      ></DungeonSection>
+      <DungeonSection title="Dawnbreaker" tree="conduit"></DungeonSection>
+      <DungeonSection title="Grim Batol" tree="either" Talents={[PressurePoints]}></DungeonSection>
+      <DungeonSection title="Mists of Tirna-Scithe" tree="moh" Talents={[ImprovedDetox]} />
+      <DungeonSection
+        title="Necrotic Wake"
+        tree="either"
+        Talents={[ImprovedDetox, DanceOfTheWind, PeaceAndProsperity]}
+      ></DungeonSection>
+      <DungeonSection
+        title="Siege of Boralus"
+        tree="either"
+        Talents={[ImprovedDetox]}
+      ></DungeonSection>
+      <DungeonSection title="Stonevault" tree="conduit" Talents={[Restoral]}></DungeonSection>
     </div>
   )
 }
