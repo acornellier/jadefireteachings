@@ -35,6 +35,7 @@ import {
 import { Button } from '../Common/Button.tsx'
 import { Section } from './Section.tsx'
 import { SubSection } from './SubSection.tsx'
+import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
 
 const TalentCodeBlock = ({ children }: { children: string }) => (
   <CodeBlock
@@ -58,16 +59,18 @@ export function Talents() {
     <Section title="Talents">
       <SubSection title="Hero talent choice">
         <p>
-          Both hero trees are viable, each with strengths and weakness. However, I recommend Conduit
-          of the Celestials for most content unless you are very comfortable with Master of Harmony.
+          Both hero trees are viable, each with strengths and weakness. However, I recommend{' '}
+          <ConduitOfTheCelestials /> for most content unless you are very comfortable with{' '}
+          <MasterOfHarmony />.
         </p>
         <p>
-          Conduit is better overall for healing, with <CelestialConduit />, <StrengthOfTheBlackOx />
+          <ConduitOfTheCelestials /> is better overall for healing, with <CelestialConduit />,{' '}
+          <StrengthOfTheBlackOx />
           , and a few other nodes. The reduced <LifeCocoon /> CD thanks to <HeartOfTheJadeSerpent />{' '}
           is great. It also has a better defensive node with <JadeSanctuary />.
         </p>
         <p>
-          Master of Harmony is slightly behind on healing, but wayyyy ahead on damage if you run
+          <MasterOfHarmony /> is slightly behind on healing, but wayyyy ahead on damage if you run
           Harmonic Gambit. Like, easily the highest damage of any healer spec in the game currently.
           The two charges of <ThunderFocusTea /> is also great for more flexibility with{' '}
           <JadeEmpowerment />.

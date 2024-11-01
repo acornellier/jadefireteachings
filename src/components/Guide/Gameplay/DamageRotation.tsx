@@ -16,6 +16,7 @@ import {
 } from '../../Common/WowheadLink/Spells.tsx'
 import { UnorderedList } from '../../Common/UnorderedList.tsx'
 import { SubSection } from '../SubSection.tsx'
+import { ConduitOfTheCelestials, MasterOfHarmony } from '../../Common/SpecialTexts.tsx'
 
 export function DamageRotation() {
   return (
@@ -25,7 +26,7 @@ export function DamageRotation() {
       </p>
       <OrderedList>
         <li>
-          <ChiBurst /> at 2+ targets or if running Master of Harmony
+          <ChiBurst /> at 2+ targets or if running <MasterOfHarmony />
         </li>
         <li>
           <ThunderFocusTea /> + <RisingSunKick /> if running <SecretInfusion />
@@ -40,9 +41,11 @@ export function DamageRotation() {
           <li>
             On a <DanceOfChiJi /> Proc
           </li>
-          <li>At 4+ targets with Conduit</li>
           <li>
-            At 6+ targets with Master of Harmony. Keep in mind it doesn’t generate or drain
+            At 4+ targets with <ConduitOfTheCelestials />
+          </li>
+          <li>
+            At 6+ targets with <MasterOfHarmony />. Keep in mind it doesn’t generate or drain
             vitality, and so is generally not advised unless there are 10+ targets.
           </li>
         </UnorderedList>

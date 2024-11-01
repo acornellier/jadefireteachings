@@ -1,12 +1,12 @@
 import { Header } from '../Common/Header.tsx'
 import type { ReactNode } from 'react'
 
-interface Props {
+export interface SectionProps {
   title: string
   children?: ReactNode
 }
 
-export function Section({ title, children }: Props) {
+export function Section({ title, children }: SectionProps) {
   return (
     <div className="section">
       <div className="my-1">
