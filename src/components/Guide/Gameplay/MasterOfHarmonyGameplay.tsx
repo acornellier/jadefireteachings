@@ -17,12 +17,14 @@ export function MasterOfHarmonyGameplay() {
         give this buff! This is basically your only healing increase from the tree.
       </p>
       <p>
+        If there is little healing to do, use <ThunderFocusTea /> whenever your vitality bar is full
+        for damage. Remember the damage is a dot, so do not waste it on low health enemies. Use{' '}
+        <Link href="https://wago.io/H-BqbpSOt">this weakaura</Link> to track your vitality.
+      </p>
+      <p>
         Note that <OverwhelmingForce /> and <SpinningCraneKick /> not generating or draining
         vitality means that you should rarely use <SpinningCraneKick />, unless there are very many
         mobs, or on a <DanceOfChiJi /> proc.
-      </p>
-      <p>
-        Use <Link href="https://wago.io/H-BqbpSOt">this weakaura</Link> to track vitality.
       </p>
       <p>
         Buff ID to track for tracking <Coalescence />: 450769

@@ -36,6 +36,7 @@ import { Button } from '../Common/Button.tsx'
 import { Section } from './Section.tsx'
 import { SubSection } from './SubSection.tsx'
 import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
+import { RouterLink } from '../Common/RouterLink.tsx'
 
 const TalentCodeBlock = ({ children }: { children: string }) => (
   <CodeBlock
@@ -59,15 +60,16 @@ export function Talents() {
     <Section title="Talents">
       <SubSection title="Hero talent choice">
         <p>
-          Both hero trees are viable, each with strengths and weakness. However, I recommend{' '}
-          <ConduitOfTheCelestials /> for most content unless you are very comfortable with{' '}
-          <MasterOfHarmony />.
+          Both hero trees are viable, each with strengths and weakness. However, I generally
+          recommend <ConduitOfTheCelestials /> for most content unless you are very comfortable with{' '}
+          <MasterOfHarmony />. In the <RouterLink to="/dungeons">dungeon guides</RouterLink>, I have
+          a recommended tree for each dungeon.
         </p>
         <p>
           <ConduitOfTheCelestials /> is better overall for healing, with <CelestialConduit />,{' '}
-          <StrengthOfTheBlackOx />
-          , and a few other nodes. The reduced <LifeCocoon /> CD thanks to <HeartOfTheJadeSerpent />{' '}
-          is great. It also has a better defensive node with <JadeSanctuary />.
+          <StrengthOfTheBlackOx />, and a few other nodes. The reduced <LifeCocoon /> CD thanks to{' '}
+          <HeartOfTheJadeSerpent /> is great. It also has a better defensive node with{' '}
+          <JadeSanctuary />.
         </p>
         <p>
           <MasterOfHarmony /> is slightly behind on healing, but wayyyy ahead on damage if you run
@@ -123,7 +125,7 @@ export function Talents() {
       </SubSection>
       <SubSection title="Spec tree">
         <UnorderedList>
-          In the middle of the tree, there’s 3 talents you can flex 2 points between
+          <p>In the middle of the tree, there’s 3 talents you can flex 2 points between</p>
           <li>
             <HealingElixir />: Decent HPS, good self healing
           </li>
@@ -133,21 +135,23 @@ export function Talents() {
           <li>
             <MistWrap />: sustained HPS
           </li>
-          <li>In the bottom of the tree, you can flex 1 point between</li>
-          <li className="ml-4">
+        </UnorderedList>
+        <UnorderedList>
+          <p>In the bottom of the tree, you can flex 1 point between</p>
+          <li>
             <SecretInfusion />: safe choice for stats
           </li>
-          <li className="ml-4">
+          <li>
             <PoolOfMists />: if you like the raid gameplay of <RisingSunKick /> + <RenewingMist />
           </li>
-          <li className="ml-4">
+          <li>
             <PeerIntoPeace />: if you like <SoothingMist /> gameplay
           </li>
-          <li>
-            Take <ShaohaosLessons /> if you want more damage and don’t need <VeilOfPride /> to heal.
-            It’s not a big damage increase so don’t take it unless you know what you’re doing.
-          </li>
         </UnorderedList>
+        <p>
+          Take <ShaohaosLessons /> if you want more damage and don’t need <VeilOfPride /> to heal.
+          It’s not a big damage increase so don’t take it unless you know what you’re doing.
+        </p>
         <img src="/images/spec.jpg" alt="spec_talents" width={400} />
       </SubSection>
     </Section>

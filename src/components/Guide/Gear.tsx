@@ -1,5 +1,5 @@
 import { UnorderedList } from '../Common/UnorderedList.tsx'
-import { AncientTeachings, ChiJi, CraneStyle } from '../Common/WowheadLink/Spells.tsx'
+import { AncientTeachings, ChiJi, CraneStyle, Shadowmeld } from '../Common/WowheadLink/Spells.tsx'
 import {
   AraKaraSacbrood,
   BindingOfBinding,
@@ -23,8 +23,9 @@ export function Gear() {
         <p>
           STATS DISCLAIMER: It is very hard to know what the best stat distribution is for healers.
           I get asked a lot for exactly what percent they want for each stat. I do not know our
-          ideal stat weights! Especially in dungeons, it’s very feelycrafty. The good news is that
-          all stats are good on mistweaver, with Haste clearly ahead.
+          ideal stat weights! If someone claims to know, they lie! Especially in dungeons, it’s very
+          feelycrafty. The good news is that all stats are good on Mistweaver, with Haste clearly
+          ahead.
         </p>
         <p>
           I am currently going for Haste {'>'} Versatility {'>'} Mastery {'>'} Critical Strike.
@@ -51,6 +52,28 @@ export function Gear() {
             stat after haste. Otherwise, I think versatility and mastery are better.
           </li>
         </UnorderedList>
+      </SubSection>
+      <SubSection title="Race">
+        <p>
+          The only race I can really recommend for M+ is Night Elf, due to <Shadowmeld />. In my
+          opinion, this ability is extremely overpowered, and just far superior to any other racial
+          in the game. It is very flexible and has many many uses, especially on healers:
+        </p>
+        <UnorderedList>
+          <li>
+            Cancelling a cast being made on you. This sometimes trivializes entire boss mechanics.
+          </li>
+          <li>
+            Dropping combat in case you butt pull, if you fail a skip, or to intentionally skip a
+            mob. If your whole group fails a skip, you can then mass rez.
+          </li>
+          <li>Drinking mid-pull.</li>
+          <li>Ressurecting a teammate mid-pull without using a battle rez.</li>
+        </UnorderedList>
+        <p>If you hate being a Night Elf, then Dwarf is the only other decent choice.</p>
+        <p>
+          Night Elf {'>'} Dwarf {'>>'} Everything else
+        </p>
       </SubSection>
       <SubSection title="Trinkets">
         <p>

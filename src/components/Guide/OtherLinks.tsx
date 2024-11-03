@@ -8,7 +8,7 @@ export function OtherLinks() {
       <UnorderedList>
         <li>
           <Link href="https://discord.com/invite/peakofserenity">Peak of Serenity Discord</Link>:
-          the official mistweaver discord
+          the official Mistweaver discord
         </li>
         <li>
           <Link href="https://www.wowhead.com/mistweaver-monk-guide">Wowhead by June</Link>: the

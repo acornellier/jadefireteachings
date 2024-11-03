@@ -49,7 +49,7 @@ export function GeneralGameplay() {
         cooldown. Alternatively, using <ThunderFocusTea /> on <EnvelopingMist /> is also a great
         choice.
       </p>
-      <p>The two most common mistakes I see from new mistweavers are the following</p>
+      <p>The two most common mistakes I see from new Mistweavers are the following</p>
       <OrderedList>
         <li>Not being in melee enough. You must be in melee for the above reasons.</li>
         <li>

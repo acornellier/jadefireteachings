@@ -5,13 +5,14 @@ import { SubSection } from '../Guide/SubSection.tsx'
 interface Props {
   title: string
   children?: ReactNode
-  difficulty: 'easy' | 'medium' | 'hard'
+  difficulty: 'easy' | 'medium' | 'hard' | 'EXTREME'
 }
 
 const difficultyColor = {
   easy: 'text-green-400',
   medium: 'text-yellow-400',
   hard: 'text-red-400',
+  EXTREME: 'text-pink-400',
 }
 
 export function BossSubSection({ title, children, difficulty }: Props) {
