@@ -36,10 +36,11 @@ export function AoeHealing() {
       </p>
       <UnorderedList>
         <li>
-          <JadeEmpowerment />: allows you to use <CracklingJadeLightning /> to heal up your group
-          with <AncientTeachings />. This healing will scale linearly with the number of mobs up to
-          5, so it will be quite weak on 1-2 targets, but increasingly strong up to 5 targets. At 5
-          targets, this provides a huge amount of healing.
+          <JadeEmpowerment />: also known as Sithweaving, allows you to use{' '}
+          <CracklingJadeLightning /> to heal up your group with <AncientTeachings />. This healing
+          will scale linearly with the number of mobs up to 5, so it will be quite weak on 1-2
+          targets, but increasingly strong up to 5 targets. At 5 targets, this provides a huge
+          amount of healing.
         </li>
         <li>
           <SheilunsGift />: great for a single burst of healing on the entire group, especially when
