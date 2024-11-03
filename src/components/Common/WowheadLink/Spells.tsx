@@ -18,6 +18,7 @@ export const ChiHarmony = makeSpell("Chi Harmony", 423458, 'ability_monk_counter
 export const CloakOfShadows = makeSpell("Cloak of Shadows", 31224, 'spell_shadow_nethercloak')
 export const Coalescence = makeSpell("Coalescence", 450529, 'ability_monk_effuse')
 export const Consumption = makeSpell("Consumption", 322450, 'ability_hunter_pet_spider')
+export const CosmicSingularity = makeSpell("Cosmic Singularity", 432117, 'inv_cosmicvoid_orb')
 export const CracklingJadeLightning = makeSpell("Crackling Jade Lightning", 117952, 'ability_monk_cracklingjadelightning')
 export const CraneStyle = makeSpell("Crane Style", 446260, 'ability_monk_mightyoxkick')
 export const Crush = makeSpell("Crush", 450100, 'spell_holy_devotion')

@@ -1,6 +1,7 @@
 import {
   AlertingShrill,
   ChiJi,
+  CosmicSingularity,
   CultivatedPoisons,
   DanceOfTheWind,
   DiffuseMagic,
@@ -55,7 +56,7 @@ export function AraKara() {
       </BossSubSection>
       <BossSubSection title="Ki'katal the Harvester" difficulty="hard">
         <p>
-          This fight varies widly in difficulty based on how many poison dispels you have.{' '}
+          This fight varies wildly in difficulty based on how many poison dispels you have.{' '}
           <CultivatedPoisons /> ticks quite hard, and I recommend stepping out of melee before it
           goes out, and dispelling yourself immediately every time. If your tank can dispel, ask
           them to get a dps that can&apos;t dispel themselves. Then, you need to spot heal whoever
@@ -64,9 +65,11 @@ export function AraKara() {
         </p>
         <p>
           <Transcendence /> is powerful here to avoid using a puddle. Place one outside at the start
-          of the fight, and use it when there is less than 1 second left on the cast if there are
-          not enough puddles for your team. I like to wait until everybody else is safe, then roll
-          into a puddle, and kick the ooze to get out.
+          of the fight, and use it when there is less than 1 second left on the{' '}
+          <CosmicSingularity /> cast if there are not enough puddles for your team. I like to wait
+          until everybody else is safe, then roll into a puddle, and kick the ooze to get out. Be
+          careful not to use <ChiJi /> shortly before <CosmicSingularity /> since you will not be
+          able to use an ooze.
         </p>
         <p>
           Positioning and mental awareness is key here, as it is a very stressful fight! Stay calm,
