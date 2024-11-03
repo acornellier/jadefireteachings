@@ -9,13 +9,13 @@ import {
   FortifyingBrew,
   JadeEmpowerment,
   JadefireStomp,
+  JadeSanctuary,
   LifeCocoon,
   ObsidianBeam,
   ShadowyDecay,
   SheilunsGift,
   TerrifyingSlam,
 } from '../Common/WowheadLink/Spells.tsx'
-import { ConduitOfTheCelestials } from '../Common/SpecialTexts.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
 
 export function Dawnbreaker() {
@@ -50,11 +50,11 @@ export function Dawnbreaker() {
         </p>
         <UnorderedList>
           <li>
-            Casts 1, 2, 4, and 6 are normal. Use <FortifyingBrew /> or <ConduitOfTheCelestials />.
+            Casts 1, 2, 4, and 6 are normal. Use <FortifyingBrew /> or <JadeSanctuary />.
           </li>
           <li>
             Cast 3 overlaps prefectly <DarkOrb />, so this is the hardest one. Massive defensives
-            are required here – <DiffuseMagic /> for you. powerful.
+            are required here – <DiffuseMagic /> for you.
           </li>
           <li>
             Cast 5 is right after <AnimateShadows />, so this one is easy since you can heal it with{' '}
