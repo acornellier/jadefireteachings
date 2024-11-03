@@ -63,6 +63,7 @@ export function Stonevault() {
           be especially in trouble if the debuff overlaps with <EntropicReckoning /> – defensives!
         </p>
         <p>The healing check itself is not too hard.</p>
+        <p>TODO: finish the guide for this boss</p>
       </BossSubSection>
     </DungeonSection>
   )

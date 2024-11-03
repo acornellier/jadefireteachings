@@ -64,7 +64,7 @@ export function Dawnbreaker() {
         <img src="/images/s1/anubikkaj.png" alt="ui_screenshot" width={1200} />
       </BossSubSection>
       <BossSubSection title="Rasha'nan" difficulty="EXTREME">
-        <p>TODO: this boss.</p>
+        <p>TODO: write the guide for this boss.</p>
       </BossSubSection>
     </DungeonSection>
   )
