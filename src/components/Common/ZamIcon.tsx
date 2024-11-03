@@ -7,7 +7,6 @@ interface Props extends DetailedHTMLProps<ImgHTMLAttributes<HTMLImageElement>, H
 }
 
 export const ZamIcon = forwardRef<HTMLImageElement, Props>(({ alt, size, icon, ...props }, ref) => {
-  icon = icon.replace('-', '_')
   return (
     <img
       {...props}

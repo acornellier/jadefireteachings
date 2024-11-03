@@ -31,7 +31,6 @@ export function Layout() {
             <Outlet />
           </div>
           <Footer />
-          {/*<TwitchStream/>*/}
           <div className="mb-24" />
         </main>
       </div>

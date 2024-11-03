@@ -1,24 +1,30 @@
-import { memo, useEffect, useRef, useState } from 'react'
+import { type Dispatch, memo, type SetStateAction, useEffect, useRef, useState } from 'react'
 import { useExternalScript } from '../util/useExternalScript.ts'
+import { Button } from './Common/Button.tsx'
+import { XMarkIcon } from '@heroicons/react/24/outline'
 
 const channel = 'ortemismw'
-const videoWidth = 380
-const videoHeight = videoWidth * (9 / 16)
-const chatHeight = 400
+const defaultWidth = 380
+const defaultWidthHeight = defaultWidth * (9 / 16)
+const fullWidthHeight = 380
 
-function TwitchStreamComponent() {
+interface Props {
+  minimized?: boolean
+  setMinimized?: Dispatch<SetStateAction<boolean>>
+}
+
+function TwitchStreamComponent({ minimized, setMinimized }: Props) {
   const [isTwitchVisible, setTwitchVisible] = useState(false)
 
   const scriptStatus = useExternalScript('/twitch_v1.js')
-  const twitchLoaded = useRef(false)
+  const twitchPlayer = useRef<Twitch.Embed | null>(null)
 
   useEffect(() => {
-    if (scriptStatus !== 'ready' && !twitchLoaded.current) return
+    if (scriptStatus !== 'ready' && !twitchPlayer.current) return
 
-    twitchLoaded.current = true
     const player = new Twitch.Embed('twitch-embed', {
-      width: videoWidth,
-      height: videoHeight,
+      width: defaultWidth,
+      height: defaultWidthHeight,
       channel,
       layout: 'video',
       autoplay: true,
@@ -26,6 +32,7 @@ function TwitchStreamComponent() {
       theme: 'dark',
       parent: [window.location.hostname],
     })
+    twitchPlayer.current = player
 
     player.addEventListener(Twitch.Player.READY, initiate)
 
@@ -48,13 +55,29 @@ function TwitchStreamComponent() {
     }
   }, [scriptStatus])
 
+  useEffect(() => {
+    if (twitchPlayer.current) {
+      twitchPlayer.current._iframe.width = `${minimized ? '100%' : defaultWidth}`
+      twitchPlayer.current._iframe.height = `${minimized ? fullWidthHeight : defaultWidthHeight}`
+    }
+  }, [minimized])
+
   return (
-    <>
-      <div className={isTwitchVisible ? '' : 'hidden'}>
+    <div className={`${isTwitchVisible ? '' : 'hidden'} w-full`}>
+      <div className="flex flex-col">
+        {!minimized && (
+          <Button
+            short
+            twoDimensional
+            iconSize={16}
+            Icon={XMarkIcon}
+            onClick={() => setMinimized?.(true)}
+            className="self-end"
+          />
+        )}
         <div id="twitch-embed" />
-        <div className="border-2 my-4 border-gray-600 grow" />
       </div>
-    </>
+    </div>
   )
 }
 

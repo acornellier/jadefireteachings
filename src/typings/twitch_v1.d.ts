@@ -3,15 +3,18 @@ declare namespace Twitch {
     constructor(elementId: string, options: EmbedOptions)
 
     addEventListener(eventType: string, listener: (event: any) => void): void
-
     removeEventListener(eventType: string, listener: (event: any) => void): void
 
+    pause(): void
+    play(): void
     setMuted(muted: boolean): void
+
+    _iframe: HTMLIFrameElement
   }
 
   interface EmbedOptions {
-    width: number
-    height: number
+    width: string | number
+    height: string | number
     channel: string
     layout: string
     autoplay: boolean

@@ -26,7 +26,7 @@ export function DungeonSection({ title, children, tree, Talents }: Props) {
         <p className="flex gap-2">
           Talents:{' '}
           {Talents.map((Talent) => (
-            <Talent key={Talent.name} />
+            <Talent key={Talent.displayName} />
           ))}
         </p>
       )}
