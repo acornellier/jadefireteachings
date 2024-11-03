@@ -38,7 +38,7 @@ export function MistsOfTirnaScithe() {
           time, you will be fine. <ChiJi /> can cleave off the boss even though she is immune.
         </p>
       </BossSubSection>
-      <BossSubSection title="Tred'ova" difficulty="easy">
+      <BossSubSection title="Tred'ova" difficulty="medium">
         <p>
           Use a defensive and 2 healing CDs every <Consumption /> intermission. The amount of
           healing will depend on your dps. Just like last boss... And the one before that! The
