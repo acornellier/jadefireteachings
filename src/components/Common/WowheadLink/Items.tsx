@@ -42,3 +42,13 @@ export const UnboundChangeling = makeItem(
   178708,
   'inv_pet_spectralporcupinered',
 )
+export const DuskthreadLining = makeItem(
+  'Duskthread Lining',
+  222873,
+  'inv_10_tailoring_tailoringconsumable_color3',
+)
+export const AdrenalSurgeClasp = makeItem(
+  'Adrenal Surge Clasp',
+  219502,
+  'inv_belt_leather_undergroundquest_b_01',
+)

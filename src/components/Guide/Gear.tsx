@@ -4,6 +4,7 @@ import {
   AraKaraSacbrood,
   BindingOfBinding,
   DarkmoonSigilAscension,
+  DuskthreadLining,
   ElusiveBlasphemite,
   EmpoweringCrystal,
   FracturedGemstoneLocket,
@@ -113,10 +114,16 @@ export function Gear() {
             <BindingOfBinding />: gives your allies stats, increasing their damage!
           </li>
           <li>
-            <FracturedGemstoneLocket />: also gives your allies stats, increasing their damage!
+            <DuskthreadLining />: you spend a surprising amount of time above 80%, so this is
+            largely just free versatility.
+          </li>
+          <li>
+            <FracturedGemstoneLocket />: also gives your allies stats, increasing their damage! The
+            only problem is you really want
           </li>
         </UnorderedList>
-        Do not run these two in Mythic+!
+        The raid combo is not strong Mythic+. But it is not the worst thing ever, and again
+        embelishments are fairly weak this tier.
         <UnorderedList>
           <li>
             <DarkmoonSigilAscension />: best raid embelishment, very bad in M+ because it falls off
