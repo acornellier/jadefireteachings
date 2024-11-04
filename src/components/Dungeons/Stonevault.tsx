@@ -1,11 +1,14 @@
 import { DungeonSection } from './DungeonSection.tsx'
 import {
   BlazingCrescendo,
+  CelestialConduit,
+  ChiJi,
   EntropicReckoning,
   ExhaustVents,
   Restoral,
   Revival,
   SeismicReverberation,
+  SheilunsGift,
   VoidCorruption,
 } from '../Common/WowheadLink/Spells.tsx'
 import { BossSubSection } from './BossSubSection.tsx'
@@ -26,8 +29,8 @@ export function Stonevault() {
           dispel the tank.
         </p>
         <p>
-          There are several ways to break pillars, and I am not sure which is best yet. TODO: update
-          this with pillar breaking strategies
+          There are several ways to break pillars, and I am not sure which is best yet. Will update
+          this later.
         </p>
       </BossSubSection>
       <BossSubSection title="Master Machinists" difficulty="medium">
@@ -62,8 +65,11 @@ export function Stonevault() {
           first and be ready to heal the other 2 players who don{"'"}t clear right away. They will
           be especially in trouble if the debuff overlaps with <EntropicReckoning /> – defensives!
         </p>
-        <p>The healing check itself is not too hard.</p>
-        <p>TODO: finish the guide for this boss</p>
+        <p>
+          The healing check itself is not too hard. The abilities are offset in a weird way, so
+          planning CDs is hard. Use <SheilunsGift /> on the <EntropicReckoning /> and <ChiJi /> on
+          CD for any required healing. Use <CelestialConduit /> or <Revival /> when dry.
+        </p>
       </BossSubSection>
     </DungeonSection>
   )
