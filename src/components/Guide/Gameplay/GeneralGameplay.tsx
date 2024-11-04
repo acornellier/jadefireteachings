@@ -45,9 +45,8 @@ export function GeneralGameplay() {
         <TeachingsOfTheMonastery />.
       </p>
       <p>
-        For the above reasons, I like to use <ThunderFocusTea /> on <RisingSunKick /> pretty much on
-        cooldown. Alternatively, using <ThunderFocusTea /> on <EnvelopingMist /> is also a great
-        choice.
+        For the above reasons, I like to use <ThunderFocusTea /> mainly on <RisingSunKick />.
+        Alternatively, using <ThunderFocusTea /> on <EnvelopingMist /> is also a great choice.
       </p>
       <p>The two most common mistakes I see from new Mistweavers are the following</p>
       <OrderedList>
