@@ -92,7 +92,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
   const linkConfigs: SidebarLinkConfig[] = links.map(mapLink)
 
   return (
-    <div className="relative">
+    <nav className="relative sidebar">
       <div className="sm:hidden fixed left-0 top-1/2 z-10">
         <SidebarButton onClick={onCollapseXs} />
       </div>
@@ -116,6 +116,6 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
           />
         ))}
       </div>
-    </div>
+    </nav>
   )
 }

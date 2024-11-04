@@ -26,6 +26,10 @@ html {
   color-scheme: dark;
 }
 
+.sidebar {
+  overflow-anchor: none;
+}
+
 .section > * {
   margin-bottom: 12px;
   flex-wrap: wrap;
