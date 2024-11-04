@@ -28,7 +28,7 @@ export function GrimBatol() {
     <DungeonSection title="Grim Batol" tree="either" Talents={[PressurePoints]}>
       <BossSubSection title="General Umbriss" difficulty="easy">
         <p>
-          It&apos;s quite easy to top your group between damage events. You can <Shadowmeld /> the
+          It&apos;s quite easy to top your group between damage events. You can <Shadowmeld /> the{' '}
           <RockSpike />. Watch the tank during <Skullsplitter />.
         </p>
       </BossSubSection>

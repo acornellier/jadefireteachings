@@ -91,7 +91,7 @@ export function CityOfThreads() {
         <p>
           Make sure you are always performing your melee rotation to keep up with <KnifeThrow />{' '}
           healing. <ChiJi /> is pretty good on this fight, since there are 2 targets, use it early
-          in P1 for <KnifeThrow /> healing and then on CD. <Revival /> is nice to dispel an
+          in P1 for <KnifeThrow /> healing and then on CD. <Revival /> is nice to dispel an{' '}
           <IceSickles /> set, or just send it earlier if you are behind. Send a fully stacked{' '}
           <SheilunsGift /> every phase, and <CelestialConduit /> if you ever fall behind or are
           lacking a defensive.
@@ -123,7 +123,7 @@ export function CityOfThreads() {
       </BossSubSection>
       <BossSubSection title="Izo, the Grand Splicer" difficulty="EXTREME">
         <p>
-          Buckle up, this might be the hardest boss to heal of the season. You must heal through
+          Buckle up, this might be the hardest boss to heal of the season. You must heal through{' '}
           <Splice />, a heavy dot on the whole group, and then top for them either <TremorSlam /> or{' '}
           <UmbralWeave />, a big single aoe hit on the whole group, all whilst moving to dodge orbs!
         </p>
