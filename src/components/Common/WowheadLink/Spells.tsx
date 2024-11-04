@@ -35,6 +35,7 @@ export const DiffuseMagic = makeSpell("Diffuse Magic", 122783, 'spell_monk_diffu
 export const Duskbringer = makeSpell("Duskbringer", 439692, 'spell_shadow_shadesofdarkness')
 export const ElusiveMists = makeSpell("Elusive Mists", 388681, 'ability_monk_soothingmists')
 export const EmbraceDarkness = makeSpell("Embrace Darkness", 323149, 'spell_shadow_rune')
+export const EnergizingBrew = makeSpell("Energizing Brew", 422031, 'ui_profession_herbalism')
 export const EntropicReckoning = makeSpell("Entropic Reckoning", 427854, 'spell_priest_void-blast')
 export const EnvelopingMist = makeSpell("Enveloping Mist", 124682, 'spell_monk_envelopingmist')
 export const ErosiveSpray = makeSpell("Erosive Spray", 448888, 'inv_ability_poison_missile')

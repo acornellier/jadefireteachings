@@ -25,7 +25,7 @@ export function Stonevault() {
         <p>
           <Restoral /> is taken to avoid dispelling <SeismicReverberation /> off the tank with{' '}
           <Revival /> on the first boss. Use{' '}
-          <Link href="https://wago.io/ednaDispel">Ellemere{"'"}s weakaura</Link> to know when to
+          <Link href="https://wago.io/ednaDispel">Ellesmere{"'"}s weakaura</Link> to know when to
           dispel the tank.
         </p>
         <p>

@@ -62,7 +62,7 @@ export function Dawnbreaker() {
             Casts 1, 2, 4, and 6 are normal. Use <FortifyingBrew /> or <JadeSanctuary />.
           </li>
           <li>
-            Cast 3 overlaps prefectly <DarkOrb />, so this is the hardest one. Massive defensives
+            Cast 3 overlaps perfectly <DarkOrb />, so this is the hardest one. Massive defensives
             are required here – <DiffuseMagic /> for you.
           </li>
           <li>

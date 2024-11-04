@@ -6,6 +6,7 @@ import {
   CelestialConduit,
   DanceOfTheWind,
   DeepClarity,
+  EnergizingBrew,
   GraceOfTheCrane,
   HarmonicGambit,
   HealingElixir,
@@ -128,7 +129,10 @@ export function Talents() {
       </SubSection>
       <SubSection title="Spec tree">
         <UnorderedList>
-          <p>In the middle of the tree, you have 2 points to flex between</p>
+          <p>In the middle of the tree, you have 3 points to flex between</p>
+          <li>
+            <EnergizingBrew />: much better Mana Tea. I personally never drop this, but you can.
+          </li>
           <li>
             <HealingElixir />: good reliable self healing. Probably the strongest choice here.
           </li>

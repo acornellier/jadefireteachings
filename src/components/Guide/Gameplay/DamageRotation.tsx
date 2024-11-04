@@ -45,8 +45,7 @@ export function DamageRotation() {
             At 4+ targets with <ConduitOfTheCelestials />
           </li>
           <li>
-            At 6+ targets with <MasterOfHarmony />. Keep in mind it doesn’t generate or drain
-            vitality, and so is generally not advised unless there are 10+ targets.
+            At 13+ targets with <MasterOfHarmony />.
           </li>
         </UnorderedList>
         <li>

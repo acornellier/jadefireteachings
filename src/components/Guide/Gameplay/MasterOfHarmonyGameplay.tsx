@@ -23,8 +23,8 @@ export function MasterOfHarmonyGameplay() {
       </p>
       <p>
         Note that <OverwhelmingForce /> and <SpinningCraneKick /> not generating or draining
-        vitality means that you should rarely use <SpinningCraneKick />, unless there are very many
-        mobs, or on a <DanceOfChiJi /> proc.
+        vitality means that you should rarely use <SpinningCraneKick />, unless there are 13+ mobs,
+        or on a <DanceOfChiJi /> proc.
       </p>
       <p>
         Buff ID to track for tracking <Coalescence />: 450769

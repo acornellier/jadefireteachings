@@ -69,7 +69,7 @@ export function Gear() {
             mob. If your whole group fails a skip, you can then mass rez.
           </li>
           <li>Drinking mid-pull.</li>
-          <li>Ressurecting a teammate mid-pull without using a battle rez.</li>
+          <li>Resurrecting a teammate mid-pull without using a battle rez.</li>
         </UnorderedList>
         <p>If you hate being a Night Elf, then Dwarf is the only other decent choice.</p>
         <p>
@@ -107,8 +107,8 @@ export function Gear() {
       <SubSection title="Embellishments">
         <UnorderedList>
           <p>
-            Embelishments are currently pretty weak in general. None of the healing embelishments
-            are very impactful, so I recommend simply going for the highest damage embelishments.
+            Embellishments are currently pretty weak in general. None of the healing embellishment
+            are very impactful, so I recommend simply going for the highest damage embellishment.
           </p>
           <li>
             <BindingOfBinding />: gives your allies stats, increasing their damage!
@@ -123,10 +123,10 @@ export function Gear() {
           </li>
         </UnorderedList>
         The raid combo is not strong Mythic+. But it is not the worst thing ever, and again
-        embelishments are fairly weak this tier.
+        embellishments are fairly weak this tier.
         <UnorderedList>
           <li>
-            <DarkmoonSigilAscension />: best raid embelishment, very bad in M+ because it falls off
+            <DarkmoonSigilAscension />: best raid embellishment, very bad in M+ because it falls off
             out of combat
           </li>
           <li>
@@ -139,10 +139,6 @@ export function Gear() {
           <ElusiveBlasphemite /> is OP, we want to buff it as much as possible! Use this, then have
           as many other varied gems as possible that fit your desired stat weights. Get a stamina
           gem too! Don{"'"}t worry about optimizing too much, remember all stats are good on MW.
-        </p>
-        <p>
-          <Link href="https://boosthive.eu/guides/wow/war-within-gems-and-sockets-guide">Here</Link>{' '}
-          is a decent summary of all the gems
         </p>
       </SubSection>
       <SubSection title="Other consumables">

@@ -21,8 +21,8 @@ export function SiegeOfBoralus() {
     <DungeonSection title="Siege of Boralus" tree="either" Talents={[ImprovedDetox]}>
       <BossSubSection title="Chopper Redhook" difficulty="easy">
         <p>
-          If a Powershot spawns away from your group, use <Paralysis /> and keep it CC{"'"}d for the
-          fight.
+          If a Powdershot spawns away from your group, use <Paralysis /> and keep it CC{"'"}d for
+          the fight.
         </p>
         <p>Make sure to contribute to boss damage during burn phase.</p>
       </BossSubSection>
