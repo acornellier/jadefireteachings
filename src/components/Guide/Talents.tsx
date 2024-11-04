@@ -5,6 +5,7 @@ import {
   AncientArts,
   CelestialConduit,
   DanceOfTheWind,
+  DeepClarity,
   GraceOfTheCrane,
   HarmonicGambit,
   HealingElixir,
@@ -29,8 +30,10 @@ import {
   ThunderFocusTea,
   UpliftedSpirits,
   VeilOfPride,
+  Vivify,
   Windwalking,
   YulonsGrace,
+  ZenPulse,
 } from '../Common/WowheadLink/Spells.tsx'
 import { Button } from '../Common/Button.tsx'
 import { Section } from './Section.tsx'
@@ -125,19 +128,26 @@ export function Talents() {
       </SubSection>
       <SubSection title="Spec tree">
         <UnorderedList>
-          <p>In the middle of the tree, there’s 3 talents you can flex 2 points between</p>
+          <p>In the middle of the tree, you have 2 points to flex between</p>
           <li>
-            <HealingElixir />: Decent HPS, good self healing
+            <HealingElixir />: good reliable self healing. Probably the strongest choice here.
           </li>
           <li>
-            <UpliftedSpirits />: <Revival /> is a great cd now, becomes 2 min cd instead of 3 min cd
+            <MistWrap />: sustained HPS, synergy with <StrengthOfTheBlackOx />.
           </li>
           <li>
-            <MistWrap />: sustained HPS
+            <DeepClarity />: more <Vivify /> healing. <ZenPulse /> stacks to 2 so rarely wasted.
+          </li>
+          <li>
+            <UpliftedSpirits />: <Revival /> becomes a 2 min cd instead of 3 min cd. Probably the
+            weakest choice here.
           </li>
         </UnorderedList>
         <UnorderedList>
-          <p>In the bottom of the tree, you can flex 1 point between</p>
+          <p>
+            In the bottom of the tree, you can flex 1 point between the below talents. You can also
+            just use it for one of the above talents!
+          </p>
           <li>
             <SecretInfusion />: safe choice for stats
           </li>

@@ -1,22 +1,31 @@
 import { DungeonSection } from './DungeonSection.tsx'
 import { BossSubSection } from './BossSubSection.tsx'
 import {
+  AcidicStupor,
   AnimateShadows,
+  ArathiBombs,
   AugustDynasty,
+  CelestialConduit,
+  ChiJi,
   DarkOrb,
   DiffuseMagic,
   ElusiveMists,
+  ErosiveSpray,
   FortifyingBrew,
   JadeEmpowerment,
   JadefireStomp,
   JadeSanctuary,
   LifeCocoon,
   ObsidianBeam,
+  Revival,
   ShadowyDecay,
   SheilunsGift,
+  SoothingMist,
+  SpinneretsStrands,
   TerrifyingSlam,
 } from '../Common/WowheadLink/Spells.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
+import { OrderedList } from '../Common/OrderedList.tsx'
 
 export function Dawnbreaker() {
   return (
@@ -64,7 +73,50 @@ export function Dawnbreaker() {
         <img src="/images/s1/anubikkaj.png" alt="ui_screenshot" width={1200} />
       </BossSubSection>
       <BossSubSection title="Rasha'nan" difficulty="EXTREME">
-        <p>TODO: write the guide for this boss.</p>
+        <p>
+          This is a very healing intensive fight. Thankfully ,there aren{"'"}t a lot of mechanics
+          for you to do, since you are not responsible for carrying <ArathiBombs /> and you will
+          never be targetted by <AcidicStupor /> or <SpinneretsStrands />. So you can fully focus on
+          your healing!
+        </p>
+        <p>
+          In phase 1, there will only be 2 <ErosiveSpray />, and then downtime before phase 2. So
+          dump all of your healing CDs in phase 1 to be safe, 2 CDs on each spray. Then top players
+          targetted by <AcidicStupor />. Watch players carrying <ArathiBombs /> as the debuff does
+          hurt.
+        </p>
+        <p>
+          In phase 2, he will cast <ErosiveSpray /> and <SpinneretsStrands /> every 30 seconds, 15
+          seconds apart. Use <SheilunsGift /> on every <ErosiveSpray />, <ChiJi /> on every 2nd, and{' '}
+          <CelestialConduit /> on every 3rd. Use <Revival /> if you don{"'"}t have either. In
+          summary:
+        </p>
+        <OrderedList>
+          <li>
+            <ChiJi /> + <SheilunsGift />
+          </li>
+          <li>
+            <CelestialConduit /> + <SheilunsGift />
+          </li>
+          <li>
+            <ChiJi /> + <SheilunsGift />
+          </li>
+          <li>
+            <Revival /> + <SheilunsGift />
+          </li>
+          <li>
+            <ChiJi /> + <SheilunsGift /> (+ <CelestialConduit /> if boss will die)
+          </li>
+          <li>
+            <CelestialConduit /> + <SheilunsGift />
+          </li>
+        </OrderedList>
+        <p>
+          For the <SpinneretsStrands />, you will not have any large healing CDs, so it is important
+          that your dps use defensives here. Use OmniCD to determine which player is the most
+          vulnerable, and <SoothingMist /> them. Alternatively, you can move <SheilunsGift /> to
+          this ability instead of using it on <ErosiveSpray />, but then the sprays will be harder.
+        </p>
       </BossSubSection>
     </DungeonSection>
   )
