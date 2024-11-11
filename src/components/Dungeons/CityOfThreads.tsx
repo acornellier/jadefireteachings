@@ -21,6 +21,7 @@ import {
   Splice,
   Subjugate,
   SynergicStep,
+  TigersLust,
   TremorSlam,
   UmbralWeave,
   ViscousDarkness,
@@ -116,9 +117,9 @@ export function CityOfThreads() {
           </li>
         </OrderedList>
         <p>
-          Other than that, there isn&apos;t a lot to this boss. Make sure you are not standing in
-          the <BloodSurge /> puddles as they can be hard to see! This is a very common mistake in
-          lower keys. They hurt a lot and must be avoided unless absolutely necessary.
+          Other than that, there isn{"'"}t a lot to this boss. Make sure you are not standing in the{' '}
+          <BloodSurge /> puddles as they can be hard to see! This is a very common mistake in lower
+          keys. They hurt a lot and must be avoided unless absolutely necessary.
         </p>
       </BossSubSection>
       <BossSubSection title="Izo, the Grand Splicer" difficulty="EXTREME">
@@ -136,22 +137,19 @@ export function CityOfThreads() {
         <p>
           Every <Splice />, rotate <FortifyingBrew />, <DiffuseMagic /> and <JadeSanctuary />. With{' '}
           <FortifyingBrew /> you should cover both the <Splice /> and the AoE hit. With{' '}
-          <DiffuseMagic />, you should get the last 2 ticks of <Splice /> and the AoE. Use{' '}
-          <CelestialConduit /> right after the 1st tick of <Splice />.
+          <DiffuseMagic />, use it after 3 ticks of <Splice /> to cover the last 2 ticks and the
+          AoE. Use <CelestialConduit /> right after the 1st tick of <Splice />.
         </p>
         <p>
           For healing, you must rotate your healing CDs very wisely. Use <LifeCocoon /> as much as
           possible. You will likely run out of CDs eventually, and if you do, make sure to
-          communicate this with your team.
+          communicate this with your team. Use <ChiJi /> on cooldown for HPS before <Splice /> goes
+          out. Use <SheilunsGift /> as late as possible to top the group before the big AoE.
         </p>
         <p>
           Positioning is important so that you can be in melee the whole fight. Make sure your group
-          is kiting around the room.
-        </p>
-        <p>
-          As I have been on holiday for 3 weeks, I do not feel qualified enough to write a full
-          guide on this boss yet. I will return here and update it once I have more experience with
-          it, and hopefully come up with a specific guide on where to use your CDs.
+          is kiting around the room. Use <TigersLust /> to break out of the root from{' '}
+          <UmbralWeave />.
         </p>
       </BossSubSection>
     </DungeonSection>

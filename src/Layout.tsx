@@ -24,7 +24,7 @@ export function Layout() {
   return (
     <>
       <div className="flex justify-center px-4">
-        <main className="min-h-screen py-4 flex flex-col gap-4 md:w-[765px] lg:w-[1075px]">
+        <main className="min-h-screen py-4 flex flex-col gap-4 lg:w-[1075px]">
           <AppHeader />
           <div className={`flex flex-col sm:flex-row ${sidebarSpacing}`}>
             <Sidebar collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} />

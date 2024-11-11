@@ -1,7 +1,6 @@
 import { SubSection } from '../SubSection.tsx'
 import {
   Coalescence,
-  DanceOfChiJi,
   OverwhelmingForce,
   SpinningCraneKick,
   ThunderFocusTea,
@@ -23,11 +22,8 @@ export function MasterOfHarmonyGameplay() {
       </p>
       <p>
         Note that <OverwhelmingForce /> and <SpinningCraneKick /> not generating or draining
-        vitality means that you should rarely use <SpinningCraneKick />, unless there are 13+ mobs,
-        or on a <DanceOfChiJi /> proc.
-      </p>
-      <p>
-        Buff ID to track for tracking <Coalescence />: 450769
+        vitality means that you should rarely use <SpinningCraneKick />, unless there are very many
+        mobs. Stick to your standard melee rotation.
       </p>
     </SubSection>
   )

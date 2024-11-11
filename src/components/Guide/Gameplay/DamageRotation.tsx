@@ -29,23 +29,26 @@ export function DamageRotation() {
           <ChiBurst /> at 2+ targets or if running <MasterOfHarmony />
         </li>
         <li>
-          <ThunderFocusTea /> + <RisingSunKick /> if running <SecretInfusion />
+          <ThunderFocusTea /> to get it on cooldown
         </li>
         <li>
-          <ThunderFocusTea /> + <CracklingJadeLightning /> if running <JadeEmpowerment />
+          <RisingSunKick /> with <ThunderFocusTea /> if running <SecretInfusion />
+        </li>
+        <li>
+          <CracklingJadeLightning /> with <JadeEmpowerment />
         </li>
         <li>
           <SpinningCraneKick />
         </li>
-        <UnorderedList className="ml-6">
-          <li>
-            On a <DanceOfChiJi /> Proc
-          </li>
+        <UnorderedList indent={1}>
           <li>
             At 4+ targets with <ConduitOfTheCelestials />
           </li>
           <li>
             At 13+ targets with <MasterOfHarmony />.
+          </li>
+          <li>
+            On a <DanceOfChiJi /> Proc
           </li>
         </UnorderedList>
         <li>

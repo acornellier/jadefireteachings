@@ -3,6 +3,7 @@ import {
   BreakWater,
   CloakOfShadows,
   DiffuseMagic,
+  ExpelHarm,
   FieryRicochet,
   ImprovedDetox,
   LifeCocoon,
@@ -11,6 +12,7 @@ import {
   Revival,
   Slam,
   Stoneform,
+  ThunderFocusTea,
 } from '../Common/WowheadLink/Spells.tsx'
 import { BossSubSection } from './BossSubSection.tsx'
 import { Link } from '../Common/Link.tsx'
@@ -38,7 +40,7 @@ export function SiegeOfBoralus() {
       <BossSubSection title="Hadal Darkfathom" difficulty="easy">
         <p>
           Check <Link href="https://not-even-close.com">Not Even Close</Link> to determine how to
-          live <BreakWater />.
+          live <BreakWater />. <ThunderFocusTea /> + <ExpelHarm /> is quite useful here.
         </p>
       </BossSubSection>
       <BossSubSection title="Viq'Goth" difficulty="EXTREME">

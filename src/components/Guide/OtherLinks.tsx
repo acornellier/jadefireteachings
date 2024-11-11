@@ -7,17 +7,24 @@ export function OtherLinks() {
     <Section title="Other Links">
       <UnorderedList>
         <li>
-          <Link href="https://discord.com/invite/peakofserenity">Peak of Serenity Discord</Link>:
-          the official Mistweaver discord
+          <Link href="https://discord.com/invite/peakofserenity" target="_blank">
+            Peak of Serenity Discord
+          </Link>
+          : the official Mistweaver discord
         </li>
         <li>
-          <Link href="https://www.wowhead.com/mistweaver-monk-guide">Wowhead by June</Link>: the
-          most extensive guide out there, explains every single ability, stat, piece of gear, etc.
+          <Link href="https://www.wowhead.com/mistweaver-monk-guide" target="_blank">
+            Wowhead by June
+          </Link>
+          : the most extensive guide out there, explains every single ability, stat, piece of gear,
+          etc.
         </li>
         <li>
-          <Link href="https://www.youtube.com/@Megasett/videos">Megasett{"'"}s YouTube</Link>: Meg
-          is our wonderful Mistweaver ambassador and makes great videos about anything mistweaver
-          related. She also streams!
+          <Link href="https://www.youtube.com/@Megasett/videos" target="_blank">
+            Megasett{"'"}s YouTube
+          </Link>
+          : Meg is our wonderful Mistweaver ambassador and makes great videos about anything
+          mistweaver related. She also streams!
         </li>
       </UnorderedList>
     </Section>

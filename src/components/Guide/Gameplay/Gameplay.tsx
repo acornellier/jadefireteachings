@@ -5,6 +5,8 @@ import { MasterOfHarmonyGameplay } from './MasterOfHarmonyGameplay.tsx'
 import { Section } from '../Section.tsx'
 import { DamageRotation } from './DamageRotation.tsx'
 import { AoeHealing } from './AoeHealing.tsx'
+import { Utility } from './Utility.tsx'
+import { Defensives } from './Defensives.tsx'
 
 export const gameplayLabel = 'Gameplay'
 
@@ -17,6 +19,8 @@ export function Gameplay() {
       <ConduitGameplay />
       <MasterOfHarmonyGameplay />
       <DamageRotation />
+      <Defensives />
+      <Utility />
     </Section>
   )
 }

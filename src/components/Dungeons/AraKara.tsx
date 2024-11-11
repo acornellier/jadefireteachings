@@ -49,7 +49,7 @@ export function AraKara() {
       </BossSubSection>
       <BossSubSection title="Anub'zekt" difficulty="easy">
         <p>
-          Pretty straightforward fight. Just heal the debuff. Use OmniCD to track your ally&apos;s
+          Pretty straightforward fight. Just heal the debuff. Use OmniCD to track your ally{"'"}s
           defensives and give them extra healing if they need it. If you want to play it super safe,
           just <SoothingMist /> them every time until you are comfortable.
         </p>
@@ -59,7 +59,7 @@ export function AraKara() {
           This fight varies wildly in difficulty based on how many poison dispels you have.{' '}
           <CultivatedPoisons /> ticks quite hard, and I recommend stepping out of melee before it
           goes out, and dispelling yourself immediately every time. If your tank can dispel, ask
-          them to get a dps that can&apos;t dispel themselves. Then, you need to spot heal whoever
+          them to get a dps that can{"'"}t dispel themselves. Then, you need to spot heal whoever
           still has the debuff, which is easier said than done. Use <Revival /> on a set where you
           have little healing.
         </p>
