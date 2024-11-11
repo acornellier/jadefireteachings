@@ -14,7 +14,6 @@ export function Profiles() {
 
   return (
     <SubSection title="Addon profiles">
-      <p>My old links broke so these are from my laptop and the scaling might be off.</p>
       <div className="flex flex-col gap-1">
         <Profile name="Cell" profile={cellProfile} onCopy={handleClick} />
         <p>Does not import Cell Unit Frames settings</p>
