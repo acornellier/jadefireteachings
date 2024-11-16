@@ -21,7 +21,7 @@ import { DungeonSection } from './DungeonSection.tsx'
 
 export function AraKara() {
   return (
-    <DungeonSection title="Ara-Kara" tree="conduit" Talents={[ImprovedDetox, DanceOfTheWind]}>
+    <DungeonSection title="Ara-Kara" tree="either" Talents={[ImprovedDetox, DanceOfTheWind]}>
       <BossSubSection title="Avanoxx" difficulty="hard">
         <p>
           Avanoxx is a 40 second loop with <AlertingShrill /> at 0:08, ads summoned, then{' '}
