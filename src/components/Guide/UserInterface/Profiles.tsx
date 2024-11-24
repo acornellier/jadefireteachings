@@ -16,7 +16,6 @@ export function Profiles() {
     <SubSection title="Addon profiles">
       <div className="flex flex-col gap-1">
         <Profile name="Cell" profile={cellProfile} onCopy={handleClick} />
-        <p>Does not import Cell Unit Frames settings</p>
         <p>
           Chi Harmony indicator: included in my profile, but if you want just the indicator, here is
           a{' '}
