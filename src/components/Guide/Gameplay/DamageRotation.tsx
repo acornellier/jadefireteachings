@@ -40,7 +40,7 @@ export function DamageRotation() {
         <li>
           <SpinningCraneKick />
         </li>
-        <UnorderedList indent={1}>
+        <UnorderedList indent>
           <li>
             At 4+ targets with <ConduitOfTheCelestials />
           </li>
