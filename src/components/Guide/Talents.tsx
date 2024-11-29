@@ -85,7 +85,7 @@ export function Talents() {
       <SubSection title="Conduit build">
         <p>All the choice nodes are good, depending on what you want.</p>
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALzsMmFz2MzM2w2sMbjHAz2y2MzyCDNzMDMDzAYbGzwsNmZYWmJAAAAAIALWmttZbmZGAAwG
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYZmlxsY2mZmxG2mlZb8AY2W2mZWWYoZGDMDzAYbGzwsNmZYWmJAAAAAIALWmttZbmZGAAwG
         </TalentCodeBlock>
         <img src="/images/conduit.jpg" alt="conduit_talents" width={200} />
         <Header Tag="h3">Master of Harmony build</Header>
@@ -95,14 +95,14 @@ export function Talents() {
           If you really like MoH and don’t care for the damage, you can run <PurifiedSpirit />.
         </p>
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALzsMmFz2MzM2w2sMbjHAz2y2MzyCDNzMDMDzAYbGzwsNmZYWmJAAAAAz202sNzysBACAAsB
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYZmlxsY2mZmxG2mlZb8AY2W2mZWWYoZGDMDzAYbGzwsNmZYWmJAAAAAz202sNzysBACAAsB
         </TalentCodeBlock>
         <img src="/images/moh.jpg" alt="moh_talents" width={200} />
       </SubSection>
       <SubSection title="Class tree">
         <UnorderedList>
           <li>
-            Take <ImprovedDetox /> everywhere except for Dawnbreaker, Grim Batol, and Stonevault
+            Drop <ImprovedDetox /> in Dawnbreaker, Grim Batol, and Stonevault
           </li>
           <li>
             Take <PressurePoints /> in Grim Batol for the Enforcers
