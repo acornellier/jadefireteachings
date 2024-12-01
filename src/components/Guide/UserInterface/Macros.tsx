@@ -15,6 +15,17 @@ export function Macros() {
     <SubSection title="Macros">
       <div className="flex flex-col gap-1">
         <p>
+          Avoid interrupting your important chanelled spells by using /stopmacro. This one is for
+          Chi Burst.
+        </p>
+        <Macro>
+          {
+            '/stopmacro [channeling:Celestial Conduit]\n/stopmacro [channeling:Crackling Jade Lightning]\n /cast Chi Burst'
+          }
+        </Macro>
+      </div>
+      <div className="flex flex-col gap-1">
+        <p>
           VERY important macro that allows you to recast <SpinningCraneKick /> before the previous
           one finishes, so that there is no downtime between casts.
         </p>
