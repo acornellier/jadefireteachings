@@ -19,9 +19,6 @@ export function Addons() {
           <Link href="https://www.curseforge.com/wow/addons/bind-pad">BindPad</Link>
         </li>
         <li>
-          <Link href="https://www.curseforge.com/wow/addons/raven">Raven</Link>
-        </li>
-        <li>
           <Link href="https://www.curseforge.com/wow/addons/cell-unit-frames">
             Cell Unit Frames
           </Link>
@@ -35,7 +32,7 @@ export function Addons() {
         <li>BigWigs/LittleWigs</li>
         <li>OmniCD</li>
         <li>Details</li>
-        <li>Dominos</li>
+        <li>Bartender</li>
         <li>MDT</li>
         <li>WarpDeplete</li>
         <li>BetterBags</li>
