@@ -26,8 +26,8 @@ export function Macros() {
       </div>
       <div className="flex flex-col gap-1">
         <p>
-          VERY important macro that allows you to recast <SpinningCraneKick /> before the previous
-          one finishes, so that there is no downtime between casts.
+          Important macro that allows you to recast <SpinningCraneKick /> before the previous one
+          finishes, so that there is no downtime between casts.
         </p>
         <Macro>/use !Spinning Crane Kick</Macro>
       </div>

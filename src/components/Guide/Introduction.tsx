@@ -13,8 +13,8 @@ export function Introduction() {
         <Link href="https://threechest.io/">Threechest</Link>.
       </p>
       <p>
-        All my content, websites, UI, and VODs are free and ad-free, other than embedding my own
-        stream. Enjoy!
+        All my content, websites, and VODs are free and ad-free, other than embedding my own stream.
+        Enjoy!
       </p>
     </div>
   )
