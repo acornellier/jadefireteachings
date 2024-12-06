@@ -137,4 +137,4 @@ export const Windwalking = makeSpell("Windwalking", 157411, 'monk_stance_whiteti
 export const YulonsGrace = makeSpell("Yu'lon's Grace", 414131, 'ability_monk_dragonkick')
 export const ZenPulse = makeSpell("Zen Pulse", 446326, 'ability_monk_forcesphere')
 
-export const ChiJi = InvokeChiJiTheRedCrane
+export const ChiJi = makeSpell('Chi-Ji', 325197, 'inv_pet_cranegod')

@@ -1,5 +1,11 @@
 import { UnorderedList } from '../Common/UnorderedList.tsx'
-import { AncientTeachings, ChiJi, CraneStyle, Shadowmeld } from '../Common/WowheadLink/Spells.tsx'
+import {
+  ChiJi,
+  CraneStyle,
+  GustOfMists,
+  JadeEmpowerment,
+  Shadowmeld,
+} from '../Common/WowheadLink/Spells.tsx'
 import {
   AraKaraSacbrood,
   BindingOfBinding,
@@ -29,7 +35,9 @@ export function Gear() {
           ahead.
         </p>
         <p>
-          I am currently going for Haste {'>'} Versatility {'>'} Mastery {'>'} Critical Strike.
+          I am currently going for Haste {'>'} Versatility {'>'} Critical Strike {'>='} Mastery. Do
+          not go above 30% in any stat, and prioritize Haste and Versatility. But do not panic about
+          having Crit and Mastery, they are fine stats, not significantly behind Versatility.
         </p>
         <UnorderedList>
           <li>
@@ -37,20 +45,18 @@ export function Gear() {
             healing. For S1, you probably want around 30%.
           </li>
           <li>
-            <b>Versatility</b>: the higher the key goes, the stronger this stat is. At very high
-            keys, living becomes more important than anything. It also gives you more damage, which
-            means more <AncientTeachings /> healing!
+            <b>Versatility</b>: the higher the key goes, the stronger this stat is due to the
+            survivability aspect. At very high keys, living becomes more important than anything.
           </li>
           <li>
-            <b>Mastery</b>: buffed a lot in TWW and quite strong now. If you like to play around{' '}
-            <ChiJi /> and your melee rotation with <CraneStyle /> like I do, your mastery will do a
-            lot of healing. You don’t want too much mastery though, like 120% or so feels good to
-            me.
+            <b>Critical Strike</b>: a good stat for pure throughput - damage and healing.
           </li>
           <li>
-            <b>Critical Strike</b>: technically the best stat for pure throughput - damage and
-            healing. If you don’t like the melee gameplay, this is probably the 2nd most important
-            stat after haste. Otherwise, I think versatility and mastery are better.
+            <b>Mastery</b>: <GustOfMists />. Buffed a lot in TWW and reasonably strong now. If you
+            like to play around <ChiJi /> and your melee rotation with <CraneStyle /> like I do,
+            your mastery will do a lot of healing. That said, <JadeEmpowerment /> does not benefit
+            from mastery and it is doing most of the heavy lifting in trash pulls these days, which
+            reduces the important of <ChiJi />.
           </li>
         </UnorderedList>
       </SubSection>
