@@ -17,6 +17,7 @@ import {
 } from '../../Common/WowheadLink/Spells.tsx'
 import { MasterOfHarmony } from '../../Common/SpecialTexts.tsx'
 import { Link } from '../../Common/Link.tsx'
+import { healingAoeTitle } from './AoeHealing.tsx'
 
 export function Ramping() {
   return (
@@ -36,7 +37,7 @@ export function Ramping() {
           <EnvelopingMist />: increases healing by 30% for its duration of 6 seconds. Hard-casting
           it is slow, but <ThunderFocusTea />, <ChiJi />, <StrengthOfTheBlackOx />, and{' '}
           <PeerIntoPeace /> can help you get it out quickly. Sometimes, it is still worth
-          hard-casting though if you have no other options.
+          hard-casting if you have no other options.
         </li>
         <li>
           <Coalescence />: increases healing by 20%. Applied by <ThunderFocusTea /> when running{' '}
@@ -54,8 +55,9 @@ export function Ramping() {
         will have a 134% healing increase!
       </p>
       <p>
-        After your buffs are applied, simply do whatever other healing you want, following the
-        section above on AoE Healing. Do not fret about perfectly executing your ramp.
+        After your buffs are applied, simply do whatever other healing you want, following the{' '}
+        <Link href={`#${healingAoeTitle}`}>section above on AoE Healing</Link>. Do not fret about
+        perfectly executing your ramp.
       </p>
       <p>
         <Link href="https://www.twitch.tv/ortemismw/clip/HardGiantWebGivePLZ-irG31gqw2AJ7SSVZ">

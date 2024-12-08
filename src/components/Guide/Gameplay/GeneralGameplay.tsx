@@ -11,7 +11,6 @@ import {
   RenewingMist,
   RisingMist,
   RisingSunKick,
-  SpinningCraneKick,
   TeachingsOfTheMonastery,
   ThunderFocusTea,
   TigerPalm,
@@ -48,16 +47,9 @@ export function GeneralGameplay() {
         For the above reasons, I like to use <ThunderFocusTea /> mainly on <RisingSunKick />.
         Alternatively, using <ThunderFocusTea /> on <EnvelopingMist /> is also a great choice.
       </p>
-      <p>The two most common mistakes I see from new Mistweavers are the following</p>
-      <OrderedList>
-        <li>Not being in melee enough. You must be in melee for the above reasons.</li>
-        <li>
-          Using <SpinningCraneKick /> too much. While it is a damage increase at 4 targets, it is
-          only a healing increase at around 8 targets!
-        </li>
-      </OrderedList>
       <p>
-        At the end of a dungeon, about 30% of your healing should come from <AncientTeachings /> and{' '}
+        The most common mistake I see from new Mistweavers are not being in melee enough. At the end
+        of a dungeon, about 30% of your healing should come from <AncientTeachings /> and{' '}
         <GustOfMists />.
       </p>
       <p>
