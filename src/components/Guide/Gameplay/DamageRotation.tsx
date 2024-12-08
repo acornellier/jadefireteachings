@@ -4,7 +4,6 @@ import {
   CelestialConduit,
   ChiBurst,
   CracklingJadeLightning,
-  DanceOfChiJi,
   JadeEmpowerment,
   JadefireStomp,
   RisingSunKick,
@@ -45,11 +44,11 @@ export function DamageRotation() {
             At 4+ targets with <ConduitOfTheCelestials />
           </li>
           <li>
-            At 13+ targets with <MasterOfHarmony />.
+            Never with <MasterOfHarmony />.
           </li>
-          <li>
-            On a <DanceOfChiJi /> Proc
-          </li>
+          {/*<li>*/}
+          {/*  On a <DanceOfChiJi /> Proc*/}
+          {/*</li>*/}
         </UnorderedList>
         <li>
           <RisingSunKick />

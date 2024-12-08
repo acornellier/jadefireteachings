@@ -47,8 +47,9 @@ export function AoeHealing() {
           buffed by a couple <ChiHarmony />. Use this on short bursts of damage, such as the
           Alerting Shrill of the first boss in Ara-Kara, or the Forge Weapon of the second boss in
           Grim Batol. I love following this up with a <JadefireStomp /> into <Vivify /> if running
-          Conduit’s <AugustDynasty />. This has a very short CD of 40 seconds with <VeilOfPride />,
-          so don’t hesitate to use it whenever the group needs healing. Avoid using below 7 stacks.
+          Conduit’s <AugustDynasty />. This has a very short flexible CD of 30-40 seconds with{' '}
+          <VeilOfPride />, so don’t hesitate to use it whenever the group needs healing. Avoid using
+          below 7 stacks.
         </li>
         <li>
           <ChiJi />: easily your strongest CD for sustained healing when you have 2-3 targets to

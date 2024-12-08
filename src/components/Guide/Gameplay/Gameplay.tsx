@@ -7,6 +7,7 @@ import { DamageRotation } from './DamageRotation.tsx'
 import { AoeHealing } from './AoeHealing.tsx'
 import { Utility } from './Utility.tsx'
 import { Defensives } from './Defensives.tsx'
+import { Ramping } from './Ramping.tsx'
 
 export const gameplayLabel = 'Gameplay'
 
@@ -16,6 +17,7 @@ export function Gameplay() {
       <GeneralGameplay />
       <SpotHealing />
       <AoeHealing />
+      <Ramping />
       <ConduitGameplay />
       <MasterOfHarmonyGameplay />
       <DamageRotation />
