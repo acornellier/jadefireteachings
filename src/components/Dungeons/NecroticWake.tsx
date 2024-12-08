@@ -26,7 +26,7 @@ export function NecroticWake() {
   return (
     <DungeonSection
       title="Necrotic Wake"
-      tree="moh"
+      tree="either"
       Talents={[ImprovedDetox, DanceOfTheWind, PeaceAndProsperity]}
     >
       <BossSubSection title="Blightbone" difficulty="easy">

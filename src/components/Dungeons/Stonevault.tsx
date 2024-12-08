@@ -17,11 +17,7 @@ import { Link } from '../Common/Link.tsx'
 export function Stonevault() {
   return (
     <DungeonSection title="Stonevault" tree="conduit" Talents={[Restoral]}>
-      <BossSubSection
-        title="E.D.N.A."
-        difficulty="hard"
-        mrt="MRTREMD1TszVUjpmuy49Evujg6eiFo2oK4nc0a9taTabsOBv6liIukurc0HQE3WOVilHWpjuOod2ljtVp654xFysdI8odOk5rNgC7MSQ9OthAyy3wk)k(JGOibf5Gv9VLsUKAYLsx3rIMZdR(Vqz6bn5SDFEEvsW7HXjsjrYbuIs62TubAuJiH0F3NY2Sd8lIi2VZjImgLGMxqC5I)VomrjsuaSAw7rMfZnrY70V7LsE)rXotwjrqGWbIkKKo129mrllMfuuYrZdcJwV4HyLqPcaooz3h01HYimVgEpDckaCKqlc1z5QK7Txf851HINHseuZdMMf0nHo5f2R6OareaTeZ2De9hynvlfOCsQQan2KPdjrbILqY0c04UGMkqGGE8DIIcKVDD38fikqkcDyWMWnVfvcK72gCQ(SlMB3z75BOjpjcMrj8mD4652rtqZFJQy46KRdbiw38IxNTcNnBDCGsK5UpZI5wEoW3RzlTGm3oO)g5qs7Xt00oOC73lUdQsfNkv(5"
-      >
+      <BossSubSection title="E.D.N.A." difficulty="hard">
         <p>
           This is a challenging HPS boss. Follow the fundamentals of healing, keeping up the melee
           rotation and rotating through all your CDs as efficiently as possible.
@@ -37,11 +33,7 @@ export function Stonevault() {
           this later.
         </p>
       </BossSubSection>
-      <BossSubSection
-        title="Master Machinists"
-        difficulty="medium"
-        mrt="MRTREMD19szZUjomuu49ZtrKYIztjY)coExWqyiadTaQOm7qdMbRHcvKaDrvEByPFiBGebbkqaPi8MKvNV75C9XeDzG(hLHLa1DDOvfKsDW(9AW62wR)m4D5SzCicvHHJmQPMmzvG0OZO)P(Rwt1ygvRhmOVE7bXyS4pDxgkFtfeQ1anfI0inEZgmhXSQOHX)Mi2MKd8BGB3Y719GX22eByuwu8(tLQzRM)ZGCHc5yGfyh0eHUi0giO7J3Teaf4oy4PGpYTPdXTGKArYfzSxDB)RIlGP4BmGbIQp(aogS4fp2b3IOq7krgnNVEX)LgIPQsEQNmcNkn6jhBiwoAU8oNdijn1t0(IZr961ATFoiemaXoo1flMpELkmxKioPSfDhYezU8I(vhXHmhsrGtUB5UyzOr1LYpopuuwOis6IorOlc15z)ANM3h7ZDHEU2eWXel4TKSD7s)twBIHGO415A16rZURLzMNlsK58i32AD(nTqATXiTTW3094w(IIixZwzVEU2qG784RSXPl0PQxHuvGCak9o01QkeaX3V5WcQQa4KZvumnDnn)k"
-      >
+      <BossSubSection title="Master Machinists" difficulty="medium">
         <p>
           Have a good amount of healing for each <ExhaustVents />, and top your group for the{' '}
           <BlazingCrescendo />. The third <ExhaustVents /> overlaps with a <BlazingCrescendo />. Use
