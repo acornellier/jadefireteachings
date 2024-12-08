@@ -20,7 +20,7 @@ import { OrderedList } from '../Common/OrderedList.tsx'
 
 export function SiegeOfBoralus() {
   return (
-    <DungeonSection title="Siege of Boralus" tree="either" Talents={[ImprovedDetox]}>
+    <DungeonSection title="Siege of Boralus" tree="moh" Talents={[ImprovedDetox]}>
       <BossSubSection title="Chopper Redhook" difficulty="easy">
         <p>
           If a Powdershot spawns away from your group, use <Paralysis /> and keep it CC{"'"}d for

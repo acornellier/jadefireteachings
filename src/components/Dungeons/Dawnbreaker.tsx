@@ -26,10 +26,15 @@ import {
 } from '../Common/WowheadLink/Spells.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
 import { OrderedList } from '../Common/OrderedList.tsx'
+import { ConduitOfTheCelestials } from '../Common/SpecialTexts.tsx'
 
 export function Dawnbreaker() {
   return (
     <DungeonSection title="Dawnbreaker" tree="conduit">
+      <p>
+        There is a lot of healing to be done in this dungeon, so I highly recommend running{' '}
+        <ConduitOfTheCelestials />. The MRT notes will assume you have <CelestialConduit />.
+      </p>
       <BossSubSection title="Speaker Shadowcrown" difficulty="easy">
         <p>
           Very easy boss, the healing check is almost non-existent. <ObsidianBeam /> does hit the
@@ -37,7 +42,11 @@ export function Dawnbreaker() {
           <LifeCocoon /> if needed.
         </p>
       </BossSubSection>
-      <BossSubSection title="Anub'ikkaj" difficulty="hard">
+      <BossSubSection
+        title="Anub'ikkaj"
+        difficulty="hard"
+        mrt="MRTREMD1TsDZUPkuqCa893NcsyXDLMZNWb2byrRrQXpAST7m9ESEsOqJGTPPPVnUCEiVQyvSTiNfWgD18J5)mmmWcb)Xc3cDvOh3pG1kIHyopWVdGpYErgh7IjeBb9ta4avWby60jUDulwSotAen)j1JWUhIGk2(ZWv5YNvz5aGaoMaeGUzd2LHBZb8U)UVyBkEW)a2F8SGJWuhhMd(C4jlLQ41j)nRwuIlH22EpArHQenW(MBBmuUOnrhuF)HwNIymNG(wehMUkxT4DvYtg(RKV970KsHm16RmEF1QuwmSRxd1UixcRnsN21EQ9KABx9AuKlMRxN607(WsOwcMZNgbPpMMMyCQ0hEj0Oz3oBTo4URwv7goBqJLWhrRjHfrD6woHPy05OJLVQEDESgKhhQfLPssp8G(N6tch7yFozWsvR(QAflDFOOkvVgf1FAJiY1ZlW66gPdlFx4YI(Jg1RQDw)5jzlLRY0FNT0rWA2z98UPPUkuECwZo79wJoIYyuer8T4nn5FRv51sU9ZeYbYIYu9eLh9WLjLXYSC18ydDXlnCph30m008))"
+      >
         <p>
           <DarkOrb /> is a single heavy hit, just top your group for it.
         </p>
@@ -72,7 +81,11 @@ export function Dawnbreaker() {
         </UnorderedList>
         <img src="/images/s1/anubikkaj.png" alt="ui_screenshot" width={1200} />
       </BossSubSection>
-      <BossSubSection title="Rasha'nan" difficulty="EXTREME">
+      <BossSubSection
+        title="Rasha'nan"
+        difficulty="EXTREME"
+        mrt="MRTREMD1TA5ZUPkquC499POjSORKm)vHzNLkLkGOG6THDMCPPKqBVrq7IM7BJlppKxvUrhSfhwmSbwD(Y578BodmOpcUPpUhAK7q(9oSEHmelC2Zba8v5FYkkeymNIr)faoqT4amFEIioBB(2vfWHhIf1E)RO1vzVLxwbac4ycqa6UDmbMzIb8(pRlZU6h83qolfnrlirc2at7UGC64r4ZijKbw0MiFi)Lx2uMPej)qxIQrESmTImeVW9eskHJTh0ePZR59gNRKivWWM8JeRRs7erob6GirqT6iXf(N1k12MzJBsm51S8InVFxPsOmbJBsQHESqTc1py5qTmlLJpxFwo11HRfKsdtvXNWaUMulvGSn73j1gNUuhjiKaB)FZQibfq8IL3fqqxyw3pwxD79RZ(8NHs(rO1fQD3sFmrhTPCMvXbLjr)sBtZZ7dU(0CQtOLMCR0kbvU13Z7eugJIiwx42pE)3BYR6qFEk1wxM2r6fgOj5kV6tHC9iEAsUnV58QYno9jn1PsqvTuyXqFnbvEVGc9MYhD9yuwrwzv(QIB7AGs60QIavezEKM6yP)xqrhh8ysSwo4iDTwZ(0WW1W4F)"
+      >
         <p>
           This is a very healing intensive fight. Thankfully ,there aren{"'"}t a lot of mechanics
           for you to do, since you are not responsible for carrying <ArathiBombs /> and you will
