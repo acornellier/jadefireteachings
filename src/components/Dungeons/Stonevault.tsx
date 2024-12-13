@@ -19,7 +19,7 @@ export function Stonevault() {
     <DungeonSection title="Stonevault" tree="conduit" Talents={[Restoral]}>
       <BossSubSection
         title="E.D.N.A."
-        difficulty="hard"
+        difficulty="EXTREME"
         mrt="MRTREMD1Ls5tRjpqqC479trGCONu2zMDJz3BgTrBrLQgn67TcnIbcAX)1dL8TXJ7hYM9vWABITbZcb2l553WZmZY1om9Doqn2d(nfET416tZh5441rR)y7BrjjkcfGSrQvRLX1EkwRfAYvO1bbJ1Md6k4NUOzzF0XJKcDQZ0G56))3JNoqUCqCq3Z5W5edDZYz9Qx3hVZeeGYReeyccvaVUmhvr3b9(LQ)pGckekakn3l4lOsjxcPwJxgfNSF19BlbxsbqD235Yz8WMHpEMlacKrPw(R3SZYBt07LGltrU)SEZ4o9z()UDjWuava0zdLZRq)QOs1O2j9GkPwqrfohmXLF7kaviwKc8AeCz)IawQ1OOdXhEjPeubZUrEQH9N5ujfWu8CCnQnmOBL4Enl4FHAbeB4Mn12oEXI9BJkb1IBydNf2QDfOw0gwMdyDMmTsByNEMX2232(Z"
       >
         <p>
@@ -48,7 +48,7 @@ export function Stonevault() {
           big healing and defensives here.
         </p>
       </BossSubSection>
-      <BossSubSection title="Skarmorak" difficulty="EXTREME">
+      <BossSubSection title="Skarmorak" difficulty="hard">
         <p>
           The difficulty of this boss will vary based on how good your DPS are at killing the
           shards, and breaking the shield. If two spikes go off at once, or if the shield lasts more
