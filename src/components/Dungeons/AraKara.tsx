@@ -22,7 +22,11 @@ import { DungeonSection } from './DungeonSection.tsx'
 export function AraKara() {
   return (
     <DungeonSection title="Ara-Kara" tree="either" Talents={[ImprovedDetox, DanceOfTheWind]}>
-      <BossSubSection title="Avanoxx" difficulty="hard">
+      <BossSubSection
+        title="Avanoxx"
+        difficulty="hard"
+        mrt="MRTREMD1LsztVjimCC477tbjCyNK0(VVaLBkczAuNdqN6TLfmscrw0P7WcFB8y)qoBmz6wXecLtC6j)YZtBPsos(ah3bfg1L1lG2zmzzcFzisk)E)hzff(eGHfUvwbBY7mmxkzsmiKY00eP6dea)YpsKeljNoH8bHJqhAmB1VqXygbJQSIZoMF8TIgqf7tqo0)sL6o75qU71PkeubUYkztwEXHTpUVbCr(mKdrBTEXZM3Efu3ypdvSWR)vfaGRhPYQF(61h2N1aQeFmZb0vqWCHHkaJ(pxvWMS41BdgGoV2OYDFA1Bx2xnIBTQveoH2E1suQLRlHObZnsc3lzjrlmizyvYq6QDA8iJulOultJl0DvxJ4wNDv7DqA0nC5EuX5Kv(Ez52gaTUZxQKnU)lgLmWNQ9qJIB84zgX9EhXEItnIlO8GE0eWYHT)(aOglwVyJIN2(IDzP22r22)8"
+      >
         <p>
           Avanoxx is a 40 second loop with <AlertingShrill /> at 0:08, ads summoned, then{' '}
           <GossamerOnslaught /> at 0:30. The loop then repeats with <AlertingShrill /> being cast

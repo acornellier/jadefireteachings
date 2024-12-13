@@ -38,7 +38,7 @@ export function CityOfThreads() {
     <DungeonSection title="City of Threads" tree="conduit" Talents={[ImprovedDetox]}>
       <p>
         There is a lot of healing to be done in this dungeon, so I highly recommend running{' '}
-        <ConduitOfTheCelestials />.
+        <ConduitOfTheCelestials />. The MRT notes will assume you have <CelestialConduit />.
       </p>
       <BossSubSection title="Orator Krix'vizk" difficulty="easy">
         <p>
@@ -53,7 +53,11 @@ export function CityOfThreads() {
           need it.
         </p>
       </BossSubSection>
-      <BossSubSection title="Fangs of the Queen" difficulty="hard">
+      <BossSubSection
+        title="Fangs of the Queen"
+        difficulty="hard"
+        mrt="MRTREMD1Ls9tlnmmyya87(POqp4PfEZBswBYTMA7MID626u3rb7ybkBY(NhK(TzhZhsRmykKvOSMt50pE5jpVHB7d2B6t7bjPrcDmVxg7ThtJgfzTFV9ZIYsfLkqGv5LUEZop9MIVSwHLIsRnpFQ93dkHWtxSGLAzhpckksOUUjtM3jxQsaeHJRwgeE2LHcQmOYlEPP3dMwGYuiNGUOdhm7mkNZamSgD9Qp2B21c16rnGWDvbD6)JagfQ8MuCWC49YwOYuSasOJA4u58oOckuCHyD04H6)IvPKlPvEtxwyk3V62TEdmlAtqGko7cXRC2KS)gzedcR7c3zwSy)2IwOsvqWfAyjzV(shuBAwZ0jxF)QHLHb55yNwgAO3kFwh1HEBDxaiGBx4P04M7cTWTHhS7H5IomT17diH5OgnB8WR)b70Vm((P(()m"
+      >
         <p>
           This is a complicated boss with many abilities. It alternates between two phases every 45
           seconds. Both phases have a few shared mechanics.
@@ -98,7 +102,11 @@ export function CityOfThreads() {
           lacking a defensive.
         </p>
       </BossSubSection>
-      <BossSubSection title="The Coaglamation" difficulty="medium">
+      <BossSubSection
+        title="The Coaglamation"
+        difficulty="medium"
+        mrt="MRTREMD1LkDZQjmquyy499QyGSORICMFtMSRXAQgPLMed9NDL6ioqiPym2fLC34YZfzvkOcsOsCwnRE4Lpocub4nkQlmk6oz4qH7J83sgpE0di(t9xMIIaots1ETKHlTUXweLiLPrC2SmC)JPb5FFqaPiF7wiqcd4NJofGdOugZZN3sU3UyrtTbrVEQgN)8RDM6)IYca5a15Ojq6XuPsgSl1OQvRjHRmFFfUVldpgRwl00ws2sJTOP826(7ozcKFAVCk0ssnBSB(O4cu7yANMefFIQYxO3nTvFwvv2F0yz4tx1e0vSPz59p2oVdErDavi4aZFpA58g76lw1XjYX53d"
+      >
         <p>
           Hooray, HPS check boss – this will test your healing skills! This boss has 30 second
           phases which always start by summon healing absorb orbs, and then does one of the two.
@@ -122,7 +130,11 @@ export function CityOfThreads() {
           keys. They hurt a lot and must be avoided unless absolutely necessary.
         </p>
       </BossSubSection>
-      <BossSubSection title="Izo, the Grand Splicer" difficulty="EXTREME">
+      <BossSubSection
+        title="Izo, the Grand Splicer"
+        difficulty="EXTREME"
+        mrt="MRTREMD1Ls5tRnkqyy877NcHqzpLY8x1XBjMnBs3ygBu3sZnP7uIGvdQPlLIFB6X5dztPKuloIbhp5PFVp879DEistG8hMWXGFnFcDQlzSh(E(MjRHs5RL7fPPoyefYSQnC3Lm(MePKkHiMugggi)4dXaSp)rcKqj(T3GoqW1Gwq3ggE7zOqOPnHDeA(d55zgx9qACzPBEAEXv7tJFruSo(jX5z15GWO2dYhr(J3xdcHSSX1gZsE8XdLIli(yhivb1iZOB(YjmgHbRnAIZjyNij9q2plBcMxujEkPSsEepfIoncLbNaMz3WqumeuBSr8CYZXP95cGsP7hUIz2k1ncAV2qTJ5((lx3mQiWrhppVOYyAH4)xax15Lhy3WYecgGS)4ij7FhsQ6tbi1kicGd0sbi1BlWILUACMbvEMX3eUMpubauhuMzastbOuSwBw52QL4BViovzih0ZbBp(DAL7okIU9oY2H3UbCa0RPTGg5fq7QDBACw5orrz)7pLE2MqcAvl8npFUJyyI2007VAjA1hEC)TwCTkj64LhEvGglWoGozb2s3fiw9cKXM8BT87NChnA(OrV)d"
+      >
         <p>
           Buckle up, this might be the hardest boss to heal of the season. You must heal through{' '}
           <Splice />, a heavy dot on the whole group, and then top for them either <TremorSlam /> or{' '}

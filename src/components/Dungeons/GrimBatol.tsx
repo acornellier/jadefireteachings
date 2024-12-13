@@ -32,7 +32,11 @@ export function GrimBatol() {
           <RockSpike />. Watch the tank during <Skullsplitter />.
         </p>
       </BossSubSection>
-      <BossSubSection title="Forgemaster Throngus" difficulty="medium">
+      <BossSubSection
+        title="Forgemaster Throngus"
+        difficulty="medium"
+        mrt="MRTREMD1Lo5Yojmquy49(umjDHRO5CMlf6SRukiMuRbqbChXuKjPEj0cUWWBdlppK2cgaPqeHzv30VV))ZCgj5a0voyfiOPNQUVSsOm4(iS)qI(k9J4KenY5vRjwWAygpEwAmrkc5Ue1RxxQ4GGcw9bNacjXYLGw6AxRe1WhhaBOk4k0T6cM)etLBnNauuRaBvjOdAf5SFulOjQPwrt)tSzHJEX88USJMMf)QjnJYnOqEUPClCTcTfewiCfSLRpy5zKQF7TIrfhYNrnFFAgR(04pp)c9GN7GTtjxxPl(7c1DsSjz2BxNYAzgN9FA0AAhTrHbT933mBJTtOr88laBzzU(G8I4ES9jppVlKBEEHY3aWD5)rJodzDd6rK4VWW1c8qXRXnpDrXdl4EGfp)i5UlEcewW6ep3mFuYjrfrBNYPnQt05)4e0cWwAz10Y67p"
+      >
         <p>
           Rotate CDs on the <ForgeWeapon />. I like to do the <SheilunsGift /> + <JadefireStomp /> +{' '}
           <AugustDynasty /> combo on every 2nd set. Note that every 3rd <ForgeWeapon /> overlaps

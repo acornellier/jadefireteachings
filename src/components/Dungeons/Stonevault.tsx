@@ -17,7 +17,11 @@ import { Link } from '../Common/Link.tsx'
 export function Stonevault() {
   return (
     <DungeonSection title="Stonevault" tree="conduit" Talents={[Restoral]}>
-      <BossSubSection title="E.D.N.A." difficulty="hard">
+      <BossSubSection
+        title="E.D.N.A."
+        difficulty="hard"
+        mrt="MRTREMD1Ls5tRjpqqC479trGCONu2zMDJz3BgTrBrLQgn67TcnIbcAX)1dL8TXJ7hYM9vWABITbZcb2l553WZmZY1om9Doqn2d(nfET416tZh5441rR)y7BrjjkcfGSrQvRLX1EkwRfAYvO1bbJ1Md6k4NUOzzF0XJKcDQZ0G56))3JNoqUCqCq3Z5W5edDZYz9Qx3hVZeeGYReeyccvaVUmhvr3b9(LQ)pGckekakn3l4lOsjxcPwJxgfNSF19BlbxsbqD235Yz8WMHpEMlacKrPw(R3SZYBt07LGltrU)SEZ4o9z()UDjWuava0zdLZRq)QOs1O2j9GkPwqrfohmXLF7kaviwKc8AeCz)IawQ1OOdXhEjPeubZUrEQH9N5ujfWu8CCnQnmOBL4Enl4FHAbeB4Mn12oEXI9BJkb1IBydNf2QDfOw0gwMdyDMmTsByNEMX2232(Z"
+      >
         <p>
           This is a challenging HPS boss. Follow the fundamentals of healing, keeping up the melee
           rotation and rotating through all your CDs as efficiently as possible.
@@ -33,7 +37,11 @@ export function Stonevault() {
           this later.
         </p>
       </BossSubSection>
-      <BossSubSection title="Master Machinists" difficulty="medium">
+      <BossSubSection
+        title="Master Machinists"
+        difficulty="medium"
+        mrt="MRTREMD19oztVPkquy499xbjSORKmN5dDGDWO0wul3Qgn0DMw86KWvVrq7Ig)34YZpYoetSnfAcPK4SHz17dVpN5WXUe8MUqhYGqFrGI3zmlzYDY4ri(E()tZY8akTNKD0QVE1Q95PwJx(x9likqMuG4SztXYdvkLMpX7ks)NoVarckaksr2PtmpQ0PhcMRNd705dub8OHrZVaM56YDHJwtxNQZ2V528sOa1TcuZfdoOef4XioKQfIcHx)cXjcs4Sf)e4guhdiHdVsDchDFB1KGvNMiQGRVMmGvpfj)Squb427OLATUtKUbTH5b8AS0Gb9hEjuoNrOstOB386EDrdsL6X76iQ6(5(QpDeiOeJJc3URWkyx6BnkxkVg37)NK()Efq8yCNQEnow88x)zza5O1K0d6dlZAqQ1Tnv(O2)rrlEuBs11HvjvWpiQfJlWJq)Ub4eEsYdlA14I4XRoSudtu)(H1pT9PyJVgBF22H22F8"
+      >
         <p>
           Have a good amount of healing for each <ExhaustVents />, and top your group for the{' '}
           <BlazingCrescendo />. The third <ExhaustVents /> overlaps with a <BlazingCrescendo />. Use
