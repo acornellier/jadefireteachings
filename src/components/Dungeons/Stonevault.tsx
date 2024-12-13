@@ -33,8 +33,8 @@ export function Stonevault() {
           dispel the tank.
         </p>
         <p>
-          There are several ways to break pillars, and I am not sure which is best yet. Will update
-          this later.
+          I recommend only breaking 1 pillar each time, then letting 4 explode at the end. This way,
+          you only ever use defensives on the big break.
         </p>
       </BossSubSection>
       <BossSubSection
