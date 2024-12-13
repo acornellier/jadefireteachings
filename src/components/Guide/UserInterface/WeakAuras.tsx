@@ -8,6 +8,21 @@ export function WeakAuras() {
       <UnorderedList>
         <li>
           <Link href="https://wago.io/LesINvLBL">Made by me (custom bars, icons, teachings)</Link>
+          <UnorderedList indent>
+            <li>
+              <Link href="https://wago.io/Qc2ZiKeiN">Teachings of the Monastery</Link>
+            </li>
+            <li>
+              <Link href="https://wago.io/GTcnwgYeC">
+                Icons (Sheilun{"'"}s, Touch of Death, Vivify)
+              </Link>
+            </li>
+            <li>
+              <Link href="https://wago.io/2nCpTtHYb">
+                Bars (Renewing Mist, Jadefire Teachings, Chi-Ji stacks)
+              </Link>
+            </li>
+          </UnorderedList>
         </li>
         <li>
           <Link href="https://wago.io/twwdungeons">Dungeons pack (I disable most of it)</Link>
