@@ -49,7 +49,7 @@ export function GeneralGameplay() {
       </p>
       <p>
         The most common mistake I see from new Mistweavers are not being in melee enough. At the end
-        of a dungeon, about 30% of your healing should come from <AncientTeachings /> and{' '}
+        of a dungeon, about 50% of your healing should come from <AncientTeachings /> and{' '}
         <GustOfMists />.
       </p>
       <p>
