@@ -34,7 +34,7 @@ export function WeakAuras() {
           <Link href="https://wago.io/bRl2gJIgz">Character sheet</Link>
         </li>
         <li>
-          <Link href="https://wago.io/BqbpSOt">MoH vitality</Link>
+          <Link href="https://wago.io/H-BqbpSOt">MoH vitality</Link>
         </li>
         <li>Tons more, ask me in chat if you’re curious what one is</li>
       </UnorderedList>
