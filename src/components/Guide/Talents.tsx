@@ -8,7 +8,6 @@ import {
   DeepClarity,
   EnergizingBrew,
   GraceOfTheCrane,
-  HarmonicGambit,
   HealingElixir,
   HeartOfTheJadeSerpent,
   ImprovedDetox,
@@ -20,7 +19,6 @@ import {
   PeerIntoPeace,
   PoolOfMists,
   PressurePoints,
-  PurifiedSpirit,
   RenewingMist,
   Revival,
   RisingSunKick,
@@ -89,11 +87,6 @@ export function Talents() {
         </TalentCodeBlock>
         <img src="/images/conduit.jpg" alt="conduit_talents" width={200} />
         <Header Tag="h3">Master of Harmony build</Header>
-        <p>
-          <HarmonicGambit /> is bugged and drains way too quickly, which can make it hard to spread
-          the buff to your allies. But it is also a massive damage increase (~35% overall damage).
-          If you really like MoH and don’t care for the damage, you can run <PurifiedSpirit />.
-        </p>
         <TalentCodeBlock>
           C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYZmlxsY2mZmxG2mlZb8AY2W2mZWWYoZGDMDzAYbGzwsNmZYWmJAAAAAz202sNzysBACAAsB
         </TalentCodeBlock>

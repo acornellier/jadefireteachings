@@ -36,11 +36,10 @@ export function AoeHealing() {
       </p>
       <UnorderedList>
         <li>
-          <JadeEmpowerment />: also known as Sithweaving, allows you to use{' '}
-          <CracklingJadeLightning /> to heal up your group with <AncientTeachings />. This healing
-          will scale linearly with the number of mobs up to 5, so it will be quite weak on 1-2
-          targets, but increasingly strong up to 5 targets. At 5 targets, this provides a huge
-          amount of healing.
+          <JadeEmpowerment />: allows you to use <CracklingJadeLightning /> to heal up your group
+          with <AncientTeachings />. This healing will scale linearly with the number of mobs up to
+          5, so it will be quite weak on 1-2 targets, but increasingly strong up to 5 targets. At 5
+          targets, this provides a huge amount of healing.
         </li>
         <li>
           <SheilunsGift />: great for a single burst of healing on the entire group, especially when
@@ -58,8 +57,8 @@ export function AoeHealing() {
           Stichflesh.
         </li>
         <li className="ml-4">
-          TODO: This ability does a lot of things and isn’t straightforward to use. I will expand on
-          it further in the future. Meanwhile, Megasett has a wonderful{' '}
+          This ability does a lot of things and isn’t straightforward to use. I will expand on it
+          further in the future. Meanwhile, Megasett has a wonderful{' '}
           <Link href="https://youtu.be/RTBiq9w1bCg?si=f0IZ9QvwCk_Su7FH">video guide</Link> on
           celestials.
         </li>

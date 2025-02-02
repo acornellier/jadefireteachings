@@ -13,43 +13,61 @@ import {
   ThunderFocusTea,
   TigerPalm,
 } from '../../Common/WowheadLink/Spells.tsx'
-import { UnorderedList } from '../../Common/UnorderedList.tsx'
 import { SubSection } from '../SubSection.tsx'
-import { ConduitOfTheCelestials, MasterOfHarmony } from '../../Common/SpecialTexts.tsx'
+import { Button } from '../../Common/Button.tsx'
+import { useLocalStorage } from '../../../util/hooks/useLocalStorage.ts'
 
 export function DamageRotation() {
+  const [heroTalents, setHeroTalents] = useLocalStorage<'conduit' | 'moh'>('conduit', 'conduit')
+  const isConduit = heroTalents === 'conduit'
+
   return (
     <SubSection title="Damage rotation">
       <p>
-        This is purely for optimal <b>damage</b> and not for optimal healing!
+        This is purely for optimal <b>damage</b> and not for optimal healing! Be sure to select your
+        hero talents below.
       </p>
+      <div className="flex gap-2">
+        <Button
+          twoDimensional={isConduit}
+          color={isConduit ? 'yellow' : 'teal'}
+          onClick={() => setHeroTalents('conduit')}
+        >
+          Conduit of the Celestials
+        </Button>
+        <Button
+          twoDimensional={!isConduit}
+          color={!isConduit ? 'yellow' : 'teal'}
+          onClick={() => setHeroTalents('moh')}
+        >
+          Master of Harmony
+        </Button>
+      </div>
       <OrderedList>
         <li>
-          <ChiBurst /> at 2+ targets or if running <MasterOfHarmony />
-        </li>
-        <li>
-          <ThunderFocusTea /> to get it on cooldown
+          <ThunderFocusTea />{' '}
+          {isConduit ? 'on cooldown' : 'at max charges, or when vitality is full'}
         </li>
         <li>
           <RisingSunKick /> with <ThunderFocusTea /> if running <SecretInfusion />
+        </li>
+        {isConduit && (
+          <li>
+            <CelestialConduit />
+          </li>
+        )}
+        <li>
+          <ChiBurst /> {isConduit ? 'at 2+ targets' : ''}
         </li>
         <li>
           <CracklingJadeLightning /> with <JadeEmpowerment />
         </li>
         <li>
-          <SpinningCraneKick />
+          <SpinningCraneKick />{' '}
+          {isConduit
+            ? 'at 4+ targets'
+            : '[11.1] at 6+ targets, unless you are currently draining vitality'}
         </li>
-        <UnorderedList indent>
-          <li>
-            At 4+ targets with <ConduitOfTheCelestials />
-          </li>
-          <li>
-            Never with <MasterOfHarmony />.
-          </li>
-          {/*<li>*/}
-          {/*  On a <DanceOfChiJi /> Proc*/}
-          {/*</li>*/}
-        </UnorderedList>
         <li>
           <RisingSunKick />
         </li>
@@ -63,10 +81,6 @@ export function DamageRotation() {
       <p>
         <JadefireStomp /> is a damage increase over <SpinningCraneKick /> at 4-10 targets, but its
         targeting is pretty buggy.
-      </p>
-      <p>
-        <CelestialConduit /> is technically a slight damage increase of highest priority at all
-        group sizes, but you should almost always save it for healing.
       </p>
     </SubSection>
   )
