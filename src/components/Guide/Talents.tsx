@@ -7,6 +7,7 @@ import {
   DanceOfTheWind,
   DeepClarity,
   EnergizingBrew,
+  EnvelopingMist,
   GraceOfTheCrane,
   HealingElixir,
   HeartOfTheJadeSerpent,
@@ -24,7 +25,6 @@ import {
   RisingSunKick,
   SecretInfusion,
   ShaohaosLessons,
-  SoothingMist,
   StrengthOfTheBlackOx,
   ThunderFocusTea,
   UpliftedSpirits,
@@ -152,7 +152,7 @@ export function Talents() {
             <PoolOfMists />: if you like the raid gameplay of <RisingSunKick /> + <RenewingMist />
           </li>
           <li>
-            <PeerIntoPeace />: if you like <SoothingMist /> gameplay
+            <PeerIntoPeace />: to easily ramp <EnvelopingMist /> on the whole group
           </li>
         </UnorderedList>
         <p>
