@@ -66,7 +66,7 @@ export function DamageRotation() {
           <SpinningCraneKick />{' '}
           {isConduit
             ? 'at 4+ targets'
-            : '[11.1] at 6+ targets, unless you are currently draining vitality'}
+            : 'at 6+ targets, unless you are currently draining vitality'}
         </li>
         <li>
           <RisingSunKick />

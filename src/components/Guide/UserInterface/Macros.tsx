@@ -5,6 +5,7 @@ import {
   ThunderFocusTea,
 } from '../../Common/WowheadLink/Spells.tsx'
 import { SubSection } from '../SubSection.tsx'
+import { MasterOfHarmony } from '../../Common/SpecialTexts.tsx'
 
 const Macro = ({ children }: Omit<CodeBlockProps, 'type'>) => (
   <CodeBlock type="macro">{children}</CodeBlock>
@@ -57,8 +58,8 @@ export function Macros() {
         <p>
           Macro <ThunderFocusTea /> and <RisingSunKick /> together for the lazy. I do this for the
           first few weeks of each season since it’s relaxing. I personally believe this is a
-          completely fine way to play and save a keybind. Don’t do this if you’re running MoH or
-          with Yu’lon in raid!
+          completely fine way to play and save a keybind. Don’t do this if you’re running{' '}
+          <MasterOfHarmony /> or with Yu’lon in raid!
         </p>
         <Macro>{'/use Thunder Focus Tea\n/use Rising Sun kick'}</Macro>
       </div>

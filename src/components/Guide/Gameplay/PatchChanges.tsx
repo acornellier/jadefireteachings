@@ -22,10 +22,6 @@ export function PatchChanges() {
   return (
     <Section title="11.1 Changes">
       <p>
-        NOTE: 11.1 is still in PTR and further changes may occur. Jadefire Teachings has not yet
-        been fully updated, but here is a summary of the changes.
-      </p>
-      <p>
         Overall, Mistweaver has received significant buffs, and is currently shaping up to very
         strong in 11.1!
       </p>

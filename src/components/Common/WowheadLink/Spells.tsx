@@ -20,6 +20,7 @@ export const CelestialConduit = makeSpell("Celestial Conduit", 443028, 'inv_abil
 export const ChiBurst = makeSpell("Chi Burst", 123986, 'spell_arcane_arcanetorrent')
 export const ChiCocoon = makeSpell("Chi Cocoon", 406139, 'ability_monk_chiexplosion')
 export const ChiHarmony = makeSpell("Chi Harmony", 423439, 'ability_monk_counteractmagic')
+export const ChiWave = makeSpell("Chi Wave", 115098, 'ability_monk_chiwave')
 export const CloakOfShadows = makeSpell("Cloak of Shadows", 31224, 'spell_shadow_nethercloak')
 export const Coalescence = makeSpell("Coalescence", 450529, 'ability_monk_effuse')
 export const Consumption = makeSpell("Consumption", 322450, 'ability_hunter_pet_spider')

@@ -1,12 +1,3 @@
-import { AraKara } from './AraKara.tsx'
-import { CityOfThreads } from './CityOfThreads.tsx'
-import { Dawnbreaker } from './Dawnbreaker.tsx'
-import { GrimBatol } from './GrimBatol.tsx'
-import { MistsOfTirnaScithe } from './MistsOfTirnaScithe.tsx'
-import { NecroticWake } from './NecroticWake.tsx'
-import { SiegeOfBoralus } from './SiegeOfBoralus.tsx'
-import { Stonevault } from './Stonevault.tsx'
-
 export function Dungeons() {
   return (
     <div>
@@ -20,14 +11,11 @@ export function Dungeons() {
           {'>'} Global {'>'} Import
         </p>
       </div>
-      <AraKara />
-      <CityOfThreads />
-      <Dawnbreaker />
-      <GrimBatol />
-      <MistsOfTirnaScithe />
-      <NecroticWake />
-      <SiegeOfBoralus />
-      <Stonevault />
+      <div className="w-full flex justify-center">
+        <div className="text-3xl font-serif font-bold text-teal-500">
+          Season 2 guides COMING SOON
+        </div>
+      </div>
     </div>
   )
 }

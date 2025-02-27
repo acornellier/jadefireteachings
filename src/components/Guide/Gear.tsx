@@ -7,16 +7,11 @@ import {
   Shadowmeld,
 } from '../Common/WowheadLink/Spells.tsx'
 import {
-  AraKaraSacbrood,
   BindingOfBinding,
   DarkmoonSigilAscension,
   DuskthreadLining,
   ElusiveBlasphemite,
-  EmpoweringCrystal,
   FracturedGemstoneLocket,
-  GaleOfShadows,
-  SpymastersWeb,
-  UnboundChangeling,
   WrithingArmorBanding,
 } from '../Common/WowheadLink/Items.tsx'
 import { Link } from '../Common/Link.tsx'
@@ -83,31 +78,8 @@ export function Gear() {
         </p>
       </SubSection>
       <SubSection title="Trinkets">
-        <p>
-          Whichever of the stat trinkets listed below you have at the highest ilvl, with Gale of
-          Shadows and Changeling at slightly higher priority. Trinkets are pretty boring this tier,
-          just a bunch of stat sticks of similar power.
-        </p>
         <UnorderedList>
-          <li>
-            <GaleOfShadows />: should in theory be our best trinket. Keep a Renewing Mist out to
-            avoid it falling off between pulls
-          </li>
-          <li>
-            <UnboundChangeling />: great stat stick. Make it give you haste, unless you have way too
-            much of it already.
-          </li>
-          <li>
-            <SpymastersWeb />: great stat stick. Never use the active. It’s the same amount of stats
-            as Gale on average across a dungeon, useless at the start, and slightly stronger once
-            stacked. You lose your stacks when you die though.
-          </li>
-          <li>
-            <EmpoweringCrystal />: great stat stick
-          </li>
-          <li>
-            <AraKaraSacbrood />: great stat stick
-          </li>
+          <li>COMING SOON</li>
         </UnorderedList>
       </SubSection>
       <SubSection title="Embellishments">

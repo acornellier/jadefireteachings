@@ -1,15 +1,19 @@
 import {
   AncientTeachings,
   AugustDynasty,
+  BlackoutKick,
   CelestialConduit,
   ChiHarmony,
   ChiJi,
   CracklingJadeLightning,
+  EnvelopingMist,
   JadeEmpowerment,
   JadefireStomp,
   RenewingMist,
   Revival,
   SheilunsGift,
+  TeachingsOfTheMonastery,
+  TigerPalm,
   VeilOfPride,
   Vivify,
 } from '../../Common/WowheadLink/Spells.tsx'
@@ -37,9 +41,8 @@ export function AoeHealing() {
       <UnorderedList>
         <li>
           <JadeEmpowerment />: allows you to use <CracklingJadeLightning /> to heal up your group
-          with <AncientTeachings />. This healing will scale linearly with the number of mobs up to
-          5, so it will be quite weak on 1-2 targets, but increasingly strong up to 5 targets. At 5
-          targets, this provides a huge amount of healing.
+          with <AncientTeachings />. This healing will scale linearly a little with the number of
+          mobs, making it a little stronger at 5 targets.
         </li>
         <li>
           <SheilunsGift />: great for a single burst of healing on the entire group, especially when
@@ -51,10 +54,10 @@ export function AoeHealing() {
           below 7 stacks.
         </li>
         <li>
-          <ChiJi />: easily your strongest CD for sustained healing when you have 2-3 targets to
-          hit, especially if you have decent mastery. This makes it very powerful in trash packs,
-          such as the scarabs in early CoT. Some bosses also have cleave targets, such as
-          Stichflesh.
+          <ChiJi />: your main healing CD, and your go-to for heavy consistent healing. Get 4 stacks
+          of <TeachingsOfTheMonastery />, use this, then <BlackoutKick />. Then repeat <TigerPalm />{' '}
+          <TigerPalm /> <BlackoutKick />. You can use the instant <EnvelopingMist /> for spot
+          healing during this, but it is less overall HPS.
         </li>
         <li className="ml-4">
           This ability does a lot of things and isn’t straightforward to use. I will expand on it
