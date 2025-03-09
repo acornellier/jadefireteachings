@@ -55,9 +55,11 @@ export function AoeHealing() {
         </li>
         <li>
           <ChiJi />: your main healing CD, and your go-to for heavy consistent healing. Get 4 stacks
-          of <TeachingsOfTheMonastery />, use this, then <BlackoutKick />. Then repeat <TigerPalm />{' '}
-          <TigerPalm /> <BlackoutKick />. You can use the instant <EnvelopingMist /> for spot
-          healing during this, but it is less overall HPS.
+          of <TeachingsOfTheMonastery />, summon the bird, then <BlackoutKick /> for big healing,
+          and finally send your instant <EnvelopingMist /> on whoever needs the most healing. Then
+          repeat <TigerPalm /> <TigerPalm /> <BlackoutKick /> <EnvelopingMist />. You can skip the{' '}
+          <EnvelopingMist /> if you need more immediate healing, but it will hurt your long term
+          healing.
         </li>
         <li className="ml-4">
           This ability does a lot of things and isn’t straightforward to use. I will expand on it
