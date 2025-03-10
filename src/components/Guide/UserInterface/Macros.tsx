@@ -63,6 +63,15 @@ export function Macros() {
         </p>
         <Macro>{'/use Thunder Focus Tea\n/use Rising Sun kick'}</Macro>
       </div>
+      <div className="flex flex-col gap-1">
+        <p>
+          If you are running Bursting Lightspawn, press this macro TWICE to summon it, and then
+          focus it.
+        </p>
+        <Macro>
+          {'/use [@cursor] 13\n/targetexact Bursting Lightspawn\n/focus\n/targetlasttarget'}
+        </Macro>
+      </div>
     </SubSection>
   )
 }
