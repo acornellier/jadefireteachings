@@ -57,9 +57,9 @@ export function Gear() {
       </SubSection>
       <SubSection title="Race">
         <p>
-          The only race I can really recommend for M+ is Night Elf, due to <Shadowmeld />. In my
-          opinion, this ability is extremely overpowered, and just far superior to any other racial
-          in the game. It is very flexible and has many many uses, especially on healers:
+          In my opinion, the best overall race for M+ is Night Elf, due to <Shadowmeld />. I think
+          this ability is extremely overpowered. It is very flexible and has many many uses,
+          especially on healers:
         </p>
         <UnorderedList>
           <li>
@@ -72,9 +72,13 @@ export function Gear() {
           <li>Drinking mid-pull.</li>
           <li>Resurrecting a teammate mid-pull without using a battle rez.</li>
         </UnorderedList>
-        <p>If you hate being a Night Elf, then Dwarf is the only other decent choice.</p>
         <p>
-          Night Elf {'>'} Dwarf {'>>'} Everything else
+          The only other strong option is Dwarf, which can be stronger or weaker than Night Elf
+          depending on the season. It is not as flexible as Night Elf, but very consistently useful
+          in many dungeons.
+        </p>
+        <p>
+          Night Elf {'>='} Dwarf {'>>'} Everything else
         </p>
       </SubSection>
       <SubSection title="Trinkets">
