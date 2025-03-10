@@ -1,11 +1,6 @@
 import { CodeBlock, type CodeBlockProps } from '../../Common/CodeBlock.tsx'
-import {
-  RisingSunKick,
-  SpinningCraneKick,
-  ThunderFocusTea,
-} from '../../Common/WowheadLink/Spells.tsx'
+import { SpinningCraneKick } from '../../Common/WowheadLink/Spells.tsx'
 import { SubSection } from '../SubSection.tsx'
-import { MasterOfHarmony } from '../../Common/SpecialTexts.tsx'
 
 const Macro = ({ children }: Omit<CodeBlockProps, 'type'>) => (
   <CodeBlock type="macro">{children}</CodeBlock>
@@ -53,15 +48,6 @@ export function Macros() {
           mouseover
         </p>
         <Macro>/use [@focus,harm,nodead][@mouseover,harm,nodead][@target] Spear Hand Strike</Macro>
-      </div>
-      <div className="flex flex-col gap-1">
-        <p>
-          Macro <ThunderFocusTea /> and <RisingSunKick /> together for the lazy. I do this for the
-          first few weeks of each season since it’s relaxing. I personally believe this is a
-          completely fine way to play and save a keybind. Don’t do this if you’re running{' '}
-          <MasterOfHarmony /> or with Yu’lon in raid!
-        </p>
-        <Macro>{'/use Thunder Focus Tea\n/use Rising Sun kick'}</Macro>
       </div>
       <div className="flex flex-col gap-1">
         <p>
