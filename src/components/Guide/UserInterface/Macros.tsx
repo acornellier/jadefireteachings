@@ -55,7 +55,9 @@ export function Macros() {
           focus it.
         </p>
         <Macro>
-          {'/use [@cursor] 13\n/targetexact Bursting Lightspawn\n/focus\n/targetlasttarget'}
+          {
+            '/use [@cursor] Bursting Lightshard\n/targetexact Bursting Lightspawn\n/focus\n/targetlasttarget'
+          }
         </Macro>
       </div>
     </SubSection>
