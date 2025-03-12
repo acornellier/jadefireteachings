@@ -64,8 +64,8 @@ export function AoeHealing() {
         <li className="ml-4">
           This ability does a lot of things and isn’t straightforward to use. I will expand on it
           further in the future. Meanwhile, Megasett has a wonderful{' '}
-          <Link href="https://youtu.be/RTBiq9w1bCg?si=f0IZ9QvwCk_Su7FH">video guide</Link> on
-          celestials.
+          <Link href="https://www.youtube.com/watch?v=Ct5S3M7Uyvg&t=1296s">video guide</Link> on
+          Chi-Ji.
         </li>
         <li>
           <CelestialConduit />: a powerful CD that can heal through almost all mechanics on its own.
