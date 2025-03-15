@@ -28,7 +28,7 @@ export function WeakAuras() {
           <Link href="https://wago.io/twwdungeons">Dungeons pack (I disable most of it)</Link>
         </li>
         <li>
-          <Link href="https://wago.io/GZMPP3LDH">Targeted Spells</Link>
+          <Link href="https://wago.io/s08yL_PCP">Targeted Spells</Link>
         </li>
         <li>
           <Link href="https://wago.io/bRl2gJIgz">Character sheet</Link>

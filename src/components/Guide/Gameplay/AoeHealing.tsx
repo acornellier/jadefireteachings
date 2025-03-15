@@ -42,7 +42,8 @@ export function AoeHealing() {
         <li>
           <JadeEmpowerment />: allows you to use <CracklingJadeLightning /> to heal up your group
           with <AncientTeachings />. This healing will scale linearly a little with the number of
-          mobs, making it a little stronger at 5 targets.
+          mobs, making it a little stronger at 5 targets. This is your go-to spell for any moderate
+          damage.
         </li>
         <li>
           <SheilunsGift />: great for a single burst of healing on the entire group, especially when
