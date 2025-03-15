@@ -36,7 +36,7 @@ export function Gear() {
           ahead.
         </p>
         <p>
-          I am currently going for Haste {'>'} Versatility {'>'} Critical Strike {'>='} Mastery. Do
+          I am currently going for Haste {'>'} Versatility {'>'} Critical Strike {'='} Mastery. Do
           not go above 30% in any stat, and prioritize Haste and Versatility. But do not panic about
           having Crit and Mastery, they are fine stats, not significantly behind Versatility.
         </p>
@@ -57,7 +57,8 @@ export function Gear() {
             like to play around <ChiJi /> and your melee rotation with <CraneStyle /> like I do,
             your mastery will do a lot of healing. That said, <JadeEmpowerment /> does not benefit
             from mastery and it is doing most of the heavy lifting in trash pulls these days, which
-            reduces the important of <ChiJi />.
+            reduces the important of <ChiJi />. I think I will want some baseline level of Mastery
+            to make <ChiJi /> powerful enough.
           </li>
         </UnorderedList>
       </SubSection>
