@@ -1,6 +1,5 @@
 import { makeItem } from './makeWL.tsx'
 
-export const AraKaraSacbrood = makeItem('Ara-Kara Sacbrood', 219314, 'spell_shadow_gathershadows')
 export const ElusiveBlasphemite = makeItem(
   'Elusive Blasphemite',
   213746,
@@ -21,34 +20,40 @@ export const FracturedGemstoneLocket = makeItem(
   215134,
   'inv_11_0_arathor_necklace_02_color5',
 )
-export const GaleOfShadows = makeItem('Gale of Shadows', 133304, 'spell_shadow_gathershadows')
 export const WrithingArmorBanding = makeItem(
   'Writhing Armor Banding',
   219506,
   'inv_10_skinning_craftedoptionalreagent_studdedleatherswatch_color2',
-)
-export const EmpoweringCrystal = makeItem(
-  "Empowering Crystal of Anub'ikkaj",
-  219312,
-  'inv_arathordungeon_fragment_color5',
-)
-export const SpymastersWeb = makeItem(
-  "Spymaster's Web",
-  220202,
-  'inv_11_0_raid_spymastersweb_purple',
-)
-export const UnboundChangeling = makeItem(
-  'Unbound Changeling',
-  178708,
-  'inv_pet_spectralporcupinered',
 )
 export const DuskthreadLining = makeItem(
   'Duskthread Lining',
   222873,
   'inv_10_tailoring_tailoringconsumable_color3',
 )
-export const AdrenalSurgeClasp = makeItem(
-  'Adrenal Surge Clasp',
-  219502,
-  'inv_belt_leather_undergroundquest_b_01',
+
+export const MisterPickMeUp = makeItem(
+  'Mister Pick-Me-Up',
+  230186,
+  'inv_111_healraydrone_bilgewater',
+)
+export const MugsMoxieJug = makeItem("Mug's Moxie Jug", 230192, 'inv_111_blackbloodfueledcontainer')
+export const BurinOfTheCandleKing = makeItem(
+  'Burin of the Candle King',
+  219306,
+  'inv_jewelcrafting_70_jeweledlockpick',
+)
+export const SignetOfThePriory = makeItem(
+  'Signet of the Priory',
+  219308,
+  'inv_arathordungeon_signet_color1',
+)
+export const ReverbRadio = makeItem(
+  'Reverb Radio',
+  230194,
+  'inv_111_statsoundwaveemitter_blackwater',
+)
+export const CarvedBlazikonWax = makeItem(
+  'Carved Blazikon Wax',
+  219305,
+  'inv_misc_candlekobold_color1',
 )

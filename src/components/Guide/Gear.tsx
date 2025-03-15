@@ -8,10 +8,16 @@ import {
 } from '../Common/WowheadLink/Spells.tsx'
 import {
   BindingOfBinding,
+  BurinOfTheCandleKing,
+  CarvedBlazikonWax,
   DarkmoonSigilAscension,
   DuskthreadLining,
   ElusiveBlasphemite,
   FracturedGemstoneLocket,
+  MisterPickMeUp,
+  MugsMoxieJug,
+  ReverbRadio,
+  SignetOfThePriory,
   WrithingArmorBanding,
 } from '../Common/WowheadLink/Items.tsx'
 import { Link } from '../Common/Link.tsx'
@@ -82,8 +88,26 @@ export function Gear() {
         </p>
       </SubSection>
       <SubSection title="Trinkets">
+        <p>
+          Warning: I personally have only acquired <MisterPickMeUp /> so far, so I have no
+          experience with the other trinkets.
+        </p>
         <UnorderedList>
-          <li>COMING SOON</li>
+          <li>
+            <MisterPickMeUp /> is your best trinket at all times in all content. It does big healing
+            and big damage.
+          </li>
+          <li>
+            <MugsMoxieJug /> is probably your second best trinket.
+          </li>
+          <li>
+            <BurinOfTheCandleKing /> is potentially a very strong absorb trinket. Its flexibility is
+            extremely valuable in M+ to keep weaker players alive.
+          </li>
+          <li>
+            <SignetOfThePriory />, <ReverbRadio />, and <CarvedBlazikonWax /> are competitive stat
+            trinkets.
+          </li>
         </UnorderedList>
       </SubSection>
       <SubSection title="Embellishments">

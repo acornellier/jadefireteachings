@@ -22,10 +22,6 @@ const dungeonSpellIds = [
   428819, 427329, 427854, 424889, 432117, 434089, 434407, 434655, 448888, 463428, 434576,
 ]
 
-const itemIds = [
-  219314, 213746, 215133, 226024, 222873, 215134, 133304, 219506, 219312, 220202, 178708,
-]
-
 const spellIds = [...playerSpellIds, ...dungeonSpellIds]
 
 const spells = spellIds.map(getGrimoireSpell).sort((a, b) => a.name.localeCompare(b.name))
