@@ -38,8 +38,7 @@ export function ConduitGameplay() {
         <SheilunsGift /> stacks around it.
       </p>
       <p>
-        <AugustDynasty /> gives you a powerful single target <Vivify /> after a <JadefireStomp />. I
-        love the healing combo <SheilunsGift /> {'>'} <JadefireStomp /> {'>'} <Vivify />.
+        <AugustDynasty /> gives you a powerful single target <Vivify /> after a <JadefireStomp />.
       </p>
     </SubSection>
   )
