@@ -125,8 +125,7 @@ export function Gear() {
             largely just free versatility.
           </li>
           <li>
-            <FracturedGemstoneLocket />: also gives your allies stats, increasing their damage! The
-            only problem is you really want the Sikran neck from raid.
+            <FracturedGemstoneLocket />: also gives your allies stats, increasing their damage!
           </li>
         </UnorderedList>
         The raid combo is not strong Mythic+. But it is not the worst thing ever, and again
