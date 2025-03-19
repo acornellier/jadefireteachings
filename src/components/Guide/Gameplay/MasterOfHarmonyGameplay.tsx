@@ -12,8 +12,8 @@ export function MasterOfHarmonyGameplay() {
     <SubSection title="Master of Harmony gameplay">
       <p>
         Whenever there is healing to do, pop your <ThunderFocusTea />. Any allies healed by you will
-        now receive a 20% healing buff from <Coalescence /> for 10-15 seconds. Overhealing will not
-        give this buff! This is basically your only healing increase from the tree.
+        now receive a 20% healing buff from <Coalescence /> for 10-15 seconds. This is basically
+        your only healing increase from the tree.
       </p>
       <p>
         If there is little healing to do, use <ThunderFocusTea /> whenever your vitality bar is full
