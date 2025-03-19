@@ -36,29 +36,31 @@ export function Gear() {
           ahead.
         </p>
         <p>
-          I am currently going for Haste {'>'} Versatility {'>'} Critical Strike {'='} Mastery. Do
-          not go above 30% in any stat, and prioritize Haste and Versatility. But do not panic about
-          having Crit and Mastery, they are fine stats, not significantly behind Versatility.
+          I am currently going for 30% Haste, 110% Mastery, and rest Vers. But do not panic about
+          having different stats as long as you have lots of haste. The mastery threshold is subject
+          to change, but I doubt that my plans for haste/vers will change.
         </p>
         <UnorderedList>
           <li>
             <b>Haste</b>: our best stat. We want a lot of this, it’s easily the best stat for our
-            healing. For S1, you probably want around 30%.
+            healing. Go for around 30%, since after this there are diminishing returns, and you don
+            {"'"}t really need more than this anyway.
           </li>
           <li>
-            <b>Versatility</b>: the higher the key goes, the stronger this stat is due to the
-            survivability aspect. At very high keys, living becomes more important than anything.
+            <b>Versatility</b>: our second best stat. It gives healing, damage, damage reduction,
+            and increases the size of your absorbs. Things we all need for M+!
           </li>
           <li>
-            <b>Critical Strike</b>: a good stat for pure throughput - damage and healing.
+            <b>Critical Strike</b>: slightly more stat-efficient for HPS than vers, if you want to
+            prioritize only that.
           </li>
           <li>
             <b>Mastery</b>: <GustOfMists />. Buffed a lot in TWW and reasonably strong now. If you
             like to play around <ChiJi /> and your melee rotation with <CraneStyle /> like I do,
             your mastery will do a lot of healing. That said, <JadeEmpowerment /> does not benefit
             from mastery and it is doing most of the heavy lifting in trash pulls these days, which
-            reduces the important of <ChiJi />. I think I will want some baseline level of Mastery
-            to make <ChiJi /> powerful enough.
+            reduces the important of <ChiJi />. I plan to have some baseline level of Mastery to
+            make <ChiJi /> powerful enough.
           </li>
         </UnorderedList>
       </SubSection>
