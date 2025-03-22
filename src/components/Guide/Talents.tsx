@@ -5,16 +5,21 @@ import {
   AncientArts,
   CelestialConduit,
   ChiBurst,
+  ChiJi,
   ChiWave,
   DeepClarity,
   EnergizingBrew,
   EnvelopingMist,
+  GiftOfTheCelestials,
   GraceOfTheCrane,
   HealingElixir,
   HeartOfTheJadeSerpent,
   ImprovedDetox,
+  InvokersDelight,
+  JadeBond,
   JadeEmpowerment,
   JadeSanctuary,
+  LegacyOfWisdom,
   LifeCocoon,
   LighterThanAir,
   MistWrap,
@@ -116,8 +121,27 @@ export function Talents() {
       </SubSection>
       <SubSection title="Spec tree">
         <p>
-          If you wish to make changes, there are 4 points you can drop from <EnergizingBrew />,{' '}
-          <DeepClarity />, <SecretInfusion /> x2. Two of the points must go in the middle of the
+          With the changes from 11.1, I have been altering my build in two ways from dungeon to
+          dungeon. When I have figured out the best build for each dungeon, I will include it in the
+          dungeon guides.
+          <UnorderedList>
+            <li>
+              <JadeBond /> instead of <GiftOfTheCelestials />. This is great for dungeons where
+              there are large pulls far apart. When you just need a lot of healing in a period of
+              less than 1 minute.
+            </li>
+            <li>
+              <ShaohaosLessons /> instead of <VeilOfPride />. If you do this, also drop{' '}
+              <LegacyOfWisdom /> and take <InvokersDelight />. With the amount of coverage we have
+              these days, <VeilOfPride /> is not so important anymore. <ShaohaosLessons /> buffs our
+              many other healing cooldowns instead, and is also a decent damage increase. And it
+              allows us to take <InvokersDelight />, making our <ChiJi /> more powerful!
+            </li>
+          </UnorderedList>
+        </p>
+        <p>
+          If you wish to make other changes, there are 4 points you can drop from <EnergizingBrew />
+          , <DeepClarity />, <SecretInfusion /> x2. Two of the points must go in the middle of the
           tree.
         </p>
         <p>Recommended options</p>
@@ -151,10 +175,6 @@ export function Talents() {
             <PoolOfMists />: if you like the raid gameplay of <RisingSunKick /> + <RenewingMist />
           </li>
         </UnorderedList>
-        <p>
-          Take <ShaohaosLessons /> if you want more damage and don’t need <VeilOfPride /> to heal.
-          It’s not a big damage increase so don’t take it unless you know what you’re doing.
-        </p>
         <img src="/images/spec.jpg" alt="spec_talents" width={400} />
       </SubSection>
     </Section>

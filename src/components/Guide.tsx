@@ -3,7 +3,6 @@ import { Gear } from './Guide/Gear.tsx'
 import { UserInterface } from './Guide/UserInterface/UserInterface.tsx'
 import { Talents } from './Guide/Talents.tsx'
 import { Links } from './Guide/Links.tsx'
-import { OtherLinks } from './Guide/OtherLinks.tsx'
 import { Introduction } from './Guide/Introduction.tsx'
 import { PatchChanges } from './Guide/Gameplay/PatchChanges.tsx'
 
@@ -19,7 +18,6 @@ export function Guide() {
       <Talents />
       <Gear />
       <UserInterface />
-      <OtherLinks />
     </div>
   )
 }
