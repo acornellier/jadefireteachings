@@ -1,4 +1,5 @@
 import { TheRookery } from './TheRookery.tsx'
+import { TheaterOfPain } from './TheaterOfPain.tsx'
 
 export function Dungeons() {
   return (
@@ -19,6 +20,7 @@ export function Dungeons() {
         {/*</p>*/}
       </div>
       <TheRookery />
+      <TheaterOfPain />
     </div>
   )
 }
