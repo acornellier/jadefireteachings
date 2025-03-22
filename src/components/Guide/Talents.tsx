@@ -7,6 +7,7 @@ import {
   ChiBurst,
   ChiJi,
   ChiWave,
+  Coalescence,
   DeepClarity,
   EnergizingBrew,
   EnvelopingMist,
@@ -43,7 +44,6 @@ import { Button } from '../Common/Button.tsx'
 import { Section } from './Section.tsx'
 import { SubSection } from './SubSection.tsx'
 import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
-import { RouterLink } from '../Common/RouterLink.tsx'
 
 const TalentCodeBlock = ({ children }: { children: string }) => (
   <CodeBlock
@@ -67,21 +67,23 @@ export function Talents() {
     <Section title="Talents">
       <SubSection title="Hero talent choice">
         <p>
-          Both hero trees are viable, each with strengths and weakness. However, I generally
-          recommend <ConduitOfTheCelestials /> for most content unless you are very comfortable with{' '}
-          <MasterOfHarmony />. In the <RouterLink to="/dungeons">dungeon guides</RouterLink>, I have
-          a recommended tree for each dungeon.
+          Both hero trees are viable at any key level, each with strengths and weakness. I generally
+          recommend <ConduitOfTheCelestials /> for beginners. I currently play both hero talents and
+          regularly swap between them at the highest key level.
         </p>
         <p>
-          <ConduitOfTheCelestials /> is better overall for healing, with <CelestialConduit />,{' '}
-          <StrengthOfTheBlackOx />, and a few other nodes. The reduced <LifeCocoon /> CD thanks to{' '}
+          <ConduitOfTheCelestials /> is easier to use for more healing, with <CelestialConduit />,{' '}
+          <StrengthOfTheBlackOx />, and a few other nodes. The extra active cooldown is a great
+          emergency button for immediate healing. The reduced <LifeCocoon /> CD thanks to{' '}
           <HeartOfTheJadeSerpent /> is great. It also has a better defensive node with{' '}
           <JadeSanctuary />.
         </p>
         <p>
-          <MasterOfHarmony /> is slightly behind on healing, but ahead on damage - the highest
-          damage of any healer spec in the game currently. The two charges of <ThunderFocusTea /> is
-          also great for more flexibility with <JadeEmpowerment /> and <SecretInfusion />.
+          <MasterOfHarmony /> can do a similar amount of healing if played properly. Its healing
+          profile is different, focusing on the amp from <Coalescence />. It is clearly ahead on
+          damage - the highest damage of any healer spec in the game currently. The two charges of{' '}
+          <ThunderFocusTea /> are nice for more flexibility with <JadeEmpowerment /> and{' '}
+          <SecretInfusion />.
         </p>
       </SubSection>
       <SubSection title="Conduit build">
