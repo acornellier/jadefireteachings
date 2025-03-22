@@ -8,7 +8,7 @@ interface Props extends DetailedHTMLProps<HTMLAttributes<HTMLHeadingElement>, HT
 const color = {
   h2: 'text-teal-500',
   h3: 'text-teal-500',
-  h4: 'text-teal-300',
+  h4: 'text-teal-500',
 }
 
 const textSize = {

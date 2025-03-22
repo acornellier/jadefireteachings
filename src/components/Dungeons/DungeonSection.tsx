@@ -1,31 +1,50 @@
 import { Section, type SectionProps } from '../Guide/Section.tsx'
 import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
 import type { FC } from 'react'
+import { Link } from '../Common/Link.tsx'
 
 interface Props extends SectionProps {
-  tree: 'conduit' | 'moh' | 'either'
+  tree?: 'conduit' | 'moh'
+  video?: string
   Talents?: FC[]
+  RecommendedTalents?: FC[]
 }
 
-export function DungeonSection({ title, children, tree, Talents }: Props) {
+export function DungeonSection({
+  title,
+  children,
+  tree,
+  video,
+  Talents,
+  RecommendedTalents,
+}: Props) {
   return (
     <Section title={title}>
       <p>
-        Recommended hero tree:{' '}
-        {tree === 'either' ? (
-          <span>
-            <ConduitOfTheCelestials /> or <MasterOfHarmony />
-          </span>
-        ) : tree === 'conduit' ? (
-          <ConduitOfTheCelestials />
-        ) : (
-          <MasterOfHarmony />
-        )}
+        <Link href={video}>Watch a video of me running this dungeon</Link>
       </p>
+      {tree && (
+        <p>
+          Recommended hero tree:{' '}
+          {tree === 'conduit' ? (
+            <ConduitOfTheCelestials />
+          ) : tree === 'moh' ? (
+            <MasterOfHarmony />
+          ) : null}
+        </p>
+      )}
       {Talents && (
         <p className="flex gap-2">
-          Talents:{' '}
+          Required talents:{' '}
           {Talents.map((Talent) => (
+            <Talent key={Talent.displayName} />
+          ))}
+        </p>
+      )}
+      {RecommendedTalents && (
+        <p className="flex gap-2">
+          Recommended talents:{' '}
+          {RecommendedTalents.map((Talent) => (
             <Talent key={Talent.displayName} />
           ))}
         </p>

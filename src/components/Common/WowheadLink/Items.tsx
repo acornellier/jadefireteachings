@@ -10,6 +10,11 @@ export const BindingOfBinding = makeItem(
   215133,
   'inv_11_0_jewelcrafting_ring_color1',
 )
+export const BurstingLightshard = makeItem(
+  'Bursting Lightshard',
+  219310,
+  'inv_arathordungeon_fragment_color4',
+)
 export const DarkmoonSigilAscension = makeItem(
   'Darkmoon Sigil: Ascension',
   226024,

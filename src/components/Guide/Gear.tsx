@@ -9,6 +9,7 @@ import {
 import {
   BindingOfBinding,
   BurinOfTheCandleKing,
+  BurstingLightshard,
   CarvedBlazikonWax,
   DarkmoonSigilAscension,
   DuskthreadLining,
@@ -99,6 +100,10 @@ export function Gear() {
           <li>
             <MisterPickMeUp /> is your best trinket at all times in all content. It does big healing
             and big damage.
+          </li>
+          <li>
+            <BurstingLightshard /> is your highest damage trinket. You will see a lot of top players
+            including myself run this, if healing isn{"'"}t an issue.
           </li>
           <li>
             <MugsMoxieJug /> is probably your second best trinket.
