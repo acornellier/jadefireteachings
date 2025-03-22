@@ -16,6 +16,7 @@ const playerSpellIds = [
 
 const dungeonSpellIds = [
   438476, 425113, 424797, 430814, 430805, 320182, 333231, 320069, 1215600, 1215741, 323110, 473540,
+  1215102, 294961, 291928, 283551,
 ]
 
 const spellIds = [...playerSpellIds, ...dungeonSpellIds]

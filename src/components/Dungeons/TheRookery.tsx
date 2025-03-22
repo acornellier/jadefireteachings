@@ -26,7 +26,7 @@ export function TheRookery() {
   return (
     <DungeonSection title="The Rookery" video="https://www.youtube.com/watch?v=vfqhyTErhyI">
       <p>
-        I recommend <JadeBond /> for healing through the double Diffuser pack, but it{' '}
+        I recommend <JadeBond /> for healing through the double Diffuser pack, but
         <GiftOfTheCelestials /> is fine as well.
       </p>
       <BossSubSection title="Kyrioss" difficulty="easy">
@@ -68,7 +68,7 @@ export function TheRookery() {
           <p>
             These mobs are scary since they pulse damage with <AttractingShadows />, and target
             someone with <ArcingVoid /> which is large direct damage that can occur during the
-            pulsing. If you are targetted by <ArcingVoid />, try to step back and to the side to
+            pulsing. If you are targeted by <ArcingVoid />, try to step back and to the side to
             avoid hitting your teammates. On top of all this, you cannot be in melee when{' '}
             <AttractingShadows /> ends! In the single diffuser packs, players should only use
             defensives on the overlap. It is your job to heal through the pulsing damage, which is
