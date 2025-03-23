@@ -3,6 +3,7 @@ import { TheaterOfPain } from './TheaterOfPain.tsx'
 import { MechagonWorkshop } from './MechagonWorkshop.tsx'
 import { DarkflameCleft } from './DarkflameCleft.tsx'
 import { OperationFloodgate } from './OperationFloodgate.tsx'
+import { CinderbrewMeadery } from './CinderbrewMeadery.tsx'
 
 export function Dungeons() {
   return (
@@ -22,6 +23,7 @@ export function Dungeons() {
         {/*  {'>'} Global {'>'} Import*/}
         {/*</p>*/}
       </div>
+      <CinderbrewMeadery />
       <DarkflameCleft />
       <MechagonWorkshop />
       <OperationFloodgate />
