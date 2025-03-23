@@ -27,10 +27,7 @@ import {
 
 export function DarkflameCleft() {
   return (
-    <DungeonSection
-      title="Darkflame Cleft"
-      video="https://www.youtube.com/watch?v=x1fg--aHgqQ&lc=UgyOY2Wa__M2acCYy-94AaABAg"
-    >
+    <DungeonSection title="Darkflame Cleft" video="https://www.youtube.com/watch?v=ez4BUV9RE3I">
       <BossSubSection title="Ol' Waxbeard" difficulty="medium">
         <p>
           Watch the <CrudeWeapons /> stacks on your allies when <LuringCandleflame /> is on them,
