@@ -21,7 +21,6 @@ import {
   SheilunsGift,
   ThrowDarkflame,
   UmbralSlash,
-  VivaciousVivification,
   ZenPulse,
 } from '../Common/WowheadLink/Spells.tsx'
 
@@ -56,8 +55,8 @@ export function DarkflameCleft() {
         <p>
           Healing-wise, follow all the fundamentals. <RisingSunKick /> on cooldown, avoid
           overcapping <RenewingMist /> charges. Try to keep your team at even health levels. Consume
-          your <VivaciousVivification /> and <ZenPulse /> procs to heal your most injured ally,
-          ideally on someone with healing amps for efficiency.
+          your <ZenPulse /> procs to heal your most injured ally, ideally on someone with healing
+          amps for efficiency.
         </p>
         <p>
           Spread out your cooldowns as much as possible. Prioritize using <ChiJi /> as your most

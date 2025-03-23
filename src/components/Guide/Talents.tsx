@@ -133,7 +133,7 @@ export function Talents() {
               less than 1 minute.
             </li>
             <li>
-              <ShaohaosLessons /> instead of <VeilOfPride />. If you do this, also drop{' '}
+              <ShaohaosLessons /> instead of <VeilOfPride />. If you do this, you can also drop{' '}
               <LegacyOfWisdom /> and take <InvokersDelight />. With the amount of coverage we have
               these days, <VeilOfPride /> is not so important anymore. <ShaohaosLessons /> buffs our
               many other healing cooldowns instead, and is also a decent damage increase. And it

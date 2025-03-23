@@ -2,6 +2,7 @@ import { TheRookery } from './TheRookery.tsx'
 import { TheaterOfPain } from './TheaterOfPain.tsx'
 import { MechagonWorkshop } from './MechagonWorkshop.tsx'
 import { DarkflameCleft } from './DarkflameCleft.tsx'
+import { OperationFloodgate } from './OperationFloodgate.tsx'
 
 export function Dungeons() {
   return (
@@ -23,6 +24,7 @@ export function Dungeons() {
       </div>
       <DarkflameCleft />
       <MechagonWorkshop />
+      <OperationFloodgate />
       <TheRookery />
       <TheaterOfPain />
     </div>
