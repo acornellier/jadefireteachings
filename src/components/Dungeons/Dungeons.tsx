@@ -1,6 +1,7 @@
 import { TheRookery } from './TheRookery.tsx'
 import { TheaterOfPain } from './TheaterOfPain.tsx'
 import { MechagonWorkshop } from './MechagonWorkshop.tsx'
+import { DarkflameCleft } from './DarkflameCleft.tsx'
 
 export function Dungeons() {
   return (
@@ -20,6 +21,7 @@ export function Dungeons() {
         {/*  {'>'} Global {'>'} Import*/}
         {/*</p>*/}
       </div>
+      <DarkflameCleft />
       <MechagonWorkshop />
       <TheRookery />
       <TheaterOfPain />
