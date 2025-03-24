@@ -4,6 +4,7 @@ import { MechagonWorkshop } from './MechagonWorkshop.tsx'
 import { DarkflameCleft } from './DarkflameCleft.tsx'
 import { OperationFloodgate } from './OperationFloodgate.tsx'
 import { CinderbrewMeadery } from './CinderbrewMeadery.tsx'
+import { TheMotherlode } from './TheMotherlode.tsx'
 
 export function Dungeons() {
   return (
@@ -26,6 +27,7 @@ export function Dungeons() {
       <CinderbrewMeadery />
       <DarkflameCleft />
       <MechagonWorkshop />
+      <TheMotherlode />
       <OperationFloodgate />
       <TheRookery />
       <TheaterOfPain />
