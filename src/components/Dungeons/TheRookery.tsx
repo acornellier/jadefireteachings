@@ -26,7 +26,7 @@ export function TheRookery() {
   return (
     <DungeonSection title="The Rookery" video="https://www.youtube.com/watch?v=vfqhyTErhyI">
       <p>
-        I recommend <JadeBond /> for healing through the double Diffuser pack, but
+        I recommend <JadeBond /> for healing through the double Diffuser pack, but{' '}
         <GiftOfTheCelestials /> is fine as well.
       </p>
       <BossSubSection title="Kyrioss" difficulty="easy">

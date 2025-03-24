@@ -7,7 +7,6 @@ import {
   ChiJi,
   DanceOfTheWind,
   EnvelopingMist,
-  GiftOfTheCelestials,
   GustOfMists,
   JadeBond,
   JadeEmpowerment,
@@ -72,9 +71,8 @@ export function PatchChanges() {
         <p>
           <JadeBond />
           {"'"}s <ChiCocoon /> is now 100% stronger, apply <EnvelopingMist /> when they expire, and{' '}
-          <GustOfMists /> healing is increased by 40% (was 20%). I can imagine some niche scenarios
-          where we run this instead of <GiftOfTheCelestials />, but I think it is very unlikely in
-          S2.
+          <GustOfMists /> healing is increased by 40% (was 20%). This is much stronger than I
+          expected and I now run it in most dungeons.
         </p>
       </SubSection>
     </Section>

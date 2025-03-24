@@ -31,9 +31,9 @@ export function MechagonWorkshop() {
       </p>
       <BossSubSection title="Tussle Tonks" difficulty="easy">
         <p>
-          <GroundPound /> does little damage, so as long as your group is topped beforehand, nobody
-          will die. Focus on your positioning and your damage. Use <Transcendence /> after being
-          knocked away.
+          <GroundPound /> does little damage, so as long as your group is topped beforehand and you
+          do maintenance healing during it, nobody will die. Focus on your positioning and your
+          damage. Use <Transcendence /> after being knocked away.
         </p>
       </BossSubSection>
       <BossSubSection title="K.U.-J.O." difficulty="medium">

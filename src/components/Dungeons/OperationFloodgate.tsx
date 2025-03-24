@@ -45,10 +45,10 @@ export function OperationFloodgate() {
           Fort Brew on each burn, and do not be afraid to send <LifeCocoon /> if someone drops low.
         </p>
         <p>
-          There is no healing to do in P1, unless you take too long to phase, and then the boss will
-          begin to pulse damage. If this happens, you should be quite scared, because it will make
-          the intermission. Keep your group healthy, but make sure you conserve cooldowns for when
-          you actually phase.
+          There is very little healing to do in P1, unless you take too long to phase, and then the
+          boss will begin to pulse damage. If this happens, you should be quite scared, because it
+          will make the intermission harder. Keep your group healthy, but make sure you conserve
+          cooldowns for when you actually phase.
         </p>
       </BossSubSection>
       <BossSubSection title="Demolition Duo" difficulty="medium">
