@@ -8,8 +8,9 @@ import {
   HeartOfTheJadeSerpent,
   JadefireStomp,
   JadeSanctuary,
-  SheilunsGift,
+  LifeCocoon,
   StrengthOfTheBlackOx,
+  ThunderFocusTea,
   Vivify,
 } from '../../Common/WowheadLink/Spells.tsx'
 import { Link } from '../../Common/Link.tsx'
@@ -34,8 +35,8 @@ export function ConduitGameplay() {
         need to do group healing.
       </p>
       <p>
-        <HeartOfTheJadeSerpent /> gives you a bunch of CDR. It is not worth planning your{' '}
-        <SheilunsGift /> stacks around it.
+        <HeartOfTheJadeSerpent /> gives you a bunch of CDR, mainly meaning you will get more{' '}
+        <ThunderFocusTea />s and more <LifeCocoon />s
       </p>
       <p>
         <AugustDynasty /> gives you a powerful single target <Vivify /> after a <JadefireStomp />.

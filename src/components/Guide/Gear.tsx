@@ -18,6 +18,7 @@ import {
   MisterPickMeUp,
   MugsMoxieJug,
   ReverbRadio,
+  SigilOfAlgariConcordance,
   SignetOfThePriory,
   WrithingArmorBanding,
 } from '../Common/WowheadLink/Items.tsx'
@@ -100,6 +101,10 @@ export function Gear() {
           <li>
             <MisterPickMeUp /> is your best trinket at all times in all content. It does big healing
             and big damage.
+          </li>
+          <li>
+            <SigilOfAlgariConcordance /> is your highest damage trinket. It very randomly gives your
+            allies a large mainstat buff. It does not help your healing, or your personal damage.
           </li>
           <li>
             <BurstingLightshard /> is your highest damage trinket. You will see a lot of top players

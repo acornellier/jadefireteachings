@@ -27,7 +27,7 @@ export function CinderbrewMeadery() {
   return (
     <DungeonSection
       title="Cinderbrew Meadery"
-      video="https://www.youtube.com/watch?v=RfpR7RN1_28"
+      video="https://www.youtube.com/watch?v=_1sSWfhf7cU"
       Talents={[PressurePoints]}
       RecommendedTalents={[GiftOfTheCelestials]}
     >

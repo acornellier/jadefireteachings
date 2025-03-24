@@ -62,3 +62,8 @@ export const CarvedBlazikonWax = makeItem(
   219305,
   'inv_misc_candlekobold_color1',
 )
+export const SigilOfAlgariConcordance = makeItem(
+  'Sigil of Algari Concordance',
+  219295,
+  'inv_misc_dungeonsignetearthen02_color1',
+)

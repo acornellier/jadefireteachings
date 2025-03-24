@@ -80,7 +80,7 @@ export function Talents() {
         </p>
         <p>
           <MasterOfHarmony /> can do a similar amount of healing if played properly. Its healing
-          profile is different, focusing on the amp from <Coalescence />. It is clearly ahead on
+          profile is different, focusing on the amp from <Coalescence />. It is about 20% ahead on
           damage - the highest damage of any healer spec in the game currently. The two charges of{' '}
           <ThunderFocusTea /> are nice for more flexibility with <JadeEmpowerment /> and{' '}
           <SecretInfusion />.
