@@ -16,7 +16,7 @@ export function Dungeons() {
         </p>
         <div className="w-full flex justify-center">
           <div className="text-3xl font-serif font-bold text-teal-500">
-            Season 2 guides are a WIP
+            Season 2 guides are mostly done, only Priory remains!
           </div>
         </div>
         {/*<p>*/}
