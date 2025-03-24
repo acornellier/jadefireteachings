@@ -59,7 +59,7 @@ export function AoeHealing() {
           of <TeachingsOfTheMonastery />, summon the bird, then <BlackoutKick /> for big healing,
           and finally send your instant <EnvelopingMist /> on whoever needs the most healing. Then
           repeat <TigerPalm /> <TigerPalm /> <BlackoutKick /> <EnvelopingMist />. You can skip the{' '}
-          <EnvelopingMist /> if you need more immediate healing, but it will hurt your long term
+          <EnvelopingMist /> if you need more immediate healing, but it will lower your long term
           healing.
         </li>
         <li className="ml-4">
