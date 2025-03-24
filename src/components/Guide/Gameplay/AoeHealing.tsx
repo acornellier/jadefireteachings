@@ -69,8 +69,8 @@ export function AoeHealing() {
           Chi-Ji.
         </li>
         <li>
-          <CelestialConduit />: a powerful CD that can heal through almost all mechanics on its own.
-          Use it immediately after 1 tick of damage goes out since it immediately does a burst of
+          <CelestialConduit />: a powerful CD that can heal through most mechanics on its own. Use
+          it immediately after 1 tick of damage goes out since it immediately does a burst of
           healing.
         </li>
         <li>
