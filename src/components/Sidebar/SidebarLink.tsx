@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 export interface SidebarLinkConfig {
   childLinks?: SidebarLinkConfig[]
+  id: string
   label: string
   link?: string
   active: boolean
@@ -12,7 +13,14 @@ export interface SidebarLinkConfig {
 
 export const linkScrollOffset = 20
 
-export function SidebarLink({ childLinks, label, link, active, headingType }: SidebarLinkConfig) {
+export function SidebarLink({
+  childLinks,
+  id,
+  label,
+  link,
+  active,
+  headingType,
+}: SidebarLinkConfig) {
   const navigate = useNavigate()
 
   const activeFont = active ? 'font-bold text-teal-50' : 'text-teal-500'
@@ -27,14 +35,14 @@ export function SidebarLink({ childLinks, label, link, active, headingType }: Si
     if (headingType === 'page') {
       navigate(`/${link}`)
     } else {
-      const element = document.getElementById(label)
+      const element = document.getElementById(id)
       if (element) {
         window.scrollTo({ top: element.offsetTop - linkScrollOffset, behavior: 'smooth' })
-        history.pushState(null, '', `#${label}`)
+        history.pushState(null, '', `#${id}`)
       }
       setCollapsed(false)
     }
-  }, [headingType, label, link, navigate])
+  }, [headingType, id, link, navigate])
 
   const onCollapseClick = useCallback(() => {
     setCollapsed((val) => !val)

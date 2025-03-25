@@ -116,7 +116,7 @@ export function OperationFloodgate() {
           <JadeEmpowerment /> and <CelestialConduit /> are pretty good at healing through this.
         </p>
       </BossSubSection>
-      <NotableTrash>
+      <NotableTrash dungeon="of">
         <SubSubSection title="Bloodwarpers">
           <p>
             Bloodwarpers are extremely dangerous mobs that require very high amounts of healing.

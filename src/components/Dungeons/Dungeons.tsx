@@ -5,6 +5,7 @@ import { DarkflameCleft } from './DarkflameCleft.tsx'
 import { OperationFloodgate } from './OperationFloodgate.tsx'
 import { CinderbrewMeadery } from './CinderbrewMeadery.tsx'
 import { TheMotherlode } from './TheMotherlode.tsx'
+import { PrioryOfTheSacredFlame } from './PrioryOfTheSacredFlame.tsx'
 
 export function Dungeons() {
   return (
@@ -14,11 +15,6 @@ export function Dungeons() {
           This dungeon guide assumes you already know the mechanics of each boss. I will mostly
           write about what specifically you should be doing as a Mistweaver.
         </p>
-        <div className="w-full flex justify-center">
-          <div className="text-3xl font-serif font-bold text-teal-500">
-            Season 2 guides are mostly done, only Priory remains!
-          </div>
-        </div>
         {/*<p>*/}
         {/*  For some bosses I have shared my MRT reminders note. To import, go to MRT {'>'} Reminders{' '}*/}
         {/*  {'>'} Global {'>'} Import*/}
@@ -29,6 +25,7 @@ export function Dungeons() {
       <MechagonWorkshop />
       <TheMotherlode />
       <OperationFloodgate />
+      <PrioryOfTheSacredFlame />
       <TheRookery />
       <TheaterOfPain />
     </div>

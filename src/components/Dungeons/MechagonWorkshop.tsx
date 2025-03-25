@@ -59,7 +59,7 @@ export function MechagonWorkshop() {
           very hard, so use your healing cooldowns on the <MegaZap /> debuffs.
         </p>
       </BossSubSection>
-      <NotableTrash>
+      <NotableTrash dungeon="mw">
         <SubSubSection title="Spider Tanks">
           <p>
             This is probably the highest HPS pull of the season. Be sure to go into this pull with

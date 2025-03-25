@@ -96,7 +96,7 @@ export function CinderbrewMeadery() {
           melee for healing!
         </p>
       </BossSubSection>
-      <NotableTrash>
+      <NotableTrash dungeon="cm">
         <p>
           A note on <SpinningCraneKick />: since this dungeon has a lot of pulls with very large
           pull counts, it is very tempting to spin through every pack for big dam. However, remember

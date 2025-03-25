@@ -1,6 +1,7 @@
 import type { DetailedHTMLProps, HTMLAttributes } from 'react'
 
 interface Props extends DetailedHTMLProps<HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement> {
+  id?: string
   children: string
   Tag: 'h2' | 'h3' | 'h4'
 }
@@ -17,10 +18,10 @@ const textSize = {
   h4: 'text-lg',
 }
 
-export function Header({ Tag, children, className, ...rest }: Props) {
+export function Header({ Tag, id, children, className, ...rest }: Props) {
   return (
     <Tag
-      id={children}
+      id={id ?? children}
       className={`font-bold font-serif ${textSize[Tag]} ${color[Tag]} ${className}`}
       {...rest}
     >

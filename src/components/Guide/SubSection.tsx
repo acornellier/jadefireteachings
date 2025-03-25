@@ -3,14 +3,15 @@ import type { ReactNode } from 'react'
 
 interface Props {
   title: string
+  id?: string
   children?: ReactNode
   extras?: ReactNode
 }
 
-export function SubSection({ title, extras, children }: Props) {
+export function SubSection({ title, id, extras, children }: Props) {
   return (
     <>
-      <Header Tag="h3" className="mb-3">
+      <Header Tag="h3" className="mb-3" id={id}>
         {title}
       </Header>
       {extras}

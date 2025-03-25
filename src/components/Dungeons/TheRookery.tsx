@@ -63,7 +63,7 @@ export function TheRookery() {
           of me doing big dam.
         </p>
       </BossSubSection>
-      <NotableTrash>
+      <NotableTrash dungeon="rook">
         <SubSubSection title="Coalescing Void Diffuser">
           <p>
             These mobs are scary since they pulse damage with <AttractingShadows />, and target

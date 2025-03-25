@@ -81,7 +81,7 @@ export function TheMotherlode() {
           here, a well-timed <LifeCocoon /> will regularly save a life.
         </p>
       </BossSubSection>
-      <NotableTrash>
+      <NotableTrash dungeon="ml">
         <SubSubSection title="Azerite Extractor">
           <p>
             This machine is a pain in the ass. Its <RapidExtraction /> circles to dodge are quick,

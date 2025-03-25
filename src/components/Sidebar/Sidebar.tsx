@@ -53,6 +53,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
       .filter(isHTMLElement)
       .map<SidebarLinkElement>((element) => ({
         element: element,
+        id: element.id,
         label: element.innerHTML,
         headingType: element.tagName.toLowerCase() as 'h1' | 'h2' | 'h3',
         childLinks: [],
@@ -106,9 +107,10 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
         <PageLink label="Guide" route={guideRoute} />
         <PageLink label="Dungeon Guides" route={dungeonsRoute} />
         <div className="w-full border-2 border-teal-700 rounded my-2" />
-        {linkConfigs.map(({ label, headingType, active, childLinks }) => (
+        {linkConfigs.map(({ label, id, headingType, active, childLinks }) => (
           <SidebarLink
             key={label}
+            id={id}
             label={label}
             headingType={headingType}
             active={active}
