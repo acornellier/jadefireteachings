@@ -8,6 +8,7 @@ import {
   EerieMolds,
   EnvelopingMist,
   EternalDarkness,
+  GiftOfTheCelestials,
   JadeEmpowerment,
   LegSweep,
   LifeCocoon,
@@ -26,7 +27,11 @@ import {
 
 export function DarkflameCleft() {
   return (
-    <DungeonSection title="Darkflame Cleft" video="https://www.youtube.com/watch?v=ez4BUV9RE3I">
+    <DungeonSection
+      title="Darkflame Cleft"
+      video="https://www.youtube.com/watch?v=ez4BUV9RE3I"
+      RecommendedTalents={[GiftOfTheCelestials]}
+    >
       <BossSubSection title="Ol' Waxbeard" difficulty="medium">
         <p>
           Watch the <CrudeWeapons /> stacks on your allies when <LuringCandleflame /> is on them,
