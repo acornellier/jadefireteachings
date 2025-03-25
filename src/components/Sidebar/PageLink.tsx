@@ -11,5 +11,5 @@ export function PageLink({ label, route }: Props) {
   const resolved = useResolvedPath(link)
   const match = useMatch({ path: resolved.pathname, end: true })
 
-  return <SidebarLink label={label} link={link} active={!!match} headingType="page" />
+  return <SidebarLink id={label} label={label} link={link} active={!!match} headingType="page" />
 }
