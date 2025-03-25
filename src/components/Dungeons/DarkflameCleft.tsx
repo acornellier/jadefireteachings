@@ -9,6 +9,7 @@ import {
   EnvelopingMist,
   EternalDarkness,
   GiftOfTheCelestials,
+  JadeBond,
   JadeEmpowerment,
   LegSweep,
   LifeCocoon,
@@ -32,6 +33,10 @@ export function DarkflameCleft() {
       video="https://www.youtube.com/watch?v=ez4BUV9RE3I"
       RecommendedTalents={[GiftOfTheCelestials]}
     >
+      <p>
+        I am still unsure about whether <GiftOfTheCelestials /> or <JadeBond /> is better in here, I
+        will continue to experiment.
+      </p>
       <BossSubSection title="Ol' Waxbeard" difficulty="medium">
         <p>
           Watch the <CrudeWeapons /> stacks on your allies when <LuringCandleflame /> is on them,
