@@ -8,8 +8,8 @@ export function Introduction() {
         gameplay, to build, to consumables.
       </p>
       <p>
-        I am Ortemis, and I am a top 3 mistweaver in M+. I am also the developer of{' '}
-        <Link href="https://not-even-close.com/">Not Even Close</Link> and{' '}
+        I am Ortemis, and I am, as of writing this, the top mistweaver in M+. I am also the
+        developer of <Link href="https://not-even-close.com/">Not Even Close</Link> and{' '}
         <Link href="https://threechest.io/">Threechest</Link>.
       </p>
       <p>
