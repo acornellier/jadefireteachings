@@ -1,7 +1,6 @@
 import { SubSection } from '../SubSection.tsx'
 import {
   Coalescence,
-  OverwhelmingForce,
   SpinningCraneKick,
   ThunderFocusTea,
 } from '../../Common/WowheadLink/Spells.tsx'
@@ -21,9 +20,9 @@ export function MasterOfHarmonyGameplay() {
         <Link href="https://wago.io/H-BqbpSOt">this weakaura</Link> to track your vitality.
       </p>
       <p>
-        Note that <OverwhelmingForce /> and <SpinningCraneKick /> not generating or draining
-        vitality means that you should rarely use <SpinningCraneKick />, unless there are very many
-        mobs. Stick to your standard melee rotation.
+        Note that <SpinningCraneKick /> does not generate vitality, and so you should be hesitant to
+        use this spell, unless there are very many mobs. Stick to your standard melee rotation to be
+        safe.
       </p>
     </SubSection>
   )
