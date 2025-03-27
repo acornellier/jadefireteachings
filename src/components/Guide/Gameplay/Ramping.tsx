@@ -12,20 +12,23 @@ import {
   RenewingMist,
   RisingMist,
   RisingSunKick,
+  SecretInfusion,
   StrengthOfTheBlackOx,
   ThunderFocusTea,
 } from '../../Common/WowheadLink/Spells.tsx'
 import { MasterOfHarmony } from '../../Common/SpecialTexts.tsx'
 import { Link } from '../../Common/Link.tsx'
-import { healingAoeTitle } from './AoeHealing.tsx'
+import { heavyHealingTitle } from './HeavyHealing.tsx'
+
+export const rampingTitle = 'Ramping'
 
 export function Ramping() {
   return (
-    <SubSection title="Ramping">
+    <SubSection title={rampingTitle}>
       <p>
         Mistweaver has many abilities that enhance the healing of your other abilities. Applying
         these buffs ahead of time to increase your healing when it is required is known as ramping
-        and is a very important of your healing!
+        and is a very important of your healing that mistweaver is currently very reliant on.
       </p>
       <UnorderedList>
         <li>
@@ -44,9 +47,14 @@ export function Ramping() {
           <MasterOfHarmony />. Lasts 8 seconds, but can be extended. This is very easily applied to
           the whole group, and is core to <MasterOfHarmony /> healing.
         </li>
+        <li>
+          <SecretInfusion />: not really considered ramping per-say, but another buff to give
+          yourself before doing significant healing. Using it on versatility or crit is a 15%
+          healing increase.
+        </li>
       </UnorderedList>
       <p>
-        Start ramping around 4 seconds before damage goes out. <ChiHarmony /> lasts the longest, so
+        Start ramping a few seconds before damage goes out. <ChiHarmony /> lasts the longest, so
         apply this first by hard-casting <RenewingMist />. <EnvelopingMist /> is much harder to
         apply, and lasts less long, so apply this second. If you still have a spare GCD,{' '}
         <RisingSunKick /> is great to extend the <EnvelopingMist /> and generate another{' '}
@@ -56,8 +64,8 @@ export function Ramping() {
       </p>
       <p>
         After your buffs are applied, simply do whatever other healing you want, following the{' '}
-        <Link href={`#${healingAoeTitle}`}>section above on AoE Healing</Link>. Do not fret about
-        perfectly executing your ramp.
+        <Link href={`#${heavyHealingTitle}`}>section above</Link>. Do not fret about perfectly
+        executing your ramp.
       </p>
       <p>
         <Link href="https://www.twitch.tv/ortemismw/clip/HardGiantWebGivePLZ-irG31gqw2AJ7SSVZ">

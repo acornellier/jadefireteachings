@@ -24,8 +24,7 @@ export function DamageRotation() {
   return (
     <SubSection title="Damage rotation">
       <p>
-        This is purely for optimal <b>damage</b> and not for optimal healing! Be sure to select your
-        hero talents below.
+        This is purely for optimal <b>damage</b> and not for optimal healing!
       </p>
       <p>
         IMPORTANT NOTE: <SpinningCraneKick /> is <i>really</i> bad for healing at low targets. There

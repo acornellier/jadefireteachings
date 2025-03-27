@@ -20,9 +20,11 @@ export function DungeonSection({
 }: Props) {
   return (
     <Section title={title}>
-      <p>
-        <Link href={video}>Watch a video of me running this dungeon</Link>
-      </p>
+      {video && (
+        <p>
+          <Link href={video}>Watch a video of me running this dungeon</Link>
+        </p>
+      )}
       {tree && (
         <p>
           Recommended hero tree:{' '}

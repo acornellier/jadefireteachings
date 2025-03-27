@@ -2,15 +2,15 @@ import { Header } from '../Common/Header.tsx'
 import type { ReactNode } from 'react'
 
 interface Props {
-  title: string
-  children?: ReactNode
+  title: ReactNode
+  children: ReactNode | string
   extras?: ReactNode
 }
 
 export function SubSubSection({ title, extras, children }: Props) {
   return (
     <>
-      <Header Tag="h4" className="mb-3">
+      <Header Tag="h4" id={title!.toString()} className="mb-3">
         {title}
       </Header>
       {extras}

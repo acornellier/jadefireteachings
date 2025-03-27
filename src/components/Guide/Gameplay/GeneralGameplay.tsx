@@ -24,7 +24,8 @@ export function GeneralGameplay() {
       <p>
         You are a melee spec and you should be in melee <b>most</b> of the time. It’s very important
         that you maintain your <JadefireTeachings /> and <AwakenedJadefire /> buffs through{' '}
-        <JadefireStomp />, and perform your single target rotation:
+        <JadefireStomp />, and perform your standard melee rotation. This is also known as
+        maintenance healing.
       </p>
       <OrderedList>
         <li>
@@ -44,7 +45,7 @@ export function GeneralGameplay() {
         <TeachingsOfTheMonastery />.
       </p>
       <p>
-        For the above reasons, I like to use <ThunderFocusTea /> mainly on <RisingSunKick />.
+        For the above reasons, I recommend using <ThunderFocusTea /> mainly on <RisingSunKick />.
         Alternatively, using <ThunderFocusTea /> on <EnvelopingMist /> is also a great choice.
       </p>
       <p>
@@ -53,8 +54,9 @@ export function GeneralGameplay() {
         <GustOfMists />.
       </p>
       <p>
-        Watch my <Link href="https://www.twitch.tv/ortemismw">stream</Link> to learn! All my VODs
-        are public. There’s an action tracker at the bottom right.
+        Watch my <Link href="https://www.twitch.tv/ortemismw">stream</Link> or{' '}
+        <Link href="https://www.youtube.com/@OrtemisWow">youtube</Link> to learn! There’s an action
+        tracker at the bottom right.
       </p>
     </SubSection>
   )

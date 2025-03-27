@@ -11,7 +11,7 @@ interface Props {
 export function SubSection({ title, id, extras, children }: Props) {
   return (
     <>
-      <Header Tag="h3" className="mb-3" id={id}>
+      <Header Tag="h3" className="mb-3" id={id ?? title}>
         {title}
       </Header>
       {extras}

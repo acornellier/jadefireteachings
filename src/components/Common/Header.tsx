@@ -1,8 +1,8 @@
-import type { DetailedHTMLProps, HTMLAttributes } from 'react'
+import type { DetailedHTMLProps, HTMLAttributes, ReactNode } from 'react'
 
 interface Props extends DetailedHTMLProps<HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement> {
-  id?: string
-  children: string
+  id: string
+  children: ReactNode
   Tag: 'h2' | 'h3' | 'h4'
 }
 
@@ -21,7 +21,7 @@ const textSize = {
 export function Header({ Tag, id, children, className, ...rest }: Props) {
   return (
     <Tag
-      id={id ?? children}
+      id={id}
       className={`font-bold font-serif ${textSize[Tag]} ${color[Tag]} ${className}`}
       {...rest}
     >

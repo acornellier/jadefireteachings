@@ -6,9 +6,9 @@ import {
 } from '../../Common/WowheadLink/Spells.tsx'
 import { Link } from '../../Common/Link.tsx'
 
-export function MasterOfHarmonyGameplay() {
+export function MasterOfHarmony() {
   return (
-    <SubSection title="Master of Harmony gameplay">
+    <SubSection title="Master of Harmony">
       <p>
         Whenever there is healing to do, pop your <ThunderFocusTea />. Any allies healed by you will
         now receive a 20% healing buff from <Coalescence /> for 10-15 seconds. This is basically
