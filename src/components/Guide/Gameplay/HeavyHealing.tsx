@@ -104,7 +104,6 @@ export function HeavyHealing() {
           minutes. For example, in Rookery, you might want to hold <ChiJi /> on the single Diffuser
           pulls in order to have him up for the double diffuser pull.
         </p>
-        <p>I will write a super in-depth guide on Chi-Ji in the future.</p>
       </SubSubSection>
       <SubSubSection title={<SheilunsGift />}>
         <p>
