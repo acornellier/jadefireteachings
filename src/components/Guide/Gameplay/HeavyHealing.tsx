@@ -99,7 +99,7 @@ export function HeavyHealing() {
           consider <JadeBond />.
         </p>
         <p>
-          If running <JadeBond />, he has a 2-minute cooldown and a 24 second duration. <JadeBond />{' '}
+          If running <JadeBond />, he has a 2-minute cooldown and a 25 second duration. <JadeBond />{' '}
           also doubles the shield size, and blankets the group with <EnvelopingMist />. This makes
           the bird <i>extremely</i> powerful. The downside is that you must be much more careful of
           when you use him. Always think ahead to know if you will need <JadeBond /> in the next 2
@@ -115,7 +115,7 @@ export function HeavyHealing() {
         </p>
         <p>
           <SheilunsGift /> thrives against short bursts of group-wide damage, such as <SacredToll />{' '}
-          used by the Paladins in Priory. This has a very short flexible CD of 30-40 seconds with{' '}
+          used by the Paladins in Priory. It has a very short flexible CD of 30-40 seconds with{' '}
           <VeilOfPride />, so don’t hesitate to use it often. Avoid using below 7 stacks.
         </p>
         <p>
