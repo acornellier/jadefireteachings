@@ -126,8 +126,7 @@ export function Talents() {
       <SubSection title="Spec tree">
         <p>
           With the changes from 11.1, I have been altering my build in two ways from dungeon to
-          dungeon. When I have figured out the best build for each dungeon, I will include it in the
-          dungeon guides.
+          dungeon. See the dungeon guides for more details.
           <UnorderedList>
             <li>
               <JadeBond /> instead of <GiftOfTheCelestials />. This is great for dungeons where
