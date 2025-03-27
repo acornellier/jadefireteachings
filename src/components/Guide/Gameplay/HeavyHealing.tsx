@@ -67,6 +67,10 @@ export function HeavyHealing() {
           charges.
         </p>
         <p>
+          <JadeEmpowerment /> thrives against short bursty damage that ticks several times, such as
+          the mechs at the end of Motherlode.
+        </p>
+        <p>
           You cannot move while channeling <CracklingJadeLightning />, and if you do, you will lose
           the charge and all its healing. So it is paramount to stand in a spot where you will not
           need to move for the duration of the channel.
@@ -84,6 +88,9 @@ export function HeavyHealing() {
           healing. Then repeat <TigerPalm /> <TigerPalm /> <BlackoutKick /> <EnvelopingMist />. Skip
           the <EnvelopingMist /> for more immediate healing, but less long-term healing. Skip one{' '}
           <TigerPalm /> for more <EnvelopingMist /> long-term healing, but less immediate healing.
+        </p>
+        <p>
+          <ChiJi /> thrives against extended damage intake, such as the final boss in Floodgate.
         </p>
         <p>
           If running <GiftOfTheCelestials />, he has a 1-minute cooldown and a 12 second duration.
@@ -106,9 +113,9 @@ export function HeavyHealing() {
           without which it is fairly useless for healing.
         </p>
         <p>
-          Use this on short bursts of group-wide damage, such as <SacredToll /> used by the Paladins
-          in Priory. This has a very short flexible CD of 30-40 seconds with <VeilOfPride />, so
-          don’t hesitate to use it. Avoid using below 7 stacks.
+          <SheilunsGift /> thrives against short bursts of group-wide damage, such as <SacredToll />{' '}
+          used by the Paladins in Priory. This has a very short flexible CD of 30-40 seconds with{' '}
+          <VeilOfPride />, so don’t hesitate to use it often. Avoid using below 7 stacks.
         </p>
         <p>
           With <JadeEmpowerment /> and <ChiJi /> receiving major buffs in 11.1, <SheilunsGift /> has
