@@ -94,7 +94,9 @@ export function HeavyHealing() {
         </p>
         <p>
           If running <GiftOfTheCelestials />, he has a 1-minute cooldown and a 12 second duration.
-          Use him often!
+          Use him often! For beginners, I recommend running this as your default talent in every
+          dungeon, and if you find yourself not needing it, or wanting a powerful cooldown, then
+          consider <JadeBond />.
         </p>
         <p>
           If running <JadeBond />, he has a 2-minute cooldown and a 24 second duration. <JadeBond />{' '}
