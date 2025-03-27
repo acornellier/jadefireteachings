@@ -18,7 +18,7 @@ import {
 } from '../../Common/WowheadLink/Spells.tsx'
 import { MasterOfHarmony } from '../../Common/SpecialTexts.tsx'
 import { Link } from '../../Common/Link.tsx'
-import { heavyHealingTitle } from './HeavyHealing.tsx'
+import { healingCooldownsTitle } from './HeavyHealing.tsx'
 
 export const rampingTitle = 'Ramping'
 
@@ -64,7 +64,7 @@ export function Ramping() {
       </p>
       <p>
         After your buffs are applied, simply do whatever other healing you want, following the{' '}
-        <Link href={`#${heavyHealingTitle}`}>section above</Link>. Do not fret about perfectly
+        <Link href={`#${healingCooldownsTitle}`}>section above</Link>. Do not fret about perfectly
         executing your ramp.
       </p>
       <p>

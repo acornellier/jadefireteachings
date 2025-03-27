@@ -32,11 +32,11 @@ import { SubSubSection } from '../SubSubSection.tsx'
 import { ConduitOfTheCelestials } from '../../Common/SpecialTexts.tsx'
 import { rampingTitle } from './Ramping.tsx'
 
-export const heavyHealingTitle = 'Heavy healing'
+export const healingCooldownsTitle = 'Healing cooldowns'
 
 export function HeavyHealing() {
   return (
-    <SubSection title={heavyHealingTitle}>
+    <SubSection title={healingCooldownsTitle}>
       <p>
         For a moderate burst of healing, the simplest spell to heal with is an instant <Vivify />,
         preferably with <ZenPulse />. This will cleave to the group with <InvigoratingMists />. Be
