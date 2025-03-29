@@ -20,6 +20,7 @@ export function Guide() {
       <Talents />
       <Gear />
       <UserInterface />
+      {/*<ChiJi />*/}
     </div>
   )
 }

@@ -22,7 +22,6 @@ import {
   JadeSanctuary,
   LegacyOfWisdom,
   LifeCocoon,
-  LighterThanAir,
   MistWrap,
   PeerIntoPeace,
   PoolOfMists,
@@ -37,7 +36,6 @@ import {
   UpliftedSpirits,
   VeilOfPride,
   Vivify,
-  Windwalking,
   ZenPulse,
 } from '../Common/WowheadLink/Spells.tsx'
 import { Button } from '../Common/Button.tsx'
@@ -89,16 +87,15 @@ export function Talents() {
       <SubSection title="Conduit build">
         <p>All the choice nodes are good, depending on what you want.</p>
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsMzyYWMbzMzYDbLLz2YwsZZmZZhhmZmBmhZAsNjZY2GzMMLPwEAAAAAEgFLz2ysNzMBAAbA
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsMzyYWMbzMzYDbLLz2YwsZZmZZhhmZmBmhZAsNzMDzGzMMLPwEAAAAAEgFLz2ysNzMBAAbA
         </TalentCodeBlock>
         <img src="/images/conduit.jpg" alt="conduit_talents" width={200} />
         <Header Tag="h3" id="moh-build">
           Master of Harmony build
         </Header>
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsMzyYWMbzMzYDbLLz2YwsZZmZZhhmZmBmhZAsNjZY2GzMMLPwEAAAAgZbab2mZZ2AABAAbA
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsMzyYWMbzMzYDbLLz2YwsZZmZZhhmZmBmhZAsNzMDzGzMMLPwEAAAAgZbab2mZZ2AABAAbA
         </TalentCodeBlock>
-        <img src="/images/moh.jpg" alt="moh_talents" width={200} />
       </SubSection>
       <SubSection title="Class tree">
         <UnorderedList>
@@ -109,19 +106,13 @@ export function Talents() {
             Take <PressurePoints /> if there is an enrage
           </li>
           <li>
-            <GraceOfTheCrane />, <AncientArts />, and <Windwalking /> are the main points to drop
-            for others.
+            <GraceOfTheCrane /> and <AncientArts /> are the main points to drop for others.
           </li>
           <li>
             Feel free to swap <ChiBurst /> for <ChiWave /> if you prefer it. Chi Burst is a slight
             damage increase, but you have to be careful aiming it as it can pull packs.
           </li>
-          <li>
-            <LighterThanAir /> is a great talent that a lot of people run. If you like it, run it! I
-            personally do not like it, especially due to the Roll CD increase.
-          </li>
         </UnorderedList>
-        <img src="/images/class.jpg" alt="class_talents" width={400} />
       </SubSection>
       <SubSection title="Spec tree">
         <p>
