@@ -31,7 +31,7 @@ export function Layout() {
             <Outlet />
           </div>
           <Footer />
-          <div className="mb-24" />
+          <div className="mb-64" />
         </main>
       </div>
       <TailwindBreakpoint />

@@ -6,6 +6,7 @@ import { Links } from './Guide/Links.tsx'
 import { Introduction } from './Guide/Introduction.tsx'
 import { PatchChanges } from './Guide/Gameplay/PatchChanges.tsx'
 import { Healing } from './Guide/Gameplay/Healing.tsx'
+import { ChiJiGuide } from './Guide/ChiJiGuide.tsx'
 
 export const pageTitle = 'Jadefire Teachings'
 
@@ -20,7 +21,7 @@ export function Guide() {
       <Talents />
       <Gear />
       <UserInterface />
-      {/*<ChiJi />*/}
+      <ChiJiGuide />
     </div>
   )
 }

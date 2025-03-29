@@ -12,7 +12,7 @@ export function MasterOfHarmony() {
       <p>
         Whenever there is healing to do, pop your <ThunderFocusTea />. Any allies healed by you will
         now receive a 20% healing buff from <Coalescence /> for 10-15 seconds. That{"'"}s basically
-        all there is to healing with this tree, honestly. Time your <ThunderFocusTea /> with moment
+        all there is to healing with this tree, honestly. Time your <ThunderFocusTea /> with moments
         of heavy healing.
       </p>
       <p>
