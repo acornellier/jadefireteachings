@@ -71,11 +71,11 @@ export function ChiJiGuide() {
         >
           <p>
             Your <BlackoutKick />, <RisingSunKick />, and <SpinningCraneKick /> now produce three
-            special <ChiJiGustOfMists />, each producing two <GustOfMists />, therefore six{' '}
-            <GustOfMists /> each in total. They were already producing Gusts with <CraneStyle />,
-            which stacks with this. This is especially potent with <BlackoutKick /> since it stacks
-            with <TeachingsOfTheMonastery />. A fully-stacked <BlackoutKick /> will produce 30{' '}
-            <GustOfMists />!
+            special <ChiJiGustOfMists />, each producing two regular mastery <GustOfMists />,
+            therefore six <GustOfMists /> each in total. They were already producing Gusts with{' '}
+            <CraneStyle />, which stacks with this. This is especially potent with <BlackoutKick />{' '}
+            since it stacks with <TeachingsOfTheMonastery />. A fully-stacked <BlackoutKick /> will
+            produce 30 <GustOfMists />!
           </p>
           <p>
             This is your main source of healing during <ChiJi />. Since <GustOfMists /> scales off
