@@ -35,9 +35,11 @@ import { SubSubSection } from './SubSubSection.tsx'
 import { OrderedList } from '../Common/OrderedList.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
 
+export const chiJiGuideTitle = 'Advanced Chi-Ji'
+
 export function ChiJiGuide() {
   return (
-    <Section title="Advanced Chi-Ji">
+    <Section title={chiJiGuideTitle}>
       <p>
         <ChiJi /> is a very complex bird, with a lot going on. Let{"'"}s break him down, and get
         into the nitty-gritty on how to maximize his effectiveness.

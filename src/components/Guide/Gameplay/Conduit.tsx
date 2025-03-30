@@ -14,7 +14,7 @@ import {
   Vivify,
 } from '../../Common/WowheadLink/Spells.tsx'
 import { Link } from '../../Common/Link.tsx'
-import { healingCooldownsTitle } from './HeavyHealing.tsx'
+import { healingCooldownsTitle } from './HealingCooldowns.tsx'
 
 export function Conduit() {
   return (

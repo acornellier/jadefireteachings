@@ -18,7 +18,7 @@ import {
 } from '../../Common/WowheadLink/Spells.tsx'
 import { MasterOfHarmony } from '../../Common/SpecialTexts.tsx'
 import { Link } from '../../Common/Link.tsx'
-import { healingCooldownsTitle } from './HeavyHealing.tsx'
+import { healingCooldownsTitle } from './HealingCooldowns.tsx'
 
 export const rampingTitle = 'Ramping'
 

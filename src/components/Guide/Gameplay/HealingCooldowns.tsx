@@ -31,10 +31,11 @@ import { SubSection } from '../SubSection.tsx'
 import { SubSubSection } from '../SubSubSection.tsx'
 import { ConduitOfTheCelestials } from '../../Common/SpecialTexts.tsx'
 import { rampingTitle } from './Ramping.tsx'
+import { chiJiGuideTitle } from '../ChiJiGuide.tsx'
 
 export const healingCooldownsTitle = 'Healing cooldowns'
 
-export function HeavyHealing() {
+export function HealingCooldowns() {
   return (
     <SubSection title={healingCooldownsTitle}>
       <p>
@@ -105,6 +106,10 @@ export function HeavyHealing() {
           when you use him. Always think ahead to know if you will need <JadeBond /> in the next 2
           minutes. For example, in Rookery, you might want to hold <ChiJi /> on the single Diffuser
           pulls in order to have him up for the double diffuser pull.
+        </p>
+        <p>
+          For a more in-depth guide (1500+ words!) on <ChiJi />, read my{' '}
+          <Link href={`#${chiJiGuideTitle}`}>{chiJiGuideTitle}</Link> guide.
         </p>
       </SubSubSection>
       <SubSubSection title={<SheilunsGift />}>
