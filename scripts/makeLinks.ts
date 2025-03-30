@@ -11,7 +11,7 @@ const playerSpellIds = [
   115151, 115310, 274909, 107428, 388491, 400089, 399491, 115175, 101546, 443110, 116645, 100780,
   116680, 388551, 400053, 388812, 116670, 157411, 414131, 446326, 116844, 101643, 388615, 450448,
   388681, 357768, 119381, 58984, 20594, 31224, 446345, 322101, 389577, 118, 132469, 116841, 1044,
-  115546, 109132, 422031, 388031, 406139, 388212, 115098, 388661, 404408,
+  115546, 109132, 422031, 388031, 406220, 388212, 115098, 388661, 404408,
 ]
 
 const dungeonSpellIds = [
@@ -40,6 +40,7 @@ import { makeSpell } from './makeWL.tsx'
 ${spells.map((spell) => `export const ${simpleName(spell.name)} = makeSpell("${spell.name}", ${spell.id}, '${spell.icon}')`).join('\n')}
 
 export const ChiJi = makeSpell('Chi-Ji', 325197, 'inv_pet_cranegod')
+export const ChiJiGustOfMists = makeSpell('Chi-Ji Gust of Mists', 343819, 'monk_stance_redcrane')
 `
 
 const dirname = getDirname(import.meta.url)

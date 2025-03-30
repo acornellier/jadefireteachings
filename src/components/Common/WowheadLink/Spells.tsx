@@ -21,7 +21,7 @@ export const CastigatorsShield = makeSpell("Castigator's Shield", 423015, 'spell
 export const CelestialConduit = makeSpell("Celestial Conduit", 443028, 'inv_ability_conduitofthecelestialsmonk_celestialconduit')
 export const ChaoticVulnerability = makeSpell("Chaotic Vulnerability", 424797, 'spell_shadow_shadowembrace')
 export const ChiBurst = makeSpell("Chi Burst", 123986, 'spell_arcane_arcanetorrent')
-export const ChiCocoon = makeSpell("Chi Cocoon", 406139, 'ability_monk_chiexplosion')
+export const ChiCocoon = makeSpell("Chi Cocoon", 406220, 'inv_pet_crane')
 export const ChiHarmony = makeSpell("Chi Harmony", 423439, 'ability_monk_counteractmagic')
 export const ChiWave = makeSpell("Chi Wave", 115098, 'ability_monk_chiwave')
 export const CloakOfShadows = makeSpell("Cloak of Shadows", 31224, 'spell_shadow_nethercloak')
@@ -144,3 +144,4 @@ export const YulonsGrace = makeSpell("Yu'lon's Grace", 414131, 'ability_monk_dra
 export const ZenPulse = makeSpell("Zen Pulse", 446326, 'ability_monk_forcesphere')
 
 export const ChiJi = makeSpell('Chi-Ji', 325197, 'inv_pet_cranegod')
+export const ChiJiGustOfMists = makeSpell('Chi-Ji Gust of Mists', 343819, 'monk_stance_redcrane')

@@ -5,6 +5,7 @@ import {
   ChiCocoon,
   ChiHarmony,
   ChiJi,
+  ChiJiGustOfMists,
   CraneStyle,
   EnvelopingBreath,
   EnvelopingMist,
@@ -17,6 +18,7 @@ import {
   JadefireStomp,
   JadefireTeachings,
   RapidDiffusion,
+  RenewingMist,
   RisingMist,
   RisingSunKick,
   SecretInfusion,
@@ -66,22 +68,27 @@ export function ChiJiGuide() {
           }
         >
           <p>
-            Your <BlackoutKick />, <RisingSunKick />, and <SpinningCraneKick /> now produce three{' '}
-            <GustOfMists /> procs. They were already producing Gusts with <CraneStyle />, which
-            stacks with this. This is especially potent with <BlackoutKick /> since it stacks with{' '}
-            <TeachingsOfTheMonastery />. A fully-stacked <BlackoutKick /> will produce 15{' '}
+            Your <BlackoutKick />, <RisingSunKick />, and <SpinningCraneKick /> now produce three
+            special <ChiJiGustOfMists />, each producing two <GustOfMists />, therefore six{' '}
+            <GustOfMists /> each in total. They were already producing Gusts with <CraneStyle />,
+            which stacks with this. This is especially potent with <BlackoutKick /> since it stacks
+            with <TeachingsOfTheMonastery />. A fully-stacked <BlackoutKick /> will produce 30{' '}
             <GustOfMists />!
           </p>
           <p>
             This is your main source of healing during <ChiJi />. Since <GustOfMists /> scales off
-            Mastery, this means Mastery significantly increases <ChiJi /> healing. That said, Haste
-            is even more important, since it simply means more <GustOfMists />.
+            Mastery, this means Mastery significantly increases <ChiJi /> healing.
+          </p>
+          <p>
+            For the rest of the guide, I will refer to regular mastery <GustOfMists /> instead of{' '}
+            <ChiJiGustOfMists />, to make it easier to compare.
           </p>
         </SubSubSection>
         <SubSubSection title={<EnvelopingBreath />}>
           <p>
             While he is out, casting <EnvelopingMist /> will cause <ChiJi /> applies this HoT to
-            your group. Its healing is fairly insignificant, but it does provide a 10% healing amp.
+            allies within 10 yards of your target. If your group is stacked, it will apply to the
+            whole group. Its healing is fairly insignificant, but it does provide a 10% healing amp.
             This is not a huge increase, but it is enough such that you should try to cast{' '}
             <EnvelopingMist /> at least once soon after casting <ChiJi />, which will apply the HoT
             to your whole group.
@@ -116,10 +123,23 @@ export function ChiJiGuide() {
           <p>
             Before summoning the Red Crane, try to get 4 stacks of <TeachingsOfTheMonastery />, and
             have <JadefireTeachings /> active. If running <JadeBond />, you will need to refresh{' '}
-            <JadefireTeachings /> while he is out. To make him even more powerful, use{' '}
-            <ThunderFocusTea /> to get <SecretInfusion /> - Haste {'>'} Vers {'>'} Crit. If running{' '}
-            <ShaohaosLessons />, use this before anything else since it lasts so long. Fear is best,
-            but be aware of breaching the haste cap of 100% with <SecretInfusion /> and Bloodlust.
+            <JadefireTeachings /> while he is out.
+          </p>
+          <p>
+            <SecretInfusion /> can be used to increase the power of <ChiJi />. Generally, Haste{' '}
+            {'>'} Vers {'>'} Crit. If skipping most <EnvelopingMist /> casts, then Vers/Crit is
+            better than Haste. Haste is also the only multiplicative stat, so you get more value
+            from <SecretInfusion /> for haste if you have <InvokersDelight /> or Bloodlust.
+          </p>
+          <p>
+            Never go for mastery with <SecretInfusion />, even though it <i>should</i> be an amazing
+            stat for <ChiJi />, the amount of mastery provided by <SecretInfusion /> is incorrect
+            and therefore undervalued compared to other stats.
+          </p>
+          <p>
+            If running <ShaohaosLessons />, use this before anything else since it lasts so long.
+            Fear is best, but be aware of breaching the GCD cap at 100% haste with{' '}
+            <SecretInfusion /> and Bloodlust.
           </p>
         </SubSubSection>
         <SubSubSection title="Rotation">
@@ -172,8 +192,7 @@ export function ChiJiGuide() {
           >
             <p>
               The first main reason is to get <EnvelopingBreath /> going. You will want to do this
-              in <i>most</i> situations, assuming you can afford the GCD. Keep in mind <JadeBond />{' '}
-              does this for free, but you might want to refresh it eventually.
+              in <i>most</i> situations, assuming you can afford the GCD.
             </p>
             <p>
               After that, generally use it if you can afford the GCD. It is usually an increase in
@@ -207,8 +226,8 @@ export function ChiJiGuide() {
                 <BlackoutKick />.
               </li>
               <li>
-                Generates 3 <GustOfMists />. Compare to a stacked <BlackoutKick /> which is 5{' '}
-                <GustOfMists /> per GCD.
+                Generates 8 <GustOfMists />. Compare to a stacked <BlackoutKick /> which is at least
+                30 <GustOfMists /> per 3 GCDs, which is 10 <GustOfMists /> per GCD.
               </li>
               <p>
                 The main one to <i>think</i> about is the first - extending <EnvelopingMist />. If
@@ -246,12 +265,19 @@ export function ChiJiGuide() {
                 <JadefireStomp /> or <ThunderFocusTea />.
               </li>
               <li>
+                <ThunderFocusTea /> for <SecretInfusion /> is good, only use it on <RisingSunKick />{' '}
+                or <EnvelopingMist />.
+              </li>
+              <li>
                 <Vivify />: if you have a lot of healing amps out one ally, that ally is low on
                 health, and you have an <ZenPulse />, then <Vivify /> <i>can</i> be a not-horrible
                 choice.
               </li>
               <li>
-                <JadeEmpowerment />. Avoid using this during <ChiJi /> at all costs. This is your
+                <RenewingMist />: not worth pressing during <ChiJi />.
+              </li>
+              <li>
+                <JadeEmpowerment />: avoid using this during <ChiJi /> at all costs. This is your
                 other main healing coverage and you want to save the charges!
               </li>
             </UnorderedList>
@@ -265,14 +291,14 @@ export function ChiJiGuide() {
           </p>
           <p>
             <ChiJi /> <i>does</i> have an interaction with <SpinningCraneKick />, causing it to
-            produce 3 <GustOfMists />. At a large target count, you can use <ChiJi /> as a healing
+            produce 6 <GustOfMists />. At a large target count, you can use <ChiJi /> as a healing
             increase for your <SpinningCraneKick /> spam. Do note that <AwakenedJadefire /> does not
             benefit from healing amps, which includes <EnvelopingBreath />.
           </p>
           <p>
-            One way to think about the healing it is that <SpinningCraneKick /> generates 3{' '}
-            <GustOfMists /> per GCD, while <BlackoutKick /> generates 15 <GustOfMists /> per 3 GCDs,
-            which is 5 <GustOfMists /> per GCD.
+            One way to think about the healing it is that <SpinningCraneKick /> generates 6{' '}
+            <GustOfMists /> per GCD, while <BlackoutKick /> generates 30 <GustOfMists /> per 3 GCDs,
+            which is 10 <GustOfMists /> per GCD.
           </p>
         </SubSubSection>
       </SubSection>
@@ -280,8 +306,8 @@ export function ChiJiGuide() {
         <SubSubSection title={<JadeBond />}>
           <p>
             Getting 5 free <EnvelopingMist />s on your group will make you a god while they are out.
-            Keep in mind that this does not proc <EnvelopingBreath />. Do your best to extend these
-            5 <EnvelopingMist />s with <RisingSunKick />.
+            Keep in mind that this does not proc <EnvelopingBreath />. It is <i>very</i> important
+            to extend these 5 <EnvelopingMist />s with <RisingSunKick />.
           </p>
         </SubSubSection>
         <SubSubSection title={<InvokersDelight />}>
@@ -298,7 +324,3 @@ export function ChiJiGuide() {
     </Section>
   )
 }
-
-// talents
-// - jade bond
-// - invoker's delight
