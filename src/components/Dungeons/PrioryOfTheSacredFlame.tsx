@@ -26,7 +26,6 @@ import {
   SoothingMist,
   TeachingsOfTheMonastery,
   Thunderclap,
-  VeilOfPride,
   VindictiveWrath,
   Vivify,
 } from '../Common/WowheadLink/Spells.tsx'
@@ -41,7 +40,6 @@ export function PrioryOfTheSacredFlame() {
     <DungeonSection
       title="Priory of the Sacred Flame"
       video="https://www.youtube.com/watch?v=F9_7NNhRmMk"
-      RecommendedTalents={[VeilOfPride]}
     >
       <p>
         I currently prefer <JadeBond />, but only if your group pulls around it. It is good for the

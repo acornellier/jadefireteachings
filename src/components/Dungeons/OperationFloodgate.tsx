@@ -31,11 +31,8 @@ export function OperationFloodgate() {
     <DungeonSection
       title="Operation: Floodgate"
       video="https://www.youtube.com/watch?v=CM1DxQ7uiJA"
+      RecommendedTalents={[GiftOfTheCelestials]}
     >
-      <p>
-        <GiftOfTheCelestials /> is better for 1st and last boss, while <JadeBond /> is better for
-        the Bloodwarpers. Both are good for Swampface.
-      </p>
       <BossSubSection title="Big M.O.M.M.A." difficulty="hard">
         <p>
           The main healing to be done is in the burn phase, where you will take significant damage
