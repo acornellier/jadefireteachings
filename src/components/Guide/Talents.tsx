@@ -89,7 +89,6 @@ export function Talents() {
         <TalentCodeBlock>
           C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsMzyYWMbzMzYDbLLz2YwsZZmZZhhmZmBmhZAsNzMDzGzMMLPwEAAAAAEgFLz2ysNzMBAAbA
         </TalentCodeBlock>
-        <img src="/images/conduit.jpg" alt="conduit_talents" width={200} />
         <Header Tag="h3" id="moh-build">
           Master of Harmony build
         </Header>
