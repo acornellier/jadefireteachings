@@ -2,7 +2,9 @@ import { UnorderedList } from '../Common/UnorderedList.tsx'
 import {
   ChiJi,
   CraneStyle,
+  GiftOfTheCelestials,
   GustOfMists,
+  JadeBond,
   JadeEmpowerment,
   Shadowmeld,
 } from '../Common/WowheadLink/Spells.tsx'
@@ -92,29 +94,36 @@ export function Gear() {
         </p>
       </SubSection>
       <SubSection title="Trinkets">
-        <p>
-          Warning: I personally have only acquired <MisterPickMeUp /> so far, so I have no
-          experience with the other trinkets.
-        </p>
         <UnorderedList>
           <li>
             <MisterPickMeUp /> is your best trinket at all times in all content. It does big healing
             and big damage.
           </li>
           <li>
-            <BurstingLightshard /> is your highest damage trinket. You will see a lot of top players
-            including myself run this, if healing isn{"'"}t an issue.
+            <MugsMoxieJug /> is probably the strongest trinket for healing. It is unfortunately very
+            hard to acquire.
           </li>
           <li>
-            <MugsMoxieJug /> is probably your second best trinket.
+            <BurstingLightshard /> is your highest damage trinket. Run this if prioritizing damage,
+            if healing isn{"'"}t an issue.
+          </li>
+          <li>
+            <CarvedBlazikonWax /> is a great stat stick providing versatility with high uptime. This
+            should be your go-to for healing if you do not have <MugsMoxieJug />.
+          </li>
+          <li>
+            <ReverbRadio /> is another good stat trinket, but I think <CarvedBlazikonWax /> is
+            better since you should already have enough haste.
+          </li>
+          <li>
+            <SignetOfThePriory /> is powerful but has a 2 minute cooldown. Generally macro this into
+            your <ChiJi />. It{"'"}s pretty useless with <JadeBond /> since it{"'"}s just overkill.
+            But it{"'"}s pretty good with <GiftOfTheCelestials />!
           </li>
           <li>
             <BurinOfTheCandleKing /> is potentially a very strong absorb trinket. Its flexibility is
-            extremely valuable in M+ to keep weaker players alive.
-          </li>
-          <li>
-            <SignetOfThePriory />, <ReverbRadio />, and <CarvedBlazikonWax /> are competitive stat
-            trinkets.
+            extremely valuable in M+ to keep weaker players alive. I personally do not have one yet,
+            so have not had a chance to try it.
           </li>
         </UnorderedList>
       </SubSection>
