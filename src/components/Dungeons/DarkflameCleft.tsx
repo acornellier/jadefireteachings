@@ -31,6 +31,7 @@ export function DarkflameCleft() {
     <DungeonSection
       title="Darkflame Cleft"
       video="https://www.youtube.com/watch?v=ez4BUV9RE3I"
+      tree="conduit"
       RecommendedTalents={[GiftOfTheCelestials]}
     >
       <p>

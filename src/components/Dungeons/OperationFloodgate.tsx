@@ -31,6 +31,7 @@ export function OperationFloodgate() {
     <DungeonSection
       title="Operation: Floodgate"
       video="https://www.youtube.com/watch?v=CM1DxQ7uiJA"
+      tree="conduit"
       RecommendedTalents={[GiftOfTheCelestials]}
     >
       <BossSubSection title="Big M.O.M.M.A." difficulty="hard">

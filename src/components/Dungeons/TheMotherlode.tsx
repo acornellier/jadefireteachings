@@ -31,6 +31,7 @@ export function TheMotherlode() {
     <DungeonSection
       title="The MOTHERLODE!!"
       video="https://www.youtube.com/watch?v=4qlHvcyV1cI"
+      tree="moh"
       RecommendedTalents={[JadeBond]}
     >
       <p>

@@ -24,7 +24,11 @@ import { NotableTrash } from './NotableTrash.tsx'
 
 export function TheRookery() {
   return (
-    <DungeonSection title="The Rookery" video="https://www.youtube.com/watch?v=vfqhyTErhyI">
+    <DungeonSection
+      title="The Rookery"
+      video="https://www.youtube.com/watch?v=vfqhyTErhyI"
+      tree="moh"
+    >
       <p>
         I recommend <JadeBond /> for healing through the double Diffuser pack, but{' '}
         <GiftOfTheCelestials /> is fine as well.

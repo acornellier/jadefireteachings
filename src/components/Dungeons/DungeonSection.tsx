@@ -27,7 +27,7 @@ export function DungeonSection({
       )}
       {tree && (
         <p>
-          Recommended hero tree:{' '}
+          Hero tree I play:{' '}
           {tree === 'conduit' ? (
             <ConduitOfTheCelestials />
           ) : tree === 'moh' ? (
