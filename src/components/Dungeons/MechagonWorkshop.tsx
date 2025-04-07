@@ -22,7 +22,7 @@ export function MechagonWorkshop() {
   return (
     <DungeonSection
       title="Mechagon: Workshop"
-      video="https://www.youtube.com/watch?v=RfpR7RN1_28"
+      video="https://www.youtube.com/watch?v=YUCX-aD3iiM"
       tree="moh"
       RecommendedTalents={[JadeBond, ShaohaosLessons]}
     >

@@ -40,6 +40,7 @@ export function PrioryOfTheSacredFlame() {
     <DungeonSection
       title="Priory of the Sacred Flame"
       video="https://www.youtube.com/watch?v=F9_7NNhRmMk"
+      tree="idk"
     >
       <p>
         I currently prefer <JadeBond />, but only if your group pulls around it. It is good for the
