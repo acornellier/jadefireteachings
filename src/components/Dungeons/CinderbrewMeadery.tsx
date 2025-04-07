@@ -29,8 +29,7 @@ export function CinderbrewMeadery() {
       title="Cinderbrew Meadery"
       video="https://www.youtube.com/watch?v=6mwbS2RStz8"
       tree="idk"
-      Talents={[PressurePoints]}
-      RecommendedTalents={[GiftOfTheCelestials]}
+      RecommendedTalents={[GiftOfTheCelestials, PressurePoints]}
     >
       <BossSubSection title="Brewmaster Aldryr" difficulty="hard">
         <p>
