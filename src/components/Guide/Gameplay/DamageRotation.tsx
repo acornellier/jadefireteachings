@@ -17,12 +17,14 @@ import { SubSection } from '../SubSection.tsx'
 import { Button } from '../../Common/Button.tsx'
 import { useLocalStorage } from '../../../util/hooks/useLocalStorage.ts'
 
+export const damageRotationTitle = 'Damage rotation'
+
 export function DamageRotation() {
   const [heroTalents, setHeroTalents] = useLocalStorage<'conduit' | 'moh'>('conduit', 'conduit')
   const isConduit = heroTalents === 'conduit'
 
   return (
-    <SubSection title="Damage rotation">
+    <SubSection title={damageRotationTitle}>
       <p>
         This is purely for optimal <b>damage</b> and not for optimal healing!
       </p>

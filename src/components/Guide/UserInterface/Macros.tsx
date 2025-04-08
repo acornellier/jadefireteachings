@@ -2,7 +2,7 @@ import { CodeBlock, type CodeBlockProps } from '../../Common/CodeBlock.tsx'
 import { SpinningCraneKick } from '../../Common/WowheadLink/Spells.tsx'
 import { SubSection } from '../SubSection.tsx'
 
-const Macro = ({ children }: Omit<CodeBlockProps, 'type'>) => (
+export const Macro = ({ children }: Omit<CodeBlockProps, 'type'>) => (
   <CodeBlock type="macro">{children}</CodeBlock>
 )
 

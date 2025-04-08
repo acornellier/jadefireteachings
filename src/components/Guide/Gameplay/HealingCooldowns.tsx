@@ -31,7 +31,7 @@ import { SubSection } from '../SubSection.tsx'
 import { SubSubSection } from '../SubSubSection.tsx'
 import { ConduitOfTheCelestials } from '../../Common/SpecialTexts.tsx'
 import { rampingTitle } from './Ramping.tsx'
-import { chiJiGuideTitle } from '../ChiJiGuide.tsx'
+import { chiJiGuideTitle } from '../../Advanced/ChiJiGuide.tsx'
 
 export const healingCooldownsTitle = 'Healing cooldowns'
 

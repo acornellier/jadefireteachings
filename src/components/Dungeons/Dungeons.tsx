@@ -26,10 +26,6 @@ export function Dungeons() {
           <VeilOfPride /> in every dungeon. If you find yourself not needing so much coverage,{' '}
           <i>then</i> consider <JadeBond />, and dropping <VeilOfPride /> for <ShaohaosLessons />.
         </p>
-        {/*<p>*/}
-        {/*  For some bosses I have shared my MRT reminders note. To import, go to MRT {'>'} Reminders{' '}*/}
-        {/*  {'>'} Global {'>'} Import*/}
-        {/*</p>*/}
       </div>
       <CinderbrewMeadery />
       <DarkflameCleft />

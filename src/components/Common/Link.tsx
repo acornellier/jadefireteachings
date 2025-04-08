@@ -6,7 +6,8 @@ interface Props
 }
 
 export function Link({ className, href, ...rest }: Props) {
-  const isInternal = href.startsWith('#')
+  const isInternal = href.includes('#')
+
   return (
     <a
       href={href}

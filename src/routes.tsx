@@ -1,6 +1,7 @@
 import type { RouteProps } from 'react-router-dom'
 import { Guide } from './components/Guide.tsx'
 import { Dungeons } from './components/Dungeons/Dungeons.tsx'
+import { Advanced } from './components/Advanced/Advanced.tsx'
 
 export const guideRoute: RouteProps = {
   index: true,
@@ -12,4 +13,9 @@ export const dungeonsRoute: RouteProps = {
   element: <Dungeons />,
 }
 
-export const routes = [guideRoute, dungeonsRoute]
+export const advancedRoute: RouteProps = {
+  path: 'advanced',
+  element: <Advanced />,
+}
+
+export const routes = [guideRoute, dungeonsRoute, advancedRoute]

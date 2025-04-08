@@ -3,7 +3,7 @@ import { linkScrollOffset, SidebarLink, type SidebarLinkConfig } from './Sidebar
 import { SidebarButton } from './SidebarButton.tsx'
 import { useWindowEvent } from '../../util/hooks/useWindowEvent.ts'
 import { useLocation } from 'react-router-dom'
-import { dungeonsRoute, guideRoute } from '../../routes.tsx'
+import { advancedRoute, dungeonsRoute, guideRoute } from '../../routes.tsx'
 import { PageLink } from './PageLink.tsx'
 
 interface SidebarProps {
@@ -106,6 +106,7 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
       >
         <PageLink label="Guide" route={guideRoute} />
         <PageLink label="Dungeon Guides" route={dungeonsRoute} />
+        <PageLink label="Advanced Guides" route={advancedRoute} />
         <div className="w-full border-2 border-teal-700 rounded my-2" />
         {linkConfigs.map(({ label, id, headingType, active, childLinks }) => (
           <SidebarLink

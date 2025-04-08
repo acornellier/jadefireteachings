@@ -1,4 +1,4 @@
-import { Section } from './Section.tsx'
+import { Section } from '../Guide/Section.tsx'
 import {
   AwakenedJadefire,
   BlackoutKick,
@@ -30,8 +30,8 @@ import {
   Vivify,
   ZenPulse,
 } from '../Common/WowheadLink/Spells.tsx'
-import { SubSection } from './SubSection.tsx'
-import { SubSubSection } from './SubSubSection.tsx'
+import { SubSection } from '../Guide/SubSection.tsx'
+import { SubSubSection } from '../Guide/SubSubSection.tsx'
 import { OrderedList } from '../Common/OrderedList.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
 
