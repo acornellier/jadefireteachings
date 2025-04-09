@@ -39,9 +39,9 @@ export function Gear() {
           ahead.
         </p>
         <p>
-          I am currently going for 30% Haste, 110% Mastery, and rest Vers. But do not panic about
-          having different stats as long as you have lots of haste. The mastery threshold is subject
-          to change, but I doubt that my plans for haste/vers will change.
+          I am currently going for 30-35% Haste, ~100% Mastery, then prioritizing Vers. But do not
+          panic about having different stats as long as you have lots of haste. The mastery
+          threshold is subject to change, but I doubt that my plans for haste/vers will change.
         </p>
         <UnorderedList>
           <li>
