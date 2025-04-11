@@ -5,19 +5,29 @@ import { damageRotationTitle } from '../Guide/Gameplay/DamageRotation.tsx'
 import { SubSubSection } from '../Guide/SubSubSection.tsx'
 import { BurstingLightshard, MisterPickMeUp } from '../Common/WowheadLink/Items.tsx'
 import {
+  AspectOfHarmony,
+  BlackoutKick,
   CelestialConduit,
   ChiJi,
   Coalescence,
+  CracklingJadeLightning,
+  HarmonicGambit,
   HeartOfTheJadeSerpent,
   JadeEmpowerment,
   LifeCocoon,
+  RisingSunKick,
   SecretInfusion,
   ShaohaosLessons,
+  SheilunsGift,
   SpinningCraneKick,
+  TeachingsOfTheMonastery,
   ThunderFocusTea,
+  TigerPalm,
+  Vivify,
 } from '../Common/WowheadLink/Spells.tsx'
 import { Macro } from '../Guide/UserInterface/Macros.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
+import { OrderedList } from '../Common/OrderedList.tsx'
 
 export function DamageOptimization() {
   return (
@@ -80,7 +90,84 @@ export function DamageOptimization() {
         </p>
       </SubSection>
       <SubSection title="Master of Harmony">
-        <p>TODO: write this up, very soon I promise!!</p>
+        <p>
+          <AspectOfHarmony /> is very complicated. I will not go into the in-depth mechanics of how
+          it functions here, only how to maximize its damage. Read{' '}
+          <Link href="https://docs.google.com/document/d/1899YbIt-l0fYz3TYRd-MXATcH-wohL3JCMOGzCQ5Bw4/edit?usp=sharing">
+            this guide
+          </Link>{' '}
+          for details on how it functions. Check the Weakauras section in my main guide for a
+          Vitality tracker.
+        </p>
+        <p>
+          Dealing damage with <AspectOfHarmony /> cycles through 3 phases: storing Vitality,
+          consuming Vitality, and using the <Coalescence /> damage amp.
+        </p>
+        <SubSubSection title="Storing Vitality">
+          <p>
+            Storing Vitality is generally easy and will be done automatically through your melee
+            rotation and passive healing. It stacks very slowly with overhealing, so there are some
+            situation where this no healing to do and it will stack very slowly. In this case, you
+            can send <ThunderFocusTea /> without full Vitality to avoid overcapping on charges.
+          </p>
+        </SubSubSection>
+        <SubSubSection title="Consuming Vitality">
+          <p>
+            When your Vitality is at its max value, use <ThunderFocusTea />. Now, it is vital to
+            immediately follow up with one the 3 <HarmonicGambit /> spells: <TigerPalm />,{' '}
+            <BlackoutKick />, or <RisingSunKick />, applying the dot to the enemy. Once applied,
+            your subsequent spells are less important as any can amplify this dot and drain your
+            Vitality within a few GCDs. Even your teammates{"'"} spells can intensify the dot!.
+            However, I recommend continuing to only use <HarmonicGambit /> spells, or{' '}
+            <SpinningCraneKick />, until your Vitality is fully drained. Be sure to get at least one{' '}
+            <RisingSunKick /> in here for <SecretInfusion />.
+          </p>
+          <p>
+            Avoid heavy healing while Vitality is draining such as <ChiJi />, <SheilunsGift />,{' '}
+            <Vivify /> etc. Make sure to use your <ShaohaosLessons /> <i>before</i>{' '}
+            <ThunderFocusTea />. <CracklingJadeLightning /> is generally fine to use, but not ideal.
+          </p>
+          <p>
+            Optional info on casts after first: after the first GCD, you will have most of your
+            Vitality still available in the pool. Unfortunately, this can still be turned into
+            healing even if your group is topped. To avoid this, you want to intensify the dot
+            through damaging spells that do little healing. The best spell for this is actually{' '}
+            <SpinningCraneKick /> which can be a good choice in AoE, but not worth the damage loss
+            in ST. <HarmonicGambit /> spells are the next best option.
+          </p>
+        </SubSubSection>
+        <SubSubSection title="Using the damage amp">
+          <p>
+            The enemy is now taking 20% more damage for 8 seconds. Now is the time to slam your{' '}
+            <JadeEmpowerment /> stacks for big damage with <Coalescence /> + <SecretInfusion />.
+          </p>
+        </SubSubSection>
+        <SubSubSection title="Ideal rotation">
+          <OrderedList>
+            <li>
+              Get 4 stacks of <TeachingsOfTheMonastery />
+            </li>
+            <li>
+              <ShaohaosLessons />
+            </li>
+            <li>
+              <ThunderFocusTea />, initiating Vitality drain
+            </li>
+            <li>
+              <RisingSunKick /> to apply the dot and gain <SecretInfusion />
+            </li>
+            <li>
+              <BlackoutKick /> to intensify and spread the dot
+            </li>
+            <li>
+              Optional: if any Vitality remains, finish draining it using <HarmonicGambit /> spells
+              or <SpinningCraneKick />
+            </li>
+            <li>
+              <CracklingJadeLightning /> with <SecretInfusion /> and <Coalescence />
+            </li>
+          </OrderedList>
+        </SubSubSection>
       </SubSection>
       <SubSection title="Season 2 Trinkets">
         <SubSubSection title={<BurstingLightshard />}>

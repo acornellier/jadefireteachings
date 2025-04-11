@@ -5,6 +5,7 @@ export const AlertingShrill = makeSpell("Alerting Shrill", 438476, 'ability_vehi
 export const AncientArts = makeSpell("Ancient Arts", 344359, 'ability_monk_dpsstance')
 export const AncientTeachings = makeSpell("Ancient Teachings", 388023, 'inv_misc_book_07')
 export const ArcingVoid = makeSpell("Arcing Void", 430805, 'spell_priest_voidsear')
+export const AspectOfHarmony = makeSpell("Aspect of Harmony", 450508, 'inv_ability_masterofharmonymonk_aspectofharmony')
 export const AttractingShadows = makeSpell("Attracting Shadows", 430814, 'spell_mage_arcaneorb')
 export const AugustDynasty = makeSpell("August Dynasty", 442818, 'ability_monk_legacyoftheemperor')
 export const AwakenTheSwamp = makeSpell("Awaken the Swamp", 473081, 'inv_tradeskillitem_sorcerersearth_tong')
