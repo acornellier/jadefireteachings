@@ -117,7 +117,7 @@ export function DamageOptimization() {
             immediately follow up with one the 3 <HarmonicGambit /> spells: <TigerPalm />,{' '}
             <BlackoutKick />, or <RisingSunKick />, applying the dot to the enemy. Once applied,
             your subsequent spells are less important as any can amplify this dot and drain your
-            Vitality within a few GCDs. Even your teammates{"'"} spells can intensify the dot!.
+            Vitality within a few GCDs. Even your teammates{"'"} spells can intensify the dot!
             However, I recommend continuing to only use <HarmonicGambit /> spells, or{' '}
             <SpinningCraneKick />, until your Vitality is fully drained. Be sure to get at least one{' '}
             <RisingSunKick /> in here for <SecretInfusion />.
@@ -173,9 +173,9 @@ export function DamageOptimization() {
         <SubSubSection title={<BurstingLightshard />}>
           <p>
             This little guy does a lot of damage and should be your go-to trinket for damage.
-            Keeping him alive can be a pain. By far the best is to pair him with your <ChiJi /> cast
-            and then forget about him and simply do your <ChiJi /> rotation. <JadeEmpowerment />{' '}
-            also works to heal him. <CelestialConduit /> does not.
+            Keeping him alive can be a pain. By far the best way is to pair him with your <ChiJi />{' '}
+            cast and then forget about him and simply do your <ChiJi /> rotation.{' '}
+            <JadeEmpowerment /> also works to heal him. <CelestialConduit /> does not.
           </p>
           <p>
             Alternatively, press this macro twice to spawn him, and then focus him. Then you can
