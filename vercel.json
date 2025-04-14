@@ -1,3 +1,6 @@
 {
-  "rewrites": [{ "source": "/dungeons", "destination": "/" }]
+  "rewrites": [
+    { "source": "/dungeons", "destination": "/" },
+    { "source": "/advanced", "destination": "/" }
+  ]
 }
