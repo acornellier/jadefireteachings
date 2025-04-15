@@ -8,6 +8,7 @@ import {
   EerieMolds,
   EnvelopingMist,
   EternalDarkness,
+  ExpelHarm,
   GiftOfTheCelestials,
   JadeEmpowerment,
   LegSweep,
@@ -22,6 +23,7 @@ import {
   SheilunsGift,
   ThrowDarkflame,
   UmbralSlash,
+  Vivify,
   ZenPulse,
 } from '../Common/WowheadLink/Spells.tsx'
 
@@ -49,7 +51,7 @@ export function DarkflameCleft() {
       </BossSubSection>
       <BossSubSection title="The Candle King" difficulty="hard">
         <p>
-          A true test of your healing skills, a pure rot HPS fight, this is what we live for! All
+          A true test of your healing skills, a mostly rot HPS fight, this is what we live for! All
           your healing skills will be put to the test here.
         </p>
         <p>
@@ -73,8 +75,12 @@ export function DarkflameCleft() {
           so time it well, when the whole group is low.
         </p>
         <p>
-          Sometimes, an ally will receive a healing absorb after <ThrowDarkflame />, so keep an eye
-          out for that.
+          Now the part that isn{"'"}t rot: <ThrowDarkflame /> hits pretty hard, so players with the
+          debuff need to be fairly healthy beforehand. After the clear, each player receives a large
+          healing absorb. This essentially means you need heavier healing leading into and shortly
+          after the clears. Get healing amps on the players with the debuff, and use a{' '}
+          <JadeEmpowerment />, a big <Vivify />, or an <ExpelHarm /> to clear the absorb. Rotate
+          your defensives for these debuffs.
         </p>
       </BossSubSection>
       <BossSubSection title="The Darkness" difficulty="medium">
