@@ -109,7 +109,7 @@ export function HealingCooldowns() {
         </p>
         <p>
           For a more in-depth guide (1500+ words!) on <ChiJi />, read my{' '}
-          <Link href={`#${chiJiGuideTitle}`}>{chiJiGuideTitle}</Link> guide.
+          <Link href={`/advanced#${chiJiGuideTitle}`}>{chiJiGuideTitle}</Link> guide.
         </p>
       </SubSubSection>
       <SubSubSection title={<SheilunsGift />}>
