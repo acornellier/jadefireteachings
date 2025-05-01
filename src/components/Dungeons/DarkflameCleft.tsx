@@ -11,9 +11,11 @@ import {
   ExpelHarm,
   GiftOfTheCelestials,
   JadeEmpowerment,
+  LegacyOfWisdom,
   LegSweep,
   LifeCocoon,
   LuringCandleflame,
+  MendingProliferation,
   RenewingMist,
   Revival,
   RingOfPeace,
@@ -33,8 +35,11 @@ export function DarkflameCleft() {
       title="Darkflame Cleft"
       video="https://www.youtube.com/watch?v=MVLe--rknN8"
       tree="conduit"
-      RecommendedTalents={[GiftOfTheCelestials]}
+      RecommendedTalents={[GiftOfTheCelestials, MendingProliferation]}
     >
+      <p>
+        <MendingProliferation /> is really good for Candle King. Drop <LegacyOfWisdom /> for it.
+      </p>
       <BossSubSection title="Ol' Waxbeard" difficulty="medium">
         <p>
           Watch the <CrudeWeapons /> stacks on your allies when <LuringCandleflame /> is on them,

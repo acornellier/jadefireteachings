@@ -79,6 +79,7 @@ export const LighterThanAir = makeSpell("Lighter Than Air", 449582, 'ability_mon
 export const LuringCandleflame = makeSpell("Luring Candleflame", 423693, 'ability_fixated_state_red')
 export const MagnetoArm = makeSpell("Magneto-Arm", 283551, 'ability_siege_engineer_magnetic_crush')
 export const MegaZap = makeSpell("Mega-Zap", 291928, 'ability_siege_engineer_magnetic_lasso')
+export const MendingProliferation = makeSpell("Mending Proliferation", 388509, 'inv_shoulder_inv_leather_raidmonk_s_01')
 export const MightySmash = makeSpell("Mighty Smash", 1215741, 'ability_smash')
 export const MistWrap = makeSpell("Mist Wrap", 197900, 'ability_monk_pathofmists')
 export const MortalStrike = makeSpell("Mortal Strike", 320069, 'ability_warrior_savageblow')
