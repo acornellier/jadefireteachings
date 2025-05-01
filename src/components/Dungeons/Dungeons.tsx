@@ -6,12 +6,7 @@ import { OperationFloodgate } from './OperationFloodgate.tsx'
 import { CinderbrewMeadery } from './CinderbrewMeadery.tsx'
 import { TheMotherlode } from './TheMotherlode.tsx'
 import { PrioryOfTheSacredFlame } from './PrioryOfTheSacredFlame.tsx'
-import {
-  GiftOfTheCelestials,
-  JadeBond,
-  ShaohaosLessons,
-  VeilOfPride,
-} from '../Common/WowheadLink/Spells.tsx'
+import { GiftOfTheCelestials, JadeBond } from '../Common/WowheadLink/Spells.tsx'
 
 export function Dungeons() {
   return (
@@ -22,9 +17,9 @@ export function Dungeons() {
           write about what specifically you should be doing as a Mistweaver.
         </p>
         <p>
-          IMPORTANT NOTE: For beginners, I recommend starting off with <GiftOfTheCelestials /> and{' '}
-          <VeilOfPride /> in every dungeon. If you find yourself not needing so much coverage,{' '}
-          <i>then</i> consider <JadeBond />, and dropping <VeilOfPride /> for <ShaohaosLessons />.
+          IMPORTANT NOTE: For beginners, I recommend starting off with <GiftOfTheCelestials /> in
+          every dungeon. If you find yourself not needing so much coverage, <i>then</i> consider{' '}
+          <JadeBond />.
         </p>
       </div>
       <CinderbrewMeadery />

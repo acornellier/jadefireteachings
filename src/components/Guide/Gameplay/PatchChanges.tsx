@@ -72,7 +72,7 @@ export function PatchChanges() {
           <JadeBond />
           {"'"}s <ChiCocoon /> is now 100% stronger, apply <EnvelopingMist /> when they expire, and{' '}
           <GustOfMists /> healing is increased by 40% (was 20%). This is much stronger than I
-          expected and I now run it in most dungeons.
+          expected and I now run it in many dungeons.
         </p>
       </SubSection>
     </Section>

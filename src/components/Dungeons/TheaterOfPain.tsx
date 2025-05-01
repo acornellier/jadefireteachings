@@ -9,7 +9,6 @@ import {
   Paralysis,
   PressurePoints,
   SearingDeath,
-  ShaohaosLessons,
   TigersLust,
   WellOfDarkness,
   WitheringTouch,
@@ -22,7 +21,7 @@ export function TheaterOfPain() {
       video="https://www.youtube.com/watch?v=x1fg--aHgqQ&lc=UgyOY2Wa__M2acCYy-94AaABAg"
       tree="moh"
       Talents={[ImprovedDetox, PressurePoints]}
-      RecommendedTalents={[ShaohaosLessons, JadeBond]}
+      RecommendedTalents={[JadeBond]}
     >
       <BossSubSection title="An Affront of Challengers" difficulty="medium">
         <p>

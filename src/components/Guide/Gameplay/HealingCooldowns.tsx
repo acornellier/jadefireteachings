@@ -10,7 +10,6 @@ import {
   GiftOfTheCelestials,
   GustOfMists,
   InvigoratingMists,
-  InvokersDelight,
   JadeBond,
   JadeEmpowerment,
   LegacyOfWisdom,
@@ -128,18 +127,6 @@ export function HealingCooldowns() {
           been lowered significantly in usefulness. In many dungeons our cooldown coverage is strong
           enough without the need for casting it. To avoid wasting the talent point,{' '}
           <ShaohaosLessons /> is a great talent to instead empower your other spells.
-        </p>
-        <p>
-          IMPORTANT NOTE: For beginners, I highly recommend starting off with <VeilOfPride /> in
-          every dungeon. If you find yourself not needing it, <i>then</i> consider dropping it for{' '}
-          <ShaohaosLessons />. See my dungeon guides for talent recommendations.
-        </p>
-        <p>
-          With <ShaohaosLessons />, you can continue to run <LegacyOfWisdom /> and use it as a
-          group-wide heal every 80 seconds, on top of getting the buff. Alternatively, you can drop{' '}
-          <LegacyOfWisdom /> for <InvokersDelight />. Now, you essentially ignore the healing aspect
-          of <SheilunsGift /> and use it <i>before</i> your other healing or damage spells to buff
-          them.
         </p>
       </SubSubSection>
       <SubSubSection title={<CelestialConduit />}>

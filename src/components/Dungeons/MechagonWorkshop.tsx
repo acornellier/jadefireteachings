@@ -11,7 +11,6 @@ import {
   MagnetoArm,
   MegaZap,
   RenewingMist,
-  ShaohaosLessons,
   TigerPalm,
   Transcendence,
 } from '../Common/WowheadLink/Spells.tsx'
@@ -24,7 +23,7 @@ export function MechagonWorkshop() {
       title="Mechagon: Workshop"
       video="https://www.youtube.com/watch?v=YUCX-aD3iiM"
       tree="moh"
-      RecommendedTalents={[JadeBond, ShaohaosLessons]}
+      RecommendedTalents={[JadeBond]}
     >
       <p>
         I highly recommend <JadeBond /> for healing through the Spider Tank pull, which is easily

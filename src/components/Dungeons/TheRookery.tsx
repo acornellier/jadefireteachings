@@ -12,9 +12,7 @@ import {
   JadeEmpowerment,
   LifeCocoon,
   Revival,
-  SheilunsGift,
   ThunderFocusTea,
-  VeilOfPride,
 } from '../Common/WowheadLink/Spells.tsx'
 import { MasterOfHarmony } from '../Common/SpecialTexts.tsx'
 import { BurstingLightshard } from '../Common/WowheadLink/Items.tsx'
@@ -92,9 +90,8 @@ export function TheRookery() {
         <SubSubSection title="Void Ascendant">
           <p>
             This mob regularly puts out a healing absorb on your whole group. Be ready for this with
-            a stack of <JadeEmpowerment /> which should be enough to remove the absorb entirely.{' '}
-            <SheilunsGift /> is also good if you are running <VeilOfPride />. In an emergency, use{' '}
-            <Revival />.
+            a stack of <JadeEmpowerment /> which should be enough to remove the absorb entirely. In
+            an emergency, use <Revival />.
           </p>
         </SubSubSection>
         <SubSubSection title="Radiating Voidstone">

@@ -22,6 +22,7 @@ import {
   JadeSanctuary,
   LegacyOfWisdom,
   LifeCocoon,
+  MendingProliferation,
   MistWrap,
   PeerIntoPeace,
   PoolOfMists,
@@ -31,6 +32,7 @@ import {
   RisingSunKick,
   SecretInfusion,
   ShaohaosLessons,
+  SheilunsGift,
   StrengthOfTheBlackOx,
   ThunderFocusTea,
   UpliftedSpirits,
@@ -87,13 +89,13 @@ export function Talents() {
       <SubSection title="Conduit build">
         <p>All the choice nodes are good, depending on what you want.</p>
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsMzyYWMbzMzYDbLLz2YwsZZmZZhhmZmBmhZAsNzMDzGzMMLPwEAAAAAEgFLz2ysNzMBAAbA
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADLWmZZMLmtZMjNstsNbjBzmlZmlFGamZGYGmBw2MzMMbMzws8ATAAAAAQAWsMbbz2MzEAAsB
         </TalentCodeBlock>
         <Header Tag="h3" id="moh-build">
           Master of Harmony build
         </Header>
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsMzyYWMbzMzYDbLLz2YwsZZmZZhhmZmBmhZAsNzMDzGzMMLPwEAAAAgZbab2mZZ2AABAAbA
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADLWmZZMLmtZMjNstsNbjBzmlZmlFGamZGYGmBw2MzMMbMzws8ATAAAAAmtptZbmlZDAEAAsB
         </TalentCodeBlock>
       </SubSection>
       <SubSection title="Class tree">
@@ -115,7 +117,7 @@ export function Talents() {
       </SubSection>
       <SubSection title="Spec tree">
         <p>
-          With the changes from 11.1, I have been altering my build in two ways from dungeon to
+          With the changes from 11.1, I have been altering my build in a few ways from dungeon to
           dungeon. See the dungeon guides for more details.
           <UnorderedList>
             <li>
@@ -124,12 +126,17 @@ export function Talents() {
               less than 1 minute.
             </li>
             <li>
-              <ShaohaosLessons /> instead of <VeilOfPride />. If you do this, you can also
-              optionally drop <LegacyOfWisdom /> and take <InvokersDelight />. With the amount of
-              coverage we have these days, <VeilOfPride /> is not so important anymore.{' '}
-              <ShaohaosLessons /> buffs our many other healing cooldowns instead, and is also a
-              decent damage increase. And it allows us to take <InvokersDelight />, making our{' '}
-              <ChiJi /> more powerful!
+              I always run <ShaohaosLessons /> over <VeilOfPride /> these days. <SheilunsGift />{' '}
+              just doesn{"'"}t do enough healing on its own to justify running <VeilOfPride />. It
+              {"'"}s better to run <ShaohaosLessons /> to buff your other healing cooldowns and
+              grant a decent damage increase.
+            </li>
+            <li>
+              <LegacyOfWisdom /> can be swapped for <InvokersDelight /> or <MendingProliferation />.
+              If you do this, you essentially ignore the healing aspect of <SheilunsGift /> and use
+              it <i>before</i> your other healing or damage spells to buff them. <InvokersDelight />{' '}
+              makes your <ChiJi /> more powerful, and <MendingProliferation /> is good in rot
+              scenarios like Candle King.
             </li>
           </UnorderedList>
         </p>
@@ -169,7 +176,7 @@ export function Talents() {
             <PoolOfMists />: if you like the raid gameplay of <RisingSunKick /> + <RenewingMist />
           </li>
         </UnorderedList>
-        <img src="/images/spec.jpg" alt="spec_talents" width={400} />
+        <img src="/images/spec.png" alt="spec_talents" width={400} />
       </SubSection>
     </Section>
   )
