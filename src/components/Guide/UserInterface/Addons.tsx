@@ -32,7 +32,7 @@ export function Addons() {
         <li>BigWigs/LittleWigs</li>
         <li>OmniCD</li>
         <li>Details</li>
-        <li>Bartender</li>
+        <li>Dominos</li>
         <li>MDT</li>
         <li>WarpDeplete</li>
         <li>BetterBags</li>

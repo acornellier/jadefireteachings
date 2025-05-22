@@ -56,7 +56,7 @@ export function GeneralGameplay() {
       <p>
         Watch my <Link href="https://www.twitch.tv/ortemismw">stream</Link> or{' '}
         <Link href="https://www.youtube.com/@OrtemisWow">youtube</Link> to learn! There’s an action
-        tracker at the bottom right.
+        tracker in the bottom center.
       </p>
     </SubSection>
   )
