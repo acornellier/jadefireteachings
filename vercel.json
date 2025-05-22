@@ -1,6 +1,7 @@
 {
   "rewrites": [
     { "source": "/dungeons", "destination": "/" },
-    { "source": "/advanced", "destination": "/" }
+    { "source": "/advanced", "destination": "/" },
+    { "source": "/acronyms", "destination": "/" }
   ]
 }
