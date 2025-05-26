@@ -32,12 +32,10 @@ export function TheMotherlode() {
       title="The MOTHERLODE!!"
       video="https://www.youtube.com/watch?v=4qlHvcyV1cI"
       tree="moh"
-      RecommendedTalents={[JadeBond]}
     >
       <p>
-        I recommend <JadeBond /> for healing through the double War Machine pack and final boss
-        intermission, but <GiftOfTheCelestials /> is fine as well, better for Azerite Extractors and
-        2nd boss.
+        I use <JadeBond /> if we are going to pull the double War Machine pack, otherwise I run
+        <GiftOfTheCelestials />. Both are good in this dungeon.
       </p>
       <BossSubSection title="Coin-Operated Crowd Pummeler" difficulty="easy">
         <p>
