@@ -6,7 +6,7 @@ import {
 } from '../../Common/WowheadLink/Spells.tsx'
 import { Link } from '../../Common/Link.tsx'
 
-export function MasterOfHarmony() {
+export function MasterOfHarmonyHealing() {
   return (
     <SubSection title="Master of Harmony">
       <p>
