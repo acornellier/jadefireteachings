@@ -21,10 +21,7 @@ export function Profiles() {
         </p>
         <p>
           Chi Harmony indicator: included in my profile, but if you want just the indicator, here is
-          a{' '}
-          <Link href="https://docs.google.com/document/d/1Q3NAt-VDijbiHOGb68BIWQxonsnaESbuF_Q-JrRUWXM/edit">
-            guide
-          </Link>
+          a <Link href="https://github.com/lolswirl/chi-harmony-in-cell/">guide</Link>
         </p>
       </div>
       <Profile name="OmniCD" profile={omnicdProfile} onCopy={handleClick} />
