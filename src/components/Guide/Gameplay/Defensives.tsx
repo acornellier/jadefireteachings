@@ -2,6 +2,7 @@ import { SubSection } from '../SubSection.tsx'
 import { UnorderedList } from '../../Common/UnorderedList.tsx'
 import {
   BounceBack,
+  DanceOfTheWind,
   DiffuseMagic,
   ExpelHarm,
   FortifyingBrew,
@@ -31,8 +32,7 @@ export function Defensives() {
         <li>
           <DiffuseMagic />: 60% magic DR for 6 seconds on a 90 sec CD. Very powerful, but short
           lasting. Use this for big spiky overlaps, and make sure you time it well to cover as much
-          of the damage as possible. The fact that this is only a magic DR means it is harder for
-          you to rotate defensives on physical damage abilities.
+          of the damage as possible.
         </li>
         <li>
           <JadeSanctuary />: 15% DR for about 12 seconds on a 90 sec CD. An extra defensive for
@@ -44,6 +44,10 @@ export function Defensives() {
           <ThunderFocusTea /> + <ExpelHarm />: a small 16% HP shield, which combined with{' '}
           <SecretInfusion /> gives you a great tool on a short cooldown for surviving one-shot
           mechanics.
+        </li>
+        <li>
+          <DanceOfTheWind />: very overpowered, essentially makes you immune to physical damage
+          mechanics unless there is regular physical damage going out.
         </li>
         <li>
           <JadefireTeachings />: the 5% stamina which can help you live one-shots.

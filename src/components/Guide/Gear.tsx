@@ -144,7 +144,7 @@ export function Gear() {
             <FracturedGemstoneLocket />: also gives your allies stats, increasing their damage!
           </li>
         </UnorderedList>
-        The raid combo is not strong Mythic+. But it is not the worst thing ever, and again
+        The raid combo is not strong in Mythic+. But it is not the worst thing ever, and again
         embellishments are fairly weak this tier.
         <UnorderedList>
           <li>
