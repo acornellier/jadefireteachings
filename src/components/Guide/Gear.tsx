@@ -23,16 +23,9 @@ export function Gear() {
     <Section title="Gear and Stats">
       <SubSection title="Stats">
         <p>
-          STATS DISCLAIMER: It is very hard to know what the best stat distribution is for healers.
-          I get asked a lot for exactly what percent they want for each stat. I do not know our
-          ideal stat weights! If someone claims to know, they lie! Especially in dungeons, it’s very
-          feelycrafty. The good news is that all stats are good on Mistweaver, with Haste clearly
-          ahead.
-        </p>
-        <p>
-          I am currently going for 30-35% Haste, ~100% Mastery, then prioritizing Vers. But do not
-          panic about having different stats as long as you have lots of haste. The mastery
-          threshold is subject to change, but I doubt that my plans for haste/vers will change.
+          In season 2, I went for 30-35% Haste, ~100% Mastery, then prioritized Vers. For the start
+          of season 3, prioritize the same distribution. We will end up with more stats than this,
+          and I will update it later in the season.
         </p>
         <UnorderedList>
           <li>
