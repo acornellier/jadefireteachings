@@ -24,7 +24,6 @@ import {
 } from '../Common/WowheadLink/Spells.tsx'
 import { NotableTrash } from './NotableTrash.tsx'
 import { SubSubSection } from '../Guide/SubSubSection.tsx'
-import { ConduitOfTheCelestials } from '../Common/SpecialTexts.tsx'
 
 export function OperationFloodgate() {
   return (
@@ -85,20 +84,18 @@ export function OperationFloodgate() {
           The burst damage occurs every 30 seconds. With <GiftOfTheCelestials /> you can cover every
           second instance. With <JadeBond />, you can cover every 4th, plus the rot damage leading
           into it, and your teammates will feel very safe. Outside of <ChiJi />, <SheilunsGift /> is
-          a great spell here, alongside <CelestialConduit /> and finally <Revival /> if you have
-          nothing else.
+          a great spell here, as well as <Revival /> if you have nothing else.
         </p>
         <p>
           Your teammates ideally use defensives on each <AwakenTheSwamp />, but many don{"'"}t have
           enough to cover each one. Be aware of when they are dry and use <LifeCocoon /> on cooldown
-          on whoever is most in danger. With <ConduitOfTheCelestials />, you can get <LifeCocoon />{' '}
-          on every second <AwakenTheSwamp />.
+          on whoever is most in danger.
         </p>
       </BossSubSection>
       <BossSubSection title="Geezle Gigazap" difficulty="hard">
         <p>
           This boss does a 1 minute rotation of <TurboCharge /> which pulses damage over 10 seconds,
-          and 2 uses of <Gigazap />, each use targetting 2 players with a big instant hit and a
+          and 2 uses of <Gigazap />, each use targeting 2 players with a big instant hit and a
           decently hard-hitting dot.
         </p>
         <p>
