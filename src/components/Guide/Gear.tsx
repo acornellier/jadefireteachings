@@ -9,6 +9,7 @@ import {
 import {
   AraKaraSacbrood,
   AstralAntenna,
+  AzhiccaranParapodia,
   BindingOfBinding,
   BurstingLightshard,
   DarkmoonSigilAscension,
@@ -88,8 +89,7 @@ export function Gear() {
       <SubSection title="Trinkets">
         <p>
           Our BIS is probably <LoomitharsLivingSilk /> + <DiamantineVoidcore />, but there are many
-          competitive options! If not raiding, <SoleahsSecretTechnique />, <AraKaraSacbrood />, or{' '}
-          <EmpoweringCrystalOfAnubikkaj /> are great trinkets.
+          competitive options!
         </p>
         <UnorderedList>
           <li>
@@ -98,6 +98,9 @@ export function Gear() {
           </li>
           <li>
             <DiamantineVoidcore /> is the best stat stick, but only with the set bonus.
+          </li>
+          <li>
+            <AzhiccaranParapodia /> is the best stat stick from dungeons.
           </li>
           <li>
             <SoleahsSecretTechnique /> a great stat stick that also slightly empowers your ally,

@@ -67,3 +67,8 @@ export const DepletedKareshiBattery = makeItem(
   240172,
   'inv_misc_enggizmos_16',
 )
+export const AzhiccaranParapodia = makeItem(
+  'Azhiccaran Parapodia',
+  242497,
+  'inv_devourersmallmount_light',
+)
