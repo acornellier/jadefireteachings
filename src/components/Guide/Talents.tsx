@@ -1,4 +1,3 @@
-import { Header } from '../Common/Header.tsx'
 import { CodeBlock } from '../Common/CodeBlock.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
 import {
@@ -62,15 +61,13 @@ export function Talents() {
         </p>
       </SubSection>
       <SubSection title="Conduit build">
-        <p>All the choice nodes are good, depending on what you want.</p>
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2WWmtxgZzyMzyCDNzYgZYmFgtZmZY2YMMLzEAAAAAEgFLz22sNzMBAAbA
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2WWmtxgZzyMzyCDNzYgZYGAbzMzwsxMDzyMBAAAAABYxystNbzMTAAwGA
         </TalentCodeBlock>
-        <Header Tag="h3" id="moh-build">
-          Master of Harmony build
-        </Header>
+      </SubSection>
+      <SubSection title="Master of Harmony build">
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2WWmtxgZzyMzyCDNzYgZYmFgtZmZY2YMMLzEAAAAgZbab2mZZ2AABAAbA
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2W2mtxgZzyMzyCDNzYgZYGAbzMzwsxMDzyMBAAAAY2m2mtZWmNAQAAwGA
         </TalentCodeBlock>
       </SubSection>
       <SubSection title="Class tree">
