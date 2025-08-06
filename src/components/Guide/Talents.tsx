@@ -60,14 +60,14 @@ export function Talents() {
           scenarios.
         </p>
       </SubSection>
-      <SubSection title="Conduit build">
-        <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2WWmtxgZzyMzyCDNzYgZYGAbzMzwsxMDzyMBAAAAABYxystNbzMTAAwGA
-        </TalentCodeBlock>
-      </SubSection>
       <SubSection title="Master of Harmony build">
         <TalentCodeBlock>
           C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2W2mtxgZzyMzyCDNzYgZYGAbzMzwsxMDzyMBAAAAY2m2mtZWmNAQAAwGA
+        </TalentCodeBlock>
+      </SubSection>
+      <SubSection title="Conduit build">
+        <TalentCodeBlock>
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2WWmtxgZzyMzyCDNzYgZYGAbzMzwsxMDzyMBAAAAABYxystNbzMTAAwGA
         </TalentCodeBlock>
       </SubSection>
       <SubSection title="Class tree">
