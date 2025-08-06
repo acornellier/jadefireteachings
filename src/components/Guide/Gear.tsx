@@ -79,7 +79,7 @@ export function Gear() {
       </SubSection>
       <SubSection title="Trinkets">
         <UnorderedList>
-          <li>Coming soon!</li>
+          <li>Season 3 trinkets coming soon!</li>
         </UnorderedList>
       </SubSection>
       <SubSection title="Embellishments">

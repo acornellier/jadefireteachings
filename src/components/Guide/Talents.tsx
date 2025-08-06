@@ -3,27 +3,18 @@ import { CodeBlock } from '../Common/CodeBlock.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
 import {
   AncientArts,
-  CelestialConduit,
   ChiBurst,
-  ChiJi,
   ChiWave,
-  Coalescence,
   DeepClarity,
   EnergizingBrew,
   EnvelopingMist,
   GiftOfTheCelestials,
   GraceOfTheCrane,
   HealingElixir,
-  HeartOfTheJadeSerpent,
   ImprovedDetox,
-  InvokersDelight,
   JadeBond,
-  JadeEmpowerment,
-  JadeSanctuary,
   LegacyOfWisdom,
-  LifeCocoon,
   MendingProliferation,
-  MistWrap,
   PeerIntoPeace,
   PoolOfMists,
   PressurePoints,
@@ -33,8 +24,6 @@ import {
   SecretInfusion,
   ShaohaosLessons,
   SheilunsGift,
-  StrengthOfTheBlackOx,
-  ThunderFocusTea,
   UpliftedSpirits,
   VeilOfPride,
   Vivify,
@@ -43,7 +32,7 @@ import {
 import { Button } from '../Common/Button.tsx'
 import { Section } from './Section.tsx'
 import { SubSection } from './SubSection.tsx'
-import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
+import { MasterOfHarmony } from '../Common/SpecialTexts.tsx'
 
 const TalentCodeBlock = ({ children }: { children: string }) => (
   <CodeBlock
@@ -67,35 +56,21 @@ export function Talents() {
     <Section title="Talents">
       <SubSection title="Hero talent choice">
         <p>
-          Both hero trees are viable at any key level, each with strengths and weakness. I generally
-          recommend <ConduitOfTheCelestials /> for beginners. I currently play both hero talents and
-          regularly swap between them at the highest key level.
-        </p>
-        <p>
-          <ConduitOfTheCelestials /> is easier to use for more healing, with <CelestialConduit />,{' '}
-          <StrengthOfTheBlackOx />, and a few other nodes. The extra active cooldown is a great
-          emergency button for immediate healing. The reduced <LifeCocoon /> CD thanks to{' '}
-          <HeartOfTheJadeSerpent /> is great. It also has a better defensive node with{' '}
-          <JadeSanctuary />.
-        </p>
-        <p>
-          <MasterOfHarmony /> can do a similar amount of healing if played properly. Its healing
-          profile is different, focusing on the amp from <Coalescence />. It is about 20% ahead on
-          damage - the highest damage of any healer spec in the game currently. The two charges of{' '}
-          <ThunderFocusTea /> are nice for more flexibility with <JadeEmpowerment /> and{' '}
-          <SecretInfusion />.
+          For season 3, I recommend playing <MasterOfHarmony /> at all levels due to the tier set.
+          It does more healing and more damage, and has a better healing/damage profile for all
+          scenarios.
         </p>
       </SubSection>
       <SubSection title="Conduit build">
         <p>All the choice nodes are good, depending on what you want.</p>
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADLWmZZMLmtZMjNstsNbjBzmlZmlFGamZGYGmBw2MzMMbMzws8ATAAAAAQAWsMbbz2MzEAAsB
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2WWmtxgZzyMzyCDNzYgZYmFgtZmZY2YMMLzEAAAAAEgFLz22sNzMBAAbA
         </TalentCodeBlock>
         <Header Tag="h3" id="moh-build">
           Master of Harmony build
         </Header>
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADLWmZZMLmtZMjNstsNbjBzmlZmlFGamZGYGmBw2MzMMbMzws8ATAAAAAmtptZbmlZDAEAAsB
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2WWmtxgZzyMzyCDNzYgZYmFgtZmZY2YMMLzEAAAAgZbab2mZZ2AABAAbA
         </TalentCodeBlock>
       </SubSection>
       <SubSection title="Class tree">
@@ -117,13 +92,11 @@ export function Talents() {
       </SubSection>
       <SubSection title="Spec tree">
         <p>
-          With the changes from 11.1, I have been altering my build in a few ways from dungeon to
-          dungeon. See the dungeon guides for more details.
           <UnorderedList>
             <li>
-              <JadeBond /> instead of <GiftOfTheCelestials />. This is great for dungeons where
-              there are large pulls far apart. When you just need a lot of healing in a period of
-              less than 1 minute.
+              You can run <JadeBond /> instead of <GiftOfTheCelestials />. This is great for
+              dungeons where there are large pulls far apart. When you just need a lot of healing in
+              a period of less than 1 minute.
             </li>
             <li>
               I always run <ShaohaosLessons /> over <VeilOfPride /> these days. <SheilunsGift />{' '}
@@ -132,36 +105,32 @@ export function Talents() {
               grant a decent damage increase.
             </li>
             <li>
-              <LegacyOfWisdom /> can be swapped for <InvokersDelight /> or <MendingProliferation />.
-              If you do this, you essentially ignore the healing aspect of <SheilunsGift /> and use
-              it <i>before</i> your other healing or damage spells to buff them. <InvokersDelight />{' '}
-              makes your <ChiJi /> more powerful, and <MendingProliferation /> is good in rot
-              scenarios like Candle King.
+              <LegacyOfWisdom /> can be swapped for <MendingProliferation />. If you do this, you
+              essentially ignore the healing aspect of <SheilunsGift /> and use it <i>before</i>{' '}
+              your other healing or damage spells to buff them. <MendingProliferation /> is the
+              highest HPS choice.
             </li>
           </UnorderedList>
         </p>
         <p>
-          If you wish to make other changes, there are 4 points you can drop from <EnergizingBrew />
-          , <DeepClarity />, <SecretInfusion /> x2. Two of the points must go in the middle of the
-          tree.
+          If you wish to make other changes, there are 3 points you can drop from <DeepClarity />,{' '}
+          <SecretInfusion /> x2.
         </p>
         <p>Recommended options</p>
         <UnorderedList>
           <li>
-            <EnergizingBrew />: much improved Mana Tea. Drop this if you find yourself consistently
-            at very high mana.
-          </li>
-          <li>
             <SecretInfusion />: my favorite talent of the bunch, lots of stats with high uptime.
           </li>
           <li>
-            <DeepClarity />: more <Vivify /> healing. <ZenPulse /> stacks to 2 so rarely wasted.
+            <EnergizingBrew />: much improved Mana Tea. Take this if you find yourself running out
+            of mana.
           </li>
           <li>
-            <HealingElixir />: good reliable self healing.
+            <DeepClarity />: more <Vivify /> cleave healing. <ZenPulse /> stacks to 2 so rarely
+            wasted.
           </li>
           <li>
-            <MistWrap />: run this if you like <EnvelopingMist /> ramping.
+            <HealingElixir />: good reliable self healing. You could swap <ZenPulse /> for this.
           </li>
           <li>
             <PeerIntoPeace />: to easily ramp <EnvelopingMist /> on the whole group
