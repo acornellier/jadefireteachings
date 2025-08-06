@@ -7,11 +7,19 @@ import {
   Shadowmeld,
 } from '../Common/WowheadLink/Spells.tsx'
 import {
+  AraKaraSacbrood,
+  AstralAntenna,
   BindingOfBinding,
+  BurstingLightshard,
   DarkmoonSigilAscension,
+  DepletedKareshiBattery,
+  DiamantineVoidcore,
   DuskthreadLining,
   ElusiveBlasphemite,
+  EmpoweringCrystalOfAnubikkaj,
   FracturedGemstoneLocket,
+  LoomitharsLivingSilk,
+  SoleahsSecretTechnique,
   WrithingArmorBanding,
 } from '../Common/WowheadLink/Items.tsx'
 import { Link } from '../Common/Link.tsx'
@@ -78,8 +86,35 @@ export function Gear() {
         </p>
       </SubSection>
       <SubSection title="Trinkets">
+        <p>
+          Our BIS is probably <LoomitharsLivingSilk /> + <DiamantineVoidcore />, but there are many
+          competitive options! If not raiding, <SoleahsSecretTechnique />, <AraKaraSacbrood />, or{' '}
+          <EmpoweringCrystalOfAnubikkaj /> are great trinkets.
+        </p>
         <UnorderedList>
-          <li>Season 3 trinkets coming soon!</li>
+          <li>
+            <LoomitharsLivingSilk /> is an incredibly powerful group survival tool for M+. Provides
+            no intellect, so it is our lowest damage option.
+          </li>
+          <li>
+            <DiamantineVoidcore /> is the best stat stick, but only with the set bonus.
+          </li>
+          <li>
+            <SoleahsSecretTechnique /> a great stat stick that also slightly empowers your ally,
+            which is a damage increase!
+          </li>
+          <li>
+            <AstralAntenna />, <AraKaraSacbrood />, and <EmpoweringCrystalOfAnubikkaj /> are other
+            powerful stat sticks that are not far behind <DiamantineVoidcore />.
+          </li>
+          <li>
+            <BurstingLightshard /> is back and it is still our highest damage option! Only run this
+            if you are not concerned about healing checks.
+          </li>
+          <li>
+            <DepletedKareshiBattery /> has potential to be another high damage trinket, will need to
+            be tested.
+          </li>
         </UnorderedList>
       </SubSection>
       <SubSection title="Embellishments">

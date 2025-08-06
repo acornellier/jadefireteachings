@@ -36,34 +36,34 @@ export const DuskthreadLining = makeItem(
   'inv_10_tailoring_tailoringconsumable_color3',
 )
 
-export const MisterPickMeUp = makeItem(
-  'Mister Pick-Me-Up',
-  230186,
-  'inv_111_healraydrone_bilgewater',
+export const LoomitharsLivingSilk = makeItem(
+  "Loom'ithar's Living Silk",
+  242393,
+  'inv_112_raidtrinkets_astralspinneret',
 )
-export const MugsMoxieJug = makeItem("Mug's Moxie Jug", 230192, 'inv_111_blackbloodfueledcontainer')
-export const BurinOfTheCandleKing = makeItem(
-  'Burin of the Candle King',
-  219306,
-  'inv_jewelcrafting_70_jeweledlockpick',
+export const AstralAntenna = makeItem(
+  'Astral Antenna',
+  242395,
+  'inv_112_raidtrinkets_silkwormsantenna',
 )
-export const SignetOfThePriory = makeItem(
-  'Signet of the Priory',
-  219308,
-  'inv_arathordungeon_signet_color1',
+export const SoleahsSecretTechnique = makeItem(
+  "So'leah's Secret Technique",
+  190958,
+  'inv_60pvp_trinket1d',
 )
-export const ReverbRadio = makeItem(
-  'Reverb Radio',
-  230194,
-  'inv_111_statsoundwaveemitter_blackwater',
+export const EmpoweringCrystalOfAnubikkaj = makeItem(
+  "Empowering Crystal of Anub'ikkaj",
+  219312,
+  'inv_arathordungeon_fragment_color5',
 )
-export const CarvedBlazikonWax = makeItem(
-  'Carved Blazikon Wax',
-  219305,
-  'inv_misc_candlekobold_color1',
+export const AraKaraSacbrood = makeItem('Ara-Kara Sacbrood', 219314, 'inv_raid_mercurialegg_red')
+export const DiamantineVoidcore = makeItem(
+  'Diamantine Voidcore',
+  242392,
+  'inv_112_raidtrinkets_intdps_ancientkareshirelic',
 )
-export const SigilOfAlgariConcordance = makeItem(
-  'Sigil of Algari Concordance',
-  219295,
-  'inv_misc_dungeonsignetearthen02_color1',
+export const DepletedKareshiBattery = makeItem(
+  "Depleted K'areshi Battery",
+  240172,
+  'inv_misc_enggizmos_16',
 )

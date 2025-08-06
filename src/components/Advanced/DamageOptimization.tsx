@@ -3,7 +3,7 @@ import { SubSection } from '../Guide/SubSection.tsx'
 import { Link } from '../Common/Link.tsx'
 import { damageRotationTitle } from '../Guide/Gameplay/DamageRotation.tsx'
 import { SubSubSection } from '../Guide/SubSubSection.tsx'
-import { BurstingLightshard, MisterPickMeUp } from '../Common/WowheadLink/Items.tsx'
+import { BurstingLightshard } from '../Common/WowheadLink/Items.tsx'
 import {
   AspectOfHarmony,
   BlackoutKick,
@@ -188,13 +188,6 @@ export function DamageOptimization() {
               '/use [@cursor] Bursting Lightshard\n/targetexact Bursting Lightspawn\n/focus\n/targetlasttarget'
             }
           </Macro>
-        </SubSubSection>
-        <SubSubSection title={<MisterPickMeUp />}>
-          <p>
-            This is an entirely passive trinket so there isn{"'"}t much to say here. It will deal
-            more damage if you have a dps with pets, such as a BM hunter, unholy DK, or demo
-            Warlock.
-          </p>
         </SubSubSection>
       </SubSection>
     </Section>
