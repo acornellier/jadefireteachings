@@ -60,36 +60,11 @@ export function Gear() {
           </li>
         </UnorderedList>
       </SubSection>
-      <SubSection title="Race">
-        <p>
-          In my opinion, the best overall race for M+ is Night Elf, due to <Shadowmeld />. I think
-          this ability is extremely overpowered. It is very flexible and has many many uses,
-          especially on healers:
-        </p>
-        <UnorderedList>
-          <li>
-            Cancelling a cast being made on you. This sometimes trivializes entire boss mechanics.
-          </li>
-          <li>
-            Dropping combat in case you butt pull, if you fail a skip, or to intentionally skip a
-            mob. If your whole group fails a skip, you can then mass rez.
-          </li>
-          <li>Drinking mid-pull.</li>
-          <li>Resurrecting a teammate mid-pull without using a battle rez.</li>
-        </UnorderedList>
-        <p>
-          The only other strong option is Dwarf, which can be stronger or weaker than Night Elf
-          depending on the season. It is not as flexible as Night Elf, but very consistently useful
-          in many dungeons.
-        </p>
-        <p>
-          Night Elf {'>='} Dwarf {'>>'} Everything else
-        </p>
-      </SubSection>
       <SubSection title="Trinkets">
         <p>
-          Our BIS is probably <LoomitharsLivingSilk /> + <DiamantineVoidcore />, but there are many
-          competitive options!
+          Our BIS is <LoomitharsLivingSilk /> + <DiamantineVoidcore />. Myth/Hero track{' '}
+          <AzhiccaranParapodia /> is slightly better than Hero/Normal track <DiamantineVoidcore />.
+          There are many competitive options, and you could drop one for a damage trinket.
         </p>
         <UnorderedList>
           <li>
@@ -97,7 +72,8 @@ export function Gear() {
             no intellect, so it is our lowest damage option.
           </li>
           <li>
-            <DiamantineVoidcore /> is the best stat stick, but only with the set bonus.
+            <DiamantineVoidcore /> is the best stat stick, but only when combined with the set
+            bonus.
           </li>
           <li>
             <AzhiccaranParapodia /> is the best stat stick from dungeons.
@@ -108,7 +84,7 @@ export function Gear() {
           </li>
           <li>
             <AstralAntenna />, <AraKaraSacbrood />, and <EmpoweringCrystalOfAnubikkaj /> are other
-            powerful stat sticks that are not far behind <DiamantineVoidcore />.
+            powerful stat sticks.
           </li>
           <li>
             <BurstingLightshard /> is back and it is still our highest damage option! Only run this
@@ -163,6 +139,32 @@ export function Gear() {
             Wowhead guide
           </Link>{' '}
           is good for this. I will come back here later and give some more details.
+        </p>
+      </SubSection>
+      <SubSection title="Race">
+        <p>
+          In my opinion, the best overall race for M+ is Night Elf, due to <Shadowmeld />. I think
+          this ability is extremely overpowered. It is very flexible and has many many uses,
+          especially on healers:
+        </p>
+        <UnorderedList>
+          <li>
+            Cancelling a cast being made on you. This sometimes trivializes entire boss mechanics.
+          </li>
+          <li>
+            Dropping combat in case you butt pull, if you fail a skip, or to intentionally skip a
+            mob. If your whole group fails a skip, you can then mass rez.
+          </li>
+          <li>Drinking mid-pull.</li>
+          <li>Resurrecting a teammate mid-pull without using a battle rez.</li>
+        </UnorderedList>
+        <p>
+          The only other strong option is Dwarf, which can be stronger or weaker than Night Elf
+          depending on the season. It is not as flexible as Night Elf, but very consistently useful
+          in many dungeons.
+        </p>
+        <p>
+          Night Elf {'>='} Dwarf {'>>'} Everything else
         </p>
       </SubSection>
     </Section>
