@@ -62,7 +62,7 @@ export function Talents() {
       </SubSection>
       <SubSection title="Master of Harmony build">
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2W2mtxgZzyMzyCDNzYgZYGAbzMzwsxMDzyMBAAAAY2m2mtZWmNAQAAwGA
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2WWmtxgZzyMzyCDNzYgZYGAbzMzwsxMDzyMBAAAAY2m2mtZWmNAQAAwGA
         </TalentCodeBlock>
       </SubSection>
       <SubSection title="Conduit build">
@@ -96,8 +96,9 @@ export function Talents() {
               a period of less than 1 minute.
             </li>
             <li>
-              I always run <ShaohaosLessons /> over <VeilOfPride /> these days. <SheilunsGift />{' '}
-              just doesn{"'"}t do enough healing on its own to justify running <VeilOfPride />. It
+              [WARNING: will update this paragraph for S3 when I have more data.] I always run{' '}
+              <ShaohaosLessons /> over <VeilOfPride /> these days. <SheilunsGift /> just doesn{"'"}t
+              do enough healing on its own to justify running <VeilOfPride />. It
               {"'"}s better to run <ShaohaosLessons /> to buff your other healing cooldowns and
               grant a decent damage increase.
             </li>
