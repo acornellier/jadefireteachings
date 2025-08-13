@@ -62,12 +62,12 @@ export function Talents() {
       </SubSection>
       <SubSection title="Master of Harmony build">
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2WWmtxgZzyMzyCDNzYgZYGAbzMzwsxMDzyMBAAAAY2m2mtZWmNAQAAwGA
+          C4QAvmhRP2rMmMXAL1blVepCkBAAAAAAAAsYZmlxsY2mxM2wmtZbMbMbWmZWWYoZmZgZYGAbzMzwsxMDzyMBAAAAY2m2mtZWmNLz2ysNzMBBA2A
         </TalentCodeBlock>
       </SubSection>
       <SubSection title="Conduit build">
         <TalentCodeBlock>
-          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2WWmtxgZzyMzyCDNzYgZYGAbzMzwsxMDzyMBAAAAABYxystNbzMTAAwGA
+          C4QAvmhRP2rMmMXAL1blVepCkBAAAAAAAAsYZmlxsY2mxM2wmtZbMbMbWmZWWYoZmZgZYGAbzMzwsxMDzyMBAAAAY2m2mtZWmFLz2ysNzMBBA2A
         </TalentCodeBlock>
       </SubSection>
       <SubSection title="Class tree">
@@ -91,28 +91,35 @@ export function Talents() {
         <p>
           <UnorderedList>
             <li>
-              You can run <JadeBond /> instead of <GiftOfTheCelestials />. This is great for
-              dungeons where there are large pulls far apart. When you just need a lot of healing in
-              a period of less than 1 minute.
-            </li>
-            <li>
-              [WARNING: will update this paragraph for S3 when I have more data.] I always run{' '}
-              <ShaohaosLessons /> over <VeilOfPride /> these days. <SheilunsGift /> just doesn{"'"}t
-              do enough healing on its own to justify running <VeilOfPride />. It
+              I always run <ShaohaosLessons /> over <VeilOfPride />. <SheilunsGift /> just doesn
+              {"'"}t do enough healing on its own to justify running <VeilOfPride />. It
               {"'"}s better to run <ShaohaosLessons /> to buff your other healing cooldowns and
               grant a decent damage increase.
             </li>
             <li>
-              <LegacyOfWisdom /> can be swapped for <MendingProliferation />. If you do this, you
-              essentially ignore the healing aspect of <SheilunsGift /> and use it <i>before</i>{' '}
-              your other healing or damage spells to buff them. <MendingProliferation /> is the
-              highest HPS choice.
+              This might change as I continue to experiment with <SheilunsGift />, but for now I
+              personally always run <MendingProliferation /> over <LegacyOfWisdom />.{' '}
+              <MendingProliferation /> buffs our many other sources of healing which is generally
+              more valuable than one instance of <SheilunsGift />. I ignore the healing aspect of{' '}
+              <SheilunsGift /> and use it <i>before</i> your other healing or damage spells to buff
+              them.
+            </li>
+            <li>
+              If you prefer <SheilunsGift />, then drop <MendingProliferation /> and take{' '}
+              <VeilOfPride /> and <LegacyOfWisdom />. I might run this in some dungeons such as
+              Dawnbreaker after playing with it some more.
+            </li>
+            <li>
+              You can run <JadeBond /> instead of <GiftOfTheCelestials />. This is great for
+              dungeons where there are large pulls far apart, when you just need a lot of healing in
+              a period of less than 1 minute. As of now in S3, I am running <GiftOfTheCelestials />{' '}
+              in every dungeon.
             </li>
           </UnorderedList>
         </p>
         <p>
-          If you wish to make other changes, there are 3 points you can drop from <DeepClarity />,{' '}
-          <SecretInfusion /> x2.
+          If you wish to make other changes, there are 3 points you can drop from <DeepClarity />{' '}
+          and <SecretInfusion /> x2.
         </p>
         <p>Recommended options</p>
         <UnorderedList>
