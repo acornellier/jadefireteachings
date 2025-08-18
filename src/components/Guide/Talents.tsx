@@ -28,7 +28,7 @@ import {
 import { Button } from '../Common/Button.tsx'
 import { Section } from './Section.tsx'
 import { SubSection } from './SubSection.tsx'
-import { MasterOfHarmony } from '../Common/SpecialTexts.tsx'
+import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
 
 const TalentCodeBlock = ({ children }: { children: string }) => (
   <CodeBlock
@@ -50,11 +50,21 @@ const TalentCodeBlock = ({ children }: { children: string }) => (
 export function Talents() {
   return (
     <Section title="Talents">
+      <p>
+        I play <MendingProliferation /> in the linked builds below. If you are new to mistweaver,
+        consider swapping it for <LegacyOfWisdom />, and take <VeilOfPride /> instead of{' '}
+        <ShaohaosLessons />. <SheilunsGift /> is much easier to use to heal through mechanics, but
+        does not scale well enough to beat healing checks in higher keys.
+      </p>
       <SubSection title="Hero talent choice">
         <p>
-          For season 3, I recommend playing <MasterOfHarmony /> at all levels due to the tier set.
-          It does more healing and more damage, and has a better healing/damage profile for all
-          scenarios.
+          For season 3, I recommend playing <MasterOfHarmony /> at all levels due to the tier set
+          being very powerful in 5-man content. It does more healing and more damage, and has a
+          better healing/damage profile for all scenarios.
+        </p>
+        <p>
+          It is possible that <ConduitOfTheCelestials /> has some value in S3, I will experiment
+          with it soon!
         </p>
       </SubSection>
       <SubSection title="Master of Harmony build">
