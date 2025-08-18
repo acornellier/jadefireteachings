@@ -15,11 +15,8 @@ import {
   LegacyOfWisdom,
   MendingProliferation,
   PeerIntoPeace,
-  PoolOfMists,
   PressurePoints,
-  RenewingMist,
   Revival,
-  RisingSunKick,
   SecretInfusion,
   ShaohaosLessons,
   SheilunsGift,
@@ -127,6 +124,9 @@ export function Talents() {
             <SecretInfusion />: my favorite talent of the bunch, lots of stats with high uptime.
           </li>
           <li>
+            <UpliftedSpirits />: <Revival /> becomes a 2 min cd instead of 3 min cd
+          </li>
+          <li>
             <EnergizingBrew />: much improved Mana Tea. Take this if you find yourself running out
             of mana.
           </li>
@@ -139,15 +139,6 @@ export function Talents() {
           </li>
           <li>
             <PeerIntoPeace />: to easily ramp <EnvelopingMist /> on the whole group
-          </li>
-        </UnorderedList>
-        <p>Not recommended, but viable</p>
-        <UnorderedList>
-          <li>
-            <UpliftedSpirits />: <Revival /> becomes a 2 min cd instead of 3 min cd
-          </li>
-          <li>
-            <PoolOfMists />: if you like the raid gameplay of <RisingSunKick /> + <RenewingMist />
           </li>
         </UnorderedList>
         <img src="/images/spec.png" alt="spec_talents" width={400} />
