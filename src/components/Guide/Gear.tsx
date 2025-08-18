@@ -13,7 +13,6 @@ import {
   BindingOfBinding,
   BurstingLightshard,
   DarkmoonSigilAscension,
-  DepletedKareshiBattery,
   DiamantineVoidcore,
   DuskthreadLining,
   ElusiveBlasphemite,
@@ -89,10 +88,6 @@ export function Gear() {
           <li>
             <BurstingLightshard /> is back and it is still our highest damage option! Only run this
             if you are not concerned about healing checks.
-          </li>
-          <li>
-            <DepletedKareshiBattery /> has potential to be another high damage trinket, will need to
-            be tested.
           </li>
         </UnorderedList>
       </SubSection>
