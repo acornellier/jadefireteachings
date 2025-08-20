@@ -57,7 +57,6 @@ export function Ramping() {
           <EnvelopingMist />: increases healing by 40% with <MistWrap /> for its duration of 7
           seconds. Hard-casting it is slow, but <ThunderFocusTea />, <ChiJi />,{' '}
           <StrengthOfTheBlackOx />, and <PeerIntoPeace /> can help you get it out quickly.
-          Sometimes, it is still worth hard-casting if you have no other options.
         </li>
         <li>
           <ChiHarmony />: increases healing by 25% for 8 seconds. Applied by hard-casting{' '}
