@@ -4,15 +4,20 @@ import {
   AncientArts,
   ChiBurst,
   ChiWave,
+  Coalescence,
   DeepClarity,
   EnergizingBrew,
   EnvelopingMist,
   GiftOfTheCelestials,
   GraceOfTheCrane,
+  HarmonicSurge,
   HealingElixir,
   ImprovedDetox,
   JadeBond,
+  JadeEmpowerment,
+  JadefireTeachings,
   LegacyOfWisdom,
+  LifeCocoon,
   MendingProliferation,
   PeerIntoPeace,
   PressurePoints,
@@ -20,6 +25,8 @@ import {
   SecretInfusion,
   ShaohaosLessons,
   SheilunsGift,
+  ThunderFocusTea,
+  TigerPalm,
   UpliftedSpirits,
   VeilOfPride,
   Vivify,
@@ -58,13 +65,25 @@ export function Talents() {
       </p>
       <SubSection title="Hero talent choice">
         <p>
-          For season 3, I recommend playing <MasterOfHarmony /> at all levels due to the tier set
-          being very powerful in 5-man content. It does more healing and more damage, and has a
-          better healing/damage profile for all scenarios.
+          For season 3, both hero talents and their tier sets are strong. Generally, I think{' '}
+          <MasterOfHarmony /> is stronger in most situations. It is possible that one is better in
+          some dungeons and the other is better in others. They do similar overall healing and
+          damage but have different profiles.
         </p>
         <p>
-          It is possible that <ConduitOfTheCelestials /> has some value in S3, I will experiment
-          with it soon!
+          <ConduitOfTheCelestials /> has a flatter healing profile with high uptime on your healing.
+          With the tier set, you spam <ThunderFocusTea />, granting constant <JadeEmpowerment />{' '}
+          which is very strong for trash pulls. This also grants high <SecretInfusion /> uptime, a
+          low <LifeCocoon /> CD, and constantly high haste. Use <ThunderFocusTea /> ON COOLDOWN, and
+          send your <JadeEmpowerment /> and <LifeCocoon /> aggressively.
+        </p>
+        <p>
+          <MasterOfHarmony /> can buff your other healing with <Coalescence />, but this does not
+          work on <JadefireTeachings /> which is your primary heal. Its tier set empowers your{' '}
+          <TigerPalm /> to do significant groupwide healing with <HarmonicSurge />. With a proper
+          ramp, you can spam <TigerPalm /> to heal through many AoE healing mechanics. It also
+          smooths out your Chi-Ji rotation and provides high throughput. This is very strong in
+          single target healing scenarios, such as all the Dawnbreaker bosses.
         </p>
       </SubSection>
       <SubSection title="Master of Harmony build">
