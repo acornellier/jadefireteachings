@@ -29,11 +29,7 @@ export function MendingProliferationGameplay() {
           this talent has very strong synergy with <MistWrap /> and <RisingMist />
         </li>
         <li>
-          <MendingProliferation /> is never created on a target that already has <EnvelopingMist />.
-          This means that one or two <EnvelopingMist /> already maximizes <MendingProliferation />{' '}
-          uptime. Also, the only way for a target to get both <EnvelopingMist /> and{' '}
-          <MendingProliferation /> is to place an <EnvelopingMist /> on a target that already has{' '}
-          <MendingProliferation />
+          <MendingProliferation /> prioritizes targets that do not have <EnvelopingMist />.
         </li>
       </UnorderedList>
       <p>Here is how to play with this talent:</p>
@@ -56,7 +52,7 @@ export function MendingProliferationGameplay() {
           <RisingSunKick /> to quickly extend the <EnvelopingMist /> twice.
         </li>
         <li>
-          With <MasterOfHarmony />, you will mostly need to use <ThunderFocusTea /> on{' '}
+          With <MasterOfHarmony />, you will often need to use <ThunderFocusTea /> on{' '}
           <EnvelopingMist />, and also hardcast <EnvelopingMist /> quite often.
         </li>
       </UnorderedList>

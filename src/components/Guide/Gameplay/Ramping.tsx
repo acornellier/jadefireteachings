@@ -1,12 +1,12 @@
 import { SubSection } from '../SubSection.tsx'
 import { UnorderedList } from '../../Common/UnorderedList.tsx'
 import {
-  AlertingShrill,
   ChiHarmony,
   ChiJi,
   Coalescence,
   EnvelopingMist,
   LifeCocoon,
+  MendingProliferation,
   PeerIntoPeace,
   RapidDiffusion,
   RenewingMist,
@@ -15,6 +15,7 @@ import {
   SecretInfusion,
   StrengthOfTheBlackOx,
   ThunderFocusTea,
+  TigerPalm,
 } from '../../Common/WowheadLink/Spells.tsx'
 import { MasterOfHarmony } from '../../Common/SpecialTexts.tsx'
 import { Link } from '../../Common/Link.tsx'
@@ -29,6 +30,20 @@ export function Ramping() {
         Mistweaver has many abilities that enhance the healing of your other abilities. Applying
         these buffs ahead of time to increase your healing when it is required is known as ramping
         and is a very important of your healing that mistweaver is currently very reliant on.
+      </p>
+      <p>
+        Start ramping 3-5 seconds before damage goes out. My favorite pattern is (hardcast){' '}
+        <EnvelopingMist /> {'>'} <EnvelopingMist /> {'>'} <ThunderFocusTea /> {'>'}{' '}
+        <RisingSunKick /> {'>'} <TigerPalm /> {'>'} <RisingSunKick />. This creates two{' '}
+        <EnvelopingMist /> and extends them twice, as well as two <ChiHarmony />, and if running{' '}
+        <MendingProliferation /> will start spreading quickly. Often I precede all this by casting{' '}
+        <ChiJi /> There are many variants to the above example, the goal is simply to get healing
+        amps out.
+      </p>
+      <p>
+        After your buffs are applied, simply do whatever other healing you want, following the{' '}
+        <Link href={`#${healingCooldownsTitle}`}>section above</Link>. Do not fret about perfectly
+        executing your ramp.
       </p>
       <UnorderedList>
         <li>
@@ -53,30 +68,6 @@ export function Ramping() {
           healing increase.
         </li>
       </UnorderedList>
-      <p>
-        Start ramping a few seconds before damage goes out. <ChiHarmony /> lasts the longest, so
-        apply this first by hard-casting <RenewingMist />. <EnvelopingMist /> is much harder to
-        apply, and lasts less long, so apply this second. If you still have a spare GCD,{' '}
-        <RisingSunKick /> is great to extend the <EnvelopingMist /> and generate another{' '}
-        <ChiHarmony /> with <RisingMist />. <Coalescence /> is trivial to apply, and you should do
-        it on every ramp if you have a <ThunderFocusTea /> charge. With all 3 buffs applied, you
-        will have a 134% healing increase!
-      </p>
-      <p>
-        After your buffs are applied, simply do whatever other healing you want, following the{' '}
-        <Link href={`#${healingCooldownsTitle}`}>section above</Link>. Do not fret about perfectly
-        executing your ramp.
-      </p>
-      <p>
-        <Link href="https://www.twitch.tv/ortemismw/clip/HardGiantWebGivePLZ-irG31gqw2AJ7SSVZ">
-          Here is an example
-        </Link>{' '}
-        of me ramping for <AlertingShrill /> in Ara-Kara. The orange box is <ChiHarmony />, and the
-        yellow box is <EnvelopingMist />. You will see that going in to the <AlertingShrill />,
-        three members have <ChiHarmony />, and three members have <EnvelopingMist />. If I had been
-        running <MasterOfHarmony />, they would also all have <Coalescence /> since I pressed{' '}
-        <ThunderFocusTea />.
-      </p>
     </SubSection>
   )
 }

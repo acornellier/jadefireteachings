@@ -9,6 +9,7 @@ import {
   EnvelopingMist,
   GiftOfTheCelestials,
   GustOfMists,
+  HarmonicSurge,
   InvigoratingMists,
   JadeBond,
   JadeEmpowerment,
@@ -23,14 +24,13 @@ import {
   TigerPalm,
   VeilOfPride,
   Vivify,
-  ZenPulse,
 } from '../../Common/WowheadLink/Spells.tsx'
 import { Link } from '../../Common/Link.tsx'
-import { SubSection } from '../SubSection.tsx'
 import { SubSubSection } from '../SubSubSection.tsx'
-import { ConduitOfTheCelestials } from '../../Common/SpecialTexts.tsx'
+import { ConduitOfTheCelestials, MasterOfHarmony } from '../../Common/SpecialTexts.tsx'
 import { rampingTitle } from './Ramping.tsx'
 import { chiJiGuideTitle } from '../../Advanced/ChiJiGuide.tsx'
+import { SubSection } from '../SubSection.tsx'
 
 export const healingCooldownsTitle = 'Healing cooldowns'
 
@@ -38,9 +38,13 @@ export function HealingCooldowns() {
   return (
     <SubSection title={healingCooldownsTitle}>
       <p>
-        For a moderate burst of healing, the simplest spell to heal with is an instant <Vivify />,
-        preferably with <ZenPulse />. This will cleave to the group with <InvigoratingMists />. Be
-        sure to main target the lowest health member.
+        For a moderate burst of healing, the simplest spell to heal with is an instant <Vivify />.
+        This will cleave to the group with <InvigoratingMists />. Be sure to main target the lowest
+        health member.
+      </p>
+      <p>
+        If running <MasterOfHarmony /> S3 tier set <HarmonicSurge />, you can simply spam{' '}
+        <TigerPalm /> for moderate healing. This can be quite powerful with a good ramp.
       </p>
       <p>
         For heavier damage, you will need to rotate your bigger CDs. When damage is coming soon, use

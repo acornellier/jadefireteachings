@@ -31,9 +31,10 @@ export function Gear() {
     <Section title="Gear and Stats">
       <SubSection title="Stats">
         <p>
-          In season 2, I went for 30-35% Haste, ~100% Mastery, then prioritized Vers. For the start
-          of season 3, prioritize the same distribution. We will end up with more stats than this,
-          and I will update it later in the season.
+          In season 2, I went for 30-35% Haste, ~100% Mastery, then prioritized Vers, with Crit
+          staying not too far behind Vers. For the start of season 3, prioritize the same
+          distribution. We will end up with more stats than this, and I will update it later in the
+          season.
         </p>
         <UnorderedList>
           <li>
