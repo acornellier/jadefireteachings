@@ -38,9 +38,9 @@ export function Ramping() {
         Start ramping 3-5 seconds before damage goes out. My favorite pattern is (hardcast){' '}
         <EnvelopingMist /> {'>'} <EnvelopingMist /> {'>'} <ThunderFocusTea /> {'>'}{' '}
         <RisingSunKick /> {'>'} <TigerPalm /> {'>'} <RisingSunKick />. This creates two{' '}
-        <EnvelopingMist /> and extends them twice, as well as two <ChiHarmony />, and if running{' '}
-        <MendingProliferation /> will start spreading quickly. Often I precede all this by casting{' '}
-        <ChiJi /> for <EnvelopingBreath />.
+        <EnvelopingMist />s and extends them twice, as well as four <ChiHarmony />
+        s, and if running <MendingProliferation /> will start spreading quickly. Often I precede all
+        this by casting <ChiJi /> for <EnvelopingBreath />.
       </p>
       <p>
         Casting <RenewingMist /> for <ChiHarmony /> can also be good as part of your ramp. Although
@@ -71,11 +71,19 @@ export function Ramping() {
           <JadefireTeachings /> healing.
         </li>
         <li>
+          <EnvelopingBreath />: increases healing by 10%. Applied to your group by casting an{' '}
+          <EnvelopingMist /> while <ChiJi /> is out.
+        </li>
+        <li>
           <SecretInfusion />: not really considered ramping per-say, but another buff to give
           yourself before doing significant healing. Using it on versatility or crit is a 15%
           healing increase.
         </li>
       </UnorderedList>
+      <p>
+        A player with <EnvelopingMist />, <MendingProliferation />, <ChiHarmony />, and{' '}
+        <EnvelopingBreath /> is receiving 170% MORE healing!
+      </p>
     </SubSection>
   )
 }
