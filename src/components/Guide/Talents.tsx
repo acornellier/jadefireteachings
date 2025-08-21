@@ -58,10 +58,10 @@ export function Talents() {
   return (
     <Section title="Talents">
       <p>
-        I play <MendingProliferation /> in the linked builds below. If you are new to mistweaver,
-        consider swapping it for <LegacyOfWisdom />, and take <VeilOfPride /> instead of{' '}
-        <ShaohaosLessons />. <SheilunsGift /> is much easier to use to heal through mechanics, but
-        does not scale well enough to beat healing checks in higher keys.
+        IMPORTANT NOTE: I play <MendingProliferation /> in the linked builds below. If you are new
+        to mistweaver, consider swapping it for <LegacyOfWisdom />, and take <VeilOfPride /> instead
+        of <ShaohaosLessons />. <SheilunsGift /> is much easier to use to heal through mechanics,
+        but does not scale well enough to beat healing checks in higher keys.
       </p>
       <SubSection title="Hero talent choice">
         <p>
