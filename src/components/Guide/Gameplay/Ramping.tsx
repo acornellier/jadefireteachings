@@ -18,7 +18,6 @@ import {
   SecretInfusion,
   StrengthOfTheBlackOx,
   ThunderFocusTea,
-  TigerPalm,
 } from '../../Common/WowheadLink/Spells.tsx'
 import { MasterOfHarmony } from '../../Common/SpecialTexts.tsx'
 import { Link } from '../../Common/Link.tsx'
@@ -37,8 +36,8 @@ export function Ramping() {
       <p>
         Start ramping 3-5 seconds before damage goes out. My favorite pattern is (hardcast){' '}
         <EnvelopingMist /> {'>'} <EnvelopingMist /> {'>'} <ThunderFocusTea /> {'>'}{' '}
-        <RisingSunKick /> {'>'} <TigerPalm /> {'>'} <RisingSunKick />. This creates two{' '}
-        <EnvelopingMist />s and extends them twice, as well as four <ChiHarmony />
+        <RisingSunKick /> {'>'} <RenewingMist /> {'>'} <RisingSunKick />. This creates two{' '}
+        <EnvelopingMist />s and extends them twice, as well as five <ChiHarmony />
         s, and if running <MendingProliferation /> will start spreading quickly. Often I precede all
         this by casting <ChiJi /> for <EnvelopingBreath />.
       </p>
