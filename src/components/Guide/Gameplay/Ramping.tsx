@@ -4,6 +4,7 @@ import {
   ChiHarmony,
   ChiJi,
   Coalescence,
+  EnvelopingBreath,
   EnvelopingMist,
   JadefireTeachings,
   LifeCocoon,
@@ -39,8 +40,12 @@ export function Ramping() {
         <RisingSunKick /> {'>'} <TigerPalm /> {'>'} <RisingSunKick />. This creates two{' '}
         <EnvelopingMist /> and extends them twice, as well as two <ChiHarmony />, and if running{' '}
         <MendingProliferation /> will start spreading quickly. Often I precede all this by casting{' '}
-        <ChiJi />. There are many variants to the above example, the goal is simply to get healing
-        amps out.
+        <ChiJi /> for <EnvelopingBreath />.
+      </p>
+      <p>
+        Casting <RenewingMist /> for <ChiHarmony /> can also be good as part of your ramp. Although
+        not as impactful as <EnvelopingMist />, it is instant cast and quicker and therefore easier
+        to use.
       </p>
       <p>
         After your buffs are applied, simply do whatever other healing you want, following the{' '}
