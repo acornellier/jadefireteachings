@@ -5,9 +5,7 @@ import {
   ChiBurst,
   ChiWave,
   Coalescence,
-  DeepClarity,
   EnergizingBrew,
-  EnvelopingMist,
   GiftOfTheCelestials,
   GraceOfTheCrane,
   HarmonicSurge,
@@ -19,7 +17,6 @@ import {
   LegacyOfWisdom,
   LifeCocoon,
   MendingProliferation,
-  PeerIntoPeace,
   PressurePoints,
   Revival,
   SecretInfusion,
@@ -29,7 +26,6 @@ import {
   TigerPalm,
   UpliftedSpirits,
   VeilOfPride,
-  Vivify,
   ZenPulse,
 } from '../Common/WowheadLink/Spells.tsx'
 import { Button } from '../Common/Button.tsx'
@@ -58,10 +54,10 @@ export function Talents() {
   return (
     <Section title="Talents">
       <p>
-        IMPORTANT NOTE: I play <MendingProliferation /> in the linked builds below. If you are new
-        to mistweaver, consider swapping it for <LegacyOfWisdom />, and take <VeilOfPride /> instead
-        of <ShaohaosLessons />. <SheilunsGift /> is much easier to use to heal through mechanics,
-        but does not scale well enough to beat healing checks in higher keys.
+        Note that I play <MendingProliferation /> in the linked builds below. If you are new to
+        mistweaver, consider swapping it for <LegacyOfWisdom />, and take <VeilOfPride /> instead of{' '}
+        <ShaohaosLessons />. <SheilunsGift /> is much easier to use to heal through mechanics, but
+        does not scale well enough to beat healing checks in higher keys.
       </p>
       <SubSection title="Hero talent choice">
         <p>
@@ -75,7 +71,8 @@ export function Talents() {
           With the tier set, you spam <ThunderFocusTea />, granting constant <JadeEmpowerment />{' '}
           which is very strong for trash pulls. This also grants high <SecretInfusion /> uptime, a
           low <LifeCocoon /> CD, and constantly high haste. Use <ThunderFocusTea /> ON COOLDOWN, and
-          send your <JadeEmpowerment /> and <LifeCocoon /> aggressively.
+          send your <JadeEmpowerment /> and <LifeCocoon /> aggressively. This build is powerful in
+          constant multi-target healing scenarios.
         </p>
         <p>
           <MasterOfHarmony /> can buff your other healing with <Coalescence />, but this does not
@@ -86,14 +83,14 @@ export function Talents() {
           single target healing scenarios, such as all the Dawnbreaker bosses.
         </p>
       </SubSection>
-      <SubSection title="Master of Harmony build">
-        <TalentCodeBlock>
-          C4QAvmhRP2rMmMXAL1blVepCkBAAAAAAAAsYZmlxsY2mxM2wmtZbMbMbWmZWWYoZmZgZYGAbzMzwsxMDzyMBAAAAY2m2mtZWmNLz2ysNzMBBA2A
-        </TalentCodeBlock>
-      </SubSection>
       <SubSection title="Conduit build">
         <TalentCodeBlock>
-          C4QAvmhRP2rMmMXAL1blVepCkBAAAAAAAAsYZmlxsY2mxM2wmtZbMbMbWmZWWYoZmZgZYGAbzMzwsxMDzyMBAAAAY2m2mtZWmFLz2ysNzMBBA2A
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsYZmlxsY2GzM2wmtZjZjZbZZmZZhhmZmBmhZAsNzMDzGzMMLzEAAAAAEgFLz2ysNzMBAAbA
+        </TalentCodeBlock>
+      </SubSection>
+      <SubSection title="Master of Harmony build">
+        <TalentCodeBlock>
+          C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsYZmlxsY2GzM2wmtZjZjZbZZmZZhhmZmBmhZAsNzMDzGzMMLzEAAAAgZbab2mZZ2AABAAbA
         </TalentCodeBlock>
       </SubSection>
       <SubSection title="Class tree">
@@ -117,18 +114,10 @@ export function Talents() {
         <p>
           <UnorderedList>
             <li>
-              I always run <ShaohaosLessons /> over <VeilOfPride />. <SheilunsGift /> just doesn
+              I always run <ShaohaosLessons /> over <VeilOfPride /> and <MendingProliferation />{' '}
+              over <LegacyOfWisdom />. <SheilunsGift /> just doesn
               {"'"}t do enough healing on its own to justify running <VeilOfPride />. It
-              {"'"}s better to run <ShaohaosLessons /> to buff your other healing cooldowns and
-              grant a decent damage increase.
-            </li>
-            <li>
-              This might change as I continue to experiment with <SheilunsGift />, but for now I
-              personally always run <MendingProliferation /> over <LegacyOfWisdom />.{' '}
-              <MendingProliferation /> buffs our many other sources of healing which is generally
-              more valuable than one instance of <SheilunsGift />. I ignore the healing aspect of{' '}
-              <SheilunsGift /> and use it <i>before</i> your other healing or damage spells to buff
-              them.
+              {"'"}s better to buff your other healing cooldowns.
             </li>
             <li>
               If you prefer <SheilunsGift />, then drop <MendingProliferation /> and take{' '}
@@ -141,35 +130,16 @@ export function Talents() {
               a period of less than 1 minute. As of now in S3, I am running <GiftOfTheCelestials />{' '}
               in every dungeon.
             </li>
+            <li>
+              <ZenPulse /> is quite weak currently, so I run <HealingElixir />. Feel free to swap
+              these, they are both relatively unimpactful.
+            </li>
+            <li>
+              You can swap <EnergizingBrew /> for <UpliftedSpirits /> if you find you are not
+              running out of mana. Short <Revival /> is quite powerful after the buffs!
+            </li>
           </UnorderedList>
         </p>
-        <p>
-          If you wish to make other changes, there are 3 points you can drop from <DeepClarity />{' '}
-          and <SecretInfusion /> x2.
-        </p>
-        <p>Recommended options</p>
-        <UnorderedList>
-          <li>
-            <SecretInfusion />: my favorite talent of the bunch, lots of stats with high uptime.
-          </li>
-          <li>
-            <UpliftedSpirits />: <Revival /> becomes a 2 min cd instead of 3 min cd
-          </li>
-          <li>
-            <EnergizingBrew />: much improved Mana Tea. Take this if you find yourself running out
-            of mana.
-          </li>
-          <li>
-            <DeepClarity />: more <Vivify /> cleave healing. <ZenPulse /> stacks to 2 so rarely
-            wasted.
-          </li>
-          <li>
-            <HealingElixir />: good reliable self healing. You could swap <ZenPulse /> for this.
-          </li>
-          <li>
-            <PeerIntoPeace />: to easily ramp <EnvelopingMist /> on the whole group
-          </li>
-        </UnorderedList>
         <img src="/images/spec.png" alt="spec_talents" width={400} />
       </SubSection>
     </Section>

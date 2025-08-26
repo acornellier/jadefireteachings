@@ -27,9 +27,9 @@ export function DungeonSection({
       )}
       {tree && (
         <p>
-          Hero tree I play:{' '}
+          Recommended hero talents:{' '}
           {tree == 'idk' ? (
-            'still unsure, playing both'
+            'both good'
           ) : tree === 'conduit' ? (
             <ConduitOfTheCelestials />
           ) : tree === 'moh' ? (

@@ -62,14 +62,16 @@ export function Gear() {
       </SubSection>
       <SubSection title="Trinkets">
         <p>
-          Our BIS is <LoomitharsLivingSilk /> + <DiamantineVoidcore />. Myth/Hero track{' '}
-          <AzhiccaranParapodia /> is slightly better than Hero/Normal track <DiamantineVoidcore />.
-          There are many competitive options, and you could drop one for a damage trinket.
+          Our BIS is <LoomitharsLivingSilk /> + <DiamantineVoidcore />, but only with the weapon
+          set. Myth/Hero track <AzhiccaranParapodia /> is slightly better than Hero/Normal track{' '}
+          <DiamantineVoidcore />. There are many competitive options, and you could drop one for a
+          damage trinket. Use <Link href="https://questionablyepic.com/live/trinkets">QELive</Link>{' '}
+          to compare trinkets.
         </p>
         <UnorderedList>
           <li>
-            <LoomitharsLivingSilk /> is an incredibly powerful group survival tool for M+. Provides
-            no intellect, so it is our lowest damage option.
+            <LoomitharsLivingSilk /> is an incredibly powerful group survival tool for M+ and should
+            always be run.
           </li>
           <li>
             <DiamantineVoidcore /> is the best stat stick, but only when combined with the set
@@ -139,9 +141,8 @@ export function Gear() {
       </SubSection>
       <SubSection title="Race">
         <p>
-          In my opinion, the best overall race for M+ is Night Elf, due to <Shadowmeld />. I think
-          this ability is extremely overpowered. It is very flexible and has many many uses,
-          especially on healers:
+          The best race for M+ is Night Elf, due to <Shadowmeld />. This ability is extremely
+          overpowered. It is very flexible and has many many uses, especially on healers:
         </p>
         <UnorderedList>
           <li>
@@ -155,12 +156,11 @@ export function Gear() {
           <li>Resurrecting a teammate mid-pull without using a battle rez.</li>
         </UnorderedList>
         <p>
-          The only other strong option is Dwarf, which can be stronger or weaker than Night Elf
-          depending on the season. It is not as flexible as Night Elf, but very consistently useful
-          in many dungeons.
+          The only other strong option is Dwarf. It is not as flexible as Night Elf, but very
+          consistently useful in many dungeons.
         </p>
         <p>
-          Night Elf {'>='} Dwarf {'>>'} Everything else
+          Night Elf {'>'} Dwarf {'>>'} Everything else
         </p>
       </SubSection>
     </Section>

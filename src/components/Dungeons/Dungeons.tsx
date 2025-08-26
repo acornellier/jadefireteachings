@@ -1,6 +1,6 @@
 import { OperationFloodgate } from './OperationFloodgate.tsx'
 import { PrioryOfTheSacredFlame } from './PrioryOfTheSacredFlame.tsx'
-;``
+
 export function Dungeons() {
   return (
     <div>

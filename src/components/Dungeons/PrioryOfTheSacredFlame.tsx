@@ -7,12 +7,10 @@ import {
   ChiJi,
   DisruptingShout,
   DivineJudgment,
-  GiftOfTheCelestials,
   HammerOfPurity,
   HolyRadiance,
   Impale,
   InnerFire,
-  JadeBond,
   JadeEmpowerment,
   JadefireTeachings,
   LifeCocoon,
@@ -22,10 +20,10 @@ import {
   SacredToll,
   SacrificialPyre,
   SavageMauling,
-  SheilunsGift,
   SoothingMist,
   TeachingsOfTheMonastery,
   Thunderclap,
+  TigerPalm,
   VindictiveWrath,
   Vivify,
 } from '../Common/WowheadLink/Spells.tsx'
@@ -34,28 +32,30 @@ import { NotableTrash } from './NotableTrash.tsx'
 import { OrderedList } from '../Common/OrderedList.tsx'
 import { Link } from '../Common/Link.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
+import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
 
 export function PrioryOfTheSacredFlame() {
   return (
     <DungeonSection
       title="Priory of the Sacred Flame"
       video="https://www.youtube.com/watch?v=F9_7NNhRmMk"
-      tree="idk"
+      tree="moh"
     >
       <p>
-        I currently prefer <JadeBond />, but only if your group pulls around it. It is good for the
-        first pull, Sir Braunpyke, and Paladin pulls, if done properly. <GiftOfTheCelestials /> is a
-        safe choice for pugs if routing is unclear.
+        <ConduitOfTheCelestials /> is still pretty good in here.
       </p>
       <BossSubSection title="Captain Dailcry" difficulty="medium">
         <p>
-          As of this being written, every group goes left and has to deal with Elaena during the
-          boss fight. <HolyRadiance /> does light ticking damage over 8 seconds, so have <i>some</i>{' '}
-          healing for it. If totally dry, you can ramp for it. The only real risk of death on this
-          fight is an overlap of <HolyRadiance /> with <SavageMauling />, so it is important to be
-          aware of this timer, and keep the group topped during the <HolyRadiance /> where{' '}
-          <SavageMauling /> will go out (should be the third). Meld and Feign Death cancel{' '}
-          <SavageMauling />!
+          If your group goes right, this is an easy boss. Be sure to top people for the big AoE, and
+          participate in the kick rotation.
+        </p>
+        <p>
+          If your group goes left, then you have to deal with Elaena during the boss fight.{' '}
+          <HolyRadiance /> does light ticking damage over 8 seconds, so have <i>some</i> healing for
+          it. If totally dry, you can ramp for it. The only real risk of death on this fight is an
+          overlap of <HolyRadiance /> with <SavageMauling />, so it is important to be aware of this
+          timer, and keep the group topped during the <HolyRadiance /> where <SavageMauling /> will
+          go out (should be the third). Meld and Feign Death cancel <SavageMauling />!
         </p>
         <p>
           The tank is going to take a beating, so be sure to dispel <DivineJudgment /> immediately,
@@ -107,7 +107,7 @@ export function PrioryOfTheSacredFlame() {
           with a stack with a defensive.
         </p>
       </BossSubSection>
-      <BossSubSection title="Prioress Murpray" difficulty="medium">
+      <BossSubSection title="Prioress Murpray" difficulty="hard">
         <p>
           This can be a very easy boss, or a pretty hard boss, based on RNG. <InnerFire /> gives her
           a buff which deals pulsing damage to the group. When she casts <BlindingLight />{' '}
@@ -118,9 +118,9 @@ export function PrioryOfTheSacredFlame() {
           <BlindingLight />.
         </p>
         <p>
-          On overlaps, I like to send a <SheilunsGift /> as late as possible before the{' '}
-          <BlindingLight />, and then an instant <Vivify /> on the lower member right after. Be
-          ready with <LifeCocoon /> and <Revival /> if needed.
+          On overlaps, you can continue channeling <JadeEmpowerment /> while facing away from the
+          boss. Try to have your group as topped as possible right before <BlindingLight /> goes
+          off.
         </p>
         <p>
           In the intermission, use <RingOfPeace /> as late as possible when the ads are about to hit
@@ -184,12 +184,11 @@ export function PrioryOfTheSacredFlame() {
               Always ramp before the initial <SacredToll />.
             </li>
             <li>
-              Will you <ChiJi />? Have 4 <TeachingsOfTheMonastery /> stacks ready.
+              Are you <MasterOfHarmony /> and you have a very powerful ramp? Simply spam{' '}
+              <TigerPalm />.
             </li>
             <li>
-              Will you use <SheilunsGift />? Try to start casting it so that it goes off right after
-              the <SacredToll /> goes off. My{' '}
-              <Link href="https://wago.io/4NGGKCLPy">plater script</Link> helps with this.
+              Do you have <ChiJi />? Have 4 <TeachingsOfTheMonastery /> stacks ready.
             </li>
             <li>
               Will you use <JadeEmpowerment />? Refresh your <JadefireTeachings /> shortly before{' '}
@@ -212,10 +211,10 @@ export function PrioryOfTheSacredFlame() {
         </SubSubSection>
         <SubSubSection title="Sir Braunpyke">
           <p>
-            This is another rot fight, check my guides on Swampface and Candle King for tips on how
-            to heal rot. Your group should not pull anything on top of him, but if they do be wary
-            of Footmen exploding. He does require a lot of healing, so do not underestimate this
-            guy! Send all your cooldowns.
+            This is another rot fight, check my guides on Swampface for tips on how to heal rot.
+            Your group should not pull anything on top of him, but if they do be wary of Footmen
+            exploding. He does require a lot of healing, so do not underestimate this guy! Send all
+            your cooldowns.
           </p>
         </SubSubSection>
       </NotableTrash>
