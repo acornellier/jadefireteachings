@@ -63,10 +63,8 @@ export function Gear() {
       <SubSection title="Trinkets">
         <p>
           Our BIS is <LoomitharsLivingSilk /> + <DiamantineVoidcore />, but only with the weapon
-          set. Myth/Hero track <AzhiccaranParapodia /> is slightly better than Hero/Normal track{' '}
-          <DiamantineVoidcore />. There are many competitive options, and you could drop one for a
-          damage trinket. Use <Link href="https://questionablyepic.com/live/trinkets">QELive</Link>{' '}
-          to compare trinkets.
+          set. There are many competitive options, and you could drop one for a damage trinket. Use{' '}
+          <Link href="https://questionablyepic.com/live/trinkets">QELive</Link> to compare trinkets.
         </p>
         <UnorderedList>
           <li>

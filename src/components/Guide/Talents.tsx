@@ -32,6 +32,7 @@ import { Button } from '../Common/Button.tsx'
 import { Section } from './Section.tsx'
 import { SubSection } from './SubSection.tsx'
 import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
+import { Link } from '../Common/Link.tsx'
 
 const TalentCodeBlock = ({ children }: { children: string }) => (
   <CodeBlock
@@ -61,10 +62,12 @@ export function Talents() {
       </p>
       <SubSection title="Hero talent choice">
         <p>
-          For season 3, both hero talents and their tier sets are strong. Generally, I think{' '}
-          <MasterOfHarmony /> is stronger in most situations. It is possible that one is better in
-          some dungeons and the other is better in others. They do similar overall healing and
-          damage but have different profiles.
+          For season 3, both hero talents and their tier sets are strong. I play both regularly, and
+          recommend a choice for each dungeon in the <Link href="/dungeons">Dungeon Guides</Link>.
+          For begginers, I recommend <ConduitOfTheCelestials />, but I suggest trying both and
+          playing what you prefer! They do similar overall healing and damage but have different
+          profiles. <ConduitOfTheCelestials /> is stronger in AoE pulls, while <MasterOfHarmony />{' '}
+          is stronger in single target pulls.
         </p>
         <p>
           <ConduitOfTheCelestials /> has a flatter healing profile with high uptime on your healing.
@@ -91,6 +94,11 @@ export function Talents() {
       <SubSection title="Master of Harmony build">
         <TalentCodeBlock>
           C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsYZmlxsY2GzM2wmtZjZjZbZZmZZhhmZmBmhZAsNzMDzGzMMLzEAAAAgZbab2mZZ2AABAAbA
+        </TalentCodeBlock>
+      </SubSection>
+      <SubSection title="Master of Harmony build">
+        <TalentCodeBlock>
+          C4QAvmhRP2rMmMXAL1blVepCkBAAAAAAAAsYZmlxsY2mxM2wmtZbMbMbWmZWWYoZmZgZYGAbzMzwsxMDzyMBAAAAY2m2mtZWmNLz2ysNzMBBA2A
         </TalentCodeBlock>
       </SubSection>
       <SubSection title="Class tree">

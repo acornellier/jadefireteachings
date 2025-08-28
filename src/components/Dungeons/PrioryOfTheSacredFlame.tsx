@@ -32,18 +32,15 @@ import { NotableTrash } from './NotableTrash.tsx'
 import { OrderedList } from '../Common/OrderedList.tsx'
 import { Link } from '../Common/Link.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
-import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
+import { MasterOfHarmony } from '../Common/SpecialTexts.tsx'
 
 export function PrioryOfTheSacredFlame() {
   return (
     <DungeonSection
       title="Priory of the Sacred Flame"
       video="https://www.youtube.com/watch?v=F9_7NNhRmMk"
-      tree="moh"
+      tree="either"
     >
-      <p>
-        <ConduitOfTheCelestials /> is still pretty good in here.
-      </p>
       <BossSubSection title="Captain Dailcry" difficulty="medium">
         <p>
           If your group goes right, this is an easy boss. Be sure to top people for the big AoE, and

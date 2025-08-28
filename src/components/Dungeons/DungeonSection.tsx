@@ -4,7 +4,7 @@ import type { FC } from 'react'
 import { Link } from '../Common/Link.tsx'
 
 interface Props extends SectionProps {
-  tree?: 'conduit' | 'moh' | 'idk'
+  tree?: 'conduit' | 'moh' | 'idk' | 'either'
   video?: string
   Talents?: FC[]
   RecommendedTalents?: FC[]
@@ -27,9 +27,11 @@ export function DungeonSection({
       )}
       {tree && (
         <p>
-          Recommended hero talents:{' '}
-          {tree == 'idk' ? (
-            'both good'
+          Recommended hero tree:{' '}
+          {tree == 'either' ? (
+            'both good, preference choice'
+          ) : tree == 'idk' ? (
+            'still unsure, playing both'
           ) : tree === 'conduit' ? (
             <ConduitOfTheCelestials />
           ) : tree === 'moh' ? (
