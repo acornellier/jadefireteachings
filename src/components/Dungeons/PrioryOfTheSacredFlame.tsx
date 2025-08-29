@@ -142,10 +142,9 @@ export function PrioryOfTheSacredFlame() {
           </p>
           <p>
             Knights cast a heavy-hitting <DisruptingShout /> that damages the whole party. They also
-            cast <Impale /> a random target for a larger initial hit, and a large long-lasting
-            bleed. This is very scary when combined with other shoots and AoE hits. Be ready to use{' '}
-            <LifeCocoon /> on them when the bleed overlaps with an AoE hit. Whenever a knight is in
-            the pull, they should be the highest priority target to kill.
+            cast <Impale /> a target for a larger initial hit, and a large long-lasting bleed. This
+            is very scary when combined with other shoots and AoE hits. Be ready to use{' '}
+            <LifeCocoon /> on them when the bleed overlaps with an AoE hit.
           </p>
           <p>
             Guard Captain Suleyman casts <Thunderclap />, a very hard-hitting group-wide ability.
