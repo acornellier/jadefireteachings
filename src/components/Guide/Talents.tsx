@@ -96,11 +96,6 @@ export function Talents() {
           C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsYZmlxsY2GzM2wmtZjZjZbZZmZZhhmZmBmhZAsNzMDzGzMMLzEAAAAgZbab2mZZ2AABAAbA
         </TalentCodeBlock>
       </SubSection>
-      <SubSection title="Master of Harmony build">
-        <TalentCodeBlock>
-          C4QAvmhRP2rMmMXAL1blVepCkBAAAAAAAAsYZmlxsY2mxM2wmtZbMbMbWmZWWYoZmZgZYGAbzMzwsxMDzyMBAAAAY2m2mtZWmNLz2ysNzMBBA2A
-        </TalentCodeBlock>
-      </SubSection>
       <SubSection title="Class tree">
         <UnorderedList>
           <li>
