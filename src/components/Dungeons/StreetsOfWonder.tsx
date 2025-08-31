@@ -3,6 +3,7 @@ import { BossSubSection } from './BossSubSection.tsx'
 import { NotableTrash } from './NotableTrash.tsx'
 import {
   ChainsOfDamnation,
+  ChiJi,
   DiffuseMagic,
   FanMail,
   Interrogation,
@@ -34,7 +35,8 @@ export function StreetsOfWonder() {
           <LifeCocoon />.
         </p>
         <p>
-          On the third boss, you can remove the <ChainsOfDamnation /> with <TigersLust />.
+          On the third boss, you can remove the <ChainsOfDamnation /> with <TigersLust />, but you
+          cannot get every one! Save <ChiJi /> for yourself if you are targeted by it.
         </p>
       </BossSubSection>
       <BossSubSection title="Mailroom Mayhem" difficulty="medium">
@@ -49,7 +51,7 @@ export function StreetsOfWonder() {
         </p>
       </BossSubSection>
       <BossSubSection title="Myza's Oasis" difficulty="easy">
-        <p>This boss doesn{"'"}nt really do anything.</p>
+        <p>This boss actually does anything.</p>
       </BossSubSection>
       <BossSubSection title="So'azmi" difficulty="medium">
         <p>

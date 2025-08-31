@@ -61,9 +61,8 @@ export function OperationFloodgate() {
       </BossSubSection>
       <BossSubSection title="Swampface" difficulty="EXTREME">
         <p>
-          Probably the hardest boss of the season to heal! This is a rot fight with{' '}
-          <RazorchokeVines /> combined with burst damage from <AwakenTheSwamp />, which makes it
-          very interesting and fun to heal.
+          This is a rot fight with <RazorchokeVines /> combined with burst damage from{' '}
+          <AwakenTheSwamp />, which makes it very interesting and fun to heal.
         </p>
         <p>
           Since healers are never linked to their teammates, you will be taking much less damage, so
@@ -81,6 +80,10 @@ export function OperationFloodgate() {
           every second instance. Your teammates ideally use defensives on each time, but many don
           {"'"}t have enough to cover each one. Be aware of when they are dry and use <LifeCocoon />{' '}
           on cooldown on whoever is most in danger.
+        </p>
+        <p>
+          Getting your tank to pull Divers onto this boss is extremely helpful. If you have them,
+          you can simply <JadeEmpowerment /> through <AwakenTheSwamp /> to keep your team healthy.
         </p>
       </BossSubSection>
       <BossSubSection title="Geezle Gigazap" difficulty="hard">

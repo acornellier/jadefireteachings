@@ -71,8 +71,7 @@ export function HealingCooldowns() {
           charges.
         </p>
         <p>
-          <JadeEmpowerment /> thrives against short bursty damage that ticks several times, such as
-          the mechs at the end of Motherlode.
+          <JadeEmpowerment /> thrives against short bursty damage that ticks several times
         </p>
         <p>
           You cannot move while channeling <CracklingJadeLightning />, and if you do, you will lose

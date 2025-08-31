@@ -10,7 +10,6 @@ import {
   LifeCocoon,
   MendingProliferation,
   MistWrap,
-  PeerIntoPeace,
   RapidDiffusion,
   RenewingMist,
   RisingMist,
@@ -55,7 +54,7 @@ export function Ramping() {
         <li>
           <EnvelopingMist />: increases healing by 40% with <MistWrap /> for its duration of 7
           seconds. Hard-casting it is slow, but <ThunderFocusTea />, <ChiJi />,{' '}
-          <StrengthOfTheBlackOx />, and <PeerIntoPeace /> can help you get it out quickly.
+          <StrengthOfTheBlackOx /> can help you get it out quickly.
         </li>
         <li>
           <ChiHarmony />: increases healing by 25% for 8 seconds. Applied by hard-casting{' '}
