@@ -76,15 +76,15 @@ export function Gear() {
             bonus.
           </li>
           <li>
-            <AzhiccaranParapodia /> is the best stat stick from dungeons.
+            <AstralAntenna /> is the best stat stick until you have the <DiamantineVoidcore /> set.
           </li>
           <li>
             <SoleahsSecretTechnique /> a great stat stick that also slightly empowers your ally,
             which is a damage increase!
           </li>
           <li>
-            <AstralAntenna />, <AraKaraSacbrood />, and <EmpoweringCrystalOfAnubikkaj /> are other
-            powerful stat sticks.
+            <AzhiccaranParapodia />, <AraKaraSacbrood />, and <EmpoweringCrystalOfAnubikkaj /> are
+            other powerful stat sticks.
           </li>
           <li>
             <BurstingLightshard /> is back and it is still our highest damage option! Only run this
