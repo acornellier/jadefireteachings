@@ -5,6 +5,7 @@ import { useWindowEvent } from '../../util/hooks/useWindowEvent.ts'
 import { useLocation } from 'react-router-dom'
 import { acronymsRoute, advancedRoute, dungeonsRoute, guideRoute } from '../../routes.tsx'
 import { PageLink } from './PageLink.tsx'
+import { SidebarButtonMobile } from './SidebarButtonMobile.tsx'
 
 interface SidebarProps {
   collapsed: boolean
@@ -94,8 +95,8 @@ export function Sidebar({ collapsed, setCollapsed }: SidebarProps) {
 
   return (
     <nav className="relative sidebar">
-      <div className="sm:hidden fixed left-0 top-1/2 z-10">
-        <SidebarButton onClick={onCollapseXs} />
+      <div className="sm:hidden fixed right-0 top-1/2 z-10">
+        <SidebarButtonMobile onClick={onCollapseXs} />
       </div>
       <div className="hidden sm:block lg:hidden fixed left-0 top-16">
         <SidebarButton onClick={onCollapseMd} />
