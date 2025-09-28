@@ -51,7 +51,7 @@ const coreSpells: Record<string, () => ReactElement> = {
   EM: EnvelopingMist,
   JFS: JadefireStomp,
   MoH: MasterOfHarmony,
-  ReM: RenewingMist,
+  RM: RenewingMist,
   RoP: RingOfPeace,
   RSK: RisingSunKick,
   RWK: RushingWindKick,
