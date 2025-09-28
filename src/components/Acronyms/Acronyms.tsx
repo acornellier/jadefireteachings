@@ -35,7 +35,7 @@ import {
   TouchOfDeath,
   VeilOfPride,
   YulonsGrace,
-  ZenPulse,
+  ZenPulse
 } from '../Common/WowheadLink/Spells.tsx'
 import type { ReactElement } from 'react'
 import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
@@ -74,7 +74,7 @@ const advanced: Record<string, () => ReactElement> = {
   ID: InvokersDelight,
   JB: JadeBond,
   JT: JadefireTeachings,
-  MP: MendingProliferation,
+  MendyP: MendingProliferation,
   MW: MistWrap,
   RD: RapidDiffusion,
   RJW: RefreshingJadeWind,
