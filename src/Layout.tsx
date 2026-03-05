@@ -25,9 +25,9 @@ export function Layout() {
     <>
       <div className="flex justify-center px-4">
         <main className="min-h-screen py-4 flex flex-col gap-4 lg:w-[1075px]">
-          <div className="bg-yellow-500 text-black font-bold text-center p-4 rounded-lg text-lg">
-            Jadefire Teachings has not been updated for pre-patch or Midnight, and will be updated
-            shortly after Midnight is released.
+          <div className="sticky top-4 z-10 bg-yellow-500 text-black font-bold text-center p-4 rounded-lg text-lg">
+            Jadefire Teachings has not yet been updated for Midnight. It will be partially updated
+            shortly before S1 is released, and will be completed during week 1 of M+.
           </div>
           <AppHeader />
           <div className={`flex flex-col sm:flex-row ${sidebarSpacing}`}>

@@ -8,7 +8,6 @@ import {
   CracklingJadeLightning,
   DeepClarity,
   EnvelopingMist,
-  ExpelHarm,
   FocusedThunder,
   GiftOfTheCelestials,
   HealingElixir,
@@ -16,7 +15,6 @@ import {
   JadeBond,
   JadefireStomp,
   JadefireTeachings,
-  MendingProliferation,
   MistWrap,
   RapidDiffusion,
   RefreshingJadeWind,
@@ -35,7 +33,7 @@ import {
   TouchOfDeath,
   VeilOfPride,
   YulonsGrace,
-  ZenPulse
+  ZenPulse,
 } from '../Common/WowheadLink/Spells.tsx'
 import type { ReactElement } from 'react'
 import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
@@ -45,9 +43,7 @@ const coreSpells: Record<string, () => ReactElement> = {
   AT: AncientTeachings,
   BoK: BlackoutKick,
   CJL: CracklingJadeLightning,
-  CoC: ConduitOfTheCelestials,
   CotC: ConduitOfTheCelestials,
-  EH: ExpelHarm,
   EM: EnvelopingMist,
   JFS: JadefireStomp,
   MoH: MasterOfHarmony,
@@ -74,7 +70,6 @@ const advanced: Record<string, () => ReactElement> = {
   ID: InvokersDelight,
   JB: JadeBond,
   JT: JadefireTeachings,
-  MendyP: MendingProliferation,
   MW: MistWrap,
   RD: RapidDiffusion,
   RJW: RefreshingJadeWind,

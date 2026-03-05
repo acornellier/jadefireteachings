@@ -1,4 +1,4 @@
-import { pageTitle } from './Guide.tsx'
+import { pageTitle } from './Guide/Guide.tsx'
 
 export function AppHeader() {
   return (

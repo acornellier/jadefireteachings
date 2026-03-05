@@ -11,17 +11,6 @@ export function Macros() {
     <SubSection title="Macros">
       <div className="flex flex-col gap-1">
         <p>
-          Avoid interrupting your important chanelled spells by using /stopmacro. This one is for
-          Chi Burst.
-        </p>
-        <Macro>
-          {
-            '/stopmacro [channeling:Celestial Conduit]\n/stopmacro [channeling:Crackling Jade Lightning]\n /cast Chi Burst'
-          }
-        </Macro>
-      </div>
-      <div className="flex flex-col gap-1">
-        <p>
           Important macro that allows you to recast <SpinningCraneKick /> before the previous one
           finishes, so that there is no downtime between casts.
         </p>
@@ -41,24 +30,6 @@ export function Macros() {
       <div className="flex flex-col gap-1">
         <p>Cast immediately on your cursor without first showing the indicator</p>
         <Macro>/use [@cursor] Ring of Peace</Macro>
-      </div>
-      <div className="flex flex-col gap-1">
-        <p>
-          Kick priority focus {'>'} mouseover {'>'} target. I use another keybind to focus my
-          mouseover
-        </p>
-        <Macro>/use [@focus,harm,nodead][@mouseover,harm,nodead][@target] Spear Hand Strike</Macro>
-      </div>
-      <div className="flex flex-col gap-1">
-        <p>
-          If you are running Bursting Lightspawn, press this macro TWICE to summon it, and then
-          focus it.
-        </p>
-        <Macro>
-          {
-            '/use [@cursor] Bursting Lightshard\n/targetexact Bursting Lightspawn\n/focus\n/targetlasttarget'
-          }
-        </Macro>
       </div>
     </SubSection>
   )

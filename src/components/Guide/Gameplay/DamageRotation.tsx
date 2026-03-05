@@ -2,9 +2,6 @@ import { OrderedList } from '../../Common/OrderedList.tsx'
 import {
   BlackoutKick,
   CelestialConduit,
-  ChiBurst,
-  CracklingJadeLightning,
-  JadeEmpowerment,
   JadefireStomp,
   RisingSunKick,
   SecretInfusion,
@@ -27,12 +24,6 @@ export function DamageRotation() {
     <SubSection title={damageRotationTitle}>
       <p>
         This is purely for optimal <b>damage</b> and not for optimal healing!
-      </p>
-      <p>
-        IMPORTANT NOTE: <SpinningCraneKick /> is <i>really</i> bad for healing at low targets. There
-        is not specific target count where it becomes better for healing, due to the standard
-        rotation generating HoTs and amps. You will need to get a feel for it and judge for yourself
-        based on the amount of healing needed in the current pull.
       </p>
       <div className="flex gap-2">
         <Button
@@ -63,12 +54,6 @@ export function DamageRotation() {
             <CelestialConduit />
           </li>
         )}
-        <li>
-          <ChiBurst /> {isConduit ? 'at 2+ targets' : ''}
-        </li>
-        <li>
-          <CracklingJadeLightning /> with <JadeEmpowerment />
-        </li>
         <li>
           <SpinningCraneKick /> at 4+ targets. See note above.
         </li>

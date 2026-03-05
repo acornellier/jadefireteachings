@@ -4,8 +4,6 @@ import { Conduit } from './Conduit.tsx'
 import { MasterOfHarmonyHealing } from './MasterOfHarmonyHealing.tsx'
 import { Section } from '../Section.tsx'
 import { HealingCooldowns } from './HealingCooldowns.tsx'
-import { Ramping } from './Ramping.tsx'
-import { MendingProliferationGameplay } from './MendingProliferationGameplay.tsx'
 
 export const healingLabel = 'Healing'
 
@@ -15,10 +13,8 @@ export function Healing() {
       <GeneralGameplay />
       <HealingCooldowns />
       <SpotHealing />
-      <Ramping />
       <Conduit />
       <MasterOfHarmonyHealing />
-      <MendingProliferationGameplay />
     </Section>
   )
 }
