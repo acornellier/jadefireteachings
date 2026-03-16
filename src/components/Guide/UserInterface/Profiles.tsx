@@ -6,6 +6,7 @@ import {
   arcuiIconsProfile,
   dandersProfile,
   detailsProfile,
+  editModeProfile,
   eqolProfile,
   eqolUnitFramesProfile,
   platynatorProfile,
@@ -16,8 +17,16 @@ export function Profiles() {
   const handleClick = useCopy('profile')
 
   return (
-    <SubSection title="Addon profiles">
+    <SubSection title="Profiles">
       <div className="flex flex-col gap-2">
+        <p>
+          For some of these addons, most importantly ArcUI, you{"'"}ll need my{' '}
+          <a className="text-blue-500" href="https://www.curseforge.com/wow/addons/ort-sharedmedia">
+            Ort_SharedMedia
+          </a>{' '}
+          addon (just a couple textures).
+        </p>
+        <Profile name="Edit Mode" profile={editModeProfile} onCopy={handleClick} />
         <Profile
           name="ArcUI Icons"
           profile={arcuiIconsProfile}
