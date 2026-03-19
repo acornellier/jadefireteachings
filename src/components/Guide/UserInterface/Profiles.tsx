@@ -40,14 +40,20 @@ export function Profiles() {
           link={'https://www.curseforge.com/wow/addons/arc-ui'}
         />
         <p>
-          For ArcUI, you must have CDM enabled, and all the appropriate buffs added as Tracked Buffs
-          in the CDM settings. I only use CDM for Buffs not Spells, so I have moved every Spell into
-          Not Displayed. For spells, I use action bars with ActionBarsEnhanced for styling. Icons
-          use{' '}
+          WARNING: importing ArcUI profiles is a pain. You must have CDM enabled, and all the
+          appropriate buffs added as Tracked Buffs in the CDM settings. I only use CDM for Buffs not
+          Spells, so I have moved every Spell into Not Displayed.
+        </p>
+        <p>
+          ArcUI Icons are the horizontal buffs bar above my action bars and use{' '}
           <a className="text-blue-500" href="https://www.curseforge.com/wow/addons/masque-leo">
             Masque: Leo
           </a>{' '}
           as a skin.
+        </p>
+        <p>
+          ArcUI Bars are like weakauras. They include the circles used for Teachings, Spiritfont,
+          and Dance of Chi-Ji, as well as the Renewing Mist Cooldown Bars.
         </p>
         <Profile
           name="EQOL Unit Frames"
