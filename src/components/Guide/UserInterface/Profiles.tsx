@@ -20,10 +20,10 @@ export function Profiles() {
     <SubSection title="Profiles">
       <div className="flex flex-col gap-2">
         <p>
-          INSTALL THIS ADDON FIRST:
+          INSTALL THIS ADDON FIRST:{' '}
           <a className="text-blue-500" href="https://www.curseforge.com/wow/addons/ort-sharedmedia">
             Ort_SharedMedia
-          </a>
+          </a>{' '}
           (it{"'"}s just a couple textures).
         </p>
         <Profile name="Edit Mode" profile={editModeProfile} onCopy={handleClick} />
