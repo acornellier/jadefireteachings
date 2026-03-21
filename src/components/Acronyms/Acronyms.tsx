@@ -2,7 +2,6 @@ import { UnorderedList } from '../Common/UnorderedList.tsx'
 import {
   AncientTeachings,
   AspectOfHarmony,
-  AwakenedJadefire,
   BlackoutKick,
   ChiHarmony,
   CracklingJadeLightning,
@@ -32,6 +31,7 @@ import {
   TigerPalm,
   TouchOfDeath,
   VeilOfPride,
+  WayOfTheCrane,
   YulonsGrace,
   ZenPulse,
 } from '../Common/WowheadLink/Spells.tsx'
@@ -60,7 +60,6 @@ const coreSpells: Record<string, () => ReactElement> = {
 }
 
 const advanced: Record<string, () => ReactElement> = {
-  AJ: AwakenedJadefire,
   AoH: AspectOfHarmony,
   CH: ChiHarmony,
   DC: DeepClarity,
@@ -78,6 +77,7 @@ const advanced: Record<string, () => ReactElement> = {
   TotM: TeachingsOfTheMonastery,
   VoP: VeilOfPride,
   YG: YulonsGrace,
+  WotC: WayOfTheCrane,
   ZP: ZenPulse,
 }
 

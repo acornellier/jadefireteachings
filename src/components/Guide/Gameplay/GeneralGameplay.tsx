@@ -1,11 +1,9 @@
 import { SubSection } from '../SubSection.tsx'
 import {
   AncientTeachings,
-  AwakenedJadefire,
   BlackoutKick,
   EnvelopingMist,
   GustOfMists,
-  JadefireStomp,
   JadefireTeachings,
   RapidDiffusion,
   RenewingMist,
@@ -14,6 +12,7 @@ import {
   TeachingsOfTheMonastery,
   ThunderFocusTea,
   TigerPalm,
+  WayOfTheCrane,
 } from '../../Common/WowheadLink/Spells.tsx'
 import { OrderedList } from '../../Common/OrderedList.tsx'
 import { Link } from '../../Common/Link.tsx'
@@ -22,10 +21,9 @@ export function GeneralGameplay() {
   return (
     <SubSection title="General gameplay">
       <p>
-        You are a melee spec and you should be in melee <b>most</b> of the time. It’s very important
-        that you maintain your <JadefireTeachings /> and <AwakenedJadefire /> buffs through{' '}
-        <JadefireStomp />, and perform your standard melee rotation. This is also known as
-        maintenance healing.
+        You are a melee spec and you should be in melee <b>most</b> of the time. You will make use
+        of <JadefireTeachings /> and <WayOfTheCrane />, and perform your standard melee rotation to
+        heal by dealing damage. This is also known as maintenance healing.
       </p>
       <OrderedList>
         <li>

@@ -5,7 +5,7 @@ export const healingCooldownsTitle = 'Healing cooldowns'
 export function HealingCooldowns() {
   return (
     <SubSection title={healingCooldownsTitle}>
-      <p>TODO</p>
+      <p>TODO: Update for Midnight</p>
     </SubSection>
   )
 }

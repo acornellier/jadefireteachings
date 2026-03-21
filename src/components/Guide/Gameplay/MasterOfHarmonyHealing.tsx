@@ -1,21 +1,9 @@
 import { SubSection } from '../SubSection.tsx'
-import { Coalescence, ThunderFocusTea } from '../../Common/WowheadLink/Spells.tsx'
-import { Link } from '../../Common/Link.tsx'
 
 export function MasterOfHarmonyHealing() {
   return (
     <SubSection title="Master of Harmony">
-      <p>
-        Whenever there is healing to do, pop your <ThunderFocusTea />. Any allies healed by you will
-        now receive a 20% healing buff from <Coalescence /> for 10-15 seconds. That{"'"}s basically
-        all there is to healing with this tree, honestly. Time your <ThunderFocusTea /> with moments
-        of heavy healing.
-      </p>
-      <p>
-        If there is little healing to do, use <ThunderFocusTea /> whenever your vitality bar is full
-        for damage. Remember the damage is a dot, so do not waste it on low health enemies. Use{' '}
-        <Link href="https://wago.io/H-BqbpSOt">this weakaura</Link> to track your vitality.
-      </p>
+      <p>TODO: Update for Midnight</p>
     </SubSection>
   )
 }
