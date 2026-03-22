@@ -1,5 +1,16 @@
 import { Section } from './Section.tsx'
-import { Link } from '../Common/Link.tsx'
+import {
+  BlackoutKick,
+  ChiJi,
+  EnvelopingMist,
+  RenewingMist,
+  SheilunsGift,
+  SpinningCraneKick,
+  Spiritfont,
+  Vivify,
+  WayOfTheSerpent,
+} from '../Common/WowheadLink/Spells.tsx'
+import { UnorderedList } from '../Common/UnorderedList.tsx'
 
 export function Midnight() {
   return (
@@ -10,9 +21,34 @@ export function Midnight() {
         after Mythic+ is released and get more concrete data on what the optimal build is.{' '}
       </p>
       <p>
-        There were so many changes in Midnight that I will not try to summarize them here. Read
-        through the guide, or skip to the <Link href="#Talents">Talents</Link> section for my
-        recommended build.
+        Please note that while there are alternate <WayOfTheSerpent /> builds, I am not interested
+        in them (in M+ at least), so I recommend looking elsewhere for guides on that.
+      </p>
+      <p>
+        <b>TL;DR of gameplay changes for The War Within players:</b>
+        <UnorderedList>
+          <li>
+            <RenewingMist /> coverage is important now.
+          </li>
+          <li>
+            <SpinningCraneKick /> is stronger than ever with its new and improved healing profile!
+          </li>
+          <li>
+            Treat <SheilunsGift /> as if it{"'"}s old <Vivify /> and don{"'"}t think about clouds.
+            At least for now, my opinion here may change.
+          </li>
+          <li>
+            <ChiJi /> is mainly used for the shield and ramping. The healing from <BlackoutKick />{' '}
+            is miniscule.
+          </li>
+          <li>
+            <Spiritfont /> is decently strong in dungeons and can be worth playing around.
+          </li>
+          <li>
+            Healing amps are <i>mostly</i> gone. We may still utilize <EnvelopingMist /> ramps in
+            rare situations.
+          </li>
+        </UnorderedList>
       </p>
     </Section>
   )

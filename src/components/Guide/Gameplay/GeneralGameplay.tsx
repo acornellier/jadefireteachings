@@ -2,8 +2,6 @@ import { SubSection } from '../SubSection.tsx'
 import {
   AncientTeachings,
   BlackoutKick,
-  EnvelopingMist,
-  GustOfMists,
   JadefireTeachings,
   RapidDiffusion,
   RenewingMist,
@@ -30,7 +28,7 @@ export function GeneralGameplay() {
           <RisingSunKick />
         </li>
         <li>
-          <BlackoutKick /> at 3-4 stacks of <TeachingsOfTheMonastery />
+          <BlackoutKick /> at 2 or 4 stacks of <TeachingsOfTheMonastery />
         </li>
         <li>
           <TigerPalm />
@@ -44,12 +42,11 @@ export function GeneralGameplay() {
       </p>
       <p>
         For the above reasons, I recommend using <ThunderFocusTea /> mainly on <RisingSunKick />.
-        Alternatively, using <ThunderFocusTea /> on <EnvelopingMist /> is also a great choice.
       </p>
       <p>
-        The most common mistake I see from new Mistweavers are not being in melee enough. At the end
-        of a dungeon, about 50% of your healing should come from <AncientTeachings /> and{' '}
-        <GustOfMists />.
+        Your other main maintenance task is maintaning <RenewingMist />. Whenever there is
+        non-trivial healing to do, your group should be blanketed in <RenewingMist />. In dungeons,
+        this requires hard-casting it a little, but not a ton.
       </p>
       <p>
         Watch my <Link href="https://www.twitch.tv/ortemismw">stream</Link> or{' '}

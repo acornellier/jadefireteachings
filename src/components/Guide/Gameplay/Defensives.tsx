@@ -26,9 +26,9 @@ export function Defensives() {
         </li>
         <li>
           <JadeSanctuary />: 15% DR for about 12 seconds on a 90 sec CD. An extra defensive for
-          those running <ConduitOfTheCelestials />. Not as impactful as the others, but still worth
-          considering when planning your defensives rotation on a fight. Note that your main
-          defensives all have 90 second CDs, so you can rotate them on 30 second mechanics.
+          those running <ConduitOfTheCelestials />. Not as impactful as <FortifyingBrew />, but
+          still worth considering when planning your defensives rotation on a fight. Note that your
+          main defensives all have 90 second CDs, so you can rotate them on 30 second mechanics.
         </li>
         <li>
           <DanceOfTheWind />: very overpowered, essentially makes you immune to physical damage

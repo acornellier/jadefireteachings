@@ -4,6 +4,7 @@ import {
   CelestialConduit,
   EmperorsElixir,
   JadefireStomp,
+  MorningBreeze,
   RisingSunKick,
   SpinningCraneKick,
   TeachingsOfTheMonastery,
@@ -22,7 +23,8 @@ export function DamageRotation() {
       </p>
       <OrderedList>
         <li>
-          <ThunderFocusTea />{' '}
+          <ThunderFocusTea />. In single target, if running <MorningBreeze />, try to have{' '}
+          <RisingSunKick /> on cooldown before using <ThunderFocusTea />.
         </li>
         <li>
           <RisingSunKick /> with <ThunderFocusTea /> if running <EmperorsElixir />
@@ -37,16 +39,12 @@ export function DamageRotation() {
           <RisingSunKick />
         </li>
         <li>
-          <BlackoutKick /> at 3-4 stacks of <TeachingsOfTheMonastery />
+          <BlackoutKick /> at 4 stacks of <TeachingsOfTheMonastery />
         </li>
         <li>
           <TigerPalm />
         </li>
       </OrderedList>
-      <p>
-        <JadefireStomp /> is a damage increase over <SpinningCraneKick /> at 4-10 targets, but its
-        targeting is pretty buggy.
-      </p>
     </SubSection>
   )
 }

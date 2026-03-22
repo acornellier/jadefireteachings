@@ -6,13 +6,14 @@ export interface CodeBlockProps {
   children: string
   type: string
   extraButton?: ReactNode
+  className?: string
 }
 
-export function CodeBlock({ children, type, extraButton }: CodeBlockProps) {
+export function CodeBlock({ children, type, extraButton, className }: CodeBlockProps) {
   const handleClick = useCopy(type)
 
   return (
-    <div className="flex flex-col gap-2 items-start justify-start">
+    <div className={`flex flex-col gap-2 items-start justify-start ${className}`}>
       <div className="font-mono px-2 py-1 bg-gray-700 text-sm">
         {children.split('\n').map((text, i) => (
           <p key={i} className="break-all">
