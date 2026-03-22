@@ -12,6 +12,7 @@ import {
   platynatorProfile,
 } from '../../../util/profiles.ts'
 import { Profile } from './Profile.tsx'
+import { Link } from '../../Common/Link.tsx'
 
 export function Profiles() {
   const handleClick = useCopy('profile')
@@ -21,9 +22,7 @@ export function Profiles() {
       <div className="flex flex-col gap-2">
         <p>
           INSTALL THIS ADDON FIRST:{' '}
-          <a className="text-blue-500" href="https://www.curseforge.com/wow/addons/ort-sharedmedia">
-            Ort_SharedMedia
-          </a>{' '}
+          <Link href="https://www.curseforge.com/wow/addons/ort-sharedmedia">Ort_SharedMedia</Link>{' '}
           (it{"'"}s just a couple textures).
         </p>
         <Profile name="Edit Mode" profile={editModeProfile} onCopy={handleClick} />
@@ -46,10 +45,8 @@ export function Profiles() {
         </p>
         <p>
           ArcUI Icons are the horizontal buffs bar above my action bars and use{' '}
-          <a className="text-blue-500" href="https://www.curseforge.com/wow/addons/masque-leo">
-            Masque: Leo
-          </a>{' '}
-          as a skin.
+          <Link href="https://www.curseforge.com/wow/addons/masque-leo">Masque: Leo</Link> as a
+          skin.
         </p>
         <p>
           ArcUI Bars are like weakauras. They include the circles used for Teachings, Spiritfont,

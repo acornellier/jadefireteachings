@@ -3,12 +3,15 @@ import { Shadowmeld } from '../Common/WowheadLink/Spells.tsx'
 import { Link } from '../Common/Link.tsx'
 import { Section } from './Section.tsx'
 import { SubSection } from './SubSection.tsx'
+import { LitanyOfLightblindWrath } from '../Common/WowheadLink/Items.tsx'
 
 export function Gear() {
   return (
     <Section title="Gear and Stats">
       <SubSection title="Stats">
-        TODO
+        <p>
+          TL;DR: Haste {'>'} Vers {'>'} Crit {'>'} Mastery
+        </p>
         <UnorderedList>
           <li>
             <b>Haste</b>: our best stat. We want a lot of this, it’s easily the best stat for our
@@ -19,27 +22,36 @@ export function Gear() {
             and increases the size of your absorbs. Things we all need for M+!
           </li>
           <li>
-            <b>Critical Strike</b>: slightly more stat-efficient for HPS than vers, if you want to
-            prioritize only that.
+            <b>Critical Strike</b>: slightly more stat-efficient for HPS than vers, but versatility
+            is better due to increasing absorbs and DR.
           </li>
           <li>
-            <b>Mastery</b>: TODO
+            <b>Mastery</b>: in theory, this stat looks pretty bad. It{"'"}s possible it will have
+            some value in raid, but unlikely.
           </li>
         </UnorderedList>
       </SubSection>
       <SubSection title="Trinkets">
-        <p>TODO</p>
+        <UnorderedList>
+          <li>
+            <LitanyOfLightblindWrath /> is your bis trinket in all content.
+          </li>
+          <li>
+            Will update this section when I have more information. For now, see{' '}
+            <Link href="https://questionablyepic.com/live/trinkets">QELive</Link>.
+          </li>
+        </UnorderedList>
       </SubSection>
-      <SubSection title="Embellishments">TODO</SubSection>
-      <SubSection title="Gems">TODO</SubSection>
-      <SubSection title="Other consumables">
-        <p>
-          The{' '}
-          <Link href="https://www.wowhead.com/guide/classes/monk/mistweaver/enchants-gems-pve-healer#consumables">
-            Wowhead guide
-          </Link>{' '}
-          is good for this.
-        </p>
+      <SubSection title="Embellishments">
+        <UnorderedList>
+          <li>
+            Will update this section when I have more information. For now, see{' '}
+            <Link href="https://questionablyepic.com/live/embellishments">QELive</Link>.
+          </li>
+        </UnorderedList>
+      </SubSection>
+      <SubSection title="Crafting">
+        <p>Craft a staff, then whatever slot is the largest upgrade.</p>
       </SubSection>
       <SubSection title="Race">
         <p>
