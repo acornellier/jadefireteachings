@@ -4,11 +4,9 @@ import { Section } from './Section.tsx'
 import { SubSection } from './SubSection.tsx'
 import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
 import {
-  AncientArts,
   CelestialConduit,
   EmperorsElixir,
   FocusedThunder,
-  GraceOfTheCrane,
   ImprovedDetox,
   JadefireStomp,
   Mistline,
@@ -78,6 +76,13 @@ export function Talents() {
       <SubSection title="Raid builds">
         <UnorderedList>
           <li>
+            <b>Raid Serpent</b>: I have not played this much, but if you want to play the
+            theoretical raid build, this is it:
+            <TalentCodeBlock>
+              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2MwmFzYmZbGbYmZYmlttZGLMjmxMgBDYWmZmZY2GMY5BmAAAAAIALWmZZ2mZAAgBMAzAGDjFZMDA
+            </TalentCodeBlock>
+          </li>
+          <li>
             <b>Vibeweaving - Raid Crane</b>: This is similar to the Stomp n{"'"} Spin build, but for
             raid. It mainly just trades the <SheilunsGift /> talents for <MistyPeaks />. You
             sacrifice some spot healing compared to Serpent, for a LOT of damage, lower overhealing,
@@ -87,13 +92,6 @@ export function Talents() {
             questions!
             <TalentCodeBlock>
               C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMYWsNzMzYbGbYmZ2egZ2WWmZswMaGzAGMgxMzMDz2wMYZmAAAAAIAL2mZZ2mZAAgBAYGwYgFZMDA
-            </TalentCodeBlock>
-          </li>
-          <li>
-            <b>Standard Raid Serpent</b>: I have not played this much, but if you want to play the
-            theoretical raid build, this is it:
-            <TalentCodeBlock>
-              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2MwmFzYmZbGbYmZYmlttZGLMjmxMgBDYWmZmZY2GMY5BmAAAAAIALWmZZ2mZAAgBMAzAGDjFZMDA
             </TalentCodeBlock>
           </li>
         </UnorderedList>
