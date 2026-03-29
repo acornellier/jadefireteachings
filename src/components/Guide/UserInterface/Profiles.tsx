@@ -23,7 +23,9 @@ export function Profiles() {
         <p>
           INSTALL THIS ADDON FIRST:{' '}
           <Link href="https://www.curseforge.com/wow/addons/ort-sharedmedia">Ort_SharedMedia</Link>{' '}
-          (it{"'"}s just a couple textures).
+          (it{"'"}s just a couple textures). You may also need to install{' '}
+          <Link href="https://www.curseforge.com/wow/addons/sharedmedia">SharedMedia</Link> if you
+          do not already have it.
         </p>
         <Profile name="Edit Mode" profile={editModeProfile} onCopy={handleClick} />
         <Profile
