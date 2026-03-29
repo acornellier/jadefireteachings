@@ -6,9 +6,10 @@ export interface WowheadLinkProps {
   icon: string
   children: ReactNode
   type: 'item' | 'spell'
+  iconOnly?: boolean
 }
 
-export function WowheadLink({ id, icon, children, type }: WowheadLinkProps) {
+export function WowheadLink({ id, icon, children, type, iconOnly }: WowheadLinkProps) {
   return (
     <a
       className="inline-flex text-[#ffdb32] whitespace-nowrap"
@@ -20,7 +21,7 @@ export function WowheadLink({ id, icon, children, type }: WowheadLinkProps) {
         alt={icon}
         className="self-center inline-block mr-0.5 rounded-sm border-[0.5px] border-gray-500"
       />
-      <span className="self-baseline">{children}</span>
+      {!iconOnly && <span className="self-baseline">{children}</span>}
     </a>
   )
 }

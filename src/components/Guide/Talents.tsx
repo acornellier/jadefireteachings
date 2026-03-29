@@ -8,6 +8,7 @@ import {
   EmperorsElixir,
   FocusedThunder,
   ImprovedDetox,
+  JadeBond,
   JadefireStomp,
   Mistline,
   MistyPeaks,
@@ -15,6 +16,10 @@ import {
   PressurePoints,
   RisingSunKick,
   SheilunsGift,
+  Spiritfont,
+  TranquilTea,
+  UpliftedSpirits,
+  VeilOfPride,
 } from '../Common/WowheadLink/Spells.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
 
@@ -51,20 +56,20 @@ export function Talents() {
       <SubSection title="Dungeon builds">
         <UnorderedList>
           <li>
-            <b>Dungeon Crane</b>: this is the standard dungeon build, and this is what you will find
-            other guides. It has reliable throughput and utilizes Spiritfont for group healing.
+            <b>Stomp n{"'"} Spin - big M+ dam</b>: this is exclusively what I play currently. It
+            drops all 4 Apex talent points for 4 nodes that increase damage in the bottom third of
+            the tree. <Spiritfont /> is <i>probably</i> more healing in some important situations
+            but only time will tell. Makes use of <EmperorsElixir />, <FocusedThunder />, and{' '}
+            <MorningBreeze /> to cast <RisingSunKick /> and <JadefireStomp /> a lot.
             <TalentCodeBlock>
-              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLDL2MmZshtltZMDzsttMzYhhmxMgBDYMzMzwsNMDzyMBAAAAQAWsNzysNzAAADYAmBMGYRGzA
+              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MmZsZstsMjZ2Mz2yyMjFGTzYGwgBMmZmZYWwMMLzEAAAAABYx2MLz2MDAAADAzAGDsIjZA
             </TalentCodeBlock>
           </li>
           <li>
-            <b>Stomp n{"'"} Spin - big M+ dam</b>: this is what you will see me play on stream. It
-            drops all 4 Apex talent points for 4 nodes that increase damage in the bottom third of
-            the tree. Spiritfont is <i>probably</i> more healing but only time will tell. Makes use
-            of <EmperorsElixir />, <FocusedThunder />, and <MorningBreeze /> to cast{' '}
-            <RisingSunKick /> and <JadefireStomp /> a lot.
+            <b>Dungeon Crane</b>: this is the standard dungeon build, and this is what you will find
+            other guides. It has reliable throughput and utilizes Spiritfont for group healing.
             <TalentCodeBlock>
-              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MmZsZstsNjZ2Mz22yMjFGaGzAGMgxMzMDz2wMMLzEAAAAABYx2MLz2MDAAMAAzAGDsIjZA
+              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLDL2MmZshtllZMDzstsMzYhx0MmBMYAjZmZGmFMDzyMBAAAAQAWsNzysNzAAAwYAmBMGYRGzA
             </TalentCodeBlock>
           </li>
           <li>
@@ -76,10 +81,19 @@ export function Talents() {
       <SubSection title="Raid builds">
         <UnorderedList>
           <li>
-            <b>Raid Serpent</b>: I have not played this much, but if you want to play the
-            theoretical raid build, this is it:
+            <b>Raid Serpent</b>: This is the standard raid build, and is what you should default to
+            in Mythic raid.
             <TalentCodeBlock>
               C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2MwmFzYmZbGbYmZYmlttZGLMjmxMgBDYWmZmZY2GMY5BmAAAAAIALWmZZ2mZAAgBMAzAGDjFZMDA
+            </TalentCodeBlock>
+          </li>
+          <li>
+            <b>Giftweaving</b>: This replaces <Spiritfont /> with <SheilunsGift /> talents. It plays
+            similar to the standard build, but presses <SheilunsGift /> a lot more, whenever there
+            is spot healing to do. Played mostly on fights with heavy absorbs: Chimaerus, Vanguard,
+            and Alleria.
+            <TalentCodeBlock>
+              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2MLzYziZMzsNstsNjZYmlttZGLM0MmBMYwwyMzMDz2ghZxEAAAAYWmWmlZWmNAAAAGgZGAYMMWGGA
             </TalentCodeBlock>
           </li>
           <li>
@@ -114,7 +128,10 @@ export function Talents() {
       </SubSection>
       <SubSection title="Spec tree">
         <UnorderedList>
-          <li>TODO: Update for Midnight</li>
+          <li>
+            TODO: Update for Midnight. Need to play around with <JadeBond />. Maybe can drop
+            something for <UpliftedSpirits />? <VeilOfPride /> vs <TranquilTea />?
+          </li>
           <li>
             Whatever you do, do NOT drop <Mistline />, it is OP.
           </li>

@@ -1,9 +1,13 @@
 import { UnorderedList } from '../Common/UnorderedList.tsx'
-import { Shadowmeld } from '../Common/WowheadLink/Spells.tsx'
+import { Shadowmeld, SpinningCraneKick } from '../Common/WowheadLink/Spells.tsx'
 import { Link } from '../Common/Link.tsx'
 import { Section } from './Section.tsx'
 import { SubSection } from './SubSection.tsx'
-import { LitanyOfLightblindWrath } from '../Common/WowheadLink/Items.tsx'
+import {
+  ArcanoweaveLining,
+  DarkmoonSigilVoid,
+  LitanyOfLightblindWrath,
+} from '../Common/WowheadLink/Items.tsx'
 
 export function Gear() {
   return (
@@ -34,7 +38,9 @@ export function Gear() {
       <SubSection title="Trinkets">
         <UnorderedList>
           <li>
-            <LitanyOfLightblindWrath /> is your bis trinket in all content.
+            <LitanyOfLightblindWrath /> is your bis trinket in all content. It is extremely powerful
+            in dungeons and has a strange interaction with <SpinningCraneKick /> causing it to
+            create large absorbs in trash packs.
           </li>
           <li>
             Will update this section when I have more information. For now, see{' '}
@@ -45,8 +51,10 @@ export function Gear() {
       <SubSection title="Embellishments">
         <UnorderedList>
           <li>
-            Will update this section when I have more information. For now, see{' '}
-            <Link href="https://questionablyepic.com/live/embellishments">QELive</Link>.
+            Bis is simply 2x <ArcanoweaveLining /> on cloak and wrists.
+          </li>
+          <li>
+            Until then, if you have a crafted weapon, use <DarkmoonSigilVoid />.
           </li>
         </UnorderedList>
       </SubSection>

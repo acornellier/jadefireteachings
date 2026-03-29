@@ -1,8 +1,8 @@
 import { Section } from './Section.tsx'
 import {
   BlackoutKick,
+  CelestialConduit,
   ChiJi,
-  EnvelopingMist,
   RenewingMist,
   SheilunsGift,
   SpinningCraneKick,
@@ -35,18 +35,17 @@ export function Midnight() {
           </li>
           <li>
             Treat <SheilunsGift /> as if it{"'"}s old <Vivify /> and don{"'"}t think about clouds.
-            At least for now, my opinion here may change.
           </li>
           <li>
             <ChiJi /> is mainly used for the shield and ramping. The healing from <BlackoutKick />{' '}
             is miniscule.
           </li>
           <li>
-            <Spiritfont /> is decently strong in dungeons and can be worth playing around.
+            <CelestialConduit /> is powerful now, your best healing cooldown.
           </li>
           <li>
-            Healing amps are <i>mostly</i> gone. We may still utilize <EnvelopingMist /> ramps in
-            rare situations.
+            <Spiritfont /> is decently strong in dungeons and can be worth playing around if running
+            it.
           </li>
         </UnorderedList>
       </p>
