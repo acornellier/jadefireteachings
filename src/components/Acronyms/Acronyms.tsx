@@ -39,7 +39,7 @@ import type { ReactElement } from 'react'
 import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
 import { SubSection } from '../Guide/SubSection.tsx'
 
-const coreSpells: Record<string, () => ReactElement> = {
+const coreSpells: Record<string, ({ iconOnly }: { iconOnly?: boolean }) => ReactElement> = {
   AT: AncientTeachings,
   BoK: BlackoutKick,
   CJL: CracklingJadeLightning,
@@ -59,7 +59,7 @@ const coreSpells: Record<string, () => ReactElement> = {
   ToD: TouchOfDeath,
 }
 
-const advanced: Record<string, () => ReactElement> = {
+const advanced: Record<string, ({ iconOnly }: { iconOnly?: boolean }) => ReactElement> = {
   AoH: AspectOfHarmony,
   CH: ChiHarmony,
   DC: DeepClarity,
