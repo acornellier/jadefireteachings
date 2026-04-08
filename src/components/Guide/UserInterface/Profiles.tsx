@@ -22,8 +22,8 @@ export function Profiles() {
       <div className="flex flex-col gap-2">
         <p>
           INSTALL THIS ADDON FIRST:{' '}
-          <Link href="https://www.curseforge.com/wow/addons/ort-sharedmedia">Ort_SharedMedia</Link>{' '}
-          (it{"'"}s just a couple textures). You may also need to install{' '}
+          <Link href="https://www.curseforge.com/wow/addons/ortemis-tools">OrtemisTools</Link>. You
+          may also need to install{' '}
           <Link href="https://www.curseforge.com/wow/addons/sharedmedia">SharedMedia</Link> if you
           do not already have it.
         </p>
