@@ -5,23 +5,23 @@ import { SubSection } from './SubSection.tsx'
 import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
 import {
   CelestialConduit,
+  ChiJi,
+  CraneStyle,
   EmperorsElixir,
   FocusedThunder,
-  ImprovedDetox,
+  GiftOfTheCelestials,
   JadeBond,
   JadefireStomp,
-  Mistline,
   MistyPeaks,
   MorningBreeze,
-  PressurePoints,
+  Revival,
   RisingSunKick,
   SheilunsGift,
   Spiritfont,
-  TranquilTea,
   UpliftedSpirits,
-  VeilOfPride,
 } from '../Common/WowheadLink/Spells.tsx'
 import { UnorderedList } from '../Common/UnorderedList.tsx'
+import { LitanyOfLightblindWrath } from '../Common/WowheadLink/Items.tsx'
 
 const TalentCodeBlock = ({ children }: { children: string }) => (
   <CodeBlock
@@ -62,19 +62,40 @@ export function Talents() {
             but only time will tell. Makes use of <EmperorsElixir />, <FocusedThunder />, and{' '}
             <MorningBreeze /> to cast <RisingSunKick /> and <JadefireStomp /> a lot.
             <TalentCodeBlock>
-              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MmZsZstsMjZ2Mz2yyMjFGTzYGwgBMmZmZYWwMMLzEAAAAABYx2MLz2MDAAADAzAGDsIjZA
+              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MmZsYstsMjZ2Mz2yyMjFGTzYGwgBMmZmZYWwMMLzEAAAAABYx2MLz2MDAAADAzAGDsIjZA
             </TalentCodeBlock>
           </li>
           <li>
             <b>Dungeon Crane</b>: this is the standard dungeon build, and this is what you will find
             other guides. It has reliable throughput and utilizes Spiritfont for group healing.
             <TalentCodeBlock>
-              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLDL2MmZshtllZMDzstsMzYhx0MmBMYAjZmZGmFMDzyMBAAAAQAWsNzysNzAAAwYAmBMGYRGzA
+              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLDL2MmZsgtllZMDzstsMzYhx0MmBMYAjZmZGmFMDzyMBAAAAQAWsNzysNzAAAwYAmBMGYRGzA
             </TalentCodeBlock>
           </li>
           <li>
             <b>Dungeon Serpent</b>: I have never played this, so will not try to share a build or
             comment on it. I hope to never play it.
+          </li>
+        </UnorderedList>
+      </SubSection>
+      <SubSection title="Master of Harmony build">
+        <p>
+          I have barely played <MasterOfHarmony /> so far, so won{"'"}t link a build here, but it
+          would be the same build as Conduit in the spec tree. You can play it in high keys, but I
+          do think it is strictly worse than <ConduitOfTheCelestials /> this season.
+        </p>
+      </SubSection>
+      <SubSection title="Spec tree">
+        <UnorderedList>
+          <li>
+            I run <JadeBond /> in every dungeon, because 1 minute <ChiJi /> is simply too weak
+            without it, and we have <LitanyOfLightblindWrath /> to cover the gaps. If you do not
+            have this trinket, consider running <GiftOfTheCelestials />.
+          </li>
+          <li>
+            You can drop <CraneStyle /> for <UpliftedSpirits /> if you like to rely on <Revival />.
+            I prefer to use <Revival /> as an emergency button so 30 seconds off the CD doesn{"'"}t
+            do much.
           </li>
         </UnorderedList>
       </SubSection>
@@ -107,33 +128,6 @@ export function Talents() {
             <TalentCodeBlock>
               C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMYWsNzMzYbGbYmZ2egZ2WWmZswMaGzAGMgxMzMDz2wMYZmAAAAAIAL2mZZ2mZAAgBAYGwYgFZMDA
             </TalentCodeBlock>
-          </li>
-        </UnorderedList>
-      </SubSection>
-      <SubSection title="Master of Harmony build">
-        <p>
-          I have barely played <MasterOfHarmony /> so far, so won{"'"}t link a build here, but it
-          would be the same build as Conduit in the spec tree. I will play it soon and update this!
-        </p>
-      </SubSection>
-      <SubSection title="Class tree">
-        <UnorderedList>
-          <li>
-            Drop <ImprovedDetox /> if you do not need a poison or disease dispel
-          </li>
-          <li>
-            Take <PressurePoints /> if there is an enrage
-          </li>
-        </UnorderedList>
-      </SubSection>
-      <SubSection title="Spec tree">
-        <UnorderedList>
-          <li>
-            TODO: Update for Midnight. Need to play around with <JadeBond />. Maybe can drop
-            something for <UpliftedSpirits />? <VeilOfPride /> vs <TranquilTea />?
-          </li>
-          <li>
-            Whatever you do, do NOT drop <Mistline />, it is OP.
           </li>
         </UnorderedList>
       </SubSection>
