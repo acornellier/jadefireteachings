@@ -4,6 +4,7 @@ import {
   abeProfile,
   arcuiBarsProfile,
   arcuiIconsProfile,
+  cdmProfile,
   dandersProfile,
   detailsProfile,
   editModeProfile,
@@ -28,6 +29,7 @@ export function Profiles() {
           do not already have it.
         </p>
         <Profile name="Edit Mode" profile={editModeProfile} onCopy={handleClick} />
+        <Profile name="CDM" profile={cdmProfile} onCopy={handleClick} />
         <Profile
           name="ArcUI Icons"
           profile={arcuiIconsProfile}
