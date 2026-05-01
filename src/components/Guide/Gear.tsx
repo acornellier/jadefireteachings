@@ -40,10 +40,11 @@ export function Gear() {
           <li>
             <LitanyOfLightblindWrath /> is your bis trinket in all content. It is extremely powerful
             in dungeons and has a strange interaction with <SpinningCraneKick /> causing it to
-            create large absorbs in trash packs.
+            create large absorbs in trash packs. You are at a real disadvantage without this
+            trinket.
           </li>
           <li>
-            Will update this section when I have more information. For now, see{' '}
+            For your second trinket, grab the highest stat stick from{' '}
             <Link href="https://questionablyepic.com/live/trinkets">QELive</Link>.
           </li>
         </UnorderedList>

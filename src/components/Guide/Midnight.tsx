@@ -28,7 +28,7 @@ export function Midnight() {
         <b>TL;DR of gameplay changes for The War Within players:</b>
         <UnorderedList>
           <li>
-            <RenewingMist /> coverage is important now.
+            <RenewingMist /> coverage is important now, but it mostly happens for free.
           </li>
           <li>
             <SpinningCraneKick /> is stronger than ever with its new and improved healing profile!
@@ -37,15 +37,13 @@ export function Midnight() {
             Treat <SheilunsGift /> as if it{"'"}s old <Vivify /> and don{"'"}t think about clouds.
           </li>
           <li>
-            <ChiJi /> is mainly used for the shield and ramping. The healing from <BlackoutKick />{' '}
-            is miniscule.
+            <ChiJi /> is mainly used for the shield. The healing from <BlackoutKick /> is miniscule.
           </li>
           <li>
             <CelestialConduit /> is powerful now, your best healing cooldown.
           </li>
           <li>
-            <Spiritfont /> is decently strong in dungeons and can be worth playing around if running
-            it.
+            <Spiritfont /> is pretty mediocre, we do not run it.
           </li>
         </UnorderedList>
       </p>

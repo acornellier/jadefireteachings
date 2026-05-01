@@ -6,6 +6,8 @@ import { Links } from './Links.tsx'
 import { Introduction } from './Introduction.tsx'
 import { Healing } from './Gameplay/Healing.tsx'
 import { Midnight } from './Midnight.tsx'
+import { HealingCooldowns } from './Gameplay/HealingCooldowns.tsx'
+import { SingleTargetHealing } from './Gameplay/SingleTargetHealing.tsx'
 
 export const pageTitle = 'Jadefire Teachings'
 
@@ -16,6 +18,8 @@ export function Guide() {
       <Links />
       <Midnight />
       <Healing />
+      <HealingCooldowns />
+      <SingleTargetHealing />
       <OtherGameplay />
       <Talents />
       <Gear />

@@ -7,6 +7,7 @@ import {
   CelestialConduit,
   ChiJi,
   CraneStyle,
+  DanceOfChiJi,
   EmperorsElixir,
   FocusedThunder,
   GiftOfTheCelestials,
@@ -58,23 +59,12 @@ export function Talents() {
           <li>
             <b>Stomp n{"'"} Spin - big M+ dam</b>: this is exclusively what I play currently. It
             drops all 4 Apex talent points for 4 nodes that increase damage in the bottom third of
-            the tree. <Spiritfont /> is <i>probably</i> more healing in some important situations
-            but only time will tell. Makes use of <EmperorsElixir />, <FocusedThunder />, and{' '}
-            <MorningBreeze /> to cast <RisingSunKick /> and <JadefireStomp /> a lot.
+            the tree. Makes use of <EmperorsElixir />, <FocusedThunder />, and <MorningBreeze /> to
+            cast <RisingSunKick /> and <JadefireStomp /> a lot. <DanceOfChiJi /> carries large trash
+            packs. Its main weakness in bursty healing in Single Target
             <TalentCodeBlock>
               C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MmZsYstsMjZ2Mz2yyMjFGTzYGwgBMmZmZYWwMMLzEAAAAABYx2MLz2MDAAADAzAGDsIjZA
             </TalentCodeBlock>
-          </li>
-          <li>
-            <b>Dungeon Crane</b>: this is the standard dungeon build, and this is what you will find
-            other guides. It has reliable throughput and utilizes Spiritfont for group healing.
-            <TalentCodeBlock>
-              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLDL2MmZsgtllZMDzstsMzYhx0MmBMYAjZmZGmFMDzyMBAAAAQAWsNzysNzAAAwYAmBMGYRGzA
-            </TalentCodeBlock>
-          </li>
-          <li>
-            <b>Dungeon Serpent</b>: I have never played this, so will not try to share a build or
-            comment on it. I hope to never play it.
           </li>
         </UnorderedList>
       </SubSection>

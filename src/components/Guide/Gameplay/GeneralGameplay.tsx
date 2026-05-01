@@ -23,7 +23,16 @@ export function GeneralGameplay() {
         You are a melee spec and you should be in melee <b>most</b> of the time. You will make use
         of <AncientTeachings /> and <WayOfTheCrane /> to heal through your damage.
       </p>
-      <SubSubSection title="1-4 targets">
+      <SubSubSection title="4+ targets">
+        <p>
+          At 4+ enemy targets, your healing mainly comes from <SpinningCraneKick /> through{' '}
+          <WayOfTheCrane />. Note that <SpinningCraneKick /> scales with number of targets, so it
+          will be extremely powerful at 15 targets, but you may struggle at 4 targets. You still
+          need to use in <ThunderFocusTea />, and <RisingSunKick /> to maintain <RenewingMist />{' '}
+          uptime.
+        </p>
+      </SubSubSection>
+      <SubSubSection title="1-3 targets">
         <p>
           At 1-4 enemy targets, perform your standard melee rotation to heal by dealing damage. This
           is also known as maintenance healing.
@@ -33,7 +42,7 @@ export function GeneralGameplay() {
             <RisingSunKick />
           </li>
           <li>
-            <BlackoutKick /> at 2 or 4 stacks of <TeachingsOfTheMonastery />
+            <BlackoutKick /> at 2 or 4 stacks of <TeachingsOfTheMonastery /> (generally 2)
           </li>
           <li>
             <TigerPalm />
@@ -43,13 +52,6 @@ export function GeneralGameplay() {
           These spells heal your group through <AncientTeachings />. <RisingSunKick /> creates and
           extends <RenewingMist /> through <RapidDiffusion /> + <RisingMist />. <BlackoutKick />{' '}
           resets your <RisingSunKick /> through <TeachingsOfTheMonastery />.
-        </p>
-      </SubSubSection>
-      <SubSubSection title="5+ targets">
-        <p>
-          At 5+ enemy targets, your healing mainly comes from <SpinningCraneKick /> through{' '}
-          <WayOfTheCrane />. Note that <SpinningCraneKick /> scales with number of targets, so it
-          will be extremely powerful at 15 targets, but you may struggle at 5 targets.
         </p>
       </SubSubSection>
       <SubSubSection title="Other maintenance">
