@@ -69,6 +69,10 @@ export function AlgetharAcademy() {
       </BossSubSection>
       <BossSubSection title="Echo of Doragosa" difficulty="easy">
         <p>There isn{"'"}t really anything to heal here. Just dodge and focus on damage!</p>
+        <p>
+          Sometimes, this fight can get really out of hand if people misplay the mechanics. Then you
+          {"'"}ll have your work cut out for you! But with correct play, there isn{"'"}t much to do.
+        </p>
       </BossSubSection>
     </DungeonSection>
   )

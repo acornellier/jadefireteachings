@@ -2,6 +2,8 @@ import { AlgetharAcademy } from './AlgetharAcademy.tsx'
 import { MaisaraCaverns } from './MaisaraCaverns.tsx'
 import { MagistersTerrace } from './MagistersTerrace.tsx'
 import { PitOfSaron } from './PitOfSaron.tsx'
+import { Skyreach } from './Skyreach.tsx'
+import { WindrunnerSpire } from './WindrunnerSpire.tsx'
 
 export function Dungeons() {
   return (
@@ -15,6 +17,8 @@ export function Dungeons() {
         <MaisaraCaverns />
         <MagistersTerrace />
         <PitOfSaron />
+        <Skyreach />
+        <WindrunnerSpire />
       </div>
     </div>
   )
