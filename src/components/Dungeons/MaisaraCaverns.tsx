@@ -18,7 +18,11 @@ import { ConduitOfTheCelestials } from '../Common/SpecialTexts.tsx'
 
 export function MaisaraCaverns() {
   return (
-    <DungeonSection title="Maisara Caverns" Talents={[ImprovedDetox, DiffuseMagic]}>
+    <DungeonSection
+      title="Maisara Caverns"
+      Talents={[ImprovedDetox, DiffuseMagic]}
+      video="https://www.youtube.com/watch?v=wjVPK8N6VRU"
+    >
       <BossSubSection title="Muro'jin and Nekraxx" difficulty="medium">
         <p>
           The ticking damage from the <InfectedPinions /> is pretty easy to heal. Just dispel on

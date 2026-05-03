@@ -23,6 +23,7 @@ export function MagistersTerrace() {
       title="Magisters' Terrace"
       Talents={[DiffuseMagic]}
       RecommendedTalents={[TranscendenceLinkedSpirits]}
+      video="https://www.youtube.com/watch?v=0Iioln1__GI"
     >
       <BossSubSection title="Arcanotron Custos" difficulty="easy">
         <p>

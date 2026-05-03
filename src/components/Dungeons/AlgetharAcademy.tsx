@@ -19,7 +19,11 @@ import { BossSubSection } from './BossSubSection.tsx'
 
 export function AlgetharAcademy() {
   return (
-    <DungeonSection title="Algeth'ar Academy" Talents={[ImprovedDetox, PressurePoints]}>
+    <DungeonSection
+      title="Algeth'ar Academy"
+      Talents={[ImprovedDetox, PressurePoints]}
+      video="https://www.youtube.com/watch?v=eX7rgaLfSQw"
+    >
       <BossSubSection title="Overgrown Ancient" difficulty="medium">
         <p>
           Pretty easy boss thanks to <SpinningCraneKick />.

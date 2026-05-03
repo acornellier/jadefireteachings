@@ -29,6 +29,7 @@ export function PitOfSaron() {
       title="Pit of Saron"
       Talents={[ImprovedDetox]}
       RecommendedTalents={[DiffuseMagic, SwiftArt]}
+      video="https://www.youtube.com/watch?v=lzIJn8rOZDs"
     >
       <BossSubSection title="Forgemaster Garfrost" difficulty="medium">
         <p>
