@@ -5,7 +5,6 @@ import { Talents } from './Talents.tsx'
 import { Links } from './Links.tsx'
 import { Introduction } from './Introduction.tsx'
 import { Healing } from './Gameplay/Healing.tsx'
-import { Midnight } from './Midnight.tsx'
 import { HealingCooldowns } from './Gameplay/HealingCooldowns.tsx'
 import { SingleTargetHealing } from './Gameplay/SingleTargetHealing.tsx'
 
@@ -16,7 +15,6 @@ export function Guide() {
     <div className="flex flex-col">
       <Introduction />
       <Links />
-      <Midnight />
       <Healing />
       <HealingCooldowns />
       <SingleTargetHealing />
