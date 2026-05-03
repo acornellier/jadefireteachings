@@ -1,3 +1,6 @@
+import { AlgetharAcademy } from './AlgetharAcademy.tsx'
+import { MaisaraCaverns } from './MaisaraCaverns.tsx'
+
 export function Dungeons() {
   return (
     <div>
@@ -6,7 +9,8 @@ export function Dungeons() {
           This dungeon guide assumes you already know the mechanics of each boss. I will mostly
           write about what specifically you should be doing as a Mistweaver.
         </p>
-        <p>Midnight Season 1 guides coming soon!</p>
+        <AlgetharAcademy />
+        <MaisaraCaverns />
       </div>
     </div>
   )
