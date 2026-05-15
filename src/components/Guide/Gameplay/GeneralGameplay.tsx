@@ -34,7 +34,7 @@ export function GeneralGameplay() {
       </SubSubSection>
       <SubSubSection title="1-3 targets">
         <p>
-          At 1-4 enemy targets, perform your standard melee rotation to heal by dealing damage. This
+          At 1-3 enemy targets, perform your standard melee rotation to heal by dealing damage. This
           is also known as maintenance healing.
         </p>
         <OrderedList>
