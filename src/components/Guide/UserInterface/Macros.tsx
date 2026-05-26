@@ -1,5 +1,9 @@
 import { CodeBlock, type CodeBlockProps } from '../../Common/CodeBlock.tsx'
-import { SpinningCraneKick } from '../../Common/WowheadLink/Spells.tsx'
+import {
+  CelestialConduit,
+  RisingSunKick,
+  SpinningCraneKick,
+} from '../../Common/WowheadLink/Spells.tsx'
 import { SubSection } from '../SubSection.tsx'
 
 export const Macro = ({ children }: Omit<CodeBlockProps, 'type'>) => (
@@ -26,6 +30,14 @@ export function Macros() {
       </div>
       <div className="flex flex-col gap-1">
         <Macro>/use [@mouseover,exists] Life Cocoon</Macro>
+      </div>
+      <div className="flex flex-col gap-1">
+        <p>
+          This macro prevents you from cancelling your <CelestialConduit /> early. In the below
+          example, pressing <RisingSunKick /> will have no effect while you are channeling{' '}
+          <CelestialConduit />.
+        </p>
+        <Macro>/stopmacro [channeling:Celestial Conduit] /cast Rising Sun Kick</Macro>
       </div>
       <div className="flex flex-col gap-1">
         <p>Cast immediately on your cursor without first showing the indicator</p>
