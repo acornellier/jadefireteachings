@@ -39,7 +39,7 @@ export function DamageRotation() {
           <RisingSunKick />
         </li>
         <li>
-          <BlackoutKick /> at 4 stacks of <TeachingsOfTheMonastery />
+          <BlackoutKick /> at 2 stacks of <TeachingsOfTheMonastery />
         </li>
         <li>
           <TigerPalm />
