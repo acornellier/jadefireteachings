@@ -4,6 +4,7 @@ import { Outlet, useLocation } from 'react-router-dom'
 import { AppHeader } from './components/AppHeader.tsx'
 import { Footer } from './components/Footer.tsx'
 import { Sidebar } from './components/Sidebar/Sidebar.tsx'
+import { SeasonWarning } from './components/SeasonWarning.tsx'
 import { useEffect, useState } from 'react'
 
 function ScrollToTop() {
@@ -26,6 +27,7 @@ export function Layout() {
       <div className="flex justify-center px-4">
         <main className="min-h-screen py-4 flex flex-col gap-4 lg:w-[1075px]">
           <AppHeader />
+          <SeasonWarning />
           <div className={`flex flex-col sm:flex-row ${sidebarSpacing}`}>
             <Sidebar collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} />
             <Outlet />
