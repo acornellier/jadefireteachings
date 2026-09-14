@@ -1,4 +1,4 @@
-﻿import { DungeonSection } from './DungeonSection.tsx'
+﻿import { DungeonSection } from '../DungeonSection.tsx'
 import {
   BoneInfusion,
   CelestialConduit,
@@ -20,8 +20,8 @@ import {
   SpinningCraneKick,
   SwiftArt,
   TigersLust,
-} from '../Common/WowheadLink/Spells.tsx'
-import { BossSubSection } from './BossSubSection.tsx'
+} from '../../Common/WowheadLink/Spells.tsx'
+import { BossSubSection } from '../BossSubSection.tsx'
 
 export function PitOfSaron() {
   return (

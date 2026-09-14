@@ -1,12 +1,19 @@
 import { UnorderedList } from '../Common/UnorderedList.tsx'
-import { Shadowmeld, SpinningCraneKick } from '../Common/WowheadLink/Spells.tsx'
+import {
+  ChiJi,
+  CraneStyle,
+  GustOfMists,
+  RisingSunKick,
+  SecretInfusion,
+  Shadowmeld,
+} from '../Common/WowheadLink/Spells.tsx'
 import { Link } from '../Common/Link.tsx'
 import { Section } from './Section.tsx'
 import { SubSection } from './SubSection.tsx'
 import {
   ArcanoweaveLining,
   DarkmoonSigilVoid,
-  LitanyOfLightblindWrath,
+  SoulcoilerRitualVessel,
 } from '../Common/WowheadLink/Items.tsx'
 
 export function Gear() {
@@ -14,34 +21,36 @@ export function Gear() {
     <Section title="Gear and Stats">
       <SubSection title="Stats">
         <p>
-          TL;DR: Haste {'>'} Vers {'>'} Crit {'>'} Mastery
+          TL;DR: Haste {'>'} Mastery {'>'} Crit {'/'} Vers
         </p>
         <UnorderedList>
           <li>
-            <b>Haste</b>: our best stat. We want a lot of this, it’s easily the best stat for our
-            healing.
+            <b>Haste</b>: our best stat, since it reduces the CD of <RisingSunKick />. Aim for
+            30-35% baseline.
           </li>
           <li>
-            <b>Versatility</b>: our second best stat. It gives healing, damage, damage reduction,
-            and increases the size of your absorbs. Things we all need for M+!
+            <b>Mastery</b>: extremely powerful this season, we want a LOT of this. It{"'"}s
+            currently unclear how much we want, but it{"'"}s possible we{"'"}re stacking it all the
+            way. Mastery empowers <GustOfMists />, which is generated through <CraneStyle /> and{' '}
+            <ChiJi />.
           </li>
           <li>
-            <b>Critical Strike</b>: slightly more stat-efficient for HPS than vers, but versatility
-            is better due to increasing absorbs and DR.
+            <b>Critical Strike</b>: slightly more stat-efficient for HPS than vers, good stat to
+            have, but not as powerful as Mastery in dungeons.
           </li>
           <li>
-            <b>Mastery</b>: in theory, this stat looks pretty bad. It{"'"}s possible it will have
-            some value in raid, but unlikely.
+            <b>Versatility</b>: a great stat for M+. It gives healing, damage, damage reduction, and
+            increases the size of healing absorbs. We get 8% for free from <SecretInfusion />, but
+            still worth getting more for surviving high keys one-shots, which are more prevalent
+            this season.
           </li>
         </UnorderedList>
       </SubSection>
       <SubSection title="Trinkets">
         <UnorderedList>
           <li>
-            <LitanyOfLightblindWrath /> is your bis trinket in all content. It is extremely powerful
-            in dungeons and has a strange interaction with <SpinningCraneKick /> causing it to
-            create large absorbs in trash packs. You are at a real disadvantage without this
-            trinket.
+            <SoulcoilerRitualVessel /> is your bis trinket in all content. It is extremely powerful
+            in dungeons. I do not have one yet sadly so cannot say more.
           </li>
           <li>
             For your second trinket, grab the highest stat stick from{' '}
@@ -83,7 +92,7 @@ export function Gear() {
           consistently useful in many dungeons.
         </p>
         <p>
-          Night Elf {'>'} Dwarf {'>>'} Everything else
+          Night Elf {'>'} Dwarf {'>>>'} Everything else
         </p>
       </SubSection>
     </Section>

@@ -1,4 +1,4 @@
-﻿import { DungeonSection } from './DungeonSection.tsx'
+﻿import { DungeonSection } from '../DungeonSection.tsx'
 import {
   CelestialConduit,
   FanOfBlades,
@@ -15,8 +15,8 @@ import {
   ThunderFocusTea,
   Transcendence,
   TranscendenceLinkedSpirits,
-} from '../Common/WowheadLink/Spells.tsx'
-import { BossSubSection } from './BossSubSection.tsx'
+} from '../../Common/WowheadLink/Spells.tsx'
+import { BossSubSection } from '../BossSubSection.tsx'
 
 export function Skyreach() {
   return (

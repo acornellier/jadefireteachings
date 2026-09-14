@@ -5,24 +5,18 @@ import { SubSection } from './SubSection.tsx'
 import { ConduitOfTheCelestials, MasterOfHarmony } from '../Common/SpecialTexts.tsx'
 import {
   CelestialConduit,
-  ChiJi,
-  CraneStyle,
   DanceOfChiJi,
   EmperorsElixir,
   FocusedThunder,
-  GiftOfTheCelestials,
-  JadeBond,
+  HeartOfTheJadeSerpent,
   JadefireStomp,
-  MistyPeaks,
+  Mistline,
   MorningBreeze,
-  Revival,
+  RisingMist,
   RisingSunKick,
   SheilunsGift,
   Spiritfont,
-  UpliftedSpirits,
 } from '../Common/WowheadLink/Spells.tsx'
-import { UnorderedList } from '../Common/UnorderedList.tsx'
-import { LitanyOfLightblindWrath } from '../Common/WowheadLink/Items.tsx'
 
 const TalentCodeBlock = ({ children }: { children: string }) => (
   <CodeBlock
@@ -45,81 +39,26 @@ const TalentCodeBlock = ({ children }: { children: string }) => (
 export function Talents() {
   return (
     <Section title="Talents">
+      <SubSection title="The Spiritfont build">
+        <p>
+          This is exclusively what I play currently. It drops <SheilunsGift /> talents,{' '}
+          <RisingMist /> and <Mistline /> from last season to take <Spiritfont />. Makes use of{' '}
+          <EmperorsElixir />, <FocusedThunder />, and <MorningBreeze /> to cast <RisingSunKick />{' '}
+          and <JadefireStomp /> a lot. <DanceOfChiJi /> carries large trash packs.
+        </p>
+        <TalentCodeBlock>
+          C4QAQnG51S19isUJoJoTeJ/IKDAAAAAAAgBWmZZML2mxMz2mBmhZzMbLLzMWYMNjZADGwYmZmhZDzwsMTAAAAgZbab2mZZWsNz2sNzACAgxMzgZAjBWkxMA
+        </TalentCodeBlock>
+      </SubSection>
       <SubSection title="Hero talent choice">
         <p>
           Currently, I recommend sticking to <ConduitOfTheCelestials /> in all content.{' '}
-          <CelestialConduit /> is too powerful a cooldown to lose. <MasterOfHarmony /> no longer has
-          what made it powerful in The War Within: the 20% damage and healing amp, and the tuning
-          seems behind. That said, <MasterOfHarmony /> is not <i>terrible</i>, and I will experiment
-          with it. It might be the optimal choice for rot healing situations.
+          <CelestialConduit /> is too powerful a cooldown to lose, plus the haste and CDR from{' '}
+          <HeartOfTheJadeSerpent /> is very valuable. <MasterOfHarmony /> no longer has what made it
+          powerful in The War Within: the 20% damage and healing amp. That said, <MasterOfHarmony />{' '}
+          is <i>fine</i> tuning-wise, and you can play it in very high keys if you like it. There
+          {"'"}s just no reason to play it unless its tuned super high.
         </p>
-      </SubSection>
-      <SubSection title="Dungeon builds">
-        <UnorderedList>
-          <li>
-            <b>Stomp n{"'"} Spin - big M+ dam</b>: this is exclusively what I play currently. It
-            drops all 4 Apex talent points for 4 nodes that increase damage in the bottom third of
-            the tree. Makes use of <EmperorsElixir />, <FocusedThunder />, and <MorningBreeze /> to
-            cast <RisingSunKick /> and <JadefireStomp /> a lot. <DanceOfChiJi /> carries large trash
-            packs. Its main weakness in bursty healing in Single Target
-            <TalentCodeBlock>
-              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MmZsYstsMjZ2Mz2yyMjFGTzYGwgBMmZmZYWwMMLzEAAAAABYx2MLz2MDAAADAzAGDsIjZA
-            </TalentCodeBlock>
-          </li>
-        </UnorderedList>
-      </SubSection>
-      <SubSection title="Master of Harmony build">
-        <p>
-          I have barely played <MasterOfHarmony /> so far, so won{"'"}t link a build here, but it
-          would be the same build as Conduit in the spec tree. You can play it in high keys, but I
-          do think it is strictly worse than <ConduitOfTheCelestials /> this season.
-        </p>
-      </SubSection>
-      <SubSection title="Spec tree">
-        <UnorderedList>
-          <li>
-            I run <JadeBond /> in every dungeon, because 1 minute <ChiJi /> is simply too weak
-            without it, and we have <LitanyOfLightblindWrath /> to cover the gaps. If you do not
-            have this trinket, consider running <GiftOfTheCelestials />.
-          </li>
-          <li>
-            You can drop <CraneStyle /> for <UpliftedSpirits /> if you like to rely on <Revival />.
-            I prefer to use <Revival /> as an emergency button so 30 seconds off the CD doesn{"'"}t
-            do much.
-          </li>
-        </UnorderedList>
-      </SubSection>
-      <SubSection title="Raid builds">
-        <UnorderedList>
-          <li>
-            <b>Raid Serpent</b>: This is the standard raid build, and is what you should default to
-            in Mythic raid.
-            <TalentCodeBlock>
-              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2MwmFzYmZbGbYmZYmlttZGLMjmxMgBDYWmZmZY2GMY5BmAAAAAIALWmZZ2mZAAgBMAzAGDjFZMDA
-            </TalentCodeBlock>
-          </li>
-          <li>
-            <b>Giftweaving</b>: This replaces <Spiritfont /> with <SheilunsGift /> talents. It plays
-            similar to the standard build, but presses <SheilunsGift /> a lot more, whenever there
-            is spot healing to do. Played mostly on fights with heavy absorbs: Chimaerus, Vanguard,
-            and Alleria.
-            <TalentCodeBlock>
-              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2MLzYziZMzsNstsNjZYmlttZGLM0MmBMYwwyMzMDz2ghZxEAAAAYWmWmlZWmNAAAAGgZGAYMMWGGA
-            </TalentCodeBlock>
-          </li>
-          <li>
-            <b>Vibeweaving - Raid Crane</b>: This is similar to the Stomp n{"'"} Spin build, but for
-            raid. It mainly just trades the <SheilunsGift /> talents for <MistyPeaks />. You
-            sacrifice some spot healing compared to Serpent, for a LOT of damage, lower overhealing,
-            and no mana issues. It <i>looks like</i> Mastery should be good with this build, but
-            people are saying the numbers don{"'"}t add up, and they{"'"}re probably right. Jadefire
-            Teachings is not a raid guide, so ask me in discord or on stream if you have raid
-            questions!
-            <TalentCodeBlock>
-              C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMYWsNzMzYbGbYmZ2egZ2WWmZswMaGzAGMgxMzMDz2wMYZmAAAAAIAL2mZZ2mZAAgBAYGwYgFZMDA
-            </TalentCodeBlock>
-          </li>
-        </UnorderedList>
       </SubSection>
     </Section>
   )

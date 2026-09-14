@@ -1,4 +1,4 @@
-﻿import { DungeonSection } from './DungeonSection.tsx'
+﻿import { DungeonSection } from '../DungeonSection.tsx'
 import {
   ArcaneFissure,
   BlisteringFire,
@@ -14,8 +14,8 @@ import {
   SheilunsGift,
   SoothingMist,
   SpinningCraneKick,
-} from '../Common/WowheadLink/Spells.tsx'
-import { BossSubSection } from './BossSubSection.tsx'
+} from '../../Common/WowheadLink/Spells.tsx'
+import { BossSubSection } from '../BossSubSection.tsx'
 
 export function AlgetharAcademy() {
   return (

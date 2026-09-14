@@ -1,4 +1,4 @@
-﻿import { DungeonSection } from './DungeonSection.tsx'
+﻿import { DungeonSection } from '../DungeonSection.tsx'
 import {
   Barrage,
   DanceOfChiJi,
@@ -12,9 +12,9 @@ import {
   SheilunsGift,
   SoothingMist,
   WitheringMiasma,
-} from '../Common/WowheadLink/Spells.tsx'
-import { BossSubSection } from './BossSubSection.tsx'
-import { ConduitOfTheCelestials } from '../Common/SpecialTexts.tsx'
+} from '../../Common/WowheadLink/Spells.tsx'
+import { BossSubSection } from '../BossSubSection.tsx'
+import { ConduitOfTheCelestials } from '../../Common/SpecialTexts.tsx'
 
 export function MaisaraCaverns() {
   return (

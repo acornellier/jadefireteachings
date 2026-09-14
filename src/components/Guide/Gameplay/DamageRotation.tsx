@@ -3,7 +3,6 @@ import {
   BlackoutKick,
   CelestialConduit,
   EmperorsElixir,
-  JadefireStomp,
   MorningBreeze,
   RisingSunKick,
   SpinningCraneKick,
@@ -33,7 +32,7 @@ export function DamageRotation() {
           <CelestialConduit />
         </li>
         <li>
-          <SpinningCraneKick /> at 4+ targets.
+          <SpinningCraneKick /> at 6+ targets.
         </li>
         <li>
           <RisingSunKick />

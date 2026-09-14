@@ -22,7 +22,7 @@ export function Links() {
           <Button Icon={YouTubeIcon}>YouTube</Button>
         </a>
         <a
-          href="https://www.warcraftlogs.com/character/us/zuljin/ortemist"
+          href="https://www.warcraftlogs.com/character/us/zuljin/ortemist?zone=55"
           target="_blank"
           rel="noreferrer"
         >

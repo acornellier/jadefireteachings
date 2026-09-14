@@ -17,3 +17,9 @@ export const DarkmoonSigilVoid = makeItem(
   245873,
   'inv_12_profession_inscriptions_darkmoonsigil_void',
 )
+
+export const SoulcoilerRitualVessel = makeItem(
+  'Soulcoiler Ritual Vessel',
+  270162,
+  'inv_121_trinket_raid_ulatek_ritualvessel',
+)
