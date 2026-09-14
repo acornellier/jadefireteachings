@@ -3,6 +3,7 @@ import { Button } from '../Common/Button.tsx'
 import { TwitchIcon } from '../Common/Icons/TwitchIcon.tsx'
 import { DiscordIcon } from '../Common/Icons/DiscordIcon.tsx'
 import { RaiderIoIcon } from '../Common/Icons/RaiderIoIcon.tsx'
+import { WarcraftLogsIcon } from '../Common/Icons/WarcraftLogsIcon.tsx'
 import { Section } from './Section.tsx'
 import { KofiIcon } from '../Common/Icons/KofiIcon.tsx'
 import { YouTubeIcon } from '../Common/Icons/YouTubeIcon.tsx'
@@ -19,6 +20,13 @@ export function Links() {
         </a>
         <a href="https://www.youtube.com/@OrtemisWow" target="_blank" rel="noreferrer">
           <Button Icon={YouTubeIcon}>YouTube</Button>
+        </a>
+        <a
+          href="https://www.warcraftlogs.com/character/us/zuljin/ortemist"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button Icon={WarcraftLogsIcon}>WCL</Button>
         </a>
         <a href="https://raider.io/characters/us/zuljin/Ortemist" target="_blank" rel="noreferrer">
           <Button Icon={RaiderIoIcon}>Raider.io</Button>
