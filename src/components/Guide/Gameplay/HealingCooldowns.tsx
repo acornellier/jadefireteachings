@@ -38,7 +38,7 @@ export function HealingCooldowns() {
       </p>
       <SubSection title="Thunder Focus Tea">
         <p>
-          <ThunderFocusTea /> is a powerful cooldown in 11.1 thanks to the new Mastery build and
+          <ThunderFocusTea /> is a powerful cooldown in Season 2 thanks to the new Mastery build and
           buffs. With <MorningBreeze />, <FocusedThunder />, <EmperorsElixir />, and 2pc, you can{' '}
           <RisingSunKick iconOnly /> {'>'} <ThunderFocusTea iconOnly /> <RisingSunKick iconOnly />{' '}
           {'>'} <RisingSunKick iconOnly /> {'>'} <RisingSunKick iconOnly /> {'>'}{' '}
@@ -47,13 +47,13 @@ export function HealingCooldowns() {
       </SubSection>
       <SubSection title="Spiritfont">
         <p>
-          <Spiritfont /> is finally good in 11.1. Use it <i>reactively</i> when your group is not
-          full health. Its main frustrating aspect is that upon healing a target to full health, the{' '}
-          <SoothingMist /> channel ends on them. Therefore, using it on full or near-full HP targets
-          is not very effective. If you do manage to get long-lasting value out of it, it{"'"}s very
-          powerful, doing a lot of <SoothingMist /> healing thanks to <VitalExpenditure />,
-          empowering your <RisingSunKick />, and granting <ElusiveMists /> to your party. Avoid
-          overcapping.
+          <Spiritfont /> is finally good in Season 2. Use it <i>reactively</i> when your group is
+          not full health. Its main frustrating aspect is that upon healing a target to full health,
+          the <SoothingMist /> channel ends on them. Therefore, using it on full or near-full HP
+          targets is not very effective. If you do manage to get long-lasting value out of it, it
+          {"'"}s very powerful, doing a lot of <SoothingMist /> healing thanks to{' '}
+          <VitalExpenditure />, empowering your <RisingSunKick />, and granting <ElusiveMists /> to
+          your party. Avoid overcapping.
         </p>
       </SubSection>
       <SubSection title="Chi-Ji">

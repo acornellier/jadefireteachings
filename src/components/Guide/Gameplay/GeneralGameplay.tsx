@@ -42,12 +42,12 @@ export function GeneralGameplay() {
         through <TeachingsOfTheMonastery />.
       </p>
       <p>
-        Use <ThunderFocusTea /> mostly on cooldown, exclusively on <RisingSunKick />. In 11.1 it is
-        quite powerful, so hold on to it if there is heavy healing coming soon.
+        Use <ThunderFocusTea /> mostly on cooldown, exclusively on <RisingSunKick />. In Season 2 it
+        is quite powerful, so hold on to it if there is heavy healing coming soon.
       </p>
       <p>
-        Spread <RenewingMist /> when there is downtime. It is fairly week in 11.1, but still worth
-        using for <LotusInfusion />.
+        Spread <RenewingMist /> when there is downtime. It is fairly week in Season 2, but still
+        worth using for <LotusInfusion />.
       </p>
       <p>
         Watch my <Link href="https://www.twitch.tv/ortemismw">stream</Link> or{' '}
